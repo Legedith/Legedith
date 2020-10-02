@@ -3,6 +3,7 @@
 
 
 <img align='right' src="https://raw.githubusercontent.com/iCharlesZ/FigureBed/master/img/octocat.gif" width="230">
+
 ## Connect With Me
 <a href="https://www.linkedin.com/in/legedith/"><img src="/img/linkedin.png" alt="alt text" width="30px" height="30px"></a>   <a href="mailto:jatindehmiwal@gmail.com"><img src="/img/gmail.png" alt="alt text" width="30px" height="30px"></a>  
 
