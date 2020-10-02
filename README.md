@@ -43,4 +43,3 @@
 <a href="https://github.com/Legedith/Sirius_WhatsApp_Bot">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=legedith&repo=Sirius_WhatsApp_Bot&theme=dracula" />
 </a>
-
