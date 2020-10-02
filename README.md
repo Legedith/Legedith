@@ -23,17 +23,17 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Legedith&layout=compact&theme=ayu-mirage)](https://github.com/legedith/github-readme-stats)
 
 <a href="https://github.com/legedith/legedith">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=legedith&hide=java,html&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=legedith&theme=dracula&show_icons=true,html&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
 </a>
 <a href="https://github.com/legedith/legedith">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=legedith&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Martin's GitHub Stats" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=legedith&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&theme=ayu-mirage" alt="Jatin's GitHub Stats" />
 </a>
 
-<a href="https://github.com/legedith/python-project-blueprint">
+<a href="https://github.com/Legedith/Sirius_WhatsApp_Bot">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=legedith&repo=python-project-blueprint&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
 </a>
 
 
-<a href="https://github.com/legedith/go-project-blueprint">
+<a href="https://github.com/Legedith/Minesweeper">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=legedith&repo=go-project-blueprint&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
 </a>    
