@@ -13,7 +13,7 @@
 - 👯 I’m open for collaborations 
 
 ## Connect With Me
-<a href="https://www.linkedin.com/in/legedith/"><img src="/linkedin.png" alt="alt text" width="30px" height="30px"></a><a href="mailto:jatindehmiwal@gmail.com"><img src="/gmail.png" alt="alt text" width="30px" height="30px"></a>  
+<a href="https://www.linkedin.com/in/legedith/"><img src="/linkedin.png" alt="alt text" width="30px" height="30px"></a>  <a href="mailto:jatindehmiwal@gmail.com"><img src="/gmail.png" alt="alt text" width="30px" height="30px"></a>  
 
 ## 🚀 Quick Stats
 ![Jatin's github stats](https://github-readme-stats.vercel.app/api?username=legedith&theme=dracula&show_icons=true)
