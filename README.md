@@ -1,16 +1,21 @@
 ### Hi there 👋
 
-<!--
-**Legedith/Legedith** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+# 👋 Hii, I'm Jatin
+[<img src="https://komarev.com/ghpvc/?username=legedith&label=Profile+Views&color=2e8b57&style=flat" />](https://github.com/legedith)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## ⚡Quick Facts About Me
+
+- 🔭 I’m working on some fun personal projects
+
+- 🌱 I’m currently learning ROS
+
+- 👯 I’m open for collaborations 
+
+## Connect With Me
+<a href="https://www.linkedin.com/in/legedith/"><img src="/images/linkedin.png" alt="alt text" width="30px" height="30px"></a><a href="mailto:jatindehmiwal@gmail.com"><img src="/images/gmail.png" alt="alt text" width="30px" height="30px"></a>  
+
+## 🚀 Quick Stats
+![Jatin's github stats](https://github-readme-stats.vercel.app/api?username=legedith&theme=dracula&show_icons=true)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Legedith&layout=compact&theme=ayu-mirage)](https://github.com/legedith/github-readme-stats)
+
