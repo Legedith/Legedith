@@ -17,10 +17,9 @@
 <a href="https://github.com/Legedith/Minesweeper">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=legedith&repo=Minesweeper&theme=dracula" />
 </a> 
-
-<a href="https://github.com/Legedith/Hereditary_traits">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=legedith&repo=Hereditary_traits&theme=dracula" />
-</a> 
+<a href="https://github.com/Legedith/Six_Degrees_of_Kevin_Bacon_game">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=legedith&repo=Six_Degrees_of_Kevin_Bacon_game&theme=dracula" />
+</a>
 
 <a href="https://github.com/Legedith/saviour">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=legedith&repo=saviour&theme=dracula" />
@@ -33,9 +32,10 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=legedith&repo=Slowpoke&theme=dracula" />
 </a> 
 
-<a href="https://github.com/Legedith/Six_Degrees_of_Kevin_Bacon_game">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=legedith&repo=Six_Degrees_of_Kevin_Bacon_game&theme=dracula" />
-</a>
+
+<a href="https://github.com/Legedith/Hereditary_traits">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=legedith&repo=Hereditary_traits&theme=dracula" />
+</a> 
 
 
 
