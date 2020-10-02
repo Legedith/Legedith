@@ -1,11 +1,6 @@
 ### Hi there 👋  I'm Jatin
-[<img src="https://komarev.com/ghpvc/?username=legedith&label=Profile+Views&color=2e8b57&style=flat" />](https://github.com/legedith)
-
-
+[<img src="https://komarev.com/ghpvc/?username=legedith&label=Profile+Views&color=blue&style=flat-square" />](https://github.com/legedith)
 <img align='right' src="https://raw.githubusercontent.com/iCharlesZ/FigureBed/master/img/octocat.gif" width="230">
-
-## Connect With Me
-<a href="https://www.linkedin.com/in/legedith/"><img src="/img/linkedin.png" alt="alt text" width="30px" height="30px"></a>   <a href="mailto:jatindehmiwal@gmail.com"><img src="/img/gmail.png" alt="alt text" width="30px" height="30px"></a>  
 
 ## 🚀 My Stats
 ![Jatin's github stats](https://github-readme-stats.vercel.app/api?username=legedith&theme=dracula&show_icons=true)
