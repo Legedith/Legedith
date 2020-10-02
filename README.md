@@ -1,5 +1,5 @@
 ### Hi there 👋  I'm Jatin
-[<img src="https://komarev.com/ghpvc/?username=legedith&label=Profile+Views&color=blue&style=flat-square" />](https://github.com/legedith)
+[<img src="https://komarev.com/ghpvc/?username=legedith&label=Profile+Views&color=red&style=flat-square" />](https://github.com/legedith)
 <img align='right' src="https://raw.githubusercontent.com/iCharlesZ/FigureBed/master/img/octocat.gif" width="230">
 
 ## 🚀 My Stats
