@@ -28,3 +28,20 @@
 <a href="https://github.com/Legedith/Hereditary_traits">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=legedith&repo=Hereditary_traits&theme=dracula" />
 </a> 
+
+<a href="https://github.com/Legedith/saviour">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=legedith&repo=saviour&theme=dracula" />
+</a> 
+
+<a href="https://github.com/Legedith/Slowpoke">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=legedith&repo=Slowpoke&theme=dracula" />
+</a> 
+
+
+<a href="https://github.com/Legedith/Dungeons">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=legedith&repo=Dungeons&theme=dracula" />
+</a> 
+
+<a href="https://github.com/Legedith/Danke_Schoen">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=legedith&repo=Danke_Schoen&theme=dracula" />
+</a> 
