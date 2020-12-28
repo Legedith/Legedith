@@ -1,6 +1,9 @@
 ### Hi there 👋  I'm Jatin
 [<img src="https://komarev.com/ghpvc/?username=legedith&label=Profile+Views&color=blueviolet&style=flat-square" />](https://github.com/legedith)
 <img align='right' src="https://raw.githubusercontent.com/iCharlesZ/FigureBed/master/img/octocat.gif" width="230">
+## Find me
+[<img src="https://devpost-challengepost.netdna-ssl.com/assets/reimagine2/devpost-logo-646bdf6ac6663230947a952f8d354cad.svg"  height="25" />](https://devpost.com/Legedith) &nbsp; [<img src="https://media-exp1.licdn.com/dms/image/C4D0BAQGyOWvr4W0Pow/company-logo_200_200/0/1590003577120?e=2159024400&v=beta&t=CtsDFVp0TAdwyg73A8F82MohzKpAQy-pUGA13atPG6A"    height="25" />](https://www.linkedin.com/in/legedith) &nbsp;
+[<img src="https://img.favpng.com/11/3/20/gmail-computer-icons-logo-email-png-favpng-GS8B5n0WtfiNTJzQX5Gvuyf0T.jpg"  height="25" />](mailto:jatindehmiwal@gmail.com?Subject=Hi!)
 
 ## 🚀 My Stats
 ![Jatin's github stats](https://github-readme-stats.vercel.app/api?username=legedith&theme=dracula&show_icons=true)
