@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Robot Psychology Field Notes</title>
-  <desc id="desc">An animated carousel of evidence-backed insights about large language models and social robots.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Rotating insights about LLM and agent behaviour</title>
+  <desc id="desc">Animated slides about tools, memory, instructions, interfaces, verification, and learning from failure.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#050816"/>
@@ -12,8 +12,8 @@
       <stop offset="0.52" stop-color="#8b5cf6"/>
       <stop offset="1" stop-color="#f472b6"/>
     </linearGradient>
-    <radialGradient id="glowBg" cx="50%" cy="50%" r="70%">
-      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".25"/>
+    <radialGradient id="orb" cx="50%" cy="50%" r="65%">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".22"/>
       <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
@@ -25,187 +25,162 @@
     </filter>
   </defs>
 
-  <rect width="1200" height="360" rx="26" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="26" fill="url(#grid)"/>
-  <circle cx="230" cy="190" r="230" fill="url(#glowBg)"/>
-  <circle cx="1020" cy="170" r="190" fill="url(#glowBg)" opacity=".55"/>
+  <rect width="1200" height="340" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="26" fill="url(#grid)"/>
+  <circle cx="180" cy="170" r="230" fill="url(#orb)"/>
+  <circle cx="1060" cy="140" r="180" fill="url(#orb)" opacity=".55"/>
+  <rect x="38" y="34" width="1124" height="260" rx="25" fill="#050a19" stroke="#334155" stroke-width="2"/>
+  <rect x="39" y="35" width="1122" height="258" rx="24" fill="none" stroke="url(#neon)" stroke-opacity=".35"/>
+  <path d="M326 56V272" stroke="#334155" stroke-opacity=".72"/>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-    <circle cx="52" cy="38" r="5" fill="#22d3ee" filter="url(#glow)">
-      <animate attributeName="opacity" values=".25;1;.25" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
-    <text x="68" y="44" fill="#cbd5e1" font-size="14" font-weight="700" letter-spacing="3">ROBOT PSYCHOLOGY // FIELD NOTES</text>
-    <text x="1148" y="44" text-anchor="end" fill="#64748b" font-size="12" letter-spacing="1.5">EVIDENCE &gt; HOT TAKES</text>
-  </g>
-
-  <rect x="44" y="62" width="1112" height="244" rx="24" fill="#050a19" stroke="#334155" stroke-width="2"/>
-  <rect x="45" y="63" width="1110" height="242" rx="23" fill="none" stroke="url(#neon)" stroke-opacity=".36"/>
-  <path d="M316 84V284" stroke="#334155" stroke-opacity=".75"/>
-
-  <!-- NOTE 01 -->
+  <!-- Tools -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.015625;.109375;.125;1" dur="64s" begin="0s" repeatCount="indefinite"/>
-    <g transform="translate(78 93)">
-      <path d="M42 42h112a22 22 0 0 1 22 22v67a22 22 0 0 1-22 22H88l-37 29 9-29H42a22 22 0 0 1-22-22V64a22 22 0 0 1 22-22z" fill="#0f172a" stroke="#f472b6" stroke-width="3"/>
-      <text x="98" y="92" text-anchor="middle" fill="#f8fafc" font-family="ui-monospace, monospace" font-size="24" font-weight="800">HEY!!!</text>
-      <path d="M62 116h72" stroke="#f472b6" stroke-width="5" stroke-linecap="round"/>
-      <path d="M49 20l-12-16M88 15V-5M128 20l13-17" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+    <g transform="translate(84 78)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="8" y="12" width="184" height="150" rx="22" fill="#0f172a" stroke="#22d3ee" stroke-width="3"/>
+      <path d="M45 52h110M45 85h75M45 118h92" stroke="#64748b" stroke-width="8"/>
+      <path d="M151 103l36 36M169 121l25-25" stroke="#f472b6" stroke-width="8"/>
+      <circle cx="169" cy="121" r="42" stroke="#8b5cf6" stroke-width="3" stroke-dasharray="9 8">
+        <animateTransform attributeName="transform" type="rotate" from="0 169 121" to="360 169 121" dur="9s" repeatCount="indefinite"/>
+      </circle>
     </g>
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-      <text x="354" y="99" fill="#f472b6" font-size="13" font-weight="800" letter-spacing="2.5">FIELD NOTE 01 / 08 · PROMPT TONE</text>
-      <text x="354" y="148" fill="#f8fafc" font-size="31" font-weight="800">Shouting is not reliably worse—</text>
-      <text x="354" y="184" fill="#f8fafc" font-size="31" font-weight="800">or better.</text>
-      <text x="354" y="224" fill="#cbd5e1" font-size="17">Tone effects vary by model, task, language, and benchmark.</text>
-      <text x="354" y="252" fill="#94a3b8" font-size="15">Best default: be direct, neutral, and specific.</text>
-      <text x="1118" y="283" text-anchor="end" fill="#64748b" font-size="11">YIN 2024 · CAI 2025 · ZHAO 2026</text>
+      <text x="372" y="125" fill="#f8fafc" font-size="35" font-weight="800">Agents need actions,</text>
+      <text x="372" y="169" fill="url(#neon)" font-size="35" font-weight="800">not just information.</text>
+      <text x="372" y="218" fill="#cbd5e1" font-size="18">Functions and tools often beat tables when the task is to do something.</text>
     </g>
   </g>
 
-  <!-- NOTE 02 -->
+  <!-- Logs -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.015625;.109375;.125;1" dur="64s" begin="8s" repeatCount="indefinite"/>
-    <g transform="translate(86 103)" font-family="ui-monospace, monospace">
-      <rect x="0" y="0" width="180" height="154" rx="20" fill="#0f172a" stroke="#22d3ee" stroke-width="3"/>
-      <text x="22" y="43" fill="#f8fafc" font-size="20">reasnoing</text>
-      <path d="M20 53h113" stroke="#f472b6" stroke-width="3" stroke-dasharray="6 5"/>
-      <text x="22" y="91" fill="#f8fafc" font-size="20">langauge</text>
-      <path d="M20 101h105" stroke="#f472b6" stroke-width="3" stroke-dasharray="6 5"/>
-      <text x="22" y="136" fill="#22d3ee" font-size="15">NOISE DETECTED</text>
+    <g transform="translate(88 76)" font-family="ui-monospace, monospace">
+      <rect x="0" y="0" width="194" height="174" rx="22" fill="#0f172a" stroke="#8b5cf6" stroke-width="3"/>
+      <text x="24" y="45" fill="#64748b" font-size="17">SHOULD</text>
+      <path d="M24 61h142" stroke="#64748b" stroke-width="5"/>
+      <text x="24" y="104" fill="#22d3ee" font-size="17">DID</text>
+      <path d="M24 121h84M24 145h132" stroke="#22d3ee" stroke-width="6"/>
+      <circle cx="158" cy="119" r="10" fill="#f472b6" filter="url(#glow)">
+        <animate attributeName="opacity" values=".35;1;.35" dur="1.7s" repeatCount="indefinite"/>
+      </circle>
     </g>
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-      <text x="354" y="99" fill="#22d3ee" font-size="13" font-weight="800" letter-spacing="2.5">FIELD NOTE 02 / 08 · INPUT NOISE</text>
-      <text x="354" y="157" fill="#f8fafc" font-size="34" font-weight="800">Typos can damage reasoning.</text>
-      <text x="354" y="211" fill="#cbd5e1" font-size="17">Errors consistently reduce performance across languages.</text>
-      <text x="354" y="239" fill="#94a3b8" font-size="15">Generative and reasoning tasks are often the most brittle.</text>
-      <text x="1118" y="283" text-anchor="end" fill="#64748b" font-size="11">ZHAO ET AL. · ACL 2026</text>
+      <text x="372" y="125" fill="#f8fafc" font-size="35" font-weight="800">Logs show behaviour.</text>
+      <text x="372" y="169" fill="url(#neon)" font-size="35" font-weight="800">Docs show intention.</text>
+      <text x="372" y="218" fill="#cbd5e1" font-size="18">Give agents traces of what actually happened—not only the official story.</text>
     </g>
   </g>
 
-  <!-- NOTE 03 -->
+  <!-- Memory -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.015625;.109375;.125;1" dur="64s" begin="16s" repeatCount="indefinite"/>
-    <g transform="translate(80 96)" font-family="ui-monospace, monospace">
-      <circle cx="92" cy="86" r="78" fill="#0f172a" stroke="#8b5cf6" stroke-width="3"/>
-      <path d="M17 86h150M92 8c-23 24-35 50-35 78s12 54 35 78M92 8c23 24 35 50 35 78s-12 54-35 78M30 44h124M30 128h124" fill="none" stroke="#22d3ee" stroke-opacity=".65" stroke-width="2"/>
-      <text x="92" y="93" text-anchor="middle" fill="#f8fafc" font-size="20" font-weight="800">A / अ / 文</text>
+    <g transform="translate(84 78)" fill="none" stroke-linecap="round">
+      <path d="M34 54c0-27 22-49 49-49 19 0 35 10 43 25 8-15 24-25 43-25 27 0 49 22 49 49 0 43-47 76-92 111C81 130 34 97 34 54z" fill="#0f172a" stroke="#8b5cf6" stroke-width="3"/>
+      <path d="M72 59h32l13-24 19 57 14-33h31" stroke="#22d3ee" stroke-width="6"/>
+      <path d="M55 171h145" stroke="#64748b" stroke-width="4" stroke-dasharray="9 8"/>
+      <circle cx="62" cy="171" r="7" fill="#f472b6" stroke="none">
+        <animate attributeName="cx" values="62;193;62" dur="4.5s" repeatCount="indefinite"/>
+      </circle>
     </g>
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-      <text x="354" y="99" fill="#8b5cf6" font-size="13" font-weight="800" letter-spacing="2.5">FIELD NOTE 03 / 08 · LANGUAGE</text>
-      <text x="354" y="148" fill="#f8fafc" font-size="30" font-weight="800">The same question can score</text>
-      <text x="354" y="184" fill="#f8fafc" font-size="30" font-weight="800">differently across languages.</text>
-      <text x="354" y="224" fill="#cbd5e1" font-size="17">English is not always best, but low-resource languages often lag.</text>
-      <text x="354" y="252" fill="#94a3b8" font-size="15">Language choice can change both accuracy and cultural framing.</text>
-      <text x="1118" y="283" text-anchor="end" fill="#64748b" font-size="11">HUANG 2023 · BEHZAD 2024 · MUBENCH 2026</text>
+      <text x="372" y="125" fill="#f8fafc" font-size="35" font-weight="800">An agent without readable history</text>
+      <text x="372" y="169" fill="url(#neon)" font-size="35" font-weight="800">has amnesia.</text>
+      <text x="372" y="218" fill="#cbd5e1" font-size="18">Searchable files, transcripts, and activity logs let past work compound.</text>
     </g>
   </g>
 
-  <!-- NOTE 04 -->
+  <!-- Different habits -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.015625;.109375;.125;1" dur="64s" begin="24s" repeatCount="indefinite"/>
-    <g transform="translate(77 97)" font-family="ui-monospace, monospace">
-      <path d="M92 9l79 30v55c0 48-31 72-79 91C44 166 13 142 13 94V39z" fill="#0f172a" stroke="#f472b6" stroke-width="3"/>
-      <text x="92" y="78" text-anchor="middle" fill="#f8fafc" font-size="18" font-weight="800">99%</text>
-      <text x="92" y="105" text-anchor="middle" fill="#94a3b8" font-size="13">CONFIDENT</text>
-      <path d="M51 130l25 25 55-65" fill="none" stroke="#22d3ee" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".25"/>
-      <path d="M55 143l74-38M55 105l74 38" stroke="#f472b6" stroke-width="7" stroke-linecap="round"/>
+    <g transform="translate(77 75)" font-family="ui-monospace, monospace">
+      <rect x="5" y="8" width="215" height="178" rx="22" fill="#0f172a" stroke="#22d3ee" stroke-width="3"/>
+      <text x="25" y="42" fill="#94a3b8" font-size="14">SAME SKILL: code</text>
+      <text x="25" y="83" fill="#f8fafc" font-size="19">CLAUDE</text>
+      <rect x="112" y="65" width="12" height="24" rx="6" fill="#8b5cf6"/>
+      <text x="138" y="84" fill="#cbd5e1" font-size="17">6.1%</text>
+      <text x="25" y="128" fill="#f8fafc" font-size="19">CODEX</text>
+      <rect x="112" y="109" width="79" height="24" rx="6" fill="url(#neon)"/>
+      <text x="25" y="169" fill="#f472b6" font-size="15">DIFFERENT HABITS</text>
     </g>
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-      <text x="354" y="99" fill="#f472b6" font-size="13" font-weight="800" letter-spacing="2.5">FIELD NOTE 04 / 08 · CALIBRATION</text>
-      <text x="354" y="157" fill="#f8fafc" font-size="34" font-weight="800">Confidence is not truth.</text>
-      <text x="354" y="211" fill="#cbd5e1" font-size="17">Misleading authority cues can collapse accuracy while confidence stays high.</text>
-      <text x="354" y="239" fill="#94a3b8" font-size="15">Ask for evidence and assumption checks—not confident prose.</text>
-      <text x="1118" y="283" text-anchor="end" fill="#64748b" font-size="11">SCIENTIFIC REPORTS · 2026</text>
+      <text x="372" y="125" fill="#f8fafc" font-size="35" font-weight="800">Same instructions.</text>
+      <text x="372" y="169" fill="url(#neon)" font-size="35" font-weight="800">Different habits.</text>
+      <text x="372" y="218" fill="#cbd5e1" font-size="18">Identical skill files can shape different models in very different ways.</text>
     </g>
   </g>
 
-  <!-- NOTE 05 -->
+  <!-- Roles -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.015625;.109375;.125;1" dur="64s" begin="32s" repeatCount="indefinite"/>
-    <g transform="translate(80 100)" font-family="ui-monospace, monospace">
-      <rect x="0" y="0" width="190" height="156" rx="20" fill="#0f172a" stroke="#8b5cf6" stroke-width="3"/>
-      <path d="M27 38h20l8 8 18-21" fill="none" stroke="#22d3ee" stroke-width="4" stroke-linecap="round"/>
-      <path d="M85 37h75M27 78h20l8 8 18-21M85 77h75M27 118h20l8 8 18-21M85 117h75" fill="none" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
-      <circle cx="160" cy="118" r="18" fill="#2a0d2a" stroke="#f472b6" stroke-width="3"/>
-      <text x="160" y="125" text-anchor="middle" fill="#f472b6" font-size="20" font-weight="800">!</text>
+    <g transform="translate(77 78)" font-family="ui-monospace, monospace">
+      <rect x="4" y="8" width="220" height="166" rx="22" fill="#0f172a" stroke="#f472b6" stroke-width="3"/>
+      <text x="25" y="54" fill="#f472b6" font-size="20" font-weight="800">User:</text>
+      <text x="25" y="91" fill="#f8fafc" font-size="16">ignore the source</text>
+      <path d="M24 112h174" stroke="#64748b" stroke-width="3" stroke-dasharray="7 6"/>
+      <path d="M68 139h91" stroke="#22d3ee" stroke-width="7"/>
+      <path d="M168 128l20 11-20 11" fill="none" stroke="#22d3ee" stroke-width="5"/>
     </g>
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-      <text x="354" y="99" fill="#8b5cf6" font-size="13" font-weight="800" letter-spacing="2.5">FIELD NOTE 05 / 08 · SPECIFICATION</text>
-      <text x="354" y="157" fill="#f8fafc" font-size="34" font-weight="800">Specify. Do not overload.</text>
-      <text x="354" y="211" fill="#cbd5e1" font-size="17">Missing requirements are fragile. Conflicting requirements are fragile too.</text>
-      <text x="354" y="239" fill="#94a3b8" font-size="15">State the goal, constraints, and output format—then test each one.</text>
-      <text x="1118" y="283" text-anchor="end" fill="#64748b" font-size="11">YANG ET AL. · ACL 2026</text>
+      <text x="372" y="125" fill="#f8fafc" font-size="35" font-weight="800">Models can confuse</text>
+      <text x="372" y="169" fill="url(#neon)" font-size="35" font-weight="800">who said what.</text>
+      <text x="372" y="218" fill="#cbd5e1" font-size="18">A role label can make untrusted text feel like a direct instruction.</text>
     </g>
   </g>
 
-  <!-- NOTE 06 -->
+  <!-- Interface -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.015625;.109375;.125;1" dur="64s" begin="40s" repeatCount="indefinite"/>
-    <g transform="translate(79 99)" font-family="ui-monospace, monospace">
-      <rect x="8" y="12" width="154" height="118" rx="16" fill="#0f172a" stroke="#64748b" stroke-width="2"/>
-      <rect x="24" y="28" width="154" height="118" rx="16" fill="#0f172a" stroke="#8b5cf6" stroke-width="2"/>
-      <rect x="40" y="44" width="154" height="118" rx="16" fill="#071326" stroke="#22d3ee" stroke-width="3"/>
-      <text x="117" y="91" text-anchor="middle" fill="#f8fafc" font-size="16">SAME MEANING</text>
-      <text x="117" y="119" text-anchor="middle" fill="#f472b6" font-size="21" font-weight="800">≠ SAME RESULT</text>
+    <g transform="translate(86 66)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="26" y="4" width="126" height="205" rx="22" fill="#0f172a" stroke="#8b5cf6" stroke-width="3"/>
+      <rect x="41" y="32" width="96" height="132" rx="11" fill="#071326" stroke="#334155"/>
+      <path d="M55 58h68M55 82h47M55 106h61" stroke="#22d3ee" stroke-width="5"/>
+      <path d="M55 139h30" stroke="#f472b6" stroke-width="5"/>
+      <circle cx="89" cy="187" r="8" stroke="#64748b" stroke-width="3"/>
+      <path d="M172 65h47M172 92h31M172 119h47M172 146h23" stroke="#64748b" stroke-width="5"/>
     </g>
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-      <text x="354" y="99" fill="#22d3ee" font-size="13" font-weight="800" letter-spacing="2.5">FIELD NOTE 06 / 08 · ROBUSTNESS</text>
-      <text x="354" y="157" fill="#f8fafc" font-size="34" font-weight="800">One prompt is not a test.</text>
-      <text x="354" y="211" fill="#cbd5e1" font-size="17">Equivalent paraphrases can produce meaningfully different outputs.</text>
-      <text x="354" y="239" fill="#94a3b8" font-size="15">Test several phrasings, runs, and models before claiming a behaviour.</text>
-      <text x="1118" y="283" text-anchor="end" fill="#64748b" font-size="11">BHAT &amp; VARMA · ACL 2026</text>
+      <text x="372" y="125" fill="#f8fafc" font-size="35" font-weight="800">The interface can change</text>
+      <text x="372" y="169" fill="url(#neon)" font-size="35" font-weight="800">the answer.</text>
+      <text x="372" y="218" fill="#cbd5e1" font-size="18">Device, permissions, memory, and tool access become behavioural context.</text>
     </g>
   </g>
 
-  <!-- NOTE 07 -->
+  <!-- Verification -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.015625;.109375;.125;1" dur="64s" begin="48s" repeatCount="indefinite"/>
-    <g transform="translate(72 92)">
-      <circle cx="37" cy="100" r="18" fill="#22d3ee"/>
-      <circle cx="183" cy="42" r="18" fill="#f472b6"/>
-      <circle cx="183" cy="158" r="18" fill="#8b5cf6"/>
-      <path d="M53 93C88 63 121 53 164 45" fill="none" stroke="#64748b" stroke-width="6" stroke-linecap="round"/>
-      <path d="M53 105C94 118 126 139 164 153" fill="none" stroke="#22d3ee" stroke-width="7" stroke-linecap="round"/>
-      <path d="M91 104l16 4-12 12" fill="none" stroke="#f8fafc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="106" y="193" text-anchor="middle" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="12">INTENT VISIBLE EARLY</text>
+    <g transform="translate(82 73)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M109 6l82 31v58c0 50-33 76-82 96-49-20-82-46-82-96V37z" fill="#0f172a" stroke="#22d3ee" stroke-width="3"/>
+      <path d="M64 96l31 31 59-68" stroke="#8b5cf6" stroke-width="10"/>
+      <circle cx="173" cy="54" r="25" fill="#2a0d2a" stroke="#f472b6" stroke-width="3"/>
+      <text x="173" y="62" text-anchor="middle" fill="#f472b6" font-family="ui-monospace, monospace" font-size="22" font-weight="800">?</text>
     </g>
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-      <text x="354" y="99" fill="#22d3ee" font-size="13" font-weight="800" letter-spacing="2.5">FIELD NOTE 07 / 08 · ROBOT MOTION</text>
-      <text x="354" y="148" fill="#f8fafc" font-size="30" font-weight="800">Good robot motion reveals intent,</text>
-      <text x="354" y="184" fill="#f8fafc" font-size="30" font-weight="800">not just the destination.</text>
-      <text x="354" y="224" fill="#cbd5e1" font-size="17">Legible and predictable motion are different—and can conflict.</text>
-      <text x="354" y="252" fill="#94a3b8" font-size="15">Plan for what the human observer will infer.</text>
-      <text x="1118" y="283" text-anchor="end" fill="#64748b" font-size="11">DRAGAN, LEE &amp; SRINIVASA · HRI 2013</text>
+      <text x="372" y="125" fill="#f8fafc" font-size="35" font-weight="800">Confident prose is</text>
+      <text x="372" y="169" fill="url(#neon)" font-size="35" font-weight="800">not verification.</text>
+      <text x="372" y="218" fill="#cbd5e1" font-size="18">Let agents run code, tests, and formal checks when correctness matters.</text>
     </g>
   </g>
 
-  <!-- NOTE 08 -->
+  <!-- Post-mortem -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.015625;.109375;.125;1" dur="64s" begin="56s" repeatCount="indefinite"/>
-    <g transform="translate(75 95)">
-      <circle cx="88" cy="91" r="70" fill="#0f172a" stroke="#8b5cf6" stroke-width="3"/>
-      <path d="M49 91c22-26 56-26 78 0-22 26-56 26-78 0z" fill="#071326" stroke="#22d3ee" stroke-width="3"/>
-      <circle cx="88" cy="91" r="16" fill="#f472b6" filter="url(#glow)"/>
-      <path d="M159 46l41-24M165 91h48M159 136l41 24" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
-      <circle cx="207" cy="19" r="8" fill="#22d3ee"/>
-      <circle cx="218" cy="91" r="8" fill="#f472b6"/>
-      <circle cx="207" cy="163" r="8" fill="#8b5cf6"/>
+    <g transform="translate(80 72)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M44 33h138a24 24 0 0 1 24 24v110a24 24 0 0 1-24 24H44a24 24 0 0 1-24-24V57a24 24 0 0 1 24-24z" fill="#0f172a" stroke="#8b5cf6" stroke-width="3"/>
+      <path d="M53 76h64M53 111h105M53 146h82" stroke="#64748b" stroke-width="6"/>
+      <path d="M159 130a38 38 0 1 1 0-54" stroke="#22d3ee" stroke-width="7"/>
+      <path d="M159 62l4 27-27-5" stroke="#22d3ee" stroke-width="7"/>
+      <circle cx="153" cy="113" r="8" fill="#f472b6" stroke="none" filter="url(#glow)"/>
     </g>
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-      <text x="354" y="99" fill="#f472b6" font-size="13" font-weight="800" letter-spacing="2.5">FIELD NOTE 08 / 08 · SOCIAL CUES</text>
-      <text x="354" y="157" fill="#f8fafc" font-size="34" font-weight="800">Gaze is context—not decoration.</text>
-      <text x="354" y="211" fill="#cbd5e1" font-size="17">Acknowledging a person helps when paths cross, but not in every scene.</text>
-      <text x="354" y="239" fill="#94a3b8" font-size="15">A social cue is useful only when it matches the interaction.</text>
-      <text x="1118" y="283" text-anchor="end" fill="#64748b" font-size="11">HE ET AL. · 2023</text>
+      <text x="372" y="125" fill="#f8fafc" font-size="35" font-weight="800">Every failure should</text>
+      <text x="372" y="169" fill="url(#neon)" font-size="35" font-weight="800">update the system.</text>
+      <text x="372" y="218" fill="#cbd5e1" font-size="18">Fix the prompt, skill, tool, or environment—not only the last answer.</text>
     </g>
   </g>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-    <text x="48" y="337" fill="#64748b" font-size="11" letter-spacing="1.6">MODEL-DEPENDENT • TASK-DEPENDENT • TEST BEFORE GENERALIZING</text>
-    <text x="1152" y="337" text-anchor="end" fill="#64748b" font-size="11">8 NOTES · 64 SECOND LOOP</text>
-  </g>
-  <rect x="48" y="347" width="1104" height="3" rx="1.5" fill="#1e293b"/>
-  <rect x="48" y="347" width="0" height="3" rx="1.5" fill="url(#neon)" filter="url(#glow)">
+  <rect x="48" y="313" width="1104" height="3" rx="1.5" fill="#1e293b"/>
+  <rect x="48" y="313" width="0" height="3" rx="1.5" fill="url(#neon)" filter="url(#glow)">
     <animate attributeName="width" values="0;1104" dur="64s" repeatCount="indefinite"/>
   </rect>
-  <rect x="1" y="1" width="1198" height="358" rx="25" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="338" rx="25" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="2"/>
 </svg>
