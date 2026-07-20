@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-07-20T04:54:00.358272Z",
+  "generated_at": "2026-07-20T04:54:52.635335Z",
   "working_sources": [
     "Simon Willison — LLMs",
     "Simon Willison — AI agents",
+    "S Anand",
     "Chip Huyen",
     "Import AI",
     "Interconnects",
@@ -18,10 +19,8 @@
     "arXiv — AI, language and HCI",
     "arXiv — Robotics"
   ],
-  "source_errors": {
-    "S Anand": "HTTP Error 404: Not Found"
-  },
-  "item_count": 54,
+  "source_errors": {},
+  "item_count": 60,
   "items": [
     {
       "id": "69476cdc60ac2087",
@@ -178,17 +177,6 @@
       "score": 13.19
     },
     {
-      "id": "32f294a652e860cd",
-      "title": "AgentFAIR: A Multi-Agent Collaborative Framework for FAIRness Evaluation of Geospatial Datasets",
-      "url": "https://arxiv.org/abs/2607.15781v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-07-17T09:32:54Z",
-      "summary": "Geospatial datasets support applications from urban planning to climate modeling, yet consistent assessment of FAIR compliance is difficult. Existing evaluators use different rubrics and evidence sources and may fail on JavaScript-rendered pages or repository-specific identifiers. For 50 datasets from 10 repositories, the standard deviation of normalized…",
-      "category": "evaluation",
-      "score": 13.17
-    },
-    {
       "id": "47d89a541c7b19bc",
       "title": "Intelligence is Free, Now What? Data Systems for, of, and by Agents",
       "url": "http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what",
@@ -198,6 +186,17 @@
       "summary": "... government of the people, by the people, for the people ... — Abraham Lincoln, Gettysburg Address (1863) The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in early 2023; today the same runs under $1 , and some providers are pushing costs below $0.10 . Across benchmarks, inference prices have fallen between…",
       "category": "agents",
       "score": 13.17
+    },
+    {
+      "id": "32f294a652e860cd",
+      "title": "AgentFAIR: A Multi-Agent Collaborative Framework for FAIRness Evaluation of Geospatial Datasets",
+      "url": "https://arxiv.org/abs/2607.15781v1",
+      "source": "arXiv — AI, language and HCI",
+      "source_group": "preprints",
+      "published": "2026-07-17T09:32:54Z",
+      "summary": "Geospatial datasets support applications from urban planning to climate modeling, yet consistent assessment of FAIR compliance is difficult. Existing evaluators use different rubrics and evidence sources and may fail on JavaScript-rendered pages or repository-specific identifiers. For 50 datasets from 10 repositories, the standard deviation of normalized…",
+      "category": "evaluation",
+      "score": 13.16
     },
     {
       "id": "9fe02e1d465a85ef",
@@ -255,6 +254,17 @@
       "score": 12.0
     },
     {
+      "id": "fc3efd582237d9cf",
+      "title": "Things I Learned - 19 Jul 2026",
+      "url": "https://www.s-anand.net/blog/things-i-learned-19-jul-2026",
+      "source": "S Anand",
+      "source_group": "independent",
+      "published": "2026-07-19T00:00:00Z",
+      "summary": "This week, I learned: Writing is slightly, but only slightly, better than typing (for adult learning.) One factor is that typing is faster, so many people take notes verbatim, summarizing and thinking less. ChatGPT + Claude Graphology for personality is pseudoscience. ChatGPT + Claude When I decide to spend time, or someone says “Let’s do X”, it’s worth…",
+      "category": "machine behaviour",
+      "score": 11.59
+    },
+    {
       "id": "2ab25d9fb18886f7",
       "title": "Japan Pioneered Humanoid Robots—Can It Now Catch China?",
       "url": "https://spectrum.ieee.org/humanoid-robots-japan",
@@ -286,6 +296,17 @@
       "summary": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight release is promised \"by July 27, 2026\". Moonshot are calling this the first \"open 3T-class model\" (I guess they're rounding 2.8 trillion up to 3…",
       "category": "evaluation",
       "score": 10.24
+    },
+    {
+      "id": "113ebccaddef245d",
+      "title": "Discussion with Arvind Satyanarayan",
+      "url": "https://www.s-anand.net/blog/discussion-with-arvind-satyanarayan",
+      "source": "S Anand",
+      "source_group": "independent",
+      "published": "2026-07-05T09:32:39Z",
+      "summary": "After Arvind Satyanarayan’s talk at VizChitra 2026 , a group of us kept talking about machine learning, visualization grammars, creativity, software and education. The conversation began with a basic question. Why do modern AI systems work so well when the mathematics behind them can look surprisingly simple? The bitter lesson Arvind said that much of the…",
+      "category": "machine behaviour",
+      "score": 9.8
     },
     {
       "id": "e8b567c5b8942a1c",
@@ -354,6 +375,28 @@
       "score": 8.57
     },
     {
+      "id": "bafc1051a4c39947",
+      "title": "Tacit is just un-instrumented",
+      "url": "https://www.s-anand.net/blog/tacit-is-just-un-instrumented",
+      "source": "S Anand",
+      "source_group": "independent",
+      "published": "2026-07-13T12:43:33Z",
+      "summary": "At The Curzon Hotel , my key card didn’t work. But every time I went to the reception, they’d send a bellboy who would use the same key card, jiggle it a bit, pull it in and out a few times, and the door would open. Every night. For five nights. I just couldn’t get the knack of it. I’ve been at the other end of this. People often reach out to me saying,…",
+      "category": "evaluation",
+      "score": 8.05
+    },
+    {
+      "id": "03a6729e414502a7",
+      "title": "Learning from Sukumar with questions",
+      "url": "https://www.s-anand.net/blog/learning-from-sukumar-with-questions",
+      "source": "S Anand",
+      "source_group": "independent",
+      "published": "2026-06-27T14:32:11Z",
+      "summary": "Sukumar Rajagopal shared a LinkedIn post about our meeting on 11 June at Chennai, saying: Had a fanboi moment recently with Anand S who I have been following for a long time. He is prolific. It’s very difficult, no impossible, to keep up with him. He generously shares his work with full source code; approach; working examples; the whole nine yards. All…",
+      "category": "machine behaviour",
+      "score": 7.67
+    },
+    {
       "id": "13a6d9819972b9b7",
       "title": "Empowering India’s next generation of innovators with ATL Saathi",
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi",
@@ -363,6 +406,28 @@
       "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
       "category": "robotics",
       "score": 7.45
+    },
+    {
+      "id": "871704e180a42d16",
+      "title": "Creating a scrollytelling map",
+      "url": "https://www.s-anand.net/blog/creating-a-scrollytelling-map",
+      "source": "S Anand",
+      "source_group": "independent",
+      "published": "2026-07-12T10:55:50Z",
+      "summary": "I had Claude Code with Fable create a small scrollytelling map for my 14-minute walk experience at Bagmane Capital in Bangalore. I used this as an opportunity to explore the current status of the technology. ChatGPT suggested: Try ArcGIS StoryMaps first for a polished scrollytelling story. Try Google Earth Projects if this is primarily something you will…",
+      "category": "agents",
+      "score": 7.28
+    },
+    {
+      "id": "f54216ac96cd9624",
+      "title": "Things I Learned - 12 Jul 2026",
+      "url": "https://www.s-anand.net/blog/things-i-learned-12-jul-2026",
+      "source": "S Anand",
+      "source_group": "independent",
+      "published": "2026-07-12T00:00:00Z",
+      "summary": "This week, I learned: How to become an applied AI engineer is a concise, well-written, and suprisingly current summary of what AI engineering is. Xinjiang seems to be China’s Kashmir problem. Not quite , but similar. Analogies for how forward deployed engineers work: It is like a food truck that brings and serves home food while building a kitchen and…",
+      "category": "systems",
+      "score": 7.28
     },
     {
       "id": "d9b2b6a45e1f9f2c",

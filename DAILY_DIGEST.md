@@ -1,8 +1,8 @@
 # Robot Psychology Radar
 
-Updated 20 July 2026, 04:54 UTC from 16 working sources.
+Updated 20 July 2026, 04:54 UTC from 17 working sources.
 
-24 high-relevance items across 6 sources. Auto-collected metadata; inclusion is not endorsement.
+24 high-relevance items across 7 sources. Auto-collected metadata; inclusion is not endorsement.
 
 ## Robotics
 
@@ -92,12 +92,6 @@ Over the past decade, responsible AI (RAI) has produced a substantial body of pr
 
 Open-vocabulary 3D maps let robots answer language queries about what and where, but they assume a static world and cannot answer queries about how scene elements behave. We introduce Vision-Language-Motion Maps (VLMM), an open-vocabulary, natural-language-queryable 3D map in which each element carries a fused motion attribute: a VLM/LLM semantic…
 
-### [Kimi K3, and what we can still learn from the pelican benchmark](https://simonwillison.net/2026/Jul/16/kimi-k3)
-
-**Simon Willison — LLMs** · 16 Jul · relevance 10.2
-
-Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their "most capable model to date, with 2.8 trillion parameters". It's currently available via their website and API, but an open weight release is promised "by July 27, 2026". Moonshot are calling this the first "open 3T-class model" (I guess they're rounding 2.8 trillion up to 3…
-
 ## Systems
 
 ### [CRAFT: Clustering Rubrics to Diagnose Weak LLM Capabilities and Generate Targeted Fine-Tuning Data](https://arxiv.org/abs/2607.16122v1)
@@ -152,6 +146,12 @@ Agentic Artificial Intelligence (AI), enabled by Large Language Models, marks a 
 
 Equipping humanoid robots with coherent and adaptable personas is crucial for fostering natural, engaging, and trustworthy human-robot interaction (HRI). However, existing approaches often rely on static, hard-coded identities that lack the flexibility to adapt to individual user contexts. In this paper, we present PACE (Persona Adaptation through…
 
+### [Things I Learned - 19 Jul 2026](https://www.s-anand.net/blog/things-i-learned-19-jul-2026)
+
+**S Anand** · 19 Jul · relevance 11.6
+
+This week, I learned: Writing is slightly, but only slightly, better than typing (for adult learning.) One factor is that typing is faster, so many people take notes verbatim, summarizing and thinking less. ChatGPT + Claude Graphology for personality is pseudoscience. ChatGPT + Claude When I decide to spend time, or someone says “Let’s do X”, it’s worth…
+
 ## Safety
 
 ### [GPT-Red: Unlocking Self-Improvement for Robustness](https://openai.com/index/unlocking-self-improvement-gpt-red)
@@ -159,13 +159,6 @@ Equipping humanoid robots with coherent and adaptable personas is crucial for fo
 **OpenAI** · 15 Jul · relevance 13.6
 
 Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.
-
-<details>
-<summary>Sources unavailable during this run</summary>
-
-- **S Anand:** `HTTP Error 404: Not Found`
-
-</details>
 
 ---
 
