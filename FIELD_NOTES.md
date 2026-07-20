@@ -1,6 +1,6 @@
 # Sources behind the carousel
 
-The profile rotates through a larger library each week. The library deliberately mixes independent builders, research labs, human–computer interaction, multilingual NLP, AI safety, and embodied robotics.
+The profile rotates through a larger library each day. The library deliberately mixes independent builders, research labs, human–computer interaction, multilingual NLP, AI safety, and embodied robotics.
 
 The profile lines are paraphrases—not endorsements or universal laws. Artificial behaviour depends on the model, harness, body, interface, tools, language, data, incentives, and evaluation.
 
