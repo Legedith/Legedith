@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Jatin Dehmiwal — Robot Psychologist</title>
+  <desc id="desc">Animated research console for machine behaviour, social robotics, and artificial societies.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.5" stop-color="#0b1026"/>
+      <stop offset="1" stop-color="#160b2d"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.52" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#64748b" stroke-opacity=".11" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="screenClip"><rect x="760" y="54" width="374" height="264" rx="22"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="430" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="430" rx="28" fill="url(#grid)"/>
+  <circle cx="910" cy="190" r="250" fill="url(#orb)"/>
+  <path d="M0 347C212 307 365 390 570 349S934 289 1200 342" fill="none" stroke="url(#neon)" stroke-opacity=".22" stroke-width="2"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="66" y="70" fill="#94a3b8" font-size="15" letter-spacing="4">LEGEDITH // MACHINE BEHAVIOUR LAB</text>
+    <circle cx="46" cy="64" r="5" fill="#22d3ee" filter="url(#glow)">
+      <animate attributeName="opacity" values=".25;1;.25" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="62" y="145" fill="#f8fafc" font-size="54" font-weight="800" letter-spacing="1">ROBOT</text>
+    <text x="62" y="202" fill="url(#neon)" font-size="54" font-weight="800" letter-spacing="1">PSYCHOLOGIST</text>
+    <text x="66" y="241" fill="#cbd5e1" font-size="18">Studying minds made of code.</text>
+
+    <g transform="translate(64 282)">
+      <rect width="178" height="42" rx="21" fill="#0f172a" stroke="#22d3ee" stroke-opacity=".65"/>
+      <circle cx="23" cy="21" r="5" fill="#22d3ee"><animate attributeName="r" values="4;7;4" dur="2.2s" repeatCount="indefinite"/></circle>
+      <text x="42" y="27" fill="#e2e8f0" font-size="14" font-weight="700">OBSERVE</text>
+    </g>
+    <g transform="translate(254 282)">
+      <rect width="178" height="42" rx="21" fill="#0f172a" stroke="#8b5cf6" stroke-opacity=".75"/>
+      <circle cx="23" cy="21" r="5" fill="#8b5cf6"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+      <text x="42" y="27" fill="#e2e8f0" font-size="14" font-weight="700">INTERACT</text>
+    </g>
+    <g transform="translate(444 282)">
+      <rect width="178" height="42" rx="21" fill="#0f172a" stroke="#f472b6" stroke-opacity=".75"/>
+      <circle cx="23" cy="21" r="5" fill="#f472b6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="42" y="27" fill="#e2e8f0" font-size="14" font-weight="700">SIMULATE</text>
+    </g>
+
+    <text x="66" y="374" fill="#64748b" font-size="13" letter-spacing="1.6">BEHAVIOUR • TRUST • ADAPTATION • COLLECTIVE INTELLIGENCE</text>
+  </g>
+
+  <g transform="translate(730 35)">
+    <rect x="18" y="8" width="410" height="310" rx="30" fill="#020617" stroke="#334155" stroke-width="2"/>
+    <rect x="30" y="20" width="386" height="286" rx="23" fill="#060b1b" stroke="url(#neon)" stroke-opacity=".5"/>
+
+    <g clip-path="url(#screenClip)">
+      <path d="M32 58H414M32 102H414M32 146H414M32 190H414M32 234H414M32 278H414" stroke="#334155" stroke-opacity=".25"/>
+      <path d="M78 22V305M126 22V305M174 22V305M222 22V305M270 22V305M318 22V305M366 22V305" stroke="#334155" stroke-opacity=".18"/>
+      <rect x="42" y="37" width="362" height="3" rx="2" fill="url(#neon)" opacity=".65">
+        <animate attributeName="y" values="37;286;37" dur="5.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".15;.8;.15" dur="5.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <path d="M165 105C165 61 200 34 244 34s79 27 79 71v86c0 42-35 76-79 76s-79-34-79-76z" fill="#0f172a" stroke="#8b5cf6" stroke-width="3"/>
+    <path d="M183 120c20-28 102-28 122 0v67c-15 38-107 38-122 0z" fill="#020617" stroke="#22d3ee" stroke-opacity=".65"/>
+    <rect x="199" y="139" width="90" height="25" rx="12.5" fill="#08142b" stroke="#22d3ee"/>
+    <rect x="208" y="148" width="72" height="7" rx="3.5" fill="url(#neon)" filter="url(#glow)">
+      <animate attributeName="x" values="208;250;208" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="72;30;72" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M213 206h62" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="244" cy="77" r="23" fill="none" stroke="#f472b6" stroke-width="2" stroke-dasharray="8 7">
+      <animateTransform attributeName="transform" type="rotate" from="0 244 77" to="360 244 77" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="244" cy="77" r="7" fill="#f472b6" filter="url(#glow)">
+      <animate attributeName="opacity" values=".35;1;.35" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <g fill="#22d3ee" stroke="#22d3ee" stroke-width="1.5" opacity=".9">
+      <path d="M116 84l49 22M108 164l57-2M123 247l55-30M323 104l48-25M323 171l60 0M309 225l67 31" fill="none" opacity=".45"/>
+      <circle cx="116" cy="84" r="5"><animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="108" cy="164" r="5"><animate attributeName="opacity" values=".3;1;.3" dur="1.7s" repeatCount="indefinite"/></circle>
+      <circle cx="123" cy="247" r="5"><animate attributeName="r" values="5;3;5" dur="1.9s" repeatCount="indefinite"/></circle>
+      <circle cx="371" cy="79" r="5"><animate attributeName="opacity" values="1;.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <circle cx="383" cy="171" r="5"><animate attributeName="r" values="3;7;3" dur="2.7s" repeatCount="indefinite"/></circle>
+      <circle cx="376" cy="256" r="5"><animate attributeName="opacity" values=".25;1;.25" dur="1.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" fill="#94a3b8" letter-spacing="1">
+      <text x="56" y="82">INPUT</text>
+      <text x="50" y="162">SOCIAL</text>
+      <text x="57" y="245">MEMORY</text>
+      <text x="378" y="76">MODEL</text>
+      <text x="390" y="168">TRUST</text>
+      <text x="384" y="254">GROUP</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="428" rx="27" fill="none" stroke="#ffffff" stroke-opacity=".08" stroke-width="2"/>
+</svg>
