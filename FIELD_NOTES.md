@@ -1,76 +1,58 @@
-# Robot Psychology Field Notes
+# Sources behind the carousel
 
-The profile carousel turns research findings into short, memorable notes. These are **experimental findings, not universal laws**: results can change across models, versions, languages, tasks, prompts, environments, and evaluation methods.
+The profile slides distill ideas from S Anand's public work from February–July 2026. They are observations and working hypotheses—not universal laws. Agent behaviour changes across models, versions, interfaces, tools, permissions, tasks, and users.
 
-## 01 — Prompt tone
+## Agents need actions, not just information
 
-**Profile note:** Shouting is not reliably worse—or better. Tone effects vary by model, task, language, and benchmark.
+Anand's July workshop proposes that agent-oriented data should expose tools and functions, not merely human-readable tables. The distinction matters when the desired outcome is action rather than inspection.
 
-Evidence is mixed. A cross-lingual study found that impolite prompts often reduced performance and that the best politeness level differed by language. Later studies found smaller, model-dependent effects; one limited GPT-4o experiment even reported higher multiple-choice accuracy for rude prompts. The useful conclusion is not “be rude” or “be polite,” but **treat tone as a behavioural variable and test it**.
+- [When Data is for Agents — Workshop Summary](https://www.s-anand.net/blog/when-data-is-for-agents-workshop-summary/)
+- [When Data is for Agents, Not Humans — workshop announcement](https://www.s-anand.net/blog/when-data-is-for-agents-not-humans-workshop/)
 
-- [Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politeness on LLM Performance](https://arxiv.org/abs/2402.14531)
-- [Does Tone Change the Answer? Evaluating Prompt Politeness Effects on Modern LLMs](https://arxiv.org/abs/2512.12812)
-- [Do Emotions in Prompts Matter? Effects of Emotional Framing on Large Language Models](https://arxiv.org/abs/2604.02236)
+## Logs show behaviour; docs show intention
 
-## 02 — Input noise
+Documentation describes the intended system. Logs reveal the real paths, failures, workarounds, and usage patterns. Behavioural analysis needs both, but the second is often more diagnostic.
 
-**Profile note:** Typos can damage reasoning.
+- [When Data is for Agents — Workshop Summary](https://www.s-anand.net/blog/when-data-is-for-agents-workshop-summary/)
 
-A multilingual evaluation of 18 open-source LLMs found that human-like typographical errors consistently degraded performance. Generative and reasoning tasks were particularly affected, and robustness varied by language.
+## An agent without readable history has amnesia
 
-- [Evaluating Robustness of Large Language Models Against Multilingual Typographical Errors](https://aclanthology.org/2026.acl-long.729/)
+Anand makes files, transcripts, conversations, browsing history, and activity logs searchable by agents. His argument is that agent-readable records let earlier work compound; information trapped in apps, screenshots, and memory is effectively unavailable.
 
-## 03 — Prompt language
+- [Agent-consumable content](https://www.s-anand.net/blog/agent-consumable-content/)
+- [How I use Local MCP](https://www.s-anand.net/blog/how-i-use-local-mcp/)
 
-**Profile note:** The same question can score differently across languages.
+## Same instructions, different habits
 
-Multilingual ability is uneven. Prompt language can materially change performance, sometimes in surprising directions. English is not always the best prompt language for every task, but persistent gaps remain between English or high-resource languages and many low-resource languages.
+In Anand's personal coding-agent sessions, the same reusable skill files were invoked very differently by Claude, Codex, and Copilot. For example, the `code` skill appeared in 6.1% of Claude sessions and 69.1% of Codex sessions. This is one person's workflow—not a benchmark—but it is a useful behavioural signal: identical scaffolding does not produce identical agent habits.
 
-- [Not All Languages Are Created Equal in LLMs](https://aclanthology.org/2023.findings-emnlp.826/)
-- [To Ask LLMs about English Grammaticality, Prompt Them in a Different Language](https://aclanthology.org/2024.findings-emnlp.916/)
-- [MuBench: Assessment of Multilingual Capabilities of Large Language Models Across 61 Languages](https://aclanthology.org/2026.findings-acl.794/)
+- [Agent Skills Usage](https://www.s-anand.net/blog/agent-skills-usage/)
 
-## 04 — Confidence calibration
+## Models can confuse who said what
 
-**Profile note:** Confidence is not truth.
+Anand highlighted work on project-injection attacks where role-like text such as `User:` can alter how a model interprets provenance and authority. The broader lesson is that models do not always preserve a reliable boundary between content and instruction.
 
-In one controlled clinical-question experiment, misleading authority cues drove accuracy from 100% in the neutral condition to 1%, while model confidence remained high. This is a narrow experiment, but it demonstrates a crucial failure mode: fluent certainty can survive factual collapse.
+- [Things I Learned — 05 Jul 2026](https://www.s-anand.net/blog/things-i-learned-05-jul-2026/)
 
-- [Impact of authoritative and subjective cues on large language model reliability for clinical inquiries](https://www.nature.com/articles/s41598-026-38019-3)
+## The interface can change the answer
 
-## 05 — Prompt specification
+Anand observed Claude reasoning that a mobile user might prefer a shorter response. This is anecdotal, but it exposes a useful hypothesis: device, interface, memory, permissions, and tool availability can become hidden behavioural context.
 
-**Profile note:** Specify. Do not overload.
+- [Things I Learned — 28 Jun 2026](https://www.s-anand.net/blog/things-i-learned-28-jun-2026/)
 
-Under-specified prompts are fragile across model and prompt changes. But adding every possible requirement is not a complete solution: models can fail when requirements conflict or exceed instruction-following capacity. Define the goal, constraints, and output format, then test them individually.
+## Confident prose is not verification
 
-- [What Prompts Don’t Say: Understanding and Managing Underspecification in LLM Prompts](https://aclanthology.org/2026.findings-acl.441/)
+For correctness-sensitive work, Anand recommends having agents execute code, tests, or formal checks rather than relying only on verbal reasoning. He has also used Z3 to prove properties of code and advocates cross-checking high-risk claims.
 
-## 06 — Prompt robustness
+- [AI Advice](https://www.s-anand.net/blog/ai-advice/)
+- [Proving Code Works with Z3](https://www.s-anand.net/blog/proving-code-works-with-z3/)
 
-**Profile note:** One prompt is not a test.
+## Every failure should update the system
 
-Semantically equivalent prompt variations can produce different evaluations and outputs. Behavioural claims should use multiple paraphrases, repeated runs, and—where relevant—multiple models and versions.
+A blameless post-mortem turns a failed session into changes to prompts, reusable skills, tools, tests, or the environment. The goal is to remove a class of failures rather than patch one disappointing answer.
 
-- [All Prompts Are Created Equal? Evaluating Robustness of LLM Judges Against Non-Adversarial Prompt Variations](https://aclanthology.org/2026.findings-acl.1929/)
-
-## 07 — Legible robot motion
-
-**Profile note:** Good robot motion reveals intent, not just the destination.
-
-Predictable motion matches what a person expects once the goal is known. Legible motion helps the person infer the goal from the motion. These properties are different and can conflict, so robot planners should account for human interpretation rather than optimizing only path efficiency.
-
-- [Legibility and Predictability of Robot Motion](https://publications.ri.cmu.edu/legibility-and-predictability-of-robot-motion)
-- [Generating Legible Motion](https://www.roboticsproceedings.org/rss09/p24.html)
-
-## 08 — Robot gaze
-
-**Profile note:** Gaze is context—not decoration.
-
-A study of mobile-robot navigation found that person-oriented gaze was generally preferred when robot and human paths crossed, but its benefit diminished in scenes with less implicit interaction. A social cue should fit the interaction rather than run continuously.
-
-- [Robot Gaze During Autonomous Navigation and its Effect on Social Presence](https://arxiv.org/abs/2305.05852)
+- [Post-mortem of AI coding session](https://www.s-anand.net/blog/prompts/post-mortem/)
 
 ---
 
-**Working rule:** prefer precise, testable statements over universal prompt-engineering folklore.
+The slides paraphrase these ideas for a robot-psychology profile. The linked posts remain the source of record.
