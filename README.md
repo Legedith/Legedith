@@ -9,10 +9,8 @@
 <br /><br />
 
 <a href="./FIELD_NOTES.md">
-  <img width="100%" src="./assets/field-notes-carousel.svg" alt="Animated robot psychology field notes about LLMs and social robots" />
+  <img width="100%" src="./assets/field-notes-carousel.svg" alt="Rotating insights about LLM and agent behaviour" />
 </a>
-
-<sub>Eight rotating research notes · Click the carousel for evidence and sources</sub>
 
 <br /><br />
 
@@ -27,8 +25,8 @@
 <sub>Retrieval experiments</sub>
 </td>
 <td align="center" width="33%">
-<a href="./FIELD_NOTES.md"><strong>RESEARCH NOTES</strong></a><br />
-<sub>Evidence behind the slides</sub>
+<a href="https://github.com/Legedith/ai-thoughts"><strong>AI THOUGHTS</strong></a><br />
+<sub>Thinking in public</sub>
 </td>
 </tr>
 </table>
