@@ -1,0 +1,106 @@
+{
+  "sources": [
+    {
+      "name": "Simon Willison — LLMs",
+      "group": "independent",
+      "url": "https://simonwillison.net/tags/llms.atom",
+      "weight": 2.8
+    },
+    {
+      "name": "Simon Willison — AI agents",
+      "group": "independent",
+      "url": "https://simonwillison.net/tags/ai-agents.atom",
+      "weight": 3.0
+    },
+    {
+      "name": "S Anand",
+      "group": "independent",
+      "url": "https://www.s-anand.net/blog/feed.xml",
+      "weight": 2.5
+    },
+    {
+      "name": "Chip Huyen",
+      "group": "independent",
+      "url": "https://huyenchip.com/feed.xml",
+      "weight": 2.6
+    },
+    {
+      "name": "Import AI",
+      "group": "independent",
+      "url": "https://jack-clark.net/feed/",
+      "weight": 2.3
+    },
+    {
+      "name": "Interconnects",
+      "group": "independent",
+      "url": "https://www.interconnects.ai/feed",
+      "weight": 2.2
+    },
+    {
+      "name": "Latent Space",
+      "group": "independent",
+      "url": "https://www.latent.space/feed",
+      "weight": 2.0
+    },
+    {
+      "name": "The Gradient",
+      "group": "independent research",
+      "url": "https://thegradient.pub/rss/",
+      "weight": 2.4
+    },
+    {
+      "name": "Hugging Face",
+      "group": "open source",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "weight": 2.3
+    },
+    {
+      "name": "OpenAI",
+      "group": "frontier lab",
+      "url": "https://openai.com/news/rss.xml",
+      "weight": 2.1
+    },
+    {
+      "name": "Google DeepMind",
+      "group": "frontier lab",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "weight": 2.4
+    },
+    {
+      "name": "Google Research",
+      "group": "research lab",
+      "url": "https://research.google/blog/rss/",
+      "weight": 2.2
+    },
+    {
+      "name": "Microsoft Research",
+      "group": "research lab",
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "weight": 2.2
+    },
+    {
+      "name": "Berkeley AI Research",
+      "group": "academic lab",
+      "url": "https://bair.berkeley.edu/blog/feed.xml",
+      "weight": 2.6
+    },
+    {
+      "name": "IEEE Spectrum Robotics",
+      "group": "robotics journalism",
+      "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+      "weight": 2.5
+    },
+    {
+      "name": "arXiv — AI, language and HCI",
+      "group": "preprints",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.AI%20OR%20cat%3Acs.CL%20OR%20cat%3Acs.HC&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending",
+      "weight": 2.7
+    },
+    {
+      "name": "arXiv — Robotics",
+      "group": "preprints",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Acs.RO&start=0&max_results=45&sortBy=submittedDate&sortOrder=descending",
+      "weight": 3.0
+    }
+  ]
+}
