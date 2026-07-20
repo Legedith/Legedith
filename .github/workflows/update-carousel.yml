@@ -1,35 +1,75 @@
-name: Refresh profile insight carousel
+name: Refresh robot psychology radar
 
 on:
   push:
     paths:
       - "data/insights.json"
+      - "data/sources.json"
+      - "scripts/collect_daily.py"
       - "scripts/render_carousel.py"
       - ".github/workflows/update-carousel.yml"
   schedule:
-    - cron: "17 5 * * 1"
+    - cron: "17 8 * * *"
+      timezone: "Asia/Kolkata"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: robot-psychology-radar
+  cancel-in-progress: false
+
 jobs:
-  render:
+  refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Render carousel and source index
-        run: python scripts/render_carousel.py
-      - name: Commit generated files
+
+      - name: Collect fresh research and commentary
+        run: python scripts/collect_daily.py --minimum-working-sources 1
+
+      - name: Rotate the curated profile carousel
+        run: CAROUSEL_SEED="$(date -u +%Y%m%d)" python scripts/render_carousel.py
+
+      - name: Use daily wording in generated files
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          replacements = {
+              Path("FIELD_NOTES.md"): [("each week", "each day")],
+              Path("assets/field-notes-carousel.svg"): [("weekly-changing", "daily-changing")],
+          }
+          for path, pairs in replacements.items():
+              text = path.read_text(encoding="utf-8")
+              for old, new in pairs:
+                  text = text.replace(old, new)
+              path.write_text(text, encoding="utf-8")
+          PY
+
+      - name: Validate generated data
+        run: |
+          python -m py_compile scripts/collect_daily.py scripts/render_carousel.py
+          python -m json.tool data/sources.json >/dev/null
+          python -m json.tool data/daily_feed.json >/dev/null
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          ET.parse("assets/field-notes-carousel.svg")
+          PY
+
+      - name: Commit updated radar and carousel
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/field-notes-carousel.svg FIELD_NOTES.md
+          git add DAILY_DIGEST.md FIELD_NOTES.md data/daily_feed.json assets/field-notes-carousel.svg
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m "Refresh profile insight carousel"
+          git commit -m "Refresh daily robot psychology radar"
           git push
