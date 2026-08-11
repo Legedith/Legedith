@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T04:18:44.720099Z",
+  "generated_at": "2026-08-11T04:05:46.389937Z",
   "working_sources": [
     "Simon Willison — LLMs",
     "Simon Willison — AI agents",
@@ -15,46 +15,14 @@
     "Google Research",
     "Microsoft Research",
     "Berkeley AI Research",
-    "IEEE Spectrum Robotics",
-    "arXiv — AI, language and HCI",
-    "arXiv — Robotics"
+    "IEEE Spectrum Robotics"
   ],
-  "source_errors": {},
-  "item_count": 64,
+  "source_errors": {
+    "arXiv — AI, language and HCI": "The read operation timed out",
+    "arXiv — Robotics": "The read operation timed out"
+  },
+  "item_count": 54,
   "items": [
-    {
-      "id": "e451fdef59c3229e",
-      "title": "Representation Handoffs for OpenArm-Based Laboratory Mobile Manipulation",
-      "url": "https://arxiv.org/abs/2608.07154v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-08-07T12:19:50Z",
-      "summary": "Open-source robotics and foundation models have lowered the barrier to embodied AI, yet language-guided laboratory automation still requires reliable alignment from instructions and observations to safe actions. This field report presents an OpenArm-based mobile manipulation prototype for laboratory-style tasks, built by integrating dual OpenArm…",
-      "category": "robotics",
-      "score": 17.17
-    },
-    {
-      "id": "7a749693c30b8ecd",
-      "title": "Robot Learning from Human Demonstrations: Handwritten Alphabet Trajectories and Human-Likeness Evaluation",
-      "url": "https://arxiv.org/abs/2608.06221v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-08-06T16:12:18Z",
-      "summary": "Learning from demonstration (LfD) provides a developmental framework through which robots can develop motor skills by observing and imitating human dynamics, reducing reliance on explicit programming to teach a skill to a robot. The resulting human-like robot motion is recognised as a key factor in building trust and enabling natural collaboration in…",
-      "category": "evaluation",
-      "score": 15.4
-    },
-    {
-      "id": "cea41ef8f4f6c7b2",
-      "title": "Curriculum as Code: An AI-Assisted Architecture for Instructional Design in STEM Education",
-      "url": "https://arxiv.org/abs/2608.07364v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-08-07T16:09:10Z",
-      "summary": "Contribution: This paper presents a six-phase AI-assisted instructional design architecture based on the Curriculum as Code paradigm, integrating Generative AI with LaTeX and Python to automate the creation of reproducible, visually consistent, and technically precise materials for STEM education. Background: Creating customized instructional materials for…",
-      "category": "evaluation",
-      "score": 14.68
-    },
     {
       "id": "d56ace988ec4655c",
       "title": "Building a Foundation Stack for General-Purpose Robots",
@@ -67,6 +35,17 @@
       "score": 14.61
     },
     {
+      "id": "c60b75d4c49e5375",
+      "title": "Introducing Muse Glimmer",
+      "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer",
+      "source": "Simon Willison — LLMs",
+      "source_group": "independent",
+      "published": "2026-08-10T23:56:03Z",
+      "summary": "Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. Muse Glimmer achieves strong success…",
+      "category": "agents",
+      "score": 13.48
+    },
+    {
       "id": "756be989e03c60be",
       "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
       "url": "https://simonwillison.net/2026/Aug/8/auto-mode",
@@ -75,51 +54,7 @@
       "published": "2026-08-08T22:36:03Z",
       "summary": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the default setting for new sessions in most Claude Code plans starting on August 14th. This was one of the topics discussed in our Fireside Chat with Cat Wu and Thariq Shihipar at the AI…",
       "category": "safety",
-      "score": 13.66
-    },
-    {
-      "id": "278f43795042bc18",
-      "title": "A Haptic Robot Finger Designed for Guqin Instrument Playing",
-      "url": "https://arxiv.org/abs/2608.07002v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-08-07T09:18:58Z",
-      "summary": "With the rapid advancement of humanoid robotics and embodied intelligence technologies, numerous musical instrument-playing robots have emerged in recent years, such as pianos, chime bells, and taiko drums. These robots primarily employ open-loop positional control, rendering them incapable of operating instruments requiring dexterous hands and precise…",
-      "category": "robotics",
-      "score": 13.25
-    },
-    {
-      "id": "36ff38633c37d680",
-      "title": "How Should I Pick a Foundation Model for My Robot? In Favor of a Community Evaluation Framework for Social Robots",
-      "url": "https://arxiv.org/abs/2608.06898v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-08-07T07:33:25Z",
-      "summary": "Researchers who seek to build social robot applications on foundation models are faced with a difficult question: how should we pick a model? Public leaderboards offer little guidance: the demands of real-time, embodied social interaction lie largely outside their focus. And direct evaluation is impractical at scale: each embodied study requires scarce…",
-      "category": "evaluation",
-      "score": 13.17
-    },
-    {
-      "id": "b512885ff4696e25",
-      "title": "Unordered Landmark Visual Navigation",
-      "url": "https://arxiv.org/abs/2608.06833v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-08-07T05:45:06Z",
-      "summary": "Image-goal navigation is a fundamental capability for embodied AI, yet its practical deployment is strained by strong prior assumptions. Existing methods predominantly rely on temporally ordered video streams or auxiliary sensors (e.g., depth, LiDAR) to maintain spatial consistency. These sequential and multimodal dependencies severely restrict…",
-      "category": "robotics",
-      "score": 13.04
-    },
-    {
-      "id": "842989b9ed1ce602",
-      "title": "AtlasVLA: Persistent World-Ego State Modeling for Vision-Language-Action Models",
-      "url": "https://arxiv.org/abs/2608.06729v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-08-07T02:49:39Z",
-      "summary": "While Vision-Language-Action (VLA) models have advanced embodied AI, their fundamentally reactive paradigm severely limits performance in partially observable and long-horizon tasks. When restricted to a single wrist-mounted camera, they inevitably suffer from perception forgetting as objects exit the field of view, and temporal task-progress forgetting}…",
-      "category": "evaluation",
-      "score": 13.01
+      "score": 13.41
     },
     {
       "id": "a04397131d4e4189",
@@ -130,18 +65,7 @@
       "published": "2026-08-05T23:32:06Z",
       "summary": "Incident Report: unsanctioned agent behaviour during cyber testing It happened again . This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF): During a cyber evaluation, from 25 to 28 July 2026, AI…",
       "category": "safety",
-      "score": 12.92
-    },
-    {
-      "id": "9ec9857b8249e5ac",
-      "title": "Artificial Intelligence Can Match Domain Experts in Evidence Extraction and Critical Appraisal of Microbial Oncogenesis Research Publications",
-      "url": "https://arxiv.org/abs/2608.07250v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-08-07T14:07:57Z",
-      "summary": "Confirmed oncogenic microbes contribute significantly to cancer burden. Identifying novel microbial oncogenicity could yield strategies that will reduce disease burdens. However, relevant evidence is dispersed and infeasible for humans to comprehensively synthesize. LLMs may enable scalable, expert-level systematic evidence synthesis to identify…",
-      "category": "evaluation",
-      "score": 12.05
+      "score": 12.67
     },
     {
       "id": "80c9297e2fceb287",
@@ -152,18 +76,7 @@
       "published": "2026-08-03T16:05:39Z",
       "summary": "For a while there, it seemed as though robotics as a whole was stuck in a mad rush towards building humanoid robots mostly because it was very possible (and very lucrative) to do so, even without near-term goals that were necessarily realistic. Some of the magic of those first couple of years of the humanoid explosion has stuck around, but there’s also…",
       "category": "robotics",
-      "score": 12.04
-    },
-    {
-      "id": "2743703291c02f57",
-      "title": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
-      "url": "https://arxiv.org/abs/2608.07283v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-08-07T14:44:19Z",
-      "summary": "Grammar engineering requires expertise in linguistic formalism and computational implementation, especially in parallel grammar projects that balance cross-linguistic consistency with language-specific properties. This paper presents the development of Cantonese and Irish treebanks within the Parallel Grammar (ParGram) Project, where linguistic parallelism…",
-      "category": "multilingual",
-      "score": 11.84
+      "score": 11.79
     },
     {
       "id": "c91e9c9718a58754",
@@ -174,29 +87,7 @@
       "published": "2026-07-31T23:13:22Z",
       "summary": "Tuesday was Stateless MCP day - the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the protocol. For background: MCP is the Model Context Protocol,…",
       "category": "safety",
-      "score": 11.72
-    },
-    {
-      "id": "b76f375f87cfc018",
-      "title": "Zero Gap Is Not Restoration: Stratified Per-Question Probability Evaluation and Step-wise Mitigation of Benchmark Contamination",
-      "url": "https://arxiv.org/abs/2608.07341v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-08-07T15:37:03Z",
-      "summary": "Test data from public benchmarks inevitably leaks into pretraining corpora, inflating evaluation scores once memorized. \\textbf{Contamination mitigation evaluation} intervenes in the decoding process to suppress memorization and restore a contaminated model's genuine capability, but its prevailing metric, the \\textbf{G-AP} (\\textbf{G}ap of…",
-      "category": "evaluation",
-      "score": 11.62
-    },
-    {
-      "id": "c384fbad87a6b978",
-      "title": "TOFD: Target-Oriented Feature Decoupling against Poisoning Attacks in Split Federated Learning",
-      "url": "https://arxiv.org/abs/2608.07274v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-08-07T14:34:24Z",
-      "summary": "Split Federated Learning (SFL) facilitates privacy-preserving collaborative training with reduced client-side overhead. However, its split architecture introduces unique attack surfaces, rendering it vulnerable to diverse poisoning attacks. Most existing defenses fail to exploit the split paradigm, limiting their ability to detect and contain malicious…",
-      "category": "systems",
-      "score": 11.56
+      "score": 11.47
     },
     {
       "id": "cf44ed14513e76c0",
@@ -218,18 +109,7 @@
       "published": "2026-08-07T16:00:01Z",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Actuate 2026 : 18–19 August 2026, SAN FRANCISCO IROS 2026 : 27 September–1 October 2026, PITTSBURGH Humanoids…",
       "category": "robotics",
-      "score": 11.32
-    },
-    {
-      "id": "35f179144314b314",
-      "title": "Uncovering expert objectives in production planning via inverse optimization: An industrial case study",
-      "url": "https://arxiv.org/abs/2608.07398v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-08-07T16:41:30Z",
-      "summary": "Production planning in the manufacturing industry often relies on the use of optimization models, but defining an appropriate objective function can be a challenge. In practice, planners must balance competing goals, manage uncertainty, and account for qualitative business preferences that are difficult to quantify. As a result, many optimization models…",
-      "category": "machine behaviour",
-      "score": 11.3
+      "score": 11.07
     },
     {
       "id": "34be1f2c4efd4bb1",
@@ -240,18 +120,7 @@
       "published": "2026-08-01T06:00:27Z",
       "summary": "As agents get smarter, and when we ask questions outside our expertise, it’s pretty hard to understand what they’re saying. Andrew Carr uses “only report to me in ASD-STE100 Simplified Technical English” to simplify their writing. Ben Sehl suggested making this a permanent instruction. But, does simplifying the writing worsen their thinking? I tested six…",
       "category": "evaluation",
-      "score": 11.1
-    },
-    {
-      "id": "9efba4b30fb2d1f5",
-      "title": "Video Friday: Meet Google DeepMind’s Gemini Robotics 2",
-      "url": "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
-      "source": "IEEE Spectrum Robotics",
-      "source_group": "robotics journalism",
-      "published": "2026-07-31T16:00:03Z",
-      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Actuate 2026 : 18–19 August 2026, SAN FRANCISCO IROS 2026 : 27 September–1 October 2026, PITTSBURGH Humanoids…",
-      "category": "robotics",
-      "score": 10.9
+      "score": 10.85
     },
     {
       "id": "f8df3e0d3cc81402",
@@ -265,17 +134,6 @@
       "score": 10.77
     },
     {
-      "id": "10fb26e048840c61",
-      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-      "url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h",
-      "source": "Simon Willison — LLMs",
-      "source_group": "independent",
-      "published": "2026-08-08T14:06:41Z",
-      "summary": "My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face — Hacker News. I think one of the most interesting details here might be tucked away in that first bulletin point: May 7: OpenAI starts a new training run for an experimental, unreleased model. (Do they mean an evaluation run? They say training run in the video, and…",
-      "category": "safety",
-      "score": 10.74
-    },
-    {
       "id": "a6449c8d98ee97dc",
       "title": "Video Friday: An Italian Humanoid Comes to Life",
       "url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
@@ -287,6 +145,28 @@
       "score": 10.67
     },
     {
+      "id": "9efba4b30fb2d1f5",
+      "title": "Video Friday: Meet Google DeepMind’s Gemini Robotics 2",
+      "url": "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
+      "source": "IEEE Spectrum Robotics",
+      "source_group": "robotics journalism",
+      "published": "2026-07-31T16:00:03Z",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Actuate 2026 : 18–19 August 2026, SAN FRANCISCO IROS 2026 : 27 September–1 October 2026, PITTSBURGH Humanoids…",
+      "category": "robotics",
+      "score": 10.65
+    },
+    {
+      "id": "10fb26e048840c61",
+      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+      "url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h",
+      "source": "Simon Willison — LLMs",
+      "source_group": "independent",
+      "published": "2026-08-08T14:06:41Z",
+      "summary": "My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face — Hacker News. I think one of the most interesting details here might be tucked away in that first bulletin point: May 7: OpenAI starts a new training run for an experimental, unreleased model. (Do they mean an evaluation run? They say training run in the video, and…",
+      "category": "safety",
+      "score": 10.49
+    },
+    {
       "id": "7c510b727b283191",
       "title": "Things I Learned - 09 Aug 2026",
       "url": "https://www.s-anand.net/blog/things-i-learned-09-aug-2026",
@@ -295,7 +175,7 @@
       "published": "2026-08-09T00:00:00Z",
       "summary": "This week, I learned: Kamakoti: “Entry (to the course) is relatively easy but the exit is extremely hard”. Generalizing, quality is determined by the exit criteria; loosening entry criteria is just openness / diversity. The Hindu “Once I have a persistent system that I pay to keep thinking, learning, and acting 24/7, I think that will decisively look like…",
       "category": "machine behaviour",
-      "score": 10.59
+      "score": 10.35
     },
     {
       "id": "2c2b6790f37b6b08",
@@ -306,18 +186,40 @@
       "published": "2026-08-07T23:55:58Z",
       "summary": "OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about \"the Hugging Face Incident\" ( previously on this blog). The video was published yesterday. It's short and information dense and well worth watching, in particular because it provides full details of what happened and how things played out inside OpenAI. I've used the video…",
       "category": "evaluation",
-      "score": 10.31
+      "score": 10.06
     },
     {
-      "id": "a73147b00fa87689",
-      "title": "Introducing Muse Code and Muse Spark 1.2",
-      "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12",
-      "source": "Simon Willison — LLMs",
+      "id": "05f294046b81fcd8",
+      "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
+      "url": "https://jack-clark.net/2026/08/10/import-ai-468-23-rsi-ideas-posttrainbench-and-how-trust-and-transparency-interplay-with-ai-racing",
+      "source": "Import AI",
       "source_group": "independent",
-      "published": "2026-08-05T23:58:35Z",
-      "summary": "Introducing Muse Code and Muse Spark 1.2 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work! Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase…",
-      "category": "agents",
-      "score": 9.87
+      "published": "2026-08-10T12:32:20Z",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Want to be able to deal with RSI? Here are 23 actionable policy ideas:…IFP serves up some “low-regret” policy recommendations…Policy experts with think tank IFP have […]",
+      "category": "machine behaviour",
+      "score": 9.92
+    },
+    {
+      "id": "29b0e61ec6cd1ed3",
+      "title": "Putting frontier cyber models in more trusted hands",
+      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "source": "OpenAI",
+      "source_group": "frontier lab",
+      "published": "2026-08-10T10:00:00Z",
+      "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+      "category": "safety",
+      "score": 9.86
+    },
+    {
+      "id": "775f2a780d362850",
+      "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
+      "url": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
+      "source": "Interconnects",
+      "source_group": "independent",
+      "published": "2026-08-10T13:02:42Z",
+      "summary": "After a few long years of finding time to document my lessons from training open models, my post-training book is done!",
+      "category": "systems",
+      "score": 9.21
     },
     {
       "id": "7203a8dca3e00d89",
@@ -328,7 +230,18 @@
       "published": "2026-08-01T02:24:31Z",
       "summary": "Agents are increasingly the consumers of things that used to be made for humans: Docs are increasingly for agents to read . E.g. llms.txt Code is increasingly for agents to edit . E.g. AGENTS.md Tests are increasingly for agents to satisfy . E.g. SWE-bench , GitHub repository Software is increasingly for agents to operate . E.g. --json , --schema ,…",
       "category": "agents",
-      "score": 9.17
+      "score": 8.93
+    },
+    {
+      "id": "dfb586131bf3d3cb",
+      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "url": "https://huggingface.co/blog/muse-glimmer",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-08-10T00:00:00Z",
+      "summary": "",
+      "category": "agents",
+      "score": 8.67
     },
     {
       "id": "b6afdd4892802e0f",
@@ -339,7 +252,7 @@
       "published": "2026-08-09T14:57:11Z",
       "summary": "Musings on model alignment, what determines safety, and where we go from here.",
       "category": "safety",
-      "score": 8.89
+      "score": 8.65
     },
     {
       "id": "dfc4aca081a33856",
@@ -350,7 +263,7 @@
       "published": "2026-08-04T18:20:14Z",
       "summary": "An external reconstruction of how Memory, Proactivity, Scheduling, Browser Use, Plugins, Skills and Tools work in the new ChatGPT Work.",
       "category": "agents",
-      "score": 8.87
+      "score": 8.62
     },
     {
       "id": "2447d81740b9e3ed",
@@ -361,7 +274,7 @@
       "published": "2026-08-08T01:32:28Z",
       "summary": "I’m a fan of the Code Mode approach - i.e. letting agents run code rather than narrow functions. Many people agree: CircleCI , Perplexity , etc. In fact, mcp2cli gives MCPs a CLI interface. I feel the main reason is UNIX composability. I can run CLI commands in a loop, pipe them, etc. I tested it out on ChatGPT. ChatGPT has an @Gmail Plugin . I build a…",
       "category": "agents",
-      "score": 8.42
+      "score": 8.17
     },
     {
       "id": "4138ef3a7dce47a3",
@@ -372,7 +285,7 @@
       "published": "2026-07-27T12:01:34Z",
       "summary": "Bring AI to where people already work: email Lots of companies are putting AI into their chat applications. Add Claude to a Slack channel , tell “@Claude” to do something, and it reads the conversation, uses tools, does what you tell it to, and replies in the same chat. Nice, for companies that use Slack a lot . (Many do. We don’t.) Straive and many of our…",
       "category": "evaluation",
-      "score": 8.36
+      "score": 8.11
     },
     {
       "id": "e66cc71d0943fe40",
@@ -383,18 +296,7 @@
       "published": "2026-08-07T15:20:00Z",
       "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
       "category": "safety",
-      "score": 8.3
-    },
-    {
-      "id": "744cfb89b4ddcfc4",
-      "title": "From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
-      "url": "http://bair.berkeley.edu/blog/2026/07/29/cuda-to-mlx-k-search",
-      "source": "Berkeley AI Research",
-      "source_group": "academic lab",
-      "published": "2026-07-29T09:00:00Z",
-      "summary": "Figure 1: CUDA-to-MLX optimization translation map. CUDA optimization knowledge can be translated into architecture-native MLX strategies rather than copied instruction-for-instruction. We face a new epoch in computing. Hardware is changing rapidly — not just faster GPUs, but a growing range of chips from different vendors, each with its own architecture…",
-      "category": "evaluation",
-      "score": 7.98
+      "score": 8.05
     },
     {
       "id": "fc3efd582237d9cf",
@@ -408,15 +310,59 @@
       "score": 7.89
     },
     {
-      "id": "c99ec862b4e71599",
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "id": "5890b1cfd4cc38aa",
+      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-08-10T16:25:36Z",
+      "summary": "",
+      "category": "multilingual",
+      "score": 7.85
+    },
+    {
+      "id": "815edfe6383208a7",
+      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-08-10T10:05:36Z",
+      "summary": "",
+      "category": "systems",
+      "score": 7.78
+    },
+    {
+      "id": "744cfb89b4ddcfc4",
+      "title": "From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
+      "url": "http://bair.berkeley.edu/blog/2026/07/29/cuda-to-mlx-k-search",
+      "source": "Berkeley AI Research",
+      "source_group": "academic lab",
+      "published": "2026-07-29T09:00:00Z",
+      "summary": "Figure 1: CUDA-to-MLX optimization translation map. CUDA optimization knowledge can be translated into architecture-native MLX strategies rather than copied instruction-for-instruction. We face a new epoch in computing. Hardware is changing rapidly — not just faster GPUs, but a growing range of chips from different vendors, each with its own architecture…",
+      "category": "evaluation",
+      "score": 7.73
+    },
+    {
+      "id": "5367cc95a8fd9817",
+      "title": "What building an AI-native finance function taught me",
+      "url": "https://openai.com/index/building-an-ai-native-finance-function",
       "source": "OpenAI",
       "source_group": "frontier lab",
-      "published": "2026-08-04T19:00:00Z",
-      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "category": "evaluation",
-      "score": 7.53
+      "published": "2026-08-10T17:00:00Z",
+      "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+      "category": "safety",
+      "score": 7.37
+    },
+    {
+      "id": "081601c279be28d3",
+      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "source": "OpenAI",
+      "source_group": "frontier lab",
+      "published": "2026-08-10T10:00:00Z",
+      "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+      "category": "safety",
+      "score": 7.36
     },
     {
       "id": "839f7a51d7b587ae",
@@ -438,7 +384,7 @@
       "published": "2026-08-03T16:00:00Z",
       "summary": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure. The post Orchard: An open framework for scalable agentic AI appeared first on Microsoft Research .",
       "category": "agents",
-      "score": 7.24
+      "score": 6.99
     },
     {
       "id": "226026224cdbefca",
@@ -449,18 +395,7 @@
       "published": "2026-07-26T09:00:00Z",
       "summary": ".abbel-fig { display: block; text-align: center; margin: 2.4em 0; line-height: 1.4; max-width: 100%; } .abbel-fig img { display: block; margin: 0.65em auto 0; height: auto; max-width: 100%; } /* Image sizes; captions use a narrower measure below */ .abbel-fig--wide img { width: 100%; max-width: 100%; } .abbel-fig--wide-90 img { width: 100%; max-width: 90%;…",
       "category": "evaluation",
-      "score": 7.18
-    },
-    {
-      "id": "eb71f165025c2507",
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "source": "OpenAI",
-      "source_group": "frontier lab",
-      "published": "2026-07-29T00:00:00Z",
-      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "category": "agents",
-      "score": 7.17
+      "score": 6.93
     },
     {
       "id": "25f0af2b3dedb35b",
@@ -471,7 +406,7 @@
       "published": "2026-08-07T05:13:46Z",
       "summary": "The Inference Inflection is HEATING up.",
       "category": "systems",
-      "score": 6.76
+      "score": 6.51
     },
     {
       "id": "23ccd9ff0c11ef81",
@@ -482,7 +417,7 @@
       "published": "2026-08-06T00:00:00Z",
       "summary": "",
       "category": "systems",
-      "score": 6.76
+      "score": 6.51
     },
     {
       "id": "101adad35d4b0a05",
@@ -493,17 +428,6 @@
       "published": "2026-08-08T01:12:07Z",
       "summary": "a quiet day lets us find some connections among recent themes",
       "category": "agents",
-      "score": 6.75
-    },
-    {
-      "id": "3763c3e63f841c3b",
-      "title": "From asking to doing: How the world is putting ChatGPT to work",
-      "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "source": "OpenAI",
-      "source_group": "frontier lab",
-      "published": "2026-08-06T00:00:00Z",
-      "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
-      "category": "machine behaviour",
       "score": 6.5
     },
     {
@@ -515,7 +439,7 @@
       "published": "2026-07-30T15:00:59Z",
       "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
       "category": "robotics",
-      "score": 6.48
+      "score": 6.24
     },
     {
       "id": "1f2d9040d07a3560",
@@ -526,7 +450,7 @@
       "published": "2026-07-30T17:00:00Z",
       "summary": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and environments evolve. The post Echoverse: Deep, evolving environments for computer-use agents appeared first on Microsoft…",
       "category": "agents",
-      "score": 6.3
+      "score": 6.06
     },
     {
       "id": "aa21db80f8b7b766",
@@ -537,7 +461,7 @@
       "published": "2026-08-04T13:58:29Z",
       "summary": "",
       "category": "agents",
-      "score": 6.18
+      "score": 5.93
     },
     {
       "id": "c09b9b5f698dc233",
@@ -548,7 +472,7 @@
       "published": "2026-08-04T03:49:14Z",
       "summary": "Qwen is so back!",
       "category": "systems",
-      "score": 6.16
+      "score": 5.91
     },
     {
       "id": "02ee117c8673acd4",
@@ -559,7 +483,7 @@
       "published": "2026-08-03T14:03:08Z",
       "summary": "Scaling our curation and measurement of the open ecosystem.",
       "category": "evaluation",
-      "score": 6.16
+      "score": 5.91
     },
     {
       "id": "bba16244a7af23a2",
@@ -570,7 +494,7 @@
       "published": "2026-07-28T13:21:37Z",
       "summary": "",
       "category": "robotics",
-      "score": 5.97
+      "score": 5.72
     },
     {
       "id": "20eb9da94f2bded7",
@@ -581,7 +505,7 @@
       "published": "2026-08-03T21:44:03Z",
       "summary": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
       "category": "systems",
-      "score": 5.93
+      "score": 5.68
     },
     {
       "id": "624979042481ff50",
@@ -592,7 +516,7 @@
       "published": "2026-08-07T17:53:32Z",
       "summary": "",
       "category": "general AI",
-      "score": 5.69
+      "score": 5.44
     },
     {
       "id": "0903888b282f9fdd",
@@ -603,18 +527,7 @@
       "published": "2026-07-27T13:30:53Z",
       "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Epoch and METR release MirrorCode, a benchmark for seeing how well AI systems can do long-horizon programming tasks:…AI systems can’t solve the hardest tasks yet (good!)…Epoch…",
       "category": "robotics",
-      "score": 5.62
-    },
-    {
-      "id": "96537f9acc12bc3d",
-      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-07-27T09:32:20Z",
-      "summary": "",
-      "category": "robotics",
-      "score": 5.58
+      "score": 5.37
     },
     {
       "id": "ebc5821a44c45c7a",
@@ -625,7 +538,7 @@
       "published": "2026-08-06T15:06:15Z",
       "summary": "",
       "category": "general AI",
-      "score": 5.51
+      "score": 5.26
     },
     {
       "id": "60a8b00e51bcf718",
@@ -636,18 +549,7 @@
       "published": "2026-07-28T15:26:30Z",
       "summary": "OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice.",
       "category": "agents",
-      "score": 5.48
-    },
-    {
-      "id": "8549f9ed22c455ab",
-      "title": "Grabette: an open system to record robot-manipulation data",
-      "url": "https://huggingface.co/blog/grabette",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-07-21T00:00:00Z",
-      "summary": "",
-      "category": "robotics",
-      "score": 5.24
+      "score": 5.23
     },
     {
       "id": "13a6d9819972b9b7",
@@ -669,7 +571,7 @@
       "published": "2026-07-29T16:02:10Z",
       "summary": "",
       "category": "safety",
-      "score": 4.91
+      "score": 4.66
     },
     {
       "id": "38fff24ed44643af",
@@ -680,7 +582,7 @@
       "published": "2026-08-03T13:31:22Z",
       "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here:…Open weight LLMs + a well-designed harness = a persistent, self-sufficient virus…AI researchers have built a prototype…",
       "category": "general AI",
-      "score": 4.65
+      "score": 4.4
     },
     {
       "id": "f116d7112e2b1d9e",
@@ -691,18 +593,7 @@
       "published": "2026-08-02T13:01:40Z",
       "summary": "Capacity to train strong models is proliferating.",
       "category": "general AI",
-      "score": 4.29
-    },
-    {
-      "id": "8088c1dfd69d5216",
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-07-27T00:00:00Z",
-      "summary": "",
-      "category": "agents",
-      "score": 4.03
+      "score": 4.04
     },
     {
       "id": "9347a64bc25f44cc",
