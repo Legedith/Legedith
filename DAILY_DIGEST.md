@@ -1,90 +1,46 @@
 # Robot Psychology Radar
 
-Updated 25 August 2026, 03:33 UTC from 17 working sources.
+Updated 26 August 2026, 03:39 UTC from 16 working sources.
 
-24 high-relevance items across 6 sources. Auto-collected metadata; inclusion is not endorsement.
-
-## Systems
-
-### [Cross-Domain, Multi-Task Data-to-Text Generation without In-Domain Training Data](https://arxiv.org/abs/2608.23391v1)
-
-**arXiv — AI, language and HCI** · 24 Aug · relevance 15.6
-
-Structured data exists in many forms (tables, knowledge graphs, charts, and time series), and converting it into text may involve different generation tasks. However, most prior work on data-to-text (D2T) generation has focused on specific tasks and datasets, relying either on task-specific training data or on the zero-shot capabilities of large language…
-
-### [The Imitator Game: Benchmarking Robot Imitative Ability Beyond Action Prediction](https://arxiv.org/abs/2608.22301v1)
-
-**arXiv — Robotics** · 23 Aug · relevance 13.5
-
-Humans imitate at the level of intent: given a demonstration, we infer its goal and carry it out with whatever tools, objects, and layouts are at hand. Current robot policies instead learn observation-to-action mappings from visual inputs and language instructions, without explicitly inferring the demonstrated task. Learning from human video thus remains…
-
-### [UniMem: Unifying Multimodal Memory and Control for Vision-Language-Action Models](https://arxiv.org/abs/2608.22869v1)
-
-**arXiv — Robotics** · 24 Aug · relevance 12.4
-
-While Vision-Language-Action (VLA) models have leveraged internet-scale pretraining and task-focused finetuning to achieve strong performance on long-horizon tasks, they often struggle with non-Markovian tasks that require memory. Existing approaches to memory typically involve additional Vision-Language-Models (VLMs) for long-term memory management,…
-
-### [EG-ARSA: An Expert-Grounded Open Model for Visual Road Safety Auditing in Low-Resource Settings](https://arxiv.org/abs/2608.23563v1)
-
-**arXiv — AI, language and HCI** · 24 Aug · relevance 12.4
-
-Road traffic injuries remain a major challenge in low- and middle-income countries, where proactive road safety auditing is limited by incomplete crash records, shortages of qualified auditors, and the high cost of large-scale field inspections. To address this problem, we propose Expert-Grounded Distillation (EGD), a novel artificial intelligence…
-
-### [On the Threat Model of Weird Generalization and Emergent Misalignment](https://arxiv.org/abs/2608.23476v1)
-
-**arXiv — AI, language and HCI** · 24 Aug · relevance 12.2
-
-Narrow fine-tuning on small, domain-specific datasets can produce broad and surprising changes in model behavior-a phenomenon called weird generalization (WG). Yet, it remains unclear what features of the fine-tuning data are necessary for WG to arise. Here, we address this question by investigating a range of plausibly relevant features, including dataset…
-
-### [Physics Filtering Favors the Generalization of Robot Learning](https://arxiv.org/abs/2608.22701v1)
-
-**arXiv — Robotics** · 24 Aug · relevance 12.1
-
-Living organisms exhibit extraordinary adaptability to unseen environments through their intrinsic physical structures and lifelong feedback-driven learning. Endowing robots with comparable generalization is critical for reliable operation in the real world. While recent approaches attempt to improve generalization by scaling training data, such strategies…
-
-### [Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things](https://simonwillison.net/2026/Aug/16/qwen-38-27b)
-
-**Simon Willison — LLMs** · 16 Aug · relevance 10.7
-
-Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen's self-reported benchmarks for this model are eye-opening.…
-
-### [[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law](https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie)
-
-**Latent Space** · 20 Aug · relevance 9.3
-
-Every lab CEO is on X now
+24 high-relevance items across 5 sources. Auto-collected metadata; inclusion is not endorsement.
 
 ## Evaluation
 
-### [Think Only When Needed: Prompt-Authority Control for Selective Slow-Path Intervention in Vision-Language-Action Manipulation](https://arxiv.org/abs/2608.23224v1)
+### [DreamLedger: Execution-Settled Credit Files for World-Model Imagination in Robot Decision Loops](https://arxiv.org/abs/2608.23863v1)
 
-**arXiv — Robotics** · 24 Aug · relevance 15.0
+**arXiv — Robotics** · 24 Aug · relevance 19.0
 
-Retrieval can efficiently and effectively augment a frozen vision--language--action (VLA) policy without retraining, yet retrieved text becomes a control intervention once it enters the executed prompt. In a matched audit, raw appended text reduces mean success from 92.47\% to 3.00\%, while meaningful and length-matched meaningless appends both fail on all…
+Robots are beginning to act on world-model predictions, yet reliability is still expressed through instantaneous, model-internal signals. DreamLedger instead treats reliability as a persistent deployment object: an execution-settled credit file recording how often consumed predictions are borne out, indexed by operating condition, region, and prediction…
 
-### [STONIC: A Layered Measurement Contract for LLM Value Profiling](https://arxiv.org/abs/2608.23411v1)
+### [Confident at the moment of action: belief miscalibration in LLM play under hidden information](https://arxiv.org/abs/2608.24691v1)
 
-**arXiv — AI, language and HCI** · 24 Aug · relevance 13.6
+**arXiv — AI, language and HCI** · 25 Aug · relevance 16.7
 
-LLM value studies often merge questionnaire ratings, pairwise choices, and values inferred from generated text into one profile. That merge assumes that the three observations describe the same stable preference. STONIC tests this assumption on 5,144 situations from four banks and 35 fixed model configurations. It compares responses rated in isolation,…
+Agentic systems increasingly gate actions on a model's own stated confidence, which assumes confidence tracks correctness at the moment of acting. We test this in a hidden-information chess variant where royal status can be secretly, repeatedly relocated between pieces, and where an agent's stated probability distribution over the opponent's hidden royal…
 
-### [A Unified Neural-Aided Alignment and Calibration Method for AUVs](https://arxiv.org/abs/2608.22496v1)
+### [Beyond Semantic Accuracy: Consequence-Aware Evaluation for Safety-Critical Language Understanding](https://arxiv.org/abs/2608.24621v1)
 
-**arXiv — Robotics** · 23 Aug · relevance 12.4
+**arXiv — AI, language and HCI** · 25 Aug · relevance 14.9
 
-Autonomous underwater vehicles (AUVs) rely on the fusion of inertial navigation systems (INS) and Doppler velocity logs (DVL) for accurate navigation. Before deployment, this fusion requires a DVL initialization pipeline consisting of two stages: alignment, which estimates the rotation between the INS and DVL frames, and calibration, which estimates the…
+Can language models be trusted in safety- critical operations? In such settings, strong per- formance on semantic metrics does not guaran- tee operational reliability: a misread altitude, a dropped execution condition, or a confused call- sign may score well under standard F1 yet carry sharply asymmetric operational consequences. We study this problem in…
 
-### [MediSkill-Evo: Process-Constrained Self-Evolution for Evidence-Grounded Clinical Interaction](https://arxiv.org/abs/2608.23397v1)
+### [Variance-Guided Spatial Attention Fusion for Robust End-to-End Driving under Asymmetric Sensor Degradation](https://arxiv.org/abs/2608.24366v1)
 
-**arXiv — AI, language and HCI** · 24 Aug · relevance 12.2
+**arXiv — Robotics** · 25 Aug · relevance 14.0
 
-Interactive clinical agents must gather decisive evidence and convert it into grounded actions under partial observability. A correct final diagnosis alone does not show that an agent respected evidence and care-process constraints. We introduce MediSkill-Evo, a clinical agent that evolves governed process knowledge without backbone fine-tuning. It…
+End-to-end multimodal driving has progressed rapidly by fusing camera and LiDAR streams. Existing pipelines remain fragile under asymmetric sensor degradation, where either an entire modality or only a localized region is corrupted while other regions remain useful. The key difficulty is not simply to add an uncertainty head, but to obtain dense…
 
-### [SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?](https://arxiv.org/abs/2608.23564v1)
+### [Resilience Matters for Embodied Agents System: New Metrics, Systematic Evaluation, and Optimization](https://arxiv.org/abs/2608.23839v1)
 
-**arXiv — AI, language and HCI** · 24 Aug · relevance 12.2
+**arXiv — Robotics** · 24 Aug · relevance 13.6
 
-Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they autonomously perform such migrations? Existing benchmarks cannot answer this question because they evaluate only behavioural correctness, not whether the…
+Embodied Agents System (EAS) are increasingly deployed in open-world physical domains, where reliability directly dictates deployment quality and human-agent trust. However, existing evaluations rely on outcome-centric metrics as success rate or safety scores that collapse diverse execution trajectories into coarse scores, obscuring the dynamic processes…
+
+### [Learning to Prefer Reliably: Error-Augmented Emotion Preference Optimization with Calibrated Fusion](https://arxiv.org/abs/2608.24730v1)
+
+**arXiv — AI, language and HCI** · 25 Aug · relevance 12.2
+
+Emotion preference learning uses pairwise comparisons between candidate descriptions to align multimodal large language models (MLLMs) with human judgments of open-ended emotion descriptions and to train reward models that capture human emotional preferences. However, conventional pairwise supervision is often sparse, typically providing only a single…
 
 ### [Simple writing hurts thinking](https://www.s-anand.net/blog/simple-writing-hurts-thinking)
 
@@ -92,37 +48,55 @@ Modern software systems accumulate technical debt over decades of development, w
 
 As agents get smarter, and when we ask questions outside our expertise, it’s pretty hard to understand what they’re saying. Andrew Carr uses “only report to me in ASD-STE100 Simplified Technical English” to simplify their writing. Ben Sehl suggested making this a permanent instruction. But, does simplifying the writing worsen their thinking? I tested six…
 
-## Agents
+## Systems
 
-### [My predictions in 2025](https://www.s-anand.net/blog/my-predictions-in-2025)
+### [Hierarchical Skill Retrieval for Data-Efficient Adaptation of Vision-Language-Action Models](https://arxiv.org/abs/2608.24042v1)
 
-**S Anand** · 17 Aug · relevance 15.3
+**arXiv — Robotics** · 25 Aug · relevance 13.8
 
-In 2025, I made a number of predictions on this blog. (Not intentionally. I just said stuff.) I asked ChatGPT to audit them. It selected 440 claims, filtered out vague or pending ones, and verified the rest. Here’s what I got right and wrong. 🟢 “My chat will overtake search in 12-18 months. When ChatGPT becomes my primary lens on knowledge…” (…
+While Vision-Language-Action (VLA) models pretrained on large-scale robot datasets provide a strong foundation for robot manipulation, their performance can degrade when adapted to new tasks with limited task-specific demonstrations. Retrieval offers a practical way to reuse existing demonstrations for data-efficient adaptation, but existing methods often…
 
-### [Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs](https://arxiv.org/abs/2608.22657v1)
+### [BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes](https://arxiv.org/abs/2608.24848v1)
 
-**arXiv — Robotics** · 23 Aug · relevance 12.3
+**arXiv — AI, language and HCI** · 25 Aug · relevance 13.6
 
-Agentic AI frameworks interpret open-ended task goals and decompose them into multi-step plans. Richer information about embodiment-specific capabilities, physical preconditions, and cross-robot coordination improves grounding, but does not eliminate infeasible, mistimed, or unsafe physical actions. Physical robot crews therefore require an explicit…
+Web agents that act from rendered pixels avoid the fragility and heavy token cost of reading a page's HTML or accessibility tree, but training them depends on large amounts of high-quality interaction trajectories, and how to produce such data at scale remains an open problem. Public datasets typically contain only a few thousand trajectories drawn from a…
 
-### [smolmachines / smolvm as a sandbox for untrusted Python & JavaScript](https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox)
+### [Quantization Effects on Bangla Language Understanding in Large Language Models: A Systematic Evaluation](https://arxiv.org/abs/2608.24615v1)
 
-**Simon Willison — LLMs** · 19 Aug · relevance 10.7
+**arXiv — AI, language and HCI** · 25 Aug · relevance 12.9
 
-Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what…
+Post-training quantization lowers the memory footprint of Large Language Models (LLMs) and speeds up inference, which is why it is now common for on-device deployment. Most of what we know about its effects, however, comes from English benchmarks. It is not clear whether the same holds for morphologically complex, low-resource languages such as Bangla, and…
 
-### [Introducing Muse Glimmer](https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer)
+### [RoG-DAgger: Rollout-Guided Post-Training for End-to-End Driving](https://arxiv.org/abs/2608.24525v1)
 
-**Simon Willison — LLMs** · 10 Aug · relevance 10.0
+**arXiv — Robotics** · 25 Aug · relevance 12.9
 
-Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. Muse Glimmer achieves strong success…
+Recent end-to-end driving systems demonstrate strong performance on closed-loop benchmarks, yet are still predominantly trained on fixed expert-collected data using open-loop imitation learning. This training-inference mismatch leaves the policy vulnerable in policy-induced states, where accumulated errors can lead to safety-critical failures. A promising…
+
+### [PhysMLLMs: Spatial Priors for Unified Referring Segmentation and Grounded Reasoning of Images and Videos](https://arxiv.org/abs/2608.24574v1)
+
+**arXiv — AI, language and HCI** · 25 Aug · relevance 12.3
+
+Video multimodal large language models support language guided video segmentation, but they often show spatio temporal inconsistencies, e.g., jitter, drift, and identity switches. These failures are more common when targets are partly hidden or when similar objects appear nearby.One likely reason is that current training lacks explicit spatial priors,…
+
+### [Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things](https://simonwillison.net/2026/Aug/16/qwen-38-27b)
+
+**Simon Willison — LLMs** · 16 Aug · relevance 10.4
+
+Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen's self-reported benchmarks for this model are eye-opening.…
 
 ## Robotics
 
+### [Fiber Optic Sensing Glove for High Performance Dexterous Manipulation Capture](https://arxiv.org/abs/2608.24572v1)
+
+**arXiv — Robotics** · 25 Aug · relevance 15.1
+
+Capturing hand pose during dexterous manipulation remains difficult: vision-based methods degrade under occlusion and challenging lighting, while sensorized gloves, though occlusion-free, are prone to drift and magnetic interference and rarely match motion-capture accuracy. We introduce a fiber optic sensing glove for full hand pose tracking that targets…
+
 ### [Video Friday: Do We Need Superhuman Humanoid Robots?](https://spectrum.ieee.org/video-friday-unitree-superhuman)
 
-**IEEE Spectrum Robotics** · 21 Aug · relevance 13.6
+**IEEE Spectrum Robotics** · 21 Aug · relevance 13.3
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
 
@@ -132,13 +106,39 @@ Video Friday is your weekly selection of awesome robotics videos, collected by y
 
 For a while there, it seemed as though robotics as a whole was stuck in a mad rush towards building humanoid robots mostly because it was very possible (and very lucrative) to do so, even without near-term goals that were necessarily realistic. Some of the magic of those first couple of years of the humanoid explosion has stuck around, but there’s also…
 
-### [Video Friday: Lift Happens](https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge)
+### [Video Friday: Meet Google DeepMind’s Gemini Robotics 2](https://spectrum.ieee.org/video-robot-gemini2-ai-robot)
 
-**IEEE Spectrum Robotics** · 14 Aug · relevance 9.3
+**IEEE Spectrum Robotics** · 31 Jul · relevance 9.3
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Actuate 2026 : 18–19 August 2026, SAN FRANCISCO IROS 2026 : 27 September–1 October 2026, PITTSBURGH Humanoids…
 
+## Agents
+
+### [My predictions in 2025](https://www.s-anand.net/blog/my-predictions-in-2025)
+
+**S Anand** · 17 Aug · relevance 15.0
+
+In 2025, I made a number of predictions on this blog. (Not intentionally. I just said stuff.) I asked ChatGPT to audit them. It selected 440 claims, filtered out vague or pending ones, and verified the rest. Here’s what I got right and wrong. 🟢 “My chat will overtake search in 12-18 months. When ChatGPT becomes my primary lens on knowledge…” (…
+
+### [smolmachines / smolvm as a sandbox for untrusted Python & JavaScript](https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox)
+
+**Simon Willison — LLMs** · 19 Aug · relevance 10.5
+
+Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what…
+
+### [Introducing Muse Glimmer](https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer)
+
+**Simon Willison — LLMs** · 10 Aug · relevance 9.7
+
+Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. Muse Glimmer achieves strong success…
+
 ## Safety
+
+### [AI Companion Robots Are Closing the Human Connection in Modern Homes](https://spectrum.ieee.org/ollobot-ai-companion-robot)
+
+**IEEE Spectrum Robotics** · 25 Aug · relevance 12.0
+
+This article is brought to you by Ollobot . From about 2017, individuals began to truly connect with the initial wave of companion robots. These devices had personality, moved around, joked, and answered when you spoke to them. Most early companion robots, however, were still limited by simple voice-command interactions and narrow functionality. Once the…
 
 ### [Auto mode is now the default in Claude Code for Pro, Max, and Team plans](https://simonwillison.net/2026/Aug/8/auto-mode)
 
@@ -148,7 +148,7 @@ Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthrop
 
 ### [Stealing Reasoning Traces from Proprietary LLM APIs](https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces)
 
-**Simon Willison — LLMs** · 11 Aug · relevance 9.4
+**Simon Willison — LLMs** · 11 Aug · relevance 9.1
 
 Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model, replay it into a weaker sibling, jailbreak the weaker…
 
@@ -156,9 +156,16 @@ Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stole
 
 ### [Things I Learned - 23 Aug 2026](https://www.s-anand.net/blog/things-i-learned-23-aug-2026)
 
-**S Anand** · 23 Aug · relevance 10.1
+**S Anand** · 23 Aug · relevance 9.9
 
 This week, I learned: DuckDB 2.0 adds a CONNECT command that can connect to databases like MySQL, PostgreSQL, etc. making DuckDB the only DB client I need. EQ-Bench evaluates models on capabilities like: does it follow direction, does it challenge you, how good are its insights, does it build rapport, etc. Very interesting to see that the Gemini models are…
+
+<details>
+<summary>Sources unavailable during this run</summary>
+
+- **Berkeley AI Research:** `<urlopen error timed out>`
+
+</details>
 
 ---
 
