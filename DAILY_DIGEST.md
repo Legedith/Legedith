@@ -1,96 +1,64 @@
 # Robot Psychology Radar
 
-Updated 31 August 2026, 08:54 UTC from 16 working sources.
+Updated 01 September 2026, 07:59 UTC from 16 working sources.
 
-24 high-relevance items across 6 sources. Auto-collected metadata; inclusion is not endorsement.
+24 high-relevance items across 5 sources. Auto-collected metadata; inclusion is not endorsement.
 
 ## Evaluation
 
-### [Probabilistic Multi-Robot Gas Source Localization with Uncalibrated Sensors: A Distributed Estimation Approach](https://arxiv.org/abs/2608.28214v1)
+### [DARP: A Calibrated Dual-Arm RGB-D-IR Dataset for Multi-View Robotic Perception](https://arxiv.org/abs/2608.31002v1)
 
-**arXiv — Robotics** · 28 Aug · relevance 13.5
+**arXiv — Robotics** · 31 Aug · relevance 13.7
 
-Estimating environmental states with multi-robot systems becomes particularly challenging when robots are equipped with uncalibrated and therefore heterogeneous sensors, whose nonlinear and inconsistent responses prevent reliable information fusion. In this paper, we propose a distributed probabilistic framework for source localization tasks that enables…
+Robotic perception from a single viewpoint is often limited by self-occlusion and incomplete surface visibility. This paper presents DARP(Dual-Arm Robotic Perception) https://doi.org/10.21227/rmv3-be47, a calibrated dual-arm RGB-D-IR dataset for object-centered robotic perception using two independently moving eye-in-hand manipulators positioned on…
 
-### [COVER: Identifiable Evaluation of Coalition Routing](https://arxiv.org/abs/2608.28475v1)
+### [Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents](https://arxiv.org/abs/2608.31057v1)
 
-**arXiv — AI, language and HCI** · 28 Aug · relevance 13.2
+**arXiv — AI, language and HCI** · 31 Aug · relevance 13.4
 
-When a multi-agent system changes its team, it also changes the messages and final answer it produces, so an end-to-end accuracy gap does not by itself identify a routing effect. We introduce method, an evaluation contract that fixes a public information boundary, downstream stack G, and finite legal team family before outcomes are generated. Complete…
+Agent working memory is heterogeneous. Objects such as instructions, artifacts, tool outputs, and agent-generated state play different semantic roles and exhibit different size, retention, and representation profiles. Recent work has begun to explore memory-management mechanisms that account for such heterogeneity. This work focuses on semantic…
 
-### [Remote Human and Robot Interaction for Greenhouse Gardening Using Virtual Reality](https://arxiv.org/abs/2608.27545v1)
+### [Aspire: Can Models Self-Evolve from Vague Goals?](https://arxiv.org/abs/2608.31111v1)
 
-**arXiv — Robotics** · 27 Aug · relevance 13.0
+**arXiv — AI, language and HCI** · 31 Aug · relevance 13.3
 
-This study evaluates the effectiveness of remote human-robot interaction using virtual reality for leaf inspection and soil moisture assessment in a greenhouse environment. The robotic system comprised an unmanned ground vehicle and a robotic manipulator equipped with cameras, governed by kinematic models for navigation and manipulator control. Fourteen…
+Many important forms of human learning begin with a vague goal, such as "become a better physicist" or "improve at research." Learners must interpret the goal, identify capability gaps, decide how to learn, and determine whether they have actually improved. In contrast, existing work on LLM self-evolution typically begins with tasks and evaluation metrics…
 
-### [When Linguistic and Internal Confidence Diverge in Large Language Models](https://arxiv.org/abs/2608.28382v1)
+### [$\mathcal{N}_0$-Foundation: Towards the Age of Tactile Intelligence](https://arxiv.org/abs/2608.29601v1)
 
-**arXiv — AI, language and HCI** · 28 Aug · relevance 12.9
+**arXiv — Robotics** · 30 Aug · relevance 12.4
 
-Users often ask large language models (LLMs) to report how confident they are, but it is unclear whether such linguistic confidence tracks the model's internal confidence. We study this question across 8 classification tasks, 2 generation tasks and 30 models from three families. For classification, we compare linguistic confidence with logits-based…
-
-### [Conformal Uncertainty Quantification Guarantees for Neural Operators](https://arxiv.org/abs/2608.28515v1)
-
-**arXiv — AI, language and HCI** · 28 Aug · relevance 12.9
-
-Neural operators provide fast surrogate models for approximating operators between function spaces, but their predictions often lack uncertainty quantification. We develop a split conformal framework to guarantee that a calibrated pointwise band around the neural operator output contains the true solution on at least a $1-γ$ fraction of the evaluation…
-
-### [LongPIBench: A Long-Context Benchmark for Prompt Injection](https://arxiv.org/abs/2608.28411v1)
-
-**arXiv — AI, language and HCI** · 28 Aug · relevance 12.8
-
-Prompt injection attacks pose a serious security risk to large language models in real-world applications. However, existing prompt injection benchmarks primarily focus on short-context inputs, leaving the attacks and defenses in long-context settings largely unexplored. This gap leads to a substantial overestimation of the effectiveness of current…
+We present $\mathcal{N}_0$-Foundation, a paradigm for tactile-enabled embodied manipulation, which integrates tactile sensing hardware, large-scale multimodal data, tactile representation learning, and standardized evaluation. First, we engineer the infrastructure for scalable data collection, including a vision-based tactile sensor, a tactile Universal…
 
 ### [Things I Learned - 30 Aug 2026](https://www.s-anand.net/blog/things-i-learned-30-aug-2026)
 
-**S Anand** · 30 Aug · relevance 10.4
+**S Anand** · 30 Aug · relevance 10.2
 
 This week, I learned: I know that fact-checking 2000 page PDFs is error-prone, so’d do it manually for a few pages, then refine. Agents would know this if they’ve tried and failed and added it to their memory systems. So I intervene when agents don’t remember well (increasingly rare) or I think they haven’t seen it before (again, increasingly rare). My…
 
-## Agents
-
-### [Understanding ChatGPT Work](https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work)
-
-**Simon Willison — LLMs** · 30 Aug · relevance 15.6
-
-OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com…
-
-### [My predictions in 2025](https://www.s-anand.net/blog/my-predictions-in-2025)
-
-**S Anand** · 17 Aug · relevance 13.7
-
-In 2025, I made a number of predictions on this blog. (Not intentionally. I just said stuff.) I asked ChatGPT to audit them. It selected 440 claims, filtered out vague or pending ones, and verified the rest. Here’s what I got right and wrong. 🟢 “My chat will overtake search in 12-18 months. When ChatGPT becomes my primary lens on knowledge…” (…
-
-### [Introducing Muse Glimmer](https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer)
-
-**Simon Willison — LLMs** · 10 Aug · relevance 9.5
-
-Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. Muse Glimmer achieves strong success…
-
-### [smolmachines / smolvm as a sandbox for untrusted Python & JavaScript](https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox)
-
-**Simon Willison — LLMs** · 19 Aug · relevance 9.2
-
-Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what…
-
 ## Robotics
+
+### [Motus2: A Self-Evolving General World Model for Dexterous Manipulation](https://arxiv.org/abs/2608.30237v1)
+
+**arXiv — Robotics** · 31 Aug · relevance 14.9
+
+General embodied agents should perceive, predict, act, evaluate, and improve within a unified system. World models have shown great promise in building such agents, yet existing models typically append an action output head to a world simulator, without coupling them into a closed decision-and-learning loop for policy improvement. We present Motus2, a…
+
+### [LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation](https://arxiv.org/abs/2608.30935v1)
+
+**arXiv — Robotics** · 31 Aug · relevance 13.2
+
+Embodied navigation requires agents to translate heterogeneous goals and visual observations into actions across tasks, environments, and robot embodiments. Modern vision-language models (VLMs) already encode spatial priors for visual grounding, spatial reasoning, and pointing, but these capabilities are rarely elicited directly for robot control. Existing…
 
 ### [Video Friday: Meet Microduck](https://spectrum.ieee.org/video-friday-microduck-robot)
 
-**IEEE Spectrum Robotics** · 28 Aug · relevance 13.2
+**IEEE Spectrum Robotics** · 28 Aug · relevance 13.0
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
 
-### [Stay Seated: Learning Omnidirectional Humanoid Locomotion on a Passive Mobile Chair with Casters](https://arxiv.org/abs/2608.28090v1)
-
-**arXiv — Robotics** · 28 Aug · relevance 12.2
-
-Humanoid robots with quasi-direct-drive actuators continuously generate joint torque while standing, whereas seated humans delegate weight support to chairs during desk work. As a first step toward seated loco-manipulation, we study omnidirectional seated locomotion on a passive mobile chair, requiring unfixed pelvis-seat contact and intermittent…
-
 ### [Video Friday: Do We Need Superhuman Humanoid Robots?](https://spectrum.ieee.org/video-friday-unitree-superhuman)
 
-**IEEE Spectrum Robotics** · 21 Aug · relevance 12.0
+**IEEE Spectrum Robotics** · 21 Aug · relevance 11.8
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
 
@@ -100,17 +68,49 @@ Video Friday is your weekly selection of awesome robotics videos, collected by y
 
 For a while there, it seemed as though robotics as a whole was stuck in a mad rush towards building humanoid robots mostly because it was very possible (and very lucrative) to do so, even without near-term goals that were necessarily realistic. Some of the magic of those first couple of years of the humanoid explosion has stuck around, but there’s also…
 
+## Agents
+
+### [Understanding ChatGPT Work](https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work)
+
+**Simon Willison — LLMs** · 30 Aug · relevance 15.4
+
+OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com…
+
+### [My predictions in 2025](https://www.s-anand.net/blog/my-predictions-in-2025)
+
+**S Anand** · 17 Aug · relevance 13.5
+
+In 2025, I made a number of predictions on this blog. (Not intentionally. I just said stuff.) I asked ChatGPT to audit them. It selected 440 claims, filtered out vague or pending ones, and verified the rest. Here’s what I got right and wrong. 🟢 “My chat will overtake search in 12-18 months. When ChatGPT becomes my primary lens on knowledge…” (…
+
+### [Scaffolding Foundation Models into Physical-World Agents Pushes the Frontier of Long-Horizon Navigation](https://arxiv.org/abs/2608.30396v1)
+
+**arXiv — Robotics** · 31 Aug · relevance 11.9
+
+Long-horizon physical-world agents must reason over distant goals while grounding decisions in reliable closed-loop behavior. Today's foundation models split these capabilities: vision-language models (VLMs) infer missing information and adapt high-level plans but remain brittle and inefficient at repeated navigation grounding, while navigation foundation…
+
+### [Introducing Muse Glimmer](https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer)
+
+**Simon Willison — LLMs** · 10 Aug · relevance 9.5
+
+Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. Muse Glimmer achieves strong success…
+
 ## Safety
+
+### [Responsible Integration of AI in Cancer Genomics: Barriers, Risks, and Pathways to Trustworthy Clinical Translation](https://arxiv.org/abs/2608.30912v1)
+
+**arXiv — AI, language and HCI** · 31 Aug · relevance 13.6
+
+Artificial intelligence (AI) and natural language processing (NLP) are increasingly used to extract, integrate, and interpret biomedical knowledge relevant to cancer genomics, yet their translation into routine clinical oncology has been comparatively slow. The central challenge is not computational capability alone, but trustworthy integration into…
 
 ### [Breaking Claude Code Opus 5 Auto Mode](https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode)
 
-**Simon Willison — LLMs** · 27 Aug · relevance 13.1
+**Simon Willison — LLMs** · 27 Aug · relevance 12.9
 
 Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Rehberger is one of the most credible prompt injection researchers active today.…
 
 ### [AI Companion Robots Are Closing the Human Connection in Modern Homes](https://spectrum.ieee.org/ollobot-ai-companion-robot)
 
-**IEEE Spectrum Robotics** · 25 Aug · relevance 10.7
+**IEEE Spectrum Robotics** · 25 Aug · relevance 10.4
 
 This article is brought to you by Ollobot . From about 2017, individuals began to truly connect with the initial wave of companion robots. These devices had personality, moved around, joked, and answered when you spoke to them. Most early companion robots, however, were still limited by simple voice-command interactions and narrow functionality. Once the…
 
@@ -120,45 +120,45 @@ This article is brought to you by Ollobot . From about 2017, individuals began t
 
 Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the default setting for new sessions in most Claude Code plans starting on August 14th. This was one of the topics discussed in our Fireside Chat with Cat Wu and Thariq Shihipar at the AI…
 
-### [The Hugging Face incident and the road ahead](https://openai.com/index/hugging-face-incident-and-the-road-ahead)
+## Machine Behaviour
 
-**OpenAI** · 26 Aug · relevance 9.3
+### [Detecting AI Impostors: How Do Middle Schoolers Identify LLM Agents in a Live Collaborative Setting?](https://arxiv.org/abs/2608.30948v1)
 
-OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.
+**arXiv — AI, language and HCI** · 31 Aug · relevance 13.1
+
+LLMs can imitate how people write, which raises concerns about impersonation, trust, and detection in social settings. These concerns are especially important for adolescents, who use generative AI frequently but may struggle to recognize it. We introduce \textit{DoppelBot}, a cooperative social deduction game designed to study how young people detect and…
+
+### [Things I Learned - 23 Aug 2026](https://www.s-anand.net/blog/things-i-learned-23-aug-2026)
+
+**S Anand** · 23 Aug · relevance 12.1
+
+This week, I learned: DuckDB 2.0 adds a CONNECT command that can connect to databases like MySQL, PostgreSQL, etc. making DuckDB the only DB client I need. EQ-Bench evaluates models on capabilities like: does it follow direction, does it challenge you, how good are its insights, does it build rapport, etc. Very interesting to see that the Gemini models are…
+
+### [Things I Learned - 09 Aug 2026](https://www.s-anand.net/blog/things-i-learned-09-aug-2026)
+
+**S Anand** · 09 Aug · relevance 10.7
+
+This week, I learned: Kamakoti: “Entry (to the course) is relatively easy but the exit is extremely hard”. Generalizing, quality is determined by the exit criteria; loosening entry criteria is just openness / diversity. The Hindu “Once I have a persistent system that I pay to keep thinking, learning, and acting 24/7, I think that will decisively look like…
 
 ## Systems
 
-### [Program Learning with Verifiable Rewards: Symbolic Backpropagation for Post-Training LLMs](https://arxiv.org/abs/2608.28421v1)
+### [When Does Predictor-Based RL Align with Human Perception? A Study of Subjective Rewards in Codec-Based Speech Language Models](https://arxiv.org/abs/2608.31035v1)
 
-**arXiv — AI, language and HCI** · 28 Aug · relevance 13.4
+**arXiv — AI, language and HCI** · 31 Aug · relevance 13.4
 
-Post training a language model to reason means updating its weights. Supervised finetuning and reinforcement learning both place the acquired capability inside the model where it cannot be inspected cannot be checked step by step and cannot be moved to another model. We argue that for tasks whose intermediate steps admit verification, reasoning is better…
+Codec-based text-to-speech (TTS) models make language-model post-training applicable to speech generation, but it remains unclear when learned perceptual predictors can serve as reinforcement learning rewards without losing alignment with human listeners. We study this question with Group Relative Policy Optimization (GRPO) using learned rewards for…
 
-### [Sliding-window beats linear attention](https://arxiv.org/abs/2608.28444v1)
+### [PaperGym: Rubric-Centered Evolution for Research-Plan Generation](https://arxiv.org/abs/2608.31119v1)
 
-**arXiv — AI, language and HCI** · 28 Aug · relevance 12.1
+**arXiv — AI, language and HCI** · 31 Aug · relevance 12.2
 
-Due to the nature of quadratic attention, Large Language Models (LLMs) consume a lot of memory and energy. Every new token costs more than the previous one. For each additional token, the keys and values must be stored in memory indefinitely, which is unsustainable. Several alternatives have been proposed to fix the quadratic scaling problem, one of which…
+Research planning is the decisive capability of AI scientists. Yet a research plan admits no verifiable answer, so reinforcement learning lacks the environment it requires: tasks paired with a critic. Rubrics extracted from scientific papers can supply the critic. Existing pipelines, however, draw the question and the criteria from the same content, so the…
 
-### [Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models](https://arxiv.org/abs/2608.27550v1)
+### [Rethinking Language's Role in Efficient VLA for Autonomous Vehicles: Toward Smarter, Trustworthy Driving](https://arxiv.org/abs/2608.30144v1)
 
-**arXiv — Robotics** · 27 Aug · relevance 11.7
+**arXiv — Robotics** · 31 Aug · relevance 12.1
 
-Scaling robot data is crucial for building generalist Vision-Language-Action (VLA) models, yet robot trajectories are harder to scale than web-scale image-text data because embodied collection is costly and sparsely covers the physical world. This makes representation quality a central bottleneck: under a fixed robot-data budget, continued pre-training…
-
-## Machine Behaviour
-
-### [From Small Talk to Rapport: Exploring Robot Self-Disclosure in Collaborative Tasks](https://arxiv.org/abs/2608.28154v1)
-
-**arXiv — Robotics** · 28 Aug · relevance 13.1
-
-People naturally chat while collaborating and share personal information (i.e., self-disclose) to build rapport and maintain social connections. As robots are increasingly developed to work with people, the effective use of these social behaviors to enhance engagement and support teamwork becomes ever more important. While prior work has shown that…
-
-### [When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI](https://arxiv.org/abs/2608.28518v1)
-
-**arXiv — Robotics** · 28 Aug · relevance 11.7
-
-We investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models. We find that ASR errors can lead to harmful instructions being accepted and executed by EAI models, thereby reducing safety. We simulate ASR errors and combine them with existing safety benchmarks (SafeAgentBench and…
+Vision-Language-Action (VLA) models are reshaping autonomous driving (AD) by unifying perception, reasoning, and control through language, enabling semantic grounding, interpretable decisions, and better long-tail generalization. But language is expensive onboard: latency and memory budgets are tight, and autoregressive decoding is inherently sequential.…
 
 <details>
 <summary>Sources unavailable during this run</summary>
