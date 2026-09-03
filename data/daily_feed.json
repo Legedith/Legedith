@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T07:19:53.992683Z",
+  "generated_at": "2026-09-03T07:23:02.867749Z",
   "working_sources": [
     "Simon Willison — LLMs",
     "Simon Willison — AI agents",
@@ -21,8 +21,30 @@
   "source_errors": {
     "Berkeley AI Research": "<urlopen error timed out>"
   },
-  "item_count": 70,
+  "item_count": 69,
   "items": [
+    {
+      "id": "0ab6e5a879fb5bf7",
+      "title": "From Tokens to Semantics: Leveraging Complementary Signals for Hallucination Detection in Black-Box LLMs",
+      "url": "https://arxiv.org/abs/2609.02679v1",
+      "source": "arXiv — AI, language and HCI",
+      "source_group": "preprints",
+      "published": "2026-09-02T14:50:24Z",
+      "summary": "When LLMs support public-facing or high-stakes workflows, missed fabrications can harm users and institutions, while false alarms consume limited human-review capacity. When no trusted context or reference document is available, we study two signals accessible through black-box model APIs: semantic entropy, which measures disagreement among sampled…",
+      "category": "evaluation",
+      "score": 19.14
+    },
+    {
+      "id": "1c3bc2b239920a33",
+      "title": "A Physics-Consistent Benchmark for Contact-Rich Human-Robot Interaction in Assistive Care",
+      "url": "https://arxiv.org/abs/2609.02402v1",
+      "source": "arXiv — Robotics",
+      "source_group": "preprints",
+      "published": "2026-09-02T10:14:32Z",
+      "summary": "Conventional task-level evaluation asks whether a robot policy completes a specified action, but can miss failures that emerge only during physical human contact. This limitation is critical in contact-rich assistive tasks, where meaningful evaluation requires a physically responsive human, interaction-quality assessment beyond task success, and a…",
+      "category": "evaluation",
+      "score": 15.17
+    },
     {
       "id": "70274864cb8a524b",
       "title": "Understanding ChatGPT Work",
@@ -32,29 +54,29 @@
       "published": "2026-08-30T23:59:47Z",
       "summary": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com…",
       "category": "agents",
-      "score": 15.11
+      "score": 14.86
     },
     {
-      "id": "2a91d0d40065366a",
-      "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
-      "url": "https://arxiv.org/abs/2609.01603v1",
+      "id": "23e3e5d40bee75e7",
+      "title": "Debias-SparseGPT: Bias-Aware Pruning for Large Language Models",
+      "url": "https://arxiv.org/abs/2609.02496v1",
       "source": "arXiv — AI, language and HCI",
       "source_group": "preprints",
-      "published": "2026-09-01T17:59:46Z",
-      "summary": "Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark performance, but are largely result-only: they fit historical pass/fail response matrices or…",
-      "category": "evaluation",
-      "score": 14.95
+      "published": "2026-09-02T12:01:54Z",
+      "summary": "Model compression techniques such as pruning and quantization facilitate the efficient deployment and acceleration of Large Language Models (LLMs). However, recent studies show that weight sparsification methods, such as SparseGPT, can amplify existing biases in models, with outputs varying significantly depending on persona cues in the prompt. In this…",
+      "category": "systems",
+      "score": 13.83
     },
     {
-      "id": "13421d890c420dc3",
-      "title": "Separating Syntax from Language: A Mechanistic Account of Translation in Multilingual LLMs",
-      "url": "https://arxiv.org/abs/2609.01356v1",
+      "id": "a302b507de07afcc",
+      "title": "DKL: Decoupled Knowledge Learning for Instruction-Tuned Language Models",
+      "url": "https://arxiv.org/abs/2609.02685v1",
       "source": "arXiv — AI, language and HCI",
       "source_group": "preprints",
-      "published": "2026-09-01T14:58:38Z",
-      "summary": "Multilingual large language models (mLLMs) achieve strong performance in machine translation, yet our understanding of the mechanisms by which they transform representations from one language to another remains incomplete. Prior work suggests that translation decomposes into separable processes within an mLLM, where conceptual content is first represented…",
-      "category": "multilingual",
-      "score": 14.09
+      "published": "2026-09-02T14:53:50Z",
+      "summary": "RAG has become the de facto method for incorporating new, corpus-specific knowledge into an instruction following LLM (Instruct LLM). Although RAG-based prompting improves factual grounding, it fails when retrieval is incorrect or incomplete, leading to hallucinations. Finetuning methods such as RAFT and PA-RAG enhance RAG by injecting new knowledge into…",
+      "category": "systems",
+      "score": 13.81
     },
     {
       "id": "8dbe6f22f5264e3c",
@@ -65,29 +87,62 @@
       "published": "2026-09-01T15:27:43Z",
       "summary": "Multimodal Large Language Models (MLLMs) are strong perceivers of images and video. We ask how far that reach extends into acting: dropping an MLLM directly into a drone's control loop, with its entire action space declared solely in the prompt. Recent systems approach this setting but increasingly narrow the model's decision-making. We widen it back. We…",
       "category": "multimodal",
-      "score": 14.0
+      "score": 13.75
     },
     {
-      "id": "4d187365b56861f1",
-      "title": "AutoConcept: Training-Free Concept-Guided Reranking for Metadata-Available Composed Image Retrieval",
-      "url": "https://arxiv.org/abs/2609.01456v1",
-      "source": "arXiv — AI, language and HCI",
+      "id": "25f9d6e3766657fd",
+      "title": "Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence",
+      "url": "https://arxiv.org/abs/2609.02134v1",
+      "source": "arXiv — Robotics",
       "source_group": "preprints",
-      "published": "2026-09-01T16:00:25Z",
-      "summary": "Composed image retrieval (CIR) retrieves a target image from a reference image and a text modification. This paper studies metadata-available CIR reranking, where a fixed CIR model first returns a candidate pool and gallery metadata is then used for second-stage concept-guided scoring. We introduce AutoConcept, a training-free reranker that converts…",
-      "category": "systems",
-      "score": 13.48
+      "published": "2026-09-02T05:43:19Z",
+      "summary": "Humanoid learning increasingly relies on transforming vast and diverse human motion data into high-quality robot reference trajectories. However, retargeting human motion to humanoid robots is challenging due to substantial differences in morphology, degrees of freedom, joint ranges, and kinematic constraints between humans and robots. Existing retargeting…",
+      "category": "robotics",
+      "score": 13.51
     },
     {
-      "id": "6ca1036685acc8a2",
-      "title": "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
-      "url": "https://arxiv.org/abs/2609.01437v1",
+      "id": "3497b80c35f4a65b",
+      "title": "Loom: Weaving Diagnostic Strands into Free-Text Consensus via Embedding-Space Reweighting",
+      "url": "https://arxiv.org/abs/2609.02649v1",
       "source": "arXiv — AI, language and HCI",
       "source_group": "preprints",
-      "published": "2026-09-01T15:45:33Z",
-      "summary": "As agents move from research prototypes to deployed tools, their capability increasingly depends on model-external execution infrastructure, commonly termed the agent harness. Changing this harness while holding model weights fixed can substantially alter task performance. Current agent evaluations typically report downstream performance under a chosen…",
+      "published": "2026-09-02T14:24:32Z",
+      "summary": "Aggregating noisy, conflicting textual hypotheses into a reliable consensus is a fundamental challenge when deploying NLP systems in real-world industrial settings. While monolithic Large Language Model (LLM) agents offer unbounded expressivity for tasks like Root Cause Analysis (RCA), they suffer from context limits, compounding hallucinations, and…",
       "category": "evaluation",
-      "score": 13.32
+      "score": 13.47
+    },
+    {
+      "id": "fc6271b0f540920f",
+      "title": "RINSE: Robust Target-Time Normality Estimation for Zero-Shot Graph Anomaly Detection",
+      "url": "https://arxiv.org/abs/2609.02497v1",
+      "source": "arXiv — AI, language and HCI",
+      "source_group": "preprints",
+      "published": "2026-09-02T12:03:58Z",
+      "summary": "Zero-shot graph anomaly detection seeks to deploy a detector trained on source graphs to unseen, unlabeled targets, yet domain shift can make source-derived notions of normality unreliable. We introduce RINSE (Robust Iterative Normality Self-Estimation), a gradient-free target-time framework that keeps the source-trained detector fixed while sequentially…",
+      "category": "evaluation",
+      "score": 13.44
+    },
+    {
+      "id": "fd82c805b34ac8fa",
+      "title": "Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems",
+      "url": "https://arxiv.org/abs/2609.02750v1",
+      "source": "arXiv — AI, language and HCI",
+      "source_group": "preprints",
+      "published": "2026-09-02T15:50:10Z",
+      "summary": "Multi-agent LLM systems commonly use an orchestrator to decompose a task for a team of workers and then improve through textual reflection. Despite strong empirical results, these systems lack a unified account of coordination, memory improvement, and the role of external verification. We model orchestrator-worker interaction as a bilevel coordination…",
+      "category": "evaluation",
+      "score": 13.43
+    },
+    {
+      "id": "0c847efede75847c",
+      "title": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework",
+      "url": "https://arxiv.org/abs/2609.02861v1",
+      "source": "arXiv — Robotics",
+      "source_group": "preprints",
+      "published": "2026-09-02T17:44:25Z",
+      "summary": "Autonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents TRACE (Transparent Reasoning Architecture for Credible Execution), a decision framework that ensures every autonomous action can be traced back to sensor…",
+      "category": "evaluation",
+      "score": 13.41
     },
     {
       "id": "315ed32aba6d5710",
@@ -101,15 +156,15 @@
       "score": 13.28
     },
     {
-      "id": "3408ddccbb7866bb",
-      "title": "Mechanism Design for Alignment and Control",
-      "url": "https://arxiv.org/abs/2609.01595v1",
-      "source": "arXiv — AI, language and HCI",
+      "id": "321f2e5efa607ae4",
+      "title": "Toward Robust LiDAR Semantic Segmentation for Real-World Deployment: Evaluation under Coarse Labels, Adverse Conditions, and Domain Shifts",
+      "url": "https://arxiv.org/abs/2609.02830v1",
+      "source": "arXiv — Robotics",
       "source_group": "preprints",
-      "published": "2026-09-01T17:57:50Z",
-      "summary": "We develop a framework for mechanism design with AI agents whose alignment (preferences) and capabilities (feasible actions and information) are unknown. We want such agents to act on our behalf so mechanisms must incentivize both honesty and obedience. A one-sided imitation structure---capabilities can be concealed but not counterfeited---yields a…",
-      "category": "safety",
-      "score": 12.84
+      "published": "2026-09-02T17:15:07Z",
+      "summary": "LiDAR-based semantic segmentation is a core perception module for autonomous vehicles and mobile robots. Despite the strong performance of recent state-of-the-art methods on standard benchmarks, existing evaluation protocols remain focused on clean, single-domain settings and fine-grained label taxonomies, leaving deployment readiness largely unassessed.…",
+      "category": "evaluation",
+      "score": 12.69
     },
     {
       "id": "7eec1600d02872e1",
@@ -120,7 +175,7 @@
       "published": "2026-09-01T16:47:00Z",
       "summary": "There is tremendous value in humanoid robots taking on physically demanding, hazardous, and repetitive work in spaces built for humans. However, a useful robot for these spaces must coordinate locomotion, whole-body motion, perception, contact, and operator supervision. We present a robot-local, runtime-editable behavior authoring and runtime system that…",
       "category": "robotics",
-      "score": 12.79
+      "score": 12.54
     },
     {
       "id": "c2f2ca6d82e831a7",
@@ -131,18 +186,7 @@
       "published": "2026-08-28T16:00:03Z",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…",
       "category": "robotics",
-      "score": 12.73
-    },
-    {
-      "id": "10c311e167f50ca6",
-      "title": "Scaling Near-Optimal SFT-RL Annotation Budget Allocation from Small to Large LLMs",
-      "url": "https://arxiv.org/abs/2609.01573v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-09-01T17:39:55Z",
-      "summary": "How to divide a fixed annotation budget between supervised fine-tuning (SFT) and reinforcement learning (RL) during LLM post-training remains an open problem. Existing work characterizes only broad trends (e.g., SFT dominates in low-data regimes), lacks a principled allocation framework, and does not examine whether the optimal ratio transfers across model…",
-      "category": "systems",
-      "score": 12.72
+      "score": 12.48
     },
     {
       "id": "86c9015dd55dff65",
@@ -153,40 +197,18 @@
       "published": "2026-08-27T22:50:25Z",
       "summary": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Rehberger is one of the most credible prompt injection researchers active today.…",
       "category": "safety",
-      "score": 12.63
+      "score": 12.38
     },
     {
-      "id": "2b035111282f40fe",
-      "title": "Peg-in-Bench: A Modular Benchmark for High-Precision Robotic Insertion",
-      "url": "https://arxiv.org/abs/2609.00906v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-09-01T08:37:31Z",
-      "summary": "High-precision insertion remains a fundamental challenge in robotic manipulation due to the strict alignment requirements and contact-rich interactions involved. Although peg-in-hole tasks are widely used for evaluation, existing bench- marks often rely on fixed task configurations, limiting their ability to assess robustness and generalization across…",
-      "category": "evaluation",
-      "score": 12.6
-    },
-    {
-      "id": "6a7f30574780b47c",
-      "title": "DNC-IMM: Early Lane-Change Intention Recognition via Neural Calibration Based on Driving Context Information",
-      "url": "https://arxiv.org/abs/2609.01120v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-09-01T11:59:00Z",
-      "summary": "Early recognition of lane-change intention is essential for proactive decision-making in autonomous driving and advanced driver assistance systems. This paper proposes a Dual Neural-Calibrated Interacting Multiple Model (DNC-IMM) that improves adaptability to driving context while preserving the probabilistic structure and interpretability of a…",
-      "category": "evaluation",
-      "score": 12.52
-    },
-    {
-      "id": "e29fbeceb0bb44e8",
-      "title": "Context-Aware Intelligent Vehicles",
-      "url": "https://arxiv.org/abs/2609.00682v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-09-01T03:58:58Z",
-      "summary": "Intelligent vehicles increasingly support adaptive applications beyond driving themselves, ranging from context-aware ADAS and automated driving to in-cabin monitoring and fleet management, all under tight requirements on accuracy, latency, cost, and reliability. Meeting these requirements is challenging because vehicles operate in complex, uncertain, and…",
-      "category": "safety",
-      "score": 12.44
+      "id": "8f194314e0d00e23",
+      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+      "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt",
+      "source": "Simon Willison — LLMs",
+      "source_group": "independent",
+      "published": "2026-09-02T14:16:42Z",
+      "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked…",
+      "category": "agents",
+      "score": 11.9
     },
     {
       "id": "a7417237277cc54a",
@@ -197,18 +219,7 @@
       "published": "2026-08-23T00:00:00Z",
       "summary": "This week, I learned: DuckDB 2.0 adds a CONNECT command that can connect to databases like MySQL, PostgreSQL, etc. making DuckDB the only DB client I need. EQ-Bench evaluates models on capabilities like: does it follow direction, does it challenge you, how good are its insights, does it build rapport, etc. Very interesting to see that the Gemini models are…",
       "category": "machine behaviour",
-      "score": 11.87
-    },
-    {
-      "id": "8afc955e90f9ece1",
-      "title": "Human-robot conversation with multiple participants in noisy public spaces",
-      "url": "https://arxiv.org/abs/2609.00648v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-09-01T03:25:03Z",
-      "summary": "For noisy real-world environments such as those in open public spaces, spoken dialogue systems for both autonomous robots and avatars should be carefully designed to provide enhanced speech signals. These signals can be used either for speech recognition or, in the case of an avatar system, transmitted as clean speech to a remote operator. This work…",
-      "category": "multimodal",
-      "score": 11.82
+      "score": 11.62
     },
     {
       "id": "26ac33df3255164f",
@@ -219,7 +230,7 @@
       "published": "2026-08-21T16:00:01Z",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…",
       "category": "robotics",
-      "score": 11.53
+      "score": 11.28
     },
     {
       "id": "7c510b727b283191",
@@ -233,6 +244,17 @@
       "score": 10.67
     },
     {
+      "id": "fc8ba1244954cc96",
+      "title": "llm-gemini 0.34",
+      "url": "https://simonwillison.net/2026/Sep/2/llm-gemini",
+      "source": "Simon Willison — LLMs",
+      "source_group": "independent",
+      "published": "2026-09-02T16:39:38Z",
+      "summary": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Google released Gemini 3.8 Flash (and 3.8 Flash Cyber, but that's available to \"trusted defenders\" only) today. Here are the pelicans…",
+      "category": "machine behaviour",
+      "score": 10.42
+    },
+    {
       "id": "f5a31c994d292d1b",
       "title": "Quoting Rick Brewster",
       "url": "https://simonwillison.net/2026/Sep/2/rick-brewster",
@@ -241,7 +263,7 @@
       "published": "2026-09-02T05:50:57Z",
       "summary": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE (triggered by using /wine ). It lives…",
       "category": "machine behaviour",
-      "score": 10.56
+      "score": 10.31
     },
     {
       "id": "eb011ad202c8a4ee",
@@ -252,7 +274,7 @@
       "published": "2026-08-25T10:00:03Z",
       "summary": "This article is brought to you by Ollobot . From about 2017, individuals began to truly connect with the initial wave of companion robots. These devices had personality, moved around, joked, and answered when you spoke to them. Most early companion robots, however, were still limited by simple voice-command interactions and narrow functionality. Once the…",
       "category": "safety",
-      "score": 10.19
+      "score": 9.94
     },
     {
       "id": "dab5be0b89600f39",
@@ -263,7 +285,7 @@
       "published": "2026-08-30T00:00:00Z",
       "summary": "This week, I learned: I know that fact-checking 2000 page PDFs is error-prone, so’d do it manually for a few pages, then refine. Agents would know this if they’ve tried and failed and added it to their memory systems. So I intervene when agents don’t remember well (increasingly rare) or I think they haven’t seen it before (again, increasingly rare). My…",
       "category": "evaluation",
-      "score": 9.95
+      "score": 9.7
     },
     {
       "id": "af9cc98f65eb7d79",
@@ -274,7 +296,7 @@
       "published": "2026-09-01T23:57:28Z",
       "summary": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Science 0.1 benchmark (first announced on August 27th ), up…",
       "category": "agents",
-      "score": 9.83
+      "score": 9.58
     },
     {
       "id": "c0364833b41073ca",
@@ -285,29 +307,7 @@
       "published": "2026-09-01T12:00:00Z",
       "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
       "category": "machine behaviour",
-      "score": 9.68
-    },
-    {
-      "id": "80c9297e2fceb287",
-      "title": "Walden Robotics Partners With Toyota on Practical Humanoids",
-      "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota",
-      "source": "IEEE Spectrum Robotics",
-      "source_group": "robotics journalism",
-      "published": "2026-08-03T16:05:39Z",
-      "summary": "For a while there, it seemed as though robotics as a whole was stuck in a mad rush towards building humanoid robots mostly because it was very possible (and very lucrative) to do so, even without near-term goals that were necessarily realistic. Some of the magic of those first couple of years of the humanoid explosion has stuck around, but there’s also…",
-      "category": "robotics",
-      "score": 9.67
-    },
-    {
-      "id": "c60b75d4c49e5375",
-      "title": "Introducing Muse Glimmer",
-      "url": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer",
-      "source": "Simon Willison — LLMs",
-      "source_group": "independent",
-      "published": "2026-08-10T23:56:03Z",
-      "summary": "Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. Muse Glimmer achieves strong success…",
-      "category": "agents",
-      "score": 9.52
+      "score": 9.43
     },
     {
       "id": "6bf5b05134dd23a6",
@@ -318,7 +318,7 @@
       "published": "2026-09-01T17:08:51Z",
       "summary": "",
       "category": "agents",
-      "score": 8.92
+      "score": 8.67
     },
     {
       "id": "34e62ff4c7cf4def",
@@ -329,18 +329,7 @@
       "published": "2026-08-26T00:00:00Z",
       "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
       "category": "safety",
-      "score": 8.77
-    },
-    {
-      "id": "45cd7975f6d2c641",
-      "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
-      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
-      "source": "Simon Willison — LLMs",
-      "source_group": "independent",
-      "published": "2026-08-16T22:00:39Z",
-      "summary": "Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen's self-reported benchmarks for this model are eye-opening.…",
-      "category": "systems",
-      "score": 8.74
+      "score": 8.52
     },
     {
       "id": "b0cbef382238cdd5",
@@ -351,7 +340,7 @@
       "published": "2026-09-01T17:00:00Z",
       "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
       "category": "agents",
-      "score": 8.67
+      "score": 8.42
     },
     {
       "id": "cb1db0d5c74b6e9e",
@@ -362,7 +351,7 @@
       "published": "2026-08-28T02:00:00Z",
       "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
       "category": "machine behaviour",
-      "score": 8.57
+      "score": 8.32
     },
     {
       "id": "941ebc6928e6fec8",
@@ -387,6 +376,17 @@
       "score": 7.94
     },
     {
+      "id": "d7edbb568cdf990f",
+      "title": "What Robotics Companies Think About the U.S. Foreign Robot Ban",
+      "url": "https://spectrum.ieee.org/fcc-covered-list-mobile-robots",
+      "source": "IEEE Spectrum Robotics",
+      "source_group": "robotics journalism",
+      "published": "2026-08-04T11:00:01Z",
+      "summary": "The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. On 28 July, the FCC added mobile, communicating robots weighing more than 2 kilograms and power inverters commonly used in solar panels to the list, meaning that new…",
+      "category": "robotics",
+      "score": 7.94
+    },
+    {
       "id": "f0dc85dcc6d3444f",
       "title": "Piloting the world's first double-blind AI evaluations",
       "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations",
@@ -395,7 +395,7 @@
       "published": "2026-08-27T12:59:16Z",
       "summary": "Piloting the world's first double-blind AI evaluations",
       "category": "evaluation",
-      "score": 7.74
+      "score": 7.49
     },
     {
       "id": "ad90e6779ea3045b",
@@ -406,7 +406,18 @@
       "published": "2026-09-01T21:39:07Z",
       "summary": "",
       "category": "evaluation",
-      "score": 7.7
+      "score": 7.45
+    },
+    {
+      "id": "1d6b63efae6a0d62",
+      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+      "source": "Latent Space",
+      "source_group": "independent",
+      "published": "2026-09-03T04:38:33Z",
+      "summary": "an epic comeback story for Meta",
+      "category": "systems",
+      "score": 7.42
     },
     {
       "id": "17177c100c915029",
@@ -417,7 +428,7 @@
       "published": "2026-08-26T00:00:00Z",
       "summary": "",
       "category": "systems",
-      "score": 7.47
+      "score": 7.22
     },
     {
       "id": "f2694bfa96c49e91",
@@ -428,7 +439,7 @@
       "published": "2026-09-01T13:00:00Z",
       "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
       "category": "safety",
-      "score": 7.35
+      "score": 7.1
     },
     {
       "id": "e8c330662717fd1a",
@@ -439,7 +450,7 @@
       "published": "2026-08-20T05:17:12Z",
       "summary": "Every lab CEO is on X now",
       "category": "systems",
-      "score": 7.28
+      "score": 7.03
     },
     {
       "id": "9067892badb76164",
@@ -450,7 +461,7 @@
       "published": "2026-08-30T05:38:31Z",
       "summary": "Last week, I saw that local agents are good but slow . Today, I benchmarked the speed and cost. On my NVIDIA RTX 2000 GPU, I can run gemma4:e4b-it-qat at ~60 tokens per second. That seems the best intelligence performance I can get right now. It has an Artificial Analysis intelligence index of ~9 without reasoning and 12 with reasoning. So, if I run it for…",
       "category": "evaluation",
-      "score": 7.23
+      "score": 6.98
     },
     {
       "id": "593cccee766b48b2",
@@ -461,7 +472,7 @@
       "published": "2026-09-01T16:17:15Z",
       "summary": "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.",
       "category": "agents",
-      "score": 7.12
+      "score": 6.87
     },
     {
       "id": "d5a79aec56b438b3",
@@ -472,7 +483,7 @@
       "published": "2026-09-01T04:36:54Z",
       "summary": "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what.",
       "category": "multimodal",
-      "score": 7.0
+      "score": 6.75
     },
     {
       "id": "4862f3d2c68fb1ad",
@@ -483,18 +494,18 @@
       "published": "2026-08-31T07:00:00Z",
       "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
       "category": "safety",
-      "score": 6.93
+      "score": 6.68
     },
     {
-      "id": "7bc922275c7db283",
-      "title": "My Top 5 Prompts in August 2026",
-      "url": "https://www.s-anand.net/blog/my-top-5-prompts-in-august-2026",
+      "id": "459fb87a3f8508fc",
+      "title": "Things I Learned - 16 Aug 2026",
+      "url": "https://www.s-anand.net/blog/things-i-learned-16-aug-2026",
       "source": "S Anand",
       "source_group": "independent",
-      "published": "2026-08-28T06:52:34Z",
-      "summary": "I save prompts and prompt fragments I regularly use with ChatGPT, Claude, etc. (Prompt fragments are just prompts used along with other prompts. They’re typically smaller. But the difference isn’t important or anything… I just use two methods.) I use a script triggered by Ctrl Alt P to select the prompt to paste. This month, the five prompts / fragments I…",
-      "category": "multimodal",
-      "score": 6.8
+      "published": "2026-08-16T00:00:00Z",
+      "summary": "This week, I learned: psub is a neat fish option to treat command outputs like file inputs. E.g. diff (sort a.txt | psub) (sort b.txt | psub) More anchor points on how much text to ask AI for: … in 200-300 words (about 1 book page) … in ~1 A4 sheet (~500 words) … in ~3 minute of conversational Grade 8 reading (~500 words) I usually log things in a single…",
+      "category": "agents",
+      "score": 6.67
     },
     {
       "id": "738f130d6895192c",
@@ -505,7 +516,7 @@
       "published": "2026-08-26T16:16:25Z",
       "summary": "Lovable is branching out from AI-powered web app creation and into MCP-powered ‘capabilities’. We talk to CTO Fabian Hedin.",
       "category": "agents",
-      "score": 6.79
+      "score": 6.54
     },
     {
       "id": "4d3b17a749f42c95",
@@ -516,7 +527,29 @@
       "published": "2026-08-28T00:00:00Z",
       "summary": "",
       "category": "evaluation",
-      "score": 6.58
+      "score": 6.33
+    },
+    {
+      "id": "bf94848b24bf5829",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises",
+      "source": "Google DeepMind",
+      "source_group": "frontier lab",
+      "published": "2026-09-02T16:24:24Z",
+      "summary": "",
+      "category": "general AI",
+      "score": 6.24
+    },
+    {
+      "id": "355be2cf6d2d139c",
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+      "source": "Google DeepMind",
+      "source_group": "frontier lab",
+      "published": "2026-09-02T16:18:31Z",
+      "summary": "",
+      "category": "general AI",
+      "score": 6.24
     },
     {
       "id": "90ba20dc32b53edf",
@@ -527,29 +560,18 @@
       "published": "2026-08-27T16:11:32Z",
       "summary": "",
       "category": "safety",
-      "score": 6.38
+      "score": 6.13
     },
     {
-      "id": "05cc66113318e80d",
-      "title": "GlucoFM: Foundation model for continuous glucose monitoring",
-      "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
-      "source": "Google Research",
-      "source_group": "research lab",
-      "published": "2026-08-26T18:42:43Z",
-      "summary": "Health & Bioscience",
-      "category": "safety",
+      "id": "8c10bd00da2e478d",
+      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-09-02T13:49:14Z",
+      "summary": "",
+      "category": "general AI",
       "score": 6.12
-    },
-    {
-      "id": "737331cbffc8a092",
-      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
-      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
-      "source": "Google DeepMind",
-      "source_group": "frontier lab",
-      "published": "2026-08-26T17:01:00Z",
-      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
-      "category": "multimodal",
-      "score": 6.08
     },
     {
       "id": "05f294046b81fcd8",
@@ -563,15 +585,37 @@
       "score": 6.08
     },
     {
+      "id": "05cc66113318e80d",
+      "title": "GlucoFM: Foundation model for continuous glucose monitoring",
+      "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
+      "source": "Google Research",
+      "source_group": "research lab",
+      "published": "2026-08-26T18:42:43Z",
+      "summary": "Health & Bioscience",
+      "category": "safety",
+      "score": 5.87
+    },
+    {
+      "id": "737331cbffc8a092",
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
+      "source": "Google DeepMind",
+      "source_group": "frontier lab",
+      "published": "2026-08-26T17:01:00Z",
+      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "category": "multimodal",
+      "score": 5.83
+    },
+    {
       "id": "9d08610d0aa41c2f",
       "title": "Mapping global methane emissions from space with deep learning",
       "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning",
       "source": "Google Research",
       "source_group": "research lab",
-      "published": "2026-09-01T18:40:06Z",
+      "published": "2026-09-01T18:40:00Z",
       "summary": "Climate & Sustainability",
       "category": "general AI",
-      "score": 6.07
+      "score": 5.82
     },
     {
       "id": "f1c76f23a788b688",
@@ -582,7 +626,18 @@
       "published": "2026-08-25T11:39:24Z",
       "summary": "",
       "category": "systems",
-      "score": 6.01
+      "score": 5.76
+    },
+    {
+      "id": "c34d5f0d36696d9e",
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "source": "Latent Space",
+      "source_group": "independent",
+      "published": "2026-09-02T07:46:08Z",
+      "summary": "Queue the usual rush of model launches...",
+      "category": "general AI",
+      "score": 5.75
     },
     {
       "id": "91dad0068ec24e5b",
@@ -593,7 +648,7 @@
       "published": "2026-09-01T00:00:00Z",
       "summary": "",
       "category": "general AI",
-      "score": 5.97
+      "score": 5.72
     },
     {
       "id": "079179d422f7b4c4",
@@ -604,7 +659,7 @@
       "published": "2026-08-31T13:31:06Z",
       "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Import AI reader giveaway! Upcoming event: Fiction and the Future with Robin SloanI’ll be chatting with my chum Robin Sloan on the evening of Monday September […]",
       "category": "general AI",
-      "score": 5.86
+      "score": 5.61
     },
     {
       "id": "dea1017d6754b207",
@@ -615,7 +670,7 @@
       "published": "2026-08-31T17:19:40Z",
       "summary": "Data Management",
       "category": "general AI",
-      "score": 5.8
+      "score": 5.55
     },
     {
       "id": "48268a8a96251ba4",
@@ -626,40 +681,7 @@
       "published": "2026-08-31T16:00:00Z",
       "summary": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration. The post GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models appeared first on…",
       "category": "general AI",
-      "score": 5.79
-    },
-    {
-      "id": "774c92e393ebe03e",
-      "title": "🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing",
-      "url": "https://www.latent.space/p/anima",
-      "source": "Latent Space",
-      "source_group": "independent",
-      "published": "2026-08-26T15:15:39Z",
-      "summary": "Anima Anandkumar has spent two decades in AI, from classical math to deep learning and back. Now she's using it to model the physical world, from weather to fusion reactors.",
-      "category": "machine behaviour",
-      "score": 5.78
-    },
-    {
-      "id": "9b54a38fa1b1a3f1",
-      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "url": "https://huggingface.co/blog/gradio-workflow-guide",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-08-25T00:00:00Z",
-      "summary": "",
-      "category": "agents",
-      "score": 5.67
-    },
-    {
-      "id": "b10425dbb6909dfa",
-      "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
-      "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr",
-      "source": "Google Research",
-      "source_group": "research lab",
-      "published": "2026-08-25T19:10:59Z",
-      "summary": "Human-Computer Interaction and Visualization",
-      "category": "agents",
-      "score": 5.6
+      "score": 5.54
     },
     {
       "id": "775f2a780d362850",
@@ -671,6 +693,17 @@
       "summary": "After a few long years of finding time to document my lessons from training open models, my post-training book is done!",
       "category": "systems",
       "score": 5.37
+    },
+    {
+      "id": "b10425dbb6909dfa",
+      "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+      "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr",
+      "source": "Google Research",
+      "source_group": "research lab",
+      "published": "2026-08-25T19:10:59Z",
+      "summary": "Human-Computer Interaction and Visualization",
+      "category": "agents",
+      "score": 5.35
     },
     {
       "id": "b6afdd4892802e0f",
@@ -692,29 +725,7 @@
       "published": "2026-08-21T10:54:00Z",
       "summary": "Algorithms & Theory",
       "category": "multilingual",
-      "score": 5.01
-    },
-    {
-      "id": "74a4be6dfd2881cf",
-      "title": "[AINews] OpenAI shuts off Cursor",
-      "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
-      "source": "Latent Space",
-      "source_group": "independent",
-      "published": "2026-08-29T05:11:52Z",
-      "summary": "Elon v Altman has a real consequence.",
-      "category": "general AI",
-      "score": 4.98
-    },
-    {
-      "id": "a8dbd4f6642c381b",
-      "title": "Orchard: An open framework for scalable agentic AI",
-      "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai",
-      "source": "Microsoft Research",
-      "source_group": "research lab",
-      "published": "2026-08-03T16:00:00Z",
-      "summary": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure. The post Orchard: An open framework for scalable agentic AI appeared first on Microsoft Research .",
-      "category": "agents",
-      "score": 4.87
+      "score": 4.76
     },
     {
       "id": "c5b24f7b84897b1a",
@@ -725,7 +736,7 @@
       "published": "2026-08-27T17:37:00Z",
       "summary": "Earth AI",
       "category": "general AI",
-      "score": 4.81
+      "score": 4.56
     },
     {
       "id": "8625f311cd075df6",
@@ -736,18 +747,7 @@
       "published": "2026-08-20T16:00:00Z",
       "summary": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational performance. The post Broadening access to Skala creates a faster path to predictive DFT appeared first on Microsoft…",
       "category": "evaluation",
-      "score": 4.54
-    },
-    {
-      "id": "fdd4c9d9c54d6aa4",
-      "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
-      "url": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye",
-      "source": "Import AI",
-      "source_group": "independent",
-      "published": "2026-08-24T13:12:40Z",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating some types of progress but not others:…A nice METR study lays out where acceleration is showing up…Here’s a little analysis from METR which […]",
-      "category": "general AI",
-      "score": 4.11
+      "score": 4.29
     },
     {
       "id": "ecb8f0dc7a1d654b",
@@ -761,15 +761,15 @@
       "score": 3.87
     },
     {
-      "id": "c26c8d5a4e90c678",
-      "title": "Putting sign language AI into users’ hands",
-      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands",
-      "source": "Google DeepMind",
-      "source_group": "frontier lab",
-      "published": "2026-08-12T14:01:59Z",
-      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
-      "category": "machine behaviour",
-      "score": 3.84
+      "id": "fdd4c9d9c54d6aa4",
+      "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
+      "url": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye",
+      "source": "Import AI",
+      "source_group": "independent",
+      "published": "2026-08-24T13:12:40Z",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating some types of progress but not others:…A nice METR study lays out where acceleration is showing up…Here’s a little analysis from METR which […]",
+      "category": "general AI",
+      "score": 3.86
     },
     {
       "id": "b1e455ad0dbc9474",
@@ -779,17 +779,6 @@
       "source_group": "research lab",
       "published": "2026-08-11T16:00:00Z",
       "summary": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation. The post Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement…",
-      "category": "evaluation",
-      "score": 3.81
-    },
-    {
-      "id": "02ee117c8673acd4",
-      "title": "Introducing our Artifacts Hub and Adoption Dashboard",
-      "url": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
-      "source": "Interconnects",
-      "source_group": "independent",
-      "published": "2026-08-03T14:03:08Z",
-      "summary": "Scaling our curation and measurement of the open ecosystem.",
       "category": "evaluation",
       "score": 3.81
     }
