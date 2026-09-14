@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:39:46.466399Z",
+  "generated_at": "2026-09-14T08:07:07.613002Z",
   "working_sources": [
     "Simon Willison — LLMs",
     "Simon Willison — AI agents",
@@ -21,7 +21,7 @@
     "arXiv — AI, language and HCI": "HTTP Error 429: Unknown Error",
     "arXiv — Robotics": "The read operation timed out"
   },
-  "item_count": 49,
+  "item_count": 46,
   "items": [
     {
       "id": "492c9e0e67e9d6ab",
@@ -32,7 +32,7 @@
       "published": "2026-09-11T15:30:04Z",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…",
       "category": "robotics",
-      "score": 14.91
+      "score": 14.66
     },
     {
       "id": "315ed32aba6d5710",
@@ -54,7 +54,7 @@
       "published": "2026-09-10T18:22:35Z",
       "summary": "Dexterous manipulation remains one of the biggest barriers keeping robots from successfully tackling a wide range of everyday tasks. A sense of touch could be the key, but a lack of quality data has held back progress. This is now starting to change as academic labs and startups race to build new tactile datasets and techniques to put them to use. Over the…",
       "category": "robotics",
-      "score": 12.86
+      "score": 12.61
     },
     {
       "id": "70274864cb8a524b",
@@ -65,7 +65,7 @@
       "published": "2026-08-30T23:59:47Z",
       "summary": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com…",
       "category": "agents",
-      "score": 12.36
+      "score": 12.1
     },
     {
       "id": "ce9586eecdb20aa4",
@@ -76,7 +76,7 @@
       "published": "2026-09-04T16:00:05Z",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…",
       "category": "robotics",
-      "score": 11.34
+      "score": 11.08
     },
     {
       "id": "d1856d7c4846fa93",
@@ -87,7 +87,7 @@
       "published": "2026-09-06T00:00:00Z",
       "summary": "This week, I learned: Swiggy Money on MCP (also a ChatGPT plugin ) exposes MCP endpoints that let your agents order food or grocery via Swiggy. The food MCP isn’t geared towards automated purchases #ForNow, e.g. I can’t say “Find something I like and deliver to one of my addresses.” It uses the MCP UI and you have to confirm the address, then confirm the…",
       "category": "agents",
-      "score": 11.28
+      "score": 11.03
     },
     {
       "id": "a7417237277cc54a",
@@ -101,17 +101,6 @@
       "score": 10.56
     },
     {
-      "id": "30b6425295f5ef76",
-      "title": "Learning in a Podcast Interview",
-      "url": "https://www.s-anand.net/blog/learning-in-a-podcast-interview",
-      "source": "S Anand",
-      "source_group": "independent",
-      "published": "2026-09-13T01:07:30Z",
-      "summary": "Priya Dialani interviewed me for a podcast . Here’s the rough summary: What do you and Straive do? Straive builds AI and runs AI. I poke at LLMs to learn what they cannot do. My friend calls me an “LLM Psychopath”. Why do AI pilots get stuck before production? AI speeds up coding, but less of testing. Making sure it works can take months. Why organize…",
-      "category": "agents",
-      "score": 10.54
-    },
-    {
       "id": "26ac33df3255164f",
       "title": "Video Friday: Do We Need Superhuman Humanoid Robots?",
       "url": "https://spectrum.ieee.org/video-friday-unitree-superhuman",
@@ -123,15 +112,26 @@
       "score": 10.44
     },
     {
-      "id": "c2f2ca6d82e831a7",
-      "title": "Video Friday: Meet Microduck",
-      "url": "https://spectrum.ieee.org/video-friday-microduck-robot",
-      "source": "IEEE Spectrum Robotics",
-      "source_group": "robotics journalism",
-      "published": "2026-08-28T16:00:03Z",
-      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…",
-      "category": "robotics",
-      "score": 9.98
+      "id": "30b6425295f5ef76",
+      "title": "Learning in a Podcast Interview",
+      "url": "https://www.s-anand.net/blog/learning-in-a-podcast-interview",
+      "source": "S Anand",
+      "source_group": "independent",
+      "published": "2026-09-13T01:07:30Z",
+      "summary": "Priya Dialani interviewed me for a podcast . Here’s the rough summary: What do you and Straive do? Straive builds AI and runs AI. I poke at LLMs to learn what they cannot do. My friend calls me an “LLM Psychopath”. Why do AI pilots get stuck before production? AI speeds up coding, but less of testing. Making sure it works can take months. Why organize…",
+      "category": "agents",
+      "score": 10.29
+    },
+    {
+      "id": "21c9b1fb88cc262e",
+      "title": "Things I Learned - 13 Sep 2026",
+      "url": "https://www.s-anand.net/blog/things-i-learned-13-sep-2026",
+      "source": "S Anand",
+      "source_group": "independent",
+      "published": "2026-09-13T00:00:00Z",
+      "summary": "This week, I learned: Everything I own, owned suggests that agentic reverse-engineering of firmware helps us learn: Features the devices expose Hidden functionalities, e.g. Shure MV7 microphone has a command shell. Dependencies, supply chains and attack surfaces Interesting components, e.g. RTOS webcam has small face tracking and gesture detection models…",
+      "category": "agents",
+      "score": 10.28
     },
     {
       "id": "86c9015dd55dff65",
@@ -145,6 +145,17 @@
       "score": 9.97
     },
     {
+      "id": "c2f2ca6d82e831a7",
+      "title": "Video Friday: Meet Microduck",
+      "url": "https://spectrum.ieee.org/video-friday-microduck-robot",
+      "source": "IEEE Spectrum Robotics",
+      "source_group": "robotics journalism",
+      "published": "2026-08-28T16:00:03Z",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…",
+      "category": "robotics",
+      "score": 9.89
+    },
+    {
       "id": "968c32634dc2a1cb",
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
@@ -153,7 +164,7 @@
       "published": "2026-09-14T00:00:00Z",
       "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "category": "machine behaviour",
-      "score": 9.88
+      "score": 9.79
     },
     {
       "id": "b32e9b8471353987",
@@ -164,7 +175,7 @@
       "published": "2026-09-10T00:00:00Z",
       "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
       "category": "agents",
-      "score": 9.66
+      "score": 9.4
     },
     {
       "id": "3eb3e9557eb7038e",
@@ -175,7 +186,7 @@
       "published": "2026-09-09T17:00:00Z",
       "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
       "category": "safety",
-      "score": 9.48
+      "score": 9.22
     },
     {
       "id": "8f194314e0d00e23",
@@ -186,7 +197,7 @@
       "published": "2026-09-02T14:16:42Z",
       "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked…",
       "category": "agents",
-      "score": 9.4
+      "score": 9.14
     },
     {
       "id": "1514b7d9e6775ac9",
@@ -197,7 +208,7 @@
       "published": "2026-09-11T17:47:11Z",
       "summary": "Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-driven end to end tests, Claude-powered fuzzers running daily, automated code reviews and security reviews, automated code refactoring, and so…",
       "category": "agents",
-      "score": 9.07
+      "score": 8.82
     },
     {
       "id": "2608dc383dd79ca4",
@@ -208,7 +219,7 @@
       "published": "2026-09-11T03:27:16Z",
       "summary": "Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are security fixes which you should apply if you are running a Datasette instance on the public web - in particular if that instance mixes both…",
       "category": "agents",
-      "score": 8.92
+      "score": 8.67
     },
     {
       "id": "98ec9d8d675227d9",
@@ -219,7 +230,7 @@
       "published": "2026-09-05T13:00:04Z",
       "summary": "Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded needle on its back scuttling toward you. Although the sight might be unnerving, to say the least, this prototype paramedic cyborg, or “Paraborg,” might one day help deliver lifesaving aid to disaster victims who might be otherwise…",
       "category": "robotics",
-      "score": 8.83
+      "score": 8.58
     },
     {
       "id": "0bd67377f706fe61",
@@ -230,18 +241,7 @@
       "published": "2026-09-05T04:00:58Z",
       "summary": "I delivered a 15-minute keynote at Jio Institute’s Convergence 2026 at NTU on Thursday. The topic was “Data Storytelling” - a bit jarring in the middle of an AI event. Shailesh picked it and I just rolled with it. A spent several days worrying, “How the heck do I say about data storytelling, when most of my recent workshops and talks are about the death of…",
       "category": "agents",
-      "score": 8.63
-    },
-    {
-      "id": "d7caac9306c0121a",
-      "title": "Converting Black and White Photos to Color with GPT Image 2.5",
-      "url": "https://www.s-anand.net/blog/converting-black-and-white-photos-to-color-with-gpt-image-2.5",
-      "source": "S Anand",
-      "source_group": "independent",
-      "published": "2026-09-09T05:50:10Z",
-      "summary": "Nano Banana ( gemini-2.5-flash-image ) did a pretty good job converting my parents’ wedding photos to color . I checked how well GPT Image 2.5 would do. The older GPT Image 2 model messed up the faces. The short answer is: better than Gemini 2.5 Flash ! Here’s the original and the GPT Image 2.5 colorized version, created with the prompt: “Convert this…",
-      "category": "evaluation",
-      "score": 8.2
+      "score": 8.37
     },
     {
       "id": "46fcf5bb7b99520f",
@@ -252,7 +252,7 @@
       "published": "2026-09-11T10:00:00Z",
       "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
       "category": "systems",
-      "score": 8.18
+      "score": 7.93
     },
     {
       "id": "e0bb328294c6f8f6",
@@ -263,7 +263,7 @@
       "published": "2026-09-12T23:56:42Z",
       "summary": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route: When…",
       "category": "agents",
-      "score": 8.0
+      "score": 7.74
     },
     {
       "id": "08a3d9b2900ccf7d",
@@ -274,7 +274,7 @@
       "published": "2026-09-10T22:50:22Z",
       "summary": "Machine Intelligence",
       "category": "agents",
-      "score": 7.05
+      "score": 6.8
     },
     {
       "id": "c0364833b41073ca",
@@ -285,7 +285,7 @@
       "published": "2026-09-01T12:00:00Z",
       "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
       "category": "machine behaviour",
-      "score": 6.92
+      "score": 6.67
     },
     {
       "id": "075fed980e67c694",
@@ -296,7 +296,7 @@
       "published": "2026-09-10T00:00:00Z",
       "summary": "",
       "category": "agents",
-      "score": 6.91
+      "score": 6.66
     },
     {
       "id": "6a886414536a09e3",
@@ -307,7 +307,7 @@
       "published": "2026-09-10T15:00:00Z",
       "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
       "category": "machine behaviour",
-      "score": 6.87
+      "score": 6.62
     },
     {
       "id": "5cbcf08e288841ac",
@@ -318,7 +318,7 @@
       "published": "2026-09-08T14:23:07Z",
       "summary": "",
       "category": "safety",
-      "score": 6.45
+      "score": 6.2
     },
     {
       "id": "24ae7ff87814ef1a",
@@ -329,7 +329,7 @@
       "published": "2026-09-09T11:01:23Z",
       "summary": "We’re < 5 years into a compounding revolution which could take a century, and how the AI industry should manage this.",
       "category": "systems",
-      "score": 6.4
+      "score": 6.15
     },
     {
       "id": "cdd1118267ee925c",
@@ -340,7 +340,7 @@
       "published": "2026-09-03T00:00:00Z",
       "summary": "",
       "category": "agents",
-      "score": 6.33
+      "score": 6.08
     },
     {
       "id": "3f9d96e979702fa8",
@@ -351,7 +351,7 @@
       "published": "2026-09-09T05:04:51Z",
       "summary": "Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI.",
       "category": "agents",
-      "score": 6.25
+      "score": 6.0
     },
     {
       "id": "6bf5b05134dd23a6",
@@ -362,7 +362,7 @@
       "published": "2026-09-01T17:08:51Z",
       "summary": "",
       "category": "agents",
-      "score": 6.17
+      "score": 5.91
     },
     {
       "id": "ea357ca2ed6d6e4c",
@@ -373,7 +373,7 @@
       "published": "2026-09-07T12:26:31Z",
       "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discover another OpenAI agent emergent communication incident:…Less severe, but worrying nonetheless…Some researchers recently found another incident of AI agents…",
       "category": "agents",
-      "score": 6.13
+      "score": 5.87
     },
     {
       "id": "b01f2ad61bd017c9",
@@ -384,7 +384,7 @@
       "published": "2026-09-12T15:01:19Z",
       "summary": "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline — a pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs.",
       "category": "general AI",
-      "score": 5.83
+      "score": 5.57
     },
     {
       "id": "76f60d64aa6d7890",
@@ -395,7 +395,7 @@
       "published": "2026-09-11T12:36:25Z",
       "summary": "How to get up to speed on open models and their implications.",
       "category": "general AI",
-      "score": 5.75
+      "score": 5.5
     },
     {
       "id": "d1d28ac13afc9a24",
@@ -406,7 +406,18 @@
       "published": "2026-09-12T05:56:05Z",
       "summary": "We agree with Sebastian: this should have been DeepSeek v5",
       "category": "general AI",
-      "score": 5.73
+      "score": 5.48
+    },
+    {
+      "id": "17177c100c915029",
+      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-08-26T00:00:00Z",
+      "summary": "",
+      "category": "systems",
+      "score": 5.3
     },
     {
       "id": "131a43e02364cc60",
@@ -417,7 +428,7 @@
       "published": "2026-09-10T15:28:52Z",
       "summary": "Some quick notes on a truly weird week.",
       "category": "general AI",
-      "score": 5.53
+      "score": 5.28
     },
     {
       "id": "fffbcba03b0b217e",
@@ -428,73 +439,7 @@
       "published": "2026-09-03T13:13:48Z",
       "summary": "",
       "category": "multilingual",
-      "score": 5.52
-    },
-    {
-      "id": "49bf67e78155156d",
-      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
-      "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
-      "source": "Latent Space",
-      "source_group": "independent",
-      "published": "2026-09-04T05:18:11Z",
-      "summary": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class.",
-      "category": "agents",
-      "score": 5.39
-    },
-    {
-      "id": "46660cb2ea4362f6",
-      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
-      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-09-09T15:36:24Z",
-      "summary": "",
-      "category": "general AI",
-      "score": 5.38
-    },
-    {
-      "id": "a139f80b159295ad",
-      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-09-03T00:00:00Z",
-      "summary": "",
-      "category": "systems",
-      "score": 5.33
-    },
-    {
-      "id": "2906695f474f1c03",
-      "title": "[AINews] Collusion.wiki: A second undisclosed OpenAI agent swarm incident...",
-      "url": "https://www.latent.space/p/ainews-collusionwiki-a-second-undisclosed",
-      "source": "Latent Space",
-      "source_group": "independent",
-      "published": "2026-09-05T04:32:00Z",
-      "summary": "AI News for 9/2/2026-9/3/2026.",
-      "category": "agents",
-      "score": 5.25
-    },
-    {
-      "id": "825546b9e9e150a7",
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
-      "source": "Google DeepMind",
-      "source_group": "frontier lab",
-      "published": "2026-09-08T14:00:15Z",
-      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-      "category": "general AI",
-      "score": 5.22
-    },
-    {
-      "id": "3f89dd954b82394a",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
-      "source": "Latent Space",
-      "source_group": "independent",
-      "published": "2026-09-10T03:33:12Z",
-      "summary": "a quiet day",
-      "category": "general AI",
-      "score": 5.21
+      "score": 5.27
     },
     {
       "id": "f0dc85dcc6d3444f",
@@ -508,6 +453,61 @@
       "score": 5.18
     },
     {
+      "id": "49bf67e78155156d",
+      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+      "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
+      "source": "Latent Space",
+      "source_group": "independent",
+      "published": "2026-09-04T05:18:11Z",
+      "summary": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class.",
+      "category": "agents",
+      "score": 5.14
+    },
+    {
+      "id": "46660cb2ea4362f6",
+      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-09-09T15:36:24Z",
+      "summary": "",
+      "category": "general AI",
+      "score": 5.13
+    },
+    {
+      "id": "2906695f474f1c03",
+      "title": "[AINews] Collusion.wiki: A second undisclosed OpenAI agent swarm incident...",
+      "url": "https://www.latent.space/p/ainews-collusionwiki-a-second-undisclosed",
+      "source": "Latent Space",
+      "source_group": "independent",
+      "published": "2026-09-05T04:32:00Z",
+      "summary": "AI News for 9/2/2026-9/3/2026.",
+      "category": "agents",
+      "score": 4.99
+    },
+    {
+      "id": "825546b9e9e150a7",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+      "source": "Google DeepMind",
+      "source_group": "frontier lab",
+      "published": "2026-09-08T14:00:15Z",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "category": "general AI",
+      "score": 4.96
+    },
+    {
+      "id": "3f89dd954b82394a",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-d3b",
+      "source": "Latent Space",
+      "source_group": "independent",
+      "published": "2026-09-10T03:33:12Z",
+      "summary": "a quiet day",
+      "category": "general AI",
+      "score": 4.95
+    },
+    {
       "id": "65f0c7f8c10de5a2",
       "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
       "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
@@ -516,18 +516,7 @@
       "published": "2026-09-08T14:15:25Z",
       "summary": "The open model ecosystem continues to expand in its breadth",
       "category": "general AI",
-      "score": 5.02
-    },
-    {
-      "id": "d5ea4bcadd66b1af",
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
-      "source": "Google DeepMind",
-      "source_group": "frontier lab",
-      "published": "2026-09-03T15:02:08Z",
-      "summary": "",
-      "category": "general AI",
-      "score": 3.98
+      "score": 4.76
     },
     {
       "id": "e1b962a17419559b",
@@ -539,28 +528,6 @@
       "summary": "Algorithms & Theory",
       "category": "multilingual",
       "score": 3.98
-    },
-    {
-      "id": "ecb8f0dc7a1d654b",
-      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
-      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
-      "source": "Interconnects",
-      "source_group": "independent",
-      "published": "2026-08-14T21:23:35Z",
-      "summary": "Hint: It’s really not a distillation story.",
-      "category": "systems",
-      "score": 3.87
-    },
-    {
-      "id": "9864db7c0affa455",
-      "title": "Transfer learning for genomic prediction in underrepresented populations",
-      "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations",
-      "source": "Google Research",
-      "source_group": "research lab",
-      "published": "2026-09-03T18:20:31Z",
-      "summary": "General Science",
-      "category": "general AI",
-      "score": 3.81
     }
   ]
 }
