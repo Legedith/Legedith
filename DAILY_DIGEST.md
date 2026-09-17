@@ -1,72 +1,10 @@
 # Robot Psychology Radar
 
-Updated 16 September 2026, 07:55 UTC from 16 working sources.
+Updated 17 September 2026, 07:59 UTC from 14 working sources.
 
-24 high-relevance items across 5 sources. Auto-collected metadata; inclusion is not endorsement.
-
-## Robotics
-
-### [Video Friday: Humanoid Robot Takes On Monkey Bars](https://spectrum.ieee.org/video-friday-disaster-response-robots)
-
-**IEEE Spectrum Robotics** · 11 Sep · relevance 14.2
-
-Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
-
-### [SWIM: Vision-Language-Grounded Soft Whole-Body Interactive Manipulation](https://arxiv.org/abs/2609.17035v1)
-
-**arXiv — Robotics** · 15 Sep · relevance 12.5
-
-Soft and continuum robots enable manipulation through distributed body deformation and contact, yet translating language and visual context into executable whole-body actuation remains a fundamental challenge. We present SWIM, a framework that maps an initial RGB observation and a language instruction to a complete actuation-command sequence. Its…
-
-### [Robots Are Learning to Feel](https://spectrum.ieee.org/tactile-data-robots)
-
-**IEEE Spectrum Robotics** · 10 Sep · relevance 12.1
-
-Dexterous manipulation remains one of the biggest barriers keeping robots from successfully tackling a wide range of everyday tasks. A sense of touch could be the key, but a lack of quality data has held back progress. This is now starting to change as academic labs and startups race to build new tactile datasets and techniques to put them to use. Over the…
-
-### [Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe](https://spectrum.ieee.org/humanoid-robot-safety)
-
-**IEEE Spectrum Robotics** · 15 Sep · relevance 12.1
-
-Despite the recent deluge of videos of humanoid robots doing backflips and kung-fu, the actual pace of progress towards humanoids that can do economically viable jobs at scale has at times seemed a bit plodding. There are some good reasons for this : a humanoid robot needs to be powerful enough to do useful work, safe enough for humans to walk past, and…
-
-### [Fingers as Legs: Learning Self-Supported Locomotion and Manipulation with an Anthropomorphic Hand](https://arxiv.org/abs/2609.17172v1)
-
-**arXiv — Robotics** · 15 Sep · relevance 11.3
-
-A walking robotic hand must use the same fingers to move its body, support its weight, and interact with the environment. We show how an anthropomorphic hand can learn these skills while retaining its finger design and position controller. Onboard power and computation make the platform self-contained. Our reinforcement learning approach accounts for the…
-
-### [Video Friday: Digit Redecorates](https://spectrum.ieee.org/video-friday-agility-robotics-digit)
-
-**IEEE Spectrum Robotics** · 04 Sep · relevance 10.6
-
-Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
-
-### [Video Friday: Do We Need Superhuman Humanoid Robots?](https://spectrum.ieee.org/video-friday-unitree-superhuman)
-
-**IEEE Spectrum Robotics** · 21 Aug · relevance 10.4
-
-Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
-
-### [Video Friday: Meet Microduck](https://spectrum.ieee.org/video-friday-microduck-robot)
-
-**IEEE Spectrum Robotics** · 28 Aug · relevance 9.9
-
-Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
+24 high-relevance items across 4 sources. Auto-collected metadata; inclusion is not endorsement.
 
 ## Agents
-
-### [Calibrate Once, Fly Any Team: Residual-Grounded Low-Fidelity Training for Cooperative Drone Swarms](https://arxiv.org/abs/2609.17265v1)
-
-**arXiv — Robotics** · 15 Sep · relevance 12.2
-
-Training multi-agent drone-swarm policies directly in high-fidelity (HF) rigid-body physics is accurate but computationally expensive. This cost scales poorly with team size, as each additional agent multiplies contact-resolution complexity and sharply raises the in-simulation crash rate. To address this, we propose a mixed-fidelity training scheme that…
-
-### [Artificial Intelligence-Enabled Space Robot Operations: Technologies, Challenges and Prospects](https://arxiv.org/abs/2609.16880v1)
-
-**arXiv — Robotics** · 15 Sep · relevance 12.2
-
-Space robots are increasingly expected to perform long-duration, contact-rich, and multi-stage operations with limited human intervention. Recent advances in artificial intelligence (AI), robot learning, and embodied foundation models provide new opportunities to improve the autonomy and adaptability of such systems, but their transfer to space is…
 
 ### [Understanding ChatGPT Work](https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work)
 
@@ -76,81 +14,95 @@ OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on 
 
 ### [Things I Learned - 06 Sep 2026](https://www.s-anand.net/blog/things-i-learned-06-sep-2026)
 
-**S Anand** · 06 Sep · relevance 10.5
+**S Anand** · 06 Sep · relevance 10.3
 
 This week, I learned: Swiggy Money on MCP (also a ChatGPT plugin ) exposes MCP endpoints that let your agents order food or grocery via Swiggy. The food MCP isn’t geared towards automated purchases #ForNow, e.g. I can’t say “Find something I like and deliver to one of my addresses.” It uses the MCP UI and you have to confirm the address, then confirm the…
 
 ### [Learning in a Podcast Interview](https://www.s-anand.net/blog/learning-in-a-podcast-interview)
 
-**S Anand** · 13 Sep · relevance 9.8
+**S Anand** · 13 Sep · relevance 9.5
 
 Priya Dialani interviewed me for a podcast . Here’s the rough summary: What do you and Straive do? Straive builds AI and runs AI. I poke at LLMs to learn what they cannot do. My friend calls me an “LLM Psychopath”. Why do AI pilots get stuck before production? AI speeds up coding, but less of testing. Making sure it works can take months. Why organize…
 
 ### [Things I Learned - 13 Sep 2026](https://www.s-anand.net/blog/things-i-learned-13-sep-2026)
 
-**S Anand** · 13 Sep · relevance 9.8
+**S Anand** · 13 Sep · relevance 9.5
 
 This week, I learned: Everything I own, owned suggests that agentic reverse-engineering of firmware helps us learn: Features the devices expose Hidden functionalities, e.g. Shure MV7 microphone has a command shell. Dependencies, supply chains and attack surfaces Interesting components, e.g. RTOS webcam has small face tracking and gesture detection models…
 
-## Evaluation
+### [Claude Cowork and chat are now one Claude](https://simonwillison.net/2026/Sep/16/one-claude)
 
-### [ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation](https://arxiv.org/abs/2609.17499v1)
+**Simon Willison — LLMs** · 16 Sep · relevance 9.4
 
-**arXiv — Robotics** · 15 Sep · relevance 13.7
+Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...]…
 
-Uncertainty estimation for Vision-Language-Navigation (VLN) models is a critical task since it can help identify ambiguous and unreliable predictions, enabling agents to make safer navigation decisions. As one of the most advanced uncertainty estimation frameworks, conformal prediction (CP) offers a promising approach for uncertainty estimation in VLN.…
+### [Quoting Laurie Voss](https://simonwillison.net/2026/Sep/14/laurie-voss)
 
-### [Evaluating Verified Autonomy in Quantum Engineering](https://arxiv.org/abs/2609.17439v1)
+**Simon Willison — LLMs** · 14 Sep · relevance 8.8
 
-**arXiv — AI, language and HCI** · 15 Sep · relevance 13.4
+The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to…
 
-Reliable quantum engineering is essential for turning quantum phenomena into practical technologies. As quantum platforms grow in scale and complexity, their characterization and operation require increasing human effort and coordination. Scientific artificial intelligence agents, which can plan experiments, operate instruments, and analyze observations,…
+### [Introducing the Agents API](https://openai.com/index/introducing-the-agents-api)
 
-### [Right Tool, Right Job: Native-Language Evaluation, Tokenizer Sensitivity, and Methodological Findings from a French-Only BabyLM](https://arxiv.org/abs/2609.17435v1)
+**OpenAI** · 10 Sep · relevance 8.7
 
-**arXiv — AI, language and HCI** · 15 Sep · relevance 12.4
+Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.
 
-We submit MéTRON-FR, a 125M GPT-2 pretrained on 92.47M words of French, to the BabyLM 2026 Strict track. It scores 85.97 +/- 0.17% on QFrBLiMP (a native Quebec-French benchmark of grammatical minimal pairs) and 62.80% on the BabyLM-weighted leaderboard. A cross-lingual GLUE (General Language Understanding Evaluation) protocol that combines French task-data…
+### [Claude's new system prompt really doesn't want to reproduce song lyrics](https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt)
 
-### [ECHO: A Matched-Contrast Benchmark for Context-Sensitive Turn-Taking in Full-Duplex Dialogue](https://arxiv.org/abs/2609.17360v1)
+**Simon Willison — LLMs** · 02 Sep · relevance 8.4
 
-**arXiv — AI, language and HCI** · 15 Sep · relevance 12.4
+Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked…
 
-Full-duplex spoken dialogue systems must distinguish interruptions that require yielding the floor from backchannels that permit continued speaking. Existing benchmarks typically evaluate events independently and may therefore reward fixed action preferences rather than context-sensitive decisions. We introduce ECHO, a paired diagnostic benchmark for…
+### [How I Verify And Delegate to AI](https://www.s-anand.net/blog/how-i-verify-and-delegate-to-ai)
 
-### [Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback](https://arxiv.org/abs/2609.17474v1)
+**S Anand** · 05 Sep · relevance 7.6
 
-**arXiv — AI, language and HCI** · 15 Sep · relevance 12.3
+I delivered a 15-minute keynote at Jio Institute’s Convergence 2026 at NTU on Thursday. The topic was “Data Storytelling” - a bit jarring in the middle of an AI event. Shailesh picked it and I just rolled with it. A spent several days worrying, “How the heck do I say about data storytelling, when most of my recent workshops and talks are about the death of…
 
-Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student. Direct imitation, however, can also transfer the teacher's systematic bias and errors. This challenge is particularly pronounced under covariate shift, when the teacher's reliability on target questions is uncertain and target-domain reward…
+### [Tabulate plant images](https://www.s-anand.net/blog/tabulate-plant-images)
 
-### [Things I Learned - 23 Aug 2026](https://www.s-anand.net/blog/things-i-learned-23-aug-2026)
+**S Anand** · 16 Sep · relevance 7.6
 
-**S Anand** · 23 Aug · relevance 10.6
+It was interesting to see how weak a model Claude 4.5 Haiku is, compared with other frontier models, even inside a good harness like Claude Code. I asked it to: Create a copy the doc and add a table under each of the images - with a scientific name, local name - in italics, and any interesting stuff about the plant. . Here’s the chat which roughly went:…
 
-This week, I learned: DuckDB 2.0 adds a CONNECT command that can connect to databases like MySQL, PostgreSQL, etc. making DuckDB the only DB client I need. EQ-Bench evaluates models on capabilities like: does it follow direction, does it challenge you, how good are its insights, does it build rapport, etc. Very interesting to see that the Gemini models are…
+## Robotics
 
-## Systems
+### [Rethinking Robot Safety in the Age of AI](https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone)
 
-### [FluxVLA Engine: A One-Stop VLA Engineering Platform for Embodied Intelligence](https://arxiv.org/abs/2609.17210v1)
+**IEEE Spectrum Robotics** · 16 Sep · relevance 14.7
 
-**arXiv — Robotics** · 15 Sep · relevance 12.3
+This article is brought to you by VicOne . Robot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: Can a machine remain safe when an attacker changes what it sees, decides, or does even when nothing appears to have failed? As AI and robotics continue to advance at an unprecedented…
 
-Vision-language-action (VLA) models, world-action models (WAMs), and offline reinforcement learning methods are rapidly expanding the design space of embodied policies, yet turning these algorithms into reliable robot systems remains constrained by fragmented data formats, training stacks, evaluation protocols, inference runtimes, and embodiment-specific…
+### [Video Friday: Humanoid Robot Takes On Monkey Bars](https://spectrum.ieee.org/video-friday-disaster-response-robots)
 
-### [Where Should a Document Live: Context, Representations, or Parameters?](https://arxiv.org/abs/2609.17346v1)
+**IEEE Spectrum Robotics** · 11 Sep · relevance 13.9
 
-**arXiv — AI, language and HCI** · 15 Sep · relevance 12.2
+Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
 
-To answer questions outside of their pre-training data, large language models (LLMs) need access to new information, which can be presented in the context window as documents, encoded into the model's parameters, or injected as latent representations. However, each of these methods comes with different efficiency, cost, and performance trade-offs, with no…
+### [Robots Are Learning to Feel](https://spectrum.ieee.org/tactile-data-robots)
 
-## Multilingual
+**IEEE Spectrum Robotics** · 10 Sep · relevance 11.9
 
-### [Evaluating Ambient Clinical Scribes in India: The Need for Multilingual Real-World Clinical Conversation Data](https://arxiv.org/abs/2609.17355v1)
+Dexterous manipulation remains one of the biggest barriers keeping robots from successfully tackling a wide range of everyday tasks. A sense of touch could be the key, but a lack of quality data has held back progress. This is now starting to change as academic labs and startups race to build new tactile datasets and techniques to put them to use. Over the…
 
-**arXiv — AI, language and HCI** · 15 Sep · relevance 11.8
+### [Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe](https://spectrum.ieee.org/humanoid-robot-safety)
 
-Ambient clinical scribes (ACS) are being rapidly deployed at scale across Global South healthcare settings, aiming to reduce clinician documentation time, especially in overburdened environments like India. These ACS are primarily developed or distilled from models built and validated on Global North speech, languages and consultation styles. Indian…
+**IEEE Spectrum Robotics** · 15 Sep · relevance 11.8
+
+Despite the recent deluge of videos of humanoid robots doing backflips and kung-fu, the actual pace of progress towards humanoids that can do economically viable jobs at scale has at times seemed a bit plodding. There are some good reasons for this : a humanoid robot needs to be powerful enough to do useful work, safe enough for humans to walk past, and…
+
+### [Video Friday: Do We Need Superhuman Humanoid Robots?](https://spectrum.ieee.org/video-friday-unitree-superhuman)
+
+**IEEE Spectrum Robotics** · 21 Aug · relevance 10.4
+
+Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
+
+### [Video Friday: Digit Redecorates](https://spectrum.ieee.org/video-friday-agility-robotics-digit)
+
+**IEEE Spectrum Robotics** · 04 Sep · relevance 10.3
+
+Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
 
 ## Safety
 
@@ -160,10 +112,62 @@ Ambient clinical scribes (ACS) are being rapidly deployed at scale across Global
 
 Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Rehberger is one of the most credible prompt injection researchers active today.…
 
+### [Paul Christiano joins OpenAI Foundation Board](https://openai.com/index/paul-christiano-joins-openai-foundation-board)
+
+**OpenAI** · 09 Sep · relevance 8.5
+
+Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.
+
+### [Our framework for reporting model misalignment](https://openai.com/index/model-misalignment-reporting-framework)
+
+**OpenAI** · 16 Sep · relevance 7.4
+
+OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.
+
+## Systems
+
+### [How Fyxer built an AI executive assistant people trust](https://openai.com/index/fyxer)
+
+**OpenAI** · 14 Sep · relevance 9.5
+
+Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.
+
+### [How to connect AI usage to business value](https://openai.com/index/how-to-connect-ai-usage-to-business-value)
+
+**OpenAI** · 16 Sep · relevance 7.3
+
+Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.
+
+## Evaluation
+
+### [Things I Learned - 23 Aug 2026](https://www.s-anand.net/blog/things-i-learned-23-aug-2026)
+
+**S Anand** · 23 Aug · relevance 10.6
+
+This week, I learned: DuckDB 2.0 adds a CONNECT command that can connect to databases like MySQL, PostgreSQL, etc. making DuckDB the only DB client I need. EQ-Bench evaluates models on capabilities like: does it follow direction, does it challenge you, how good are its insights, does it build rapport, etc. Very interesting to see that the Gemini models are…
+
+## Machine Behaviour
+
+### [Perplexity trusts GPT-6 Astra with end-to-end systems](https://openai.com/index/perplexity-improving-accuracy-with-astra)
+
+**OpenAI** · 14 Sep · relevance 9.0
+
+Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.
+
+## Multimodal
+
+### [Gemini Live audio](https://simonwillison.net/2026/Sep/15/gemini-live)
+
+**Simon Willison — LLMs** · 15 Sep · relevance 9.1
+
+Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a model and voice preset, enter an optional…
+
 <details>
 <summary>Sources unavailable during this run</summary>
 
 - **Berkeley AI Research:** `<urlopen error timed out>`
+- **arXiv — AI, language and HCI:** `HTTP Error 406: Not Acceptable`
+- **arXiv — Robotics:** `HTTP Error 406: Not Acceptable`
 
 </details>
 
