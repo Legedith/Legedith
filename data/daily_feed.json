@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T07:57:19.541841Z",
+  "generated_at": "2026-09-23T07:58:32.487398Z",
   "working_sources": [
     "Simon Willison — LLMs",
     "Simon Willison — AI agents",
@@ -32,7 +32,7 @@
       "published": "2026-09-17T20:57:55Z",
       "summary": "Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide \"six reports on unexpected or concerning model behavior we’ve observed in the last six months\". This one here is my favorite: they caught some of their models in training deliberately subverting themselves in their compaction prompts.…",
       "category": "machine behaviour",
-      "score": 13.96
+      "score": 13.71
     },
     {
       "id": "0732e90fcdeaf797",
@@ -43,7 +43,7 @@
       "published": "2026-09-16T16:51:02Z",
       "summary": "This article is brought to you by VicOne . Robot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: Can a machine remain safe when an attacker changes what it sees, decides, or does even when nothing appears to have failed? As AI and robotics continue to advance at an unprecedented…",
       "category": "robotics",
-      "score": 13.43
+      "score": 13.18
     },
     {
       "id": "1208dfd3d544e827",
@@ -54,7 +54,7 @@
       "published": "2026-09-18T16:01:05Z",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…",
       "category": "robotics",
-      "score": 12.97
+      "score": 12.72
     },
     {
       "id": "492c9e0e67e9d6ab",
@@ -65,7 +65,18 @@
       "published": "2026-09-11T15:30:04Z",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…",
       "category": "robotics",
-      "score": 12.66
+      "score": 12.41
+    },
+    {
+      "id": "5b206843ef211175",
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
+      "source": "Simon Willison — LLMs",
+      "source_group": "independent",
+      "published": "2026-09-22T23:46:41Z",
+      "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my impressions so far. GPT-6 Sol and Luna are half the price of their GPT-5.6…",
+      "category": "systems",
+      "score": 11.99
     },
     {
       "id": "70bd7a7cf0eadb87",
@@ -76,7 +87,18 @@
       "published": "2026-09-20T00:00:00Z",
       "summary": "This week, I learned: cloudflared tunnel --url http://localhost:8000 now lets you create a quick tunnel - i.e. expose a port via a public URL, like ngrok . No account or login required. Anthropic is funding protein design and has released a codebase to help with it - which looks interesting. These proteins will be tested in Adaptyv’s automated lab .…",
       "category": "systems",
-      "score": 11.64
+      "score": 11.39
+    },
+    {
+      "id": "1b36850f9db76c2c",
+      "title": "Barbara Mazzolai Wants to Build a New Field of Robotics",
+      "url": "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai",
+      "source": "IEEE Spectrum Robotics",
+      "source_group": "robotics journalism",
+      "published": "2026-09-22T14:00:04Z",
+      "summary": "Throughout her career, roboticist Barbara Mazzolai has turned to nature for inspiration. Now she wants to ensure the technology she builds gives back to the environment, too. After starting her career as a biologist, a chance opportunity saw Mazzolai switch streams to engineering and become an early pioneer of bioinspired robotics . Building on her…",
+      "category": "machine behaviour",
+      "score": 10.48
     },
     {
       "id": "f1ef88645d79f9a3",
@@ -87,7 +109,7 @@
       "published": "2026-09-10T18:22:35Z",
       "summary": "Dexterous manipulation remains one of the biggest barriers keeping robots from successfully tackling a wide range of everyday tasks. A sense of touch could be the key, but a lack of quality data has held back progress. This is now starting to change as academic labs and startups race to build new tactile datasets and techniques to put them to use. Over the…",
       "category": "robotics",
-      "score": 10.61
+      "score": 10.36
     },
     {
       "id": "0ff952cb1de379e8",
@@ -98,7 +120,7 @@
       "published": "2026-09-15T15:22:30Z",
       "summary": "Despite the recent deluge of videos of humanoid robots doing backflips and kung fu, the actual pace of progress towards humanoids that can do economically viable jobs at scale has at times seemed a bit plodding. There are some good reasons for this : A humanoid robot needs to be powerful enough to do useful work, safe enough for humans to walk past, and…",
       "category": "robotics",
-      "score": 10.55
+      "score": 10.3
     },
     {
       "id": "3eebc83f1a01945c",
@@ -109,18 +131,7 @@
       "published": "2026-09-20T16:38:58Z",
       "summary": "My daughter and I planned a trip to Timbuktu. For good reasons. Mansa Musa , perhaps the richest person in history, ruled there. It’s right at the edge of the Sahara desert . Buildings are made of yellow bricks . And… well, think about telling your friends, “Oh, I just returned from Timbuktu.” We ruled out flying. Flying is for losers. It’s possible to…",
       "category": "robotics",
-      "score": 10.15
-    },
-    {
-      "id": "c2f2ca6d82e831a7",
-      "title": "Video Friday: Meet Microduck",
-      "url": "https://spectrum.ieee.org/video-friday-microduck-robot",
-      "source": "IEEE Spectrum Robotics",
-      "source_group": "robotics journalism",
-      "published": "2026-08-28T16:00:03Z",
-      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…",
-      "category": "robotics",
-      "score": 9.89
+      "score": 9.9
     },
     {
       "id": "5ab1ec40b73bb896",
@@ -131,7 +142,7 @@
       "published": "2026-09-19T08:30:00Z",
       "summary": "I conducted a session on Sat, 19 Sep 2026 at Shree Niketan Schools — Teachers’ AI Q&A - Shree Niketan Schools, Chennai / Zoom. Speakers : Anant Mani , Harish Srinivasan Summary : Treat AI as a collaborator, not a vending machine: ask it to interview you before it builds a lesson plan, log what actually happens after you use its output, and benchmark any…",
       "category": "evaluation",
-      "score": 9.76
+      "score": 9.51
     },
     {
       "id": "4a0fe1781ed8ccaa",
@@ -142,7 +153,18 @@
       "published": "2026-09-18T03:55:29Z",
       "summary": "I heard a lot about Jev - a new kind of model from TypeSafe. It’s available on OpenRouter . It’s quite low-cost: Input = 4.2c / MTok, Output = free. It only classifies or scores. It doesn’t generate text. So that’s useful for classification, fact-checking, evaluations, etc. I evaluated Jev on 77 data points from BANKING77 and tested Jev against other…",
       "category": "evaluation",
-      "score": 9.74
+      "score": 9.49
+    },
+    {
+      "id": "16d87fa5b1873fae",
+      "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+      "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering",
+      "source": "Simon Willison — LLMs",
+      "source_group": "independent",
+      "published": "2026-09-23T02:53:19Z",
+      "summary": "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents. Think of it as an agentic show-and-tell: ​Compare notes with other builders and experimenters on things…",
+      "category": "agents",
+      "score": 9.41
     },
     {
       "id": "012242336f7588da",
@@ -153,7 +175,7 @@
       "published": "2026-09-21T23:09:20Z",
       "summary": "Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text output it returns floating point numbers…",
       "category": "evaluation",
-      "score": 9.43
+      "score": 9.18
     },
     {
       "id": "d1856d7c4846fa93",
@@ -167,6 +189,17 @@
       "score": 9.11
     },
     {
+      "id": "e9f63aa1f7aaa02f",
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-09-22T00:00:00Z",
+      "summary": "",
+      "category": "evaluation",
+      "score": 8.69
+    },
+    {
       "id": "10538c022345675d",
       "title": "Building standards for the next phase of AI",
       "url": "https://openai.com/index/building-standards-next-phase-ai",
@@ -175,7 +208,7 @@
       "published": "2026-09-21T10:00:00Z",
       "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
       "category": "evaluation",
-      "score": 8.65
+      "score": 8.4
     },
     {
       "id": "d2871d486c61275a",
@@ -186,7 +219,7 @@
       "published": "2026-09-21T00:00:00Z",
       "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
       "category": "agents",
-      "score": 8.38
+      "score": 8.13
     },
     {
       "id": "30b6425295f5ef76",
@@ -197,7 +230,7 @@
       "published": "2026-09-13T01:07:30Z",
       "summary": "Priya Dialani interviewed me for a podcast . Here’s the rough summary: What do you and Straive do? Straive builds AI and runs AI. I poke at LLMs to learn what they cannot do. My friend calls me an “LLM Psychopath”. Why do AI pilots get stuck before production? AI speeds up coding, but less of testing. Making sure it works can take months. Why organize…",
       "category": "agents",
-      "score": 8.29
+      "score": 8.04
     },
     {
       "id": "7f82d995c515e5ba",
@@ -208,7 +241,7 @@
       "published": "2026-09-14T12:00:00Z",
       "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
       "category": "systems",
-      "score": 8.25
+      "score": 8.0
     },
     {
       "id": "b365401fd38a766d",
@@ -219,18 +252,7 @@
       "published": "2026-09-16T18:09:49Z",
       "summary": "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...]…",
       "category": "agents",
-      "score": 8.13
-    },
-    {
-      "id": "8f194314e0d00e23",
-      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
-      "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt",
-      "source": "Simon Willison — LLMs",
-      "source_group": "independent",
-      "published": "2026-09-02T14:16:42Z",
-      "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked…",
-      "category": "agents",
-      "score": 8.08
+      "score": 7.88
     },
     {
       "id": "9da1736b8159c9ab",
@@ -241,7 +263,7 @@
       "published": "2026-09-15T22:47:07Z",
       "summary": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a model and voice preset, enter an optional…",
       "category": "multimodal",
-      "score": 7.82
+      "score": 7.57
     },
     {
       "id": "968c32634dc2a1cb",
@@ -252,18 +274,7 @@
       "published": "2026-09-14T00:00:00Z",
       "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "category": "machine behaviour",
-      "score": 7.79
-    },
-    {
-      "id": "b6349f50297a2015",
-      "title": "Quoting voxium",
-      "url": "https://simonwillison.net/2026/Sep/20/voxium",
-      "source": "Simon Willison — LLMs",
-      "source_group": "independent",
-      "published": "2026-09-20T21:06:43Z",
-      "summary": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that…",
-      "category": "safety",
-      "score": 7.77
+      "score": 7.54
     },
     {
       "id": "c5ef439db94fe95e",
@@ -274,7 +285,29 @@
       "published": "2026-09-22T06:30:56Z",
       "summary": "crowning a new Chinese frontier lab",
       "category": "systems",
-      "score": 7.65
+      "score": 7.4
+    },
+    {
+      "id": "f9027d80e820682e",
+      "title": "Better prompt caching for GPT-6",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "source": "OpenAI",
+      "source_group": "frontier lab",
+      "published": "2026-09-22T21:00:00Z",
+      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "category": "safety",
+      "score": 7.37
+    },
+    {
+      "id": "3fcefd9c665fb2c2",
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "source": "OpenAI",
+      "source_group": "frontier lab",
+      "published": "2026-09-22T12:00:00Z",
+      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "category": "agents",
+      "score": 7.17
     },
     {
       "id": "b5c50a1bc3bd0622",
@@ -285,18 +318,7 @@
       "published": "2026-09-21T15:30:19Z",
       "summary": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highlights RetroChimera, a predictive model that helps accelerate chemical synthesis, helping researchers explore a wide range of molecules. The post Improving synthesis prediction of small molecules at scale with…",
       "category": "machine behaviour",
-      "score": 7.42
-    },
-    {
-      "id": "b32e9b8471353987",
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "source": "OpenAI",
-      "source_group": "frontier lab",
-      "published": "2026-09-10T00:00:00Z",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "category": "agents",
-      "score": 7.41
+      "score": 7.17
     },
     {
       "id": "693b3130e25cc880",
@@ -307,18 +329,40 @@
       "published": "2026-09-21T00:00:00Z",
       "summary": "",
       "category": "systems",
-      "score": 7.36
+      "score": 7.11
     },
     {
-      "id": "3eb3e9557eb7038e",
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "source": "OpenAI",
-      "source_group": "frontier lab",
-      "published": "2026-09-09T17:00:00Z",
-      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "category": "safety",
-      "score": 7.22
+      "id": "3b3756fb85f48c9e",
+      "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
+      "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
+      "source": "Interconnects",
+      "source_group": "independent",
+      "published": "2026-09-22T13:37:45Z",
+      "summary": "Podcast #19",
+      "category": "general AI",
+      "score": 6.01
+    },
+    {
+      "id": "19163c30f0a4c925",
+      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+      "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+      "source": "Latent Space",
+      "source_group": "independent",
+      "published": "2026-09-23T06:41:41Z",
+      "summary": "overshadowing more efficient GPT6 models from OpenAI",
+      "category": "general AI",
+      "score": 5.99
+    },
+    {
+      "id": "689d78c6e007ab8e",
+      "title": "Transformers now runs llama.cpp quants",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-09-22T00:00:00Z",
+      "summary": "",
+      "category": "general AI",
+      "score": 5.97
     },
     {
       "id": "6b3083011aeb49b1",
@@ -329,7 +373,18 @@
       "published": "2026-09-22T00:00:00Z",
       "summary": "",
       "category": "general AI",
-      "score": 6.22
+      "score": 5.97
+    },
+    {
+      "id": "709f0ba0cc6c91a3",
+      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+      "url": "https://www.latent.space/p/john-platt",
+      "source": "Latent Space",
+      "source_group": "independent",
+      "published": "2026-09-22T21:07:39Z",
+      "summary": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
+      "category": "general AI",
+      "score": 5.89
     },
     {
       "id": "ae2a66f3c360fd17",
@@ -340,7 +395,7 @@
       "published": "2026-09-21T13:44:34Z",
       "summary": "",
       "category": "general AI",
-      "score": 6.11
+      "score": 5.86
     },
     {
       "id": "f541d802e5587f50",
@@ -351,7 +406,7 @@
       "published": "2026-09-21T12:31:04Z",
       "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for the US is to keep all options open:…It’s not clear exactly what is optimal, so the US should spend […]",
       "category": "general AI",
-      "score": 6.1
+      "score": 5.85
     },
     {
       "id": "acfc7f548a899d3e",
@@ -362,7 +417,7 @@
       "published": "2026-09-15T20:00:00Z",
       "summary": "Algorithms & Theory",
       "category": "systems",
-      "score": 6.08
+      "score": 5.83
     },
     {
       "id": "43bf4602833d95a5",
@@ -373,7 +428,7 @@
       "published": "2026-09-21T11:56:56Z",
       "summary": "The expanded form of a testimony I prepared for Congress.",
       "category": "general AI",
-      "score": 5.99
+      "score": 5.74
     },
     {
       "id": "a1d018f16fad79f9",
@@ -384,7 +439,7 @@
       "published": "2026-09-15T16:00:44Z",
       "summary": "",
       "category": "agents",
-      "score": 5.91
+      "score": 5.66
     },
     {
       "id": "7409d5ffee8a2c05",
@@ -395,7 +450,7 @@
       "published": "2026-09-21T22:13:49Z",
       "summary": "The definitive Jev podcast with its lead creator.",
       "category": "general AI",
-      "score": 5.9
+      "score": 5.65
     },
     {
       "id": "0510586cc5b5039d",
@@ -406,7 +461,7 @@
       "published": "2026-09-16T18:07:45Z",
       "summary": "We sit down with AIUC’s CEO on their Series A!",
       "category": "agents",
-      "score": 5.88
+      "score": 5.63
     },
     {
       "id": "eb64bf46642bd168",
@@ -417,7 +472,7 @@
       "published": "2026-09-15T20:11:54Z",
       "summary": "Good Start Labs trained an AI on a railroad game — and one version improved at financial research. The difference was the training design.",
       "category": "systems",
-      "score": 5.82
+      "score": 5.57
     },
     {
       "id": "f0a3b70da1267a22",
@@ -428,51 +483,7 @@
       "published": "2026-09-19T15:42:20Z",
       "summary": "An “AI moderate’s” view on recent events and the trajectory of frontier models.",
       "category": "general AI",
-      "score": 5.53
-    },
-    {
-      "id": "e3e0524cc29a68a0",
-      "title": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
-      "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
-      "source": "Latent Space",
-      "source_group": "independent",
-      "published": "2026-09-15T04:50:36Z",
-      "summary": "Pacing gathers pace.",
-      "category": "evaluation",
-      "score": 5.44
-    },
-    {
-      "id": "8bc15d2d1c9f7dbc",
-      "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
-      "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics",
-      "source": "Google Research",
-      "source_group": "research lab",
-      "published": "2026-09-18T17:46:09Z",
-      "summary": "Algorithms & Theory",
-      "category": "general AI",
-      "score": 5.3
-    },
-    {
-      "id": "17177c100c915029",
-      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-08-26T00:00:00Z",
-      "summary": "",
-      "category": "systems",
-      "score": 5.3
-    },
-    {
-      "id": "fb0ebe24a1ef5757",
-      "title": "[AINews] Here are 6 Clones of Jev in 2 days",
-      "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
-      "source": "Latent Space",
-      "source_group": "independent",
-      "published": "2026-09-19T05:48:28Z",
-      "summary": "Imitation is the sincerest form of Flattery",
-      "category": "general AI",
-      "score": 5.23
+      "score": 5.28
     },
     {
       "id": "f0dc85dcc6d3444f",
@@ -486,17 +497,6 @@
       "score": 5.18
     },
     {
-      "id": "9a68e948c26f7b48",
-      "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
-      "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui",
-      "source": "Google Research",
-      "source_group": "research lab",
-      "published": "2026-09-17T20:45:00Z",
-      "summary": "Education Innovation",
-      "category": "general AI",
-      "score": 5.08
-    },
-    {
       "id": "6bf5b05134dd23a6",
       "title": "Introducing agentic video understanding with Gemini",
       "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
@@ -508,15 +508,26 @@
       "score": 5.07
     },
     {
-      "id": "cdd1118267ee925c",
-      "title": "Give Your Coding Agents a Memory You Own",
-      "url": "https://huggingface.co/blog/funes",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-09-03T00:00:00Z",
-      "summary": "",
-      "category": "agents",
-      "score": 4.91
+      "id": "8bc15d2d1c9f7dbc",
+      "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
+      "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics",
+      "source": "Google Research",
+      "source_group": "research lab",
+      "published": "2026-09-18T17:46:09Z",
+      "summary": "Algorithms & Theory",
+      "category": "general AI",
+      "score": 5.05
+    },
+    {
+      "id": "9a68e948c26f7b48",
+      "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
+      "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui",
+      "source": "Google Research",
+      "source_group": "research lab",
+      "published": "2026-09-17T20:45:00Z",
+      "summary": "Education Innovation",
+      "category": "general AI",
+      "score": 4.83
     },
     {
       "id": "08a3d9b2900ccf7d",
@@ -527,7 +538,7 @@
       "published": "2026-09-10T22:50:22Z",
       "summary": "Machine Intelligence",
       "category": "agents",
-      "score": 4.8
+      "score": 4.55
     },
     {
       "id": "6aae488b1bb65e59",
@@ -538,7 +549,7 @@
       "published": "2026-09-15T17:05:57Z",
       "summary": "",
       "category": "general AI",
-      "score": 4.75
+      "score": 4.5
     },
     {
       "id": "24ae7ff87814ef1a",
@@ -549,18 +560,7 @@
       "published": "2026-09-09T11:01:23Z",
       "summary": "We’re < 5 years into a compounding revolution which could take a century, and how the AI industry should manage this.",
       "category": "systems",
-      "score": 4.15
-    },
-    {
-      "id": "ea357ca2ed6d6e4c",
-      "title": "Import AI 472: DeepMind’s cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman",
-      "url": "https://jack-clark.net/2026/09/07/import-ai-472-deepminds-cheating-math-agents-populist-ai-policies-and-forethought-theorizes-a-nightwatchman",
-      "source": "Import AI",
-      "source_group": "independent",
-      "published": "2026-09-07T12:26:31Z",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Researchers discover another OpenAI agent emergent communication incident:…Less severe, but worrying nonetheless…Some researchers recently found another incident of AI agents…",
-      "category": "agents",
-      "score": 3.87
+      "score": 3.9
     }
   ]
 }
