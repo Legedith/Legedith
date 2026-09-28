@@ -1,6 +1,6 @@
 # Robot Psychology Radar
 
-Updated 27 September 2026, 08:34 UTC from 15 working sources.
+Updated 28 September 2026, 08:58 UTC from 15 working sources.
 
 24 high-relevance items across 7 sources. Auto-collected metadata; inclusion is not endorsement.
 
@@ -8,31 +8,25 @@ Updated 27 September 2026, 08:34 UTC from 15 working sources.
 
 ### [Video Friday: Life’s Better With a Little Robot Goose](https://spectrum.ieee.org/video-friday-goose-household-robots)
 
-**IEEE Spectrum Robotics** · 25 Sep · relevance 14.5
+**IEEE Spectrum Robotics** · 25 Sep · relevance 14.3
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL 2026 : 9–12 November 2026, AUSTIN, TEXAS Humanoids 2026…
 
 ### [Rethinking Robot Safety in the Age of AI](https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone)
 
-**IEEE Spectrum Robotics** · 16 Sep · relevance 12.2
+**IEEE Spectrum Robotics** · 16 Sep · relevance 11.9
 
 This article is brought to you by VicOne . Robot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: Can a machine remain safe when an attacker changes what it sees, decides, or does even when nothing appears to have failed? As AI and robotics continue to advance at an unprecedented…
 
 ### [Video Friday: Two Birotors Make a Quadrotor](https://spectrum.ieee.org/video-friday-quadrotor-from-birotor)
 
-**IEEE Spectrum Robotics** · 18 Sep · relevance 11.7
+**IEEE Spectrum Robotics** · 18 Sep · relevance 11.5
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
 
 ### [Video Friday: Humanoid Robot Takes On Monkey Bars](https://spectrum.ieee.org/video-friday-disaster-response-robots)
 
-**IEEE Spectrum Robotics** · 11 Sep · relevance 11.4
-
-Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
-
-### [Video Friday: Meet Microduck](https://spectrum.ieee.org/video-friday-microduck-robot)
-
-**IEEE Spectrum Robotics** · 28 Aug · relevance 9.9
+**IEEE Spectrum Robotics** · 11 Sep · relevance 11.3
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
 
@@ -42,19 +36,19 @@ Video Friday is your weekly selection of awesome robotics videos, collected by y
 
 Dexterous manipulation remains one of the biggest barriers keeping robots from successfully tackling a wide range of everyday tasks. A sense of touch could be the key, but a lack of quality data has held back progress. This is now starting to change as academic labs and startups race to build new tactile datasets and techniques to put them to use. Over the…
 
-### [Slingshotting from Singapore to Timbuktu](https://www.s-anand.net/blog/slingshotting-from-singapore-to-timbuktu)
+### [Video Friday: Digit Redecorates](https://spectrum.ieee.org/video-friday-agility-robotics-digit)
 
-**S Anand** · 20 Sep · relevance 8.9
+**IEEE Spectrum Robotics** · 04 Sep · relevance 9.5
 
-My daughter and I planned a trip to Timbuktu. For good reasons. Mansa Musa , perhaps the richest person in history, ruled there. It’s right at the edge of the Sahara desert . Buildings are made of yellow bricks . And… well, think about telling your friends, “Oh, I just returned from Timbuktu.” We ruled out flying. Flying is for losers. It’s possible to…
+Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
 
 ### [How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows](https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp)
 
-**Hugging Face** · 23 Sep · relevance 8.1
+**Hugging Face** · 23 Sep · relevance 7.9
 
 ### [Offloaded inference for real-world physical AI robotics](https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics)
 
-**Microsoft Research** · 23 Sep · relevance 8.0
+**Microsoft Research** · 23 Sep · relevance 7.8
 
 Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI workloads. The post Offloaded inference for real-world physical AI robotics appeared first on Microsoft Research .
 
@@ -68,93 +62,99 @@ This week, I learned: Swiggy Money on MCP (also a ChatGPT plugin ) exposes MCP e
 
 ### [Quoting John Gruber](https://simonwillison.net/2026/Sep/25/john-gruber)
 
-**Simon Willison — LLMs** · 25 Sep · relevance 9.1
+**Simon Willison — LLMs** · 25 Sep · relevance 8.8
 
 Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as a cute mascot . It’s the first consumer-accessible agentic AI system, and Meta has truly…
 
 ### [Editorial Slop](https://www.s-anand.net/blog/editorial-slop)
 
-**S Anand** · 26 Sep · relevance 8.9
+**S Anand** · 26 Sep · relevance 8.6
 
 My article Redesigning the Operating Model: Shifting from AI Tool Rollouts to Workflow Integration appeared on CXOToday two days ago. Here’s how it happened. 29 May 2026 : Palash mailed me that we have an “Email interaction opportunity with Digital Terminal ” and they shared six questions: What are the key reasons behind this “last-mile problem” in scaling…
 
 ### [SF October 14th: A Birds of a Feather Session on Agentic Engineering](https://simonwillison.net/2026/Sep/23/bof-agentic-engineering)
 
-**Simon Willison — LLMs** · 23 Sep · relevance 8.4
+**Simon Willison — LLMs** · 23 Sep · relevance 8.2
 
 SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents. Think of it as an agentic show-and-tell: ​Compare notes with other builders and experimenters on things…
 
+### [Quoting Muse AI Agent](https://simonwillison.net/2026/Sep/28/muse-ai-agent)
+
+**Simon Willison — LLMs** · 28 Sep · relevance 8.0
+
+Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating. Worse, my auto-reply told him "Yep I'm here!" at 9:27 when you clearly weren't available, which is on me. That's a bad look and it made the no-show worse. I've sent…
+
 ## Evaluation
+
+### [2026 in LLMs (so far)](https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far)
+
+**Simon Willison — LLMs** · 27 Sep · relevance 13.5
+
+On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video is on YouTube ; here are my annotated slides and notes to accompany the talk. And as an annotated presentation : # I'm going…
+
+### [Qwen 3.6 vs Gemma 4 vs Luna](https://www.s-anand.net/blog/qwen-3-6-vs-gemma-4-vs-luna)
+
+**S Anand** · 27 Sep · relevance 10.3
+
+Open weights models are nudging up the frontier. For example, MiMo V2.6 Pro is an outlier on the Artificial Analysis Intelligence vs Cost per Task benchmark GLM 5.3 Flash is an outlier on the Arena Text Pareto Deepseek V4.1 Flash seems to be doing a great job as well. So, I thought I’d relook which model to use locally for coding. BTW, I don’t use local…
 
 ### [If You're Too Excited, Don't Forget to Verify](https://www.s-anand.net/blog/if-youre-too-excited-dont-forget-to-verify)
 
-**S Anand** · 24 Sep · relevance 9.7
+**S Anand** · 24 Sep · relevance 9.4
 
 I conducted a session on Thu, 24 Sep 2026 at International IT-BPM Summit (IIS) 2026 - Function Rooms #1 & #2, 3rd Floor Pearl Wing, Okada Manila, Parañaque City, Philippines. Summary : AI is too weird and fast-moving to trust by intuition alone: question advice, verify with a second model, calibrate confidence, benchmark what matters, and turn surviving…
 
-### [Jev introduces a new shape of LLM - System One, aka Decision Models](https://simonwillison.net/2026/Sep/21/jev)
-
-**Simon Willison — LLMs** · 21 Sep · relevance 8.2
-
-Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling "System One models" (I'm with Maggie Appleton, I think "decision models" is a better name for these). Jev is an interesting variant on the usual LLM format: it still accepts text inputs, but instead of text output it returns floating point numbers…
-
 ### [Introducing MentalHealthBench](https://openai.com/index/introducing-mentalhealthbench)
 
-**OpenAI** · 23 Sep · relevance 7.8
+**OpenAI** · 23 Sep · relevance 7.6
 
 MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.
 
 ### [How UK AISI and EvalEval Are Making Benchmark Results Reproducible](https://huggingface.co/blog/evaleval-aisi)
 
-**Hugging Face** · 22 Sep · relevance 7.7
+**Hugging Face** · 22 Sep · relevance 7.4
 
 ## Machine Behaviour
 
 ### [Things I Learned - 27 Sep 2026](https://www.s-anand.net/blog/things-i-learned-27-sep-2026)
 
-**S Anand** · 27 Sep · relevance 14.6
+**S Anand** · 27 Sep · relevance 14.4
 
 This week, I learned: trafilatura is a Python library that extracts the main content as Markdown from a web page. A useful alternative to Jina Reader for text. It’s better at main content extraction but can’t handle non-HTML / JS generated / bot-protected URLs. The Remote Desktop Commander ChatGPT plugin is a good alternative to my mcpserver.py . Both let…
 
 ### [Self-generated prompt injections in compaction summaries](https://simonwillison.net/2026/Sep/17/compaction-summaries)
 
-**Simon Willison — LLMs** · 17 Sep · relevance 12.7
+**Simon Willison — LLMs** · 17 Sep · relevance 12.4
 
 Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide "six reports on unexpected or concerning model behavior we’ve observed in the last six months". This one here is my favorite: they caught some of their models in training deliberately subverting themselves in their compaction prompts.…
-
-## Multimodal
-
-### [Runway’s WorldPrompt and the Engineering of Real-Time Worlds](https://www.latent.space/p/runway)
-
-**Latent Space** · 25 Sep · relevance 9.6
-
-GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.
-
-### [Kākāpō Party](https://simonwillison.net/2026/Sep/26/kakapo-party)
-
-**Simon Willison — LLMs** · 26 Sep · relevance 8.0
-
-Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in 2026. For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art…
 
 ## Systems
 
 ### [Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war](https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna)
 
-**Simon Willison — LLMs** · 22 Sep · relevance 11.0
+**Simon Willison — LLMs** · 22 Sep · relevance 10.7
 
 Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my impressions so far. GPT-6 Sol and Luna are half the price of their GPT-5.6…
 
 ### [Things I Learned - 20 Sep 2026](https://www.s-anand.net/blog/things-i-learned-20-sep-2026)
 
-**S Anand** · 20 Sep · relevance 10.4
+**S Anand** · 20 Sep · relevance 10.1
 
 This week, I learned: cloudflared tunnel --url http://localhost:8000 now lets you create a quick tunnel - i.e. expose a port via a public URL, like ngrok . No account or login required. Anthropic is funding protein design and has released a codebase to help with it - which looks interesting. These proteins will be tested in Adaptyv’s automated lab .…
+
+## Multimodal
+
+### [Runway’s WorldPrompt and the Engineering of Real-Time Worlds](https://www.latent.space/p/runway)
+
+**Latent Space** · 25 Sep · relevance 9.3
+
+GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.
 
 ## Safety
 
 ### [Sam Altman’s remarks at the United Nations Security Council](https://openai.com/index/sam-altman-un-security-council-remarks)
 
-**OpenAI** · 23 Sep · relevance 9.3
+**OpenAI** · 23 Sep · relevance 9.1
 
 OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.
 
