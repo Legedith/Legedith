@@ -1,70 +1,34 @@
 # Robot Psychology Radar
 
-Updated 01 October 2026, 09:26 UTC from 17 working sources.
+Updated 02 October 2026, 09:01 UTC from 16 working sources.
 
 24 high-relevance items across 7 sources. Auto-collected metadata; inclusion is not endorsement.
 
-## Evaluation
-
-### [Conversational Capture: A Trajectory-Level Framework for Evaluating Generative Engine Optimization in Multi-turn Human-Agent Interaction](https://arxiv.org/abs/2609.40069v1)
-
-**arXiv — AI, language and HCI** · 30 Sep · relevance 15.9
-
-Generative Engine Optimization (GEO) shapes content to increase its likelihood of being cited by answer engines built on retrieval-augmented large language models. GEO is typically evaluated as a single-turn property: for a fixed query, an evaluator measures a source's visibility in one answer. We argue that the single answer is an inadequate unit of…
-
-### [ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing](https://arxiv.org/abs/2609.40356v1)
-
-**arXiv — AI, language and HCI** · 30 Sep · relevance 14.9
-
-Recent video generation is increasingly realistic and controllable, yet video editing remains less developed, particularly for precise local edits that must preserve the original scene dynamics. Video scene text editing replaces text on scene surfaces, such as storefront signs, whiteboards, and product labels, while preserving the surrounding content,…
-
-### [JuryFlow: Disagreement-Guided Human-in-the-Loop Multi-Agent Evaluation](https://arxiv.org/abs/2609.40103v1)
-
-**arXiv — AI, language and HCI** · 30 Sep · relevance 14.6
-
-Large language models (LLMs) are increasingly deployed as automated judges for AI-generated content, yet a single judge is unreliable and even a panel of judges leaves a hard residue: when judges disagree, majority voting discards the conflict instead of resolving it. We present JuryFlow, a disagreement-guided, human-in-the-loop multi-agent evaluation…
-
-### [StreamRig: Exploiting Intra-Rig Geometry for Streaming Multi-Camera Odometry](https://arxiv.org/abs/2609.40244v1)
-
-**arXiv — Robotics** · 30 Sep · relevance 13.7
-
-Mobile robots and vehicles carry synchronized multi-camera rigs, yet many streaming 3D foundation models are designed for monocular input, leaving efficient use of rig geometry a challenge. We present StreamRig, a freeze-and-stream framework that builds causal streaming odometry for calibrated rigs on a frozen multi-view 3D foundation model. The frozen…
-
-### [Experience-Driven Continual Learning of Terrain Traversability for Quadruped Robots](https://arxiv.org/abs/2609.39755v1)
-
-**arXiv — Robotics** · 30 Sep · relevance 12.8
-
-Safe and efficient quadruped navigation over unfamiliar terrain requires predicting terrain-robot interaction before contact: geometry and visual appearance alone cannot reveal how the robot will slip, load its feet, or expend energy. This paper presents a continual learning pipeline that uses locomotion experience to learn these interaction outcomes from…
-
-### [2026 in LLMs (so far)](https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far)
-
-**Simon Willison — LLMs** · 27 Sep · relevance 12.7
-
-On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video is on YouTube ; here are my annotated slides and notes to accompany the talk. And as an annotated presentation : # I'm going…
-
-### [Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning](https://huggingface.co/blog/open-tts-leaderboard)
-
-**Hugging Face** · 30 Sep · relevance 10.3
-
 ## Robotics
 
-### [Rethinking Legibility in Social Robot Hallway Navigation: Impact of Intent Representation and Human Distraction](https://arxiv.org/abs/2609.40158v1)
+### [Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents](https://arxiv.org/abs/2610.02204v1)
 
-**arXiv — Robotics** · 30 Sep · relevance 16.1
+**arXiv — Robotics** · 01 Oct · relevance 13.7
 
-We focus on legible robot motion generation in social navigation settings. Legibility in human-robot interaction (HRI) is often described as the property of robot motion that enables an observer to confidently infer the robot's intent. While mature frameworks exist for generating legible motion in front of static observers, social robot navigation presents…
+Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autonomous improvement of robot execution systems without updating model weights. RPG identifies manipulation…
 
-### [STARS: From Spatiotemporal Dynamics to Social Representations in Human-Robot Interaction](https://arxiv.org/abs/2609.40245v1)
+### [Atlas Robot’s New Hand May Outperform Humanlike Designs](https://spectrum.ieee.org/robust-robot-hand)
 
-**arXiv — Robotics** · 30 Sep · relevance 14.7
+**IEEE Spectrum Robotics** · 01 Oct · relevance 13.5
 
-Robot navigation in dynamic, human-centered environments requires socially-compliant decisions grounded in robust scene understanding. Recent Vision-Language Models (VLMs) exhibit promising capabilities such as object recognition, common-sense reasoning, and contextual understanding, capabilities that align with the nuanced requirements of social robot…
+Today, Boston Dynamics is announcing a redesigned hand for its Atlas robot . The previous generation could do some crazy superhuman things with its three fingers, but it was never intended for mass production in the tens or hundreds of thousands. Switching from research hardware to a scalable product makes previously ignorable questions suddenly paramount:…
 
 ### [Video Friday: Life’s Better With a Little Robot Goose](https://spectrum.ieee.org/video-friday-goose-household-robots)
 
-**IEEE Spectrum Robotics** · 25 Sep · relevance 13.5
+**IEEE Spectrum Robotics** · 25 Sep · relevance 13.3
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL 2026 : 9–12 November 2026, AUSTIN, TEXAS Humanoids 2026…
+
+### [HumanoidToolBench: Benchmarking Humanoid Tool Use from Selection to Mobile Execution](https://arxiv.org/abs/2610.02089v1)
+
+**arXiv — Robotics** · 01 Oct · relevance 12.8
+
+As robotic hardware and learning methods advance, humanoids need tools to perform tasks beyond their inherent physical limits. Successful tool use requires selecting a suitable tool and coordinating manipulation and, when needed, locomotion to complete the task. Existing benchmarks do not jointly evaluate these capabilities on a humanoid. We introduce…
 
 ### [Video Friday: Humanoid Robot Takes On Monkey Bars](https://spectrum.ieee.org/video-friday-disaster-response-robots)
 
@@ -74,89 +38,134 @@ Video Friday is your weekly selection of awesome robotics videos, collected by y
 
 ### [Rethinking Robot Safety in the Age of AI](https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone)
 
-**IEEE Spectrum Robotics** · 16 Sep · relevance 11.2
+**IEEE Spectrum Robotics** · 16 Sep · relevance 10.9
 
 This article is brought to you by VicOne . Robot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: Can a machine remain safe when an attacker changes what it sees, decides, or does even when nothing appears to have failed? As AI and robotics continue to advance at an unprecedented…
 
 ### [Video Friday: Two Birotors Make a Quadrotor](https://spectrum.ieee.org/video-friday-quadrotor-from-birotor)
 
-**IEEE Spectrum Robotics** · 18 Sep · relevance 10.7
+**IEEE Spectrum Robotics** · 18 Sep · relevance 10.5
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
 
-## Systems
+### [Robots Are Learning to Feel](https://spectrum.ieee.org/tactile-data-robots)
 
-### [Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training](https://arxiv.org/abs/2609.40111v1)
+**IEEE Spectrum Robotics** · 10 Sep · relevance 9.5
 
-**arXiv — AI, language and HCI** · 30 Sep · relevance 15.2
+Dexterous manipulation remains one of the biggest barriers keeping robots from successfully tackling a wide range of everyday tasks. A sense of touch could be the key, but a lack of quality data has held back progress. This is now starting to change as academic labs and startups race to build new tactile datasets and techniques to put them to use. Over the…
 
-An unsuccessful LLM agent rollout contains more information than its final reward: the observations available to the agent, the actions it chose, and the environment's responses. Reusing this experience for learning requires identifying a decision to revise and testing a concrete alternative. We introduce the Agent Error Dataset (AED), comprising 50,228…
+## Evaluation
 
-### [Less Data, Better Timing: Student-Curriculum Coupling for VLM On-Policy Distillation in Temporal Video Grounding](https://arxiv.org/abs/2609.40055v1)
+### [Beyond Leaderboard Scores: A Deployment-Focused Protocol for Interpretable Tracking Evaluation in Pedestrian-Centric Environments](https://arxiv.org/abs/2610.01682v1)
 
-**arXiv — AI, language and HCI** · 30 Sep · relevance 13.8
+**arXiv — Robotics** · 01 Oct · relevance 12.7
 
-On-policy distillation (OPD) provides dense supervision directly on student-generated trajectories, making it an effective post-training strategy for vision-language models in temporal video grounding (TVG). However, existing pipelines typically construct the training curriculum from a fixed teacher and the initial student state, implicitly assuming that…
+Mobile robots operating among pedestrians need trajectories that become available quickly, remain spatially credible through missed observations, preserve identity, and fit within an embedded computing budget. Aggregate tracking scores provide limited insight into when and how trajectories fail, while varying detector inputs can confound tracker and…
 
-### [Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?](https://arxiv.org/abs/2609.40341v1)
+### [Is Success All You Need? Investigating the Impact of Input Perturbations on VLA Behaviour in Tabletop Manipulation Tasks](https://arxiv.org/abs/2610.01351v1)
 
-**arXiv — Robotics** · 30 Sep · relevance 13.3
+**arXiv — Robotics** · 01 Oct · relevance 12.6
 
-Egocentric human data provides a scalable source of experience for robot learning, but varies substantially in human-robot alignment, behavioral coverage, and available supervision. Existing work shows favorable scaling with increasing human data, but it remains unclear which data properties drive downstream robot gains and how to use such data throughout…
+Vision-Language-Action (VLA) models have achieved high task success rates on robot manipulation task benchmarks. More recently, there has been an emphasis on evaluating the robustness of VLA models to perturbations. However, this robustness is still predominantly measured through Task Success Rate (TSR). In this work, we propose a benchmark-agnostic…
 
-### [Beyond Policy Alignment: Closing the Planning-Learning Loop for Robot Control with Learned World Models](https://arxiv.org/abs/2609.39751v1)
+### [2026 in LLMs (so far)](https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far)
 
-**arXiv — Robotics** · 30 Sep · relevance 13.1
+**Simon Willison — LLMs** · 27 Sep · relevance 12.5
 
-Planning with learned world models combines online trajectory optimization with learned value and policy functions for high-dimensional control. Because the planner determines the experience used for learning, while the learned critic and actor in turn score and propose future plans, planning and learning form a closed feedback loop. TD-MPC is a prominent…
+On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video is on YouTube ; here are my annotated slides and notes to accompany the talk. And as an annotated presentation : # I'm going…
 
-### [Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war](https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna)
+### [Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning](https://huggingface.co/blog/open-tts-leaderboard)
 
-**Simon Willison — LLMs** · 22 Sep · relevance 10.0
+**Hugging Face** · 30 Sep · relevance 10.1
 
-Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my impressions so far. GPT-6 Sol and Luna are half the price of their GPT-5.6…
+### [Qwen 3.6 vs Gemma 4 vs Luna](https://www.s-anand.net/blog/qwen-3-6-vs-gemma-4-vs-luna)
+
+**S Anand** · 27 Sep · relevance 9.3
+
+Open weights models are nudging up the frontier. For example, MiMo V2.6 Pro is an outlier on the Artificial Analysis Intelligence vs Cost per Task benchmark GLM 5.3 Flash is an outlier on the Arena Text Pareto Deepseek V4.1 Flash seems to be doing a great job as well. So, I thought I’d relook which model to use locally for coding. BTW, I don’t use local…
 
 ## Machine Behaviour
 
 ### [Things I Learned - 27 Sep 2026](https://www.s-anand.net/blog/things-i-learned-27-sep-2026)
 
-**S Anand** · 27 Sep · relevance 13.6
+**S Anand** · 27 Sep · relevance 13.4
 
 This week, I learned: trafilatura is a Python library that extracts the main content as Markdown from a web page. A useful alternative to Jina Reader for text. It’s better at main content extraction but can’t handle non-HTML / JS generated / bot-protected URLs. The Remote Desktop Commander ChatGPT plugin is a good alternative to my mcpserver.py . Both let…
 
 ### [Self-generated prompt injections in compaction summaries](https://simonwillison.net/2026/Sep/17/compaction-summaries)
 
-**Simon Willison — LLMs** · 17 Sep · relevance 11.7
+**Simon Willison — LLMs** · 17 Sep · relevance 11.4
 
 Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide "six reports on unexpected or concerning model behavior we’ve observed in the last six months". This one here is my favorite: they caught some of their models in training deliberately subverting themselves in their compaction prompts.…
 
 ### [[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output](https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer)
 
-**Latent Space** · 01 Oct · relevance 9.8
+**Latent Space** · 01 Oct · relevance 9.5
 
 ... but you can’t try it yet unless you are “government users and trusted cyber defenders in the Fairwind Program”
+
+## Systems
+
+### [UniWAM: Unified World-Action Model](https://arxiv.org/abs/2610.02054v1)
+
+**arXiv — Robotics** · 01 Oct · relevance 13.9
+
+Vision-language-action models benefit from the understanding and reasoning capabilities of pretrained vision-language models, but action-only supervision provides limited grounding in world dynamics. Conversely, world-action models inherit spatiotemporal priors from video generation models, yet remain limited in semantic understanding and reasoning under…
+
+### [Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war](https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna)
+
+**Simon Willison — LLMs** · 22 Sep · relevance 9.7
+
+Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my impressions so far. GPT-6 Sol and Luna are half the price of their GPT-5.6…
+
+### [Things I Learned - 20 Sep 2026](https://www.s-anand.net/blog/things-i-learned-20-sep-2026)
+
+**S Anand** · 20 Sep · relevance 9.1
+
+This week, I learned: cloudflared tunnel --url http://localhost:8000 now lets you create a quick tunnel - i.e. expose a port via a public URL, like ngrok . No account or login required. Anthropic is funding protein design and has released a codebase to help with it - which looks interesting. These proteins will be tested in Adaptyv’s automated lab .…
+
+## Agents
+
+### [LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction](https://arxiv.org/abs/2610.01863v1)
+
+**arXiv — Robotics** · 01 Oct · relevance 13.4
+
+We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gathers evidence using specialised tools and iteratively edits a Python script,…
+
+### [Let's Test: Use AI Empirically](https://www.s-anand.net/blog/lets-test-use-ai-empirically)
+
+**S Anand** · 01 Oct · relevance 10.4
+
+I conducted a session on Thu, 01 Oct 2026 at DBS Technology India — TechVerse Session 4: Agentic AI - Remote / Webex. Speakers : Anand S Summary : Treat AI advice, models and agent workflows as hypotheses: test them on your own work, mine your logs for evidence, and make verification part of the workflow. Here’s the link to the session Links : Transcript…
 
 ## Safety
 
 ### [Quoting Anthropic Frontier Red Team](https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team)
 
-**Simon Willison — LLMs** · 29 Sep · relevance 10.7
+**Simon Willison — LLMs** · 29 Sep · relevance 10.5
 
 We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like…
 
 ### [Quoting Matthew Green](https://simonwillison.net/2026/Oct/1/matthew-green)
 
-**Simon Willison — LLMs** · 01 Oct · relevance 9.6
+**Simon Willison — LLMs** · 01 Oct · relevance 9.3
 
 [...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace…
 
-## Multilingual
+## Multimodal
 
-### [Linguistic Loopholes in LLM Unlearning: From a 174-Language Benchmark to Coverage-Aware Unlearning](https://arxiv.org/abs/2609.40286v1)
+### [Introducing Quine: An AI research system designed for the complexity of biology](https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology)
 
-**arXiv — AI, language and HCI** · 30 Sep · relevance 14.6
+**Microsoft Research** · 29 Sep · relevance 8.7
 
-Unlearning a fact in one language does not guarantee its removal in others as changing the query or even the requested answer language can reopen seemingly forgotten knowledge -- a cross-lingual loophole. The most straightforward solution to this challenge -- unlearning in all languages -- is neither scalable nor desirable as it amplifies damage to…
+Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales and modalities, Quine helps scientists computationally search a space far larger than intuition allows and prioritize hypotheses before they…
+
+<details>
+<summary>Sources unavailable during this run</summary>
+
+- **arXiv — AI, language and HCI:** `The read operation timed out`
+
+</details>
 
 ---
 
