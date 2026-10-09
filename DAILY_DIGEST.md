@@ -1,94 +1,56 @@
 # Robot Psychology Radar
 
-Updated 08 October 2026, 09:30 UTC from 17 working sources.
+Updated 09 October 2026, 09:39 UTC from 16 working sources.
 
 24 high-relevance items across 6 sources. Auto-collected metadata; inclusion is not endorsement.
 
-## Evaluation
-
-### [GAGR-Lab: Evaluating Joint Spatial-Geometric and Analytic Function Reasoning](https://arxiv.org/abs/2610.10201v1)
-
-**arXiv — AI, language and HCI** · 07 Oct · relevance 16.6
-
-Joint spatial-geometric and analytic function reasoning requires translating a perceived spatial configuration into a symbolic function whose executed curve satisfies geometric constraints. We present GAGR-Lab, a framework for measuring this capability through Cartesian game scenes, explicit function semantics, and authoritative Rust trajectory execution.…
-
-### [Towards Accurate End-Effector Localization for UMI-Style Robotic Manipulation Teaching](https://arxiv.org/abs/2610.09857v1)
-
-**arXiv — Robotics** · 07 Oct · relevance 15.2
-
-Robot demonstration learning requires accurate and temporally complete end-effector localization during close-range manipulation and camera occlusion. Existing SLAM benchmarks emphasize navigation motions, whereas manipulation datasets prioritize policy learning over localization evaluation. We introduce MILD, a Manipulation-Interface Localization Dataset…
-
-### [MultiFly: A Real-World Multimodal Aerial Dataset with Annotation-Efficient Label Transfer and Cross-Modal Semantic Consistency](https://arxiv.org/abs/2610.10359v1)
-
-**arXiv — Robotics** · 07 Oct · relevance 14.1
-
-We introduce MultiFly, a real-world, low-altitude UAV dataset for semantic perception across RGB, thermal, LiDAR, and radar modalities. MultiFly provides 17,272 synchronized samples from four suburban scenes with frame-wise annotations for 15 semantic classes, together with calibration and GNSS-RTK/IMU measurements. To avoid costly and inconsistent…
-
-### [Open-MMUnlearning: Unifying Methods and Evaluation for MLLM Unlearning](https://arxiv.org/abs/2610.10358v1)
-
-**arXiv — AI, language and HCI** · 07 Oct · relevance 14.0
-
-As multimodal large language models (MLLMs) become more capable and widely deployed, concerns about privacy and safety have become increasingly pressing. Machine unlearning offers one approach to addressing these concerns by removing designated information from trained models while preserving unrelated capabilities. However, fragmented implementations and…
-
-### [PalmSpace: Towards a Versatile On-Palm Interaction Space through Unified Touch Modeling](https://arxiv.org/abs/2610.10370v1)
-
-**arXiv — AI, language and HCI** · 07 Oct · relevance 13.4
-
-As smart glasses and lightweight MR devices become increasingly practical, input remains a key challenge. The bare palm is an always-available, tactile, and proprioceptively accessible surface, but it has neither an explicit coordinate system nor embedded touch sensing. Prior on-palm systems typically expose isolated touch events, discrete regions,…
-
-### [AirGroundVLN: A Large-Scale Benchmark for Goal-Oriented Air-Ground Collaborative Vision-and-Language Navigation](https://arxiv.org/abs/2610.10421v1)
-
-**arXiv — Robotics** · 07 Oct · relevance 12.7
-
-Goal-oriented Vision-and-Language Navigation (VLN) requires agents to locate and reach targets described in natural language without prescribed routes. Air--ground collaboration is valuable for tasks requiring both wide-area search and fine-grained localization. However, systematic study of goal-oriented air--ground collaborative VLN remains limited by the…
-
-### [PHRBench: A Behavioral Evaluation of Post-Hallucination Reasoning in LLMs](https://arxiv.org/abs/2610.10455v1)
-
-**arXiv — AI, language and HCI** · 07 Oct · relevance 12.5
-
-Hallucinated information can propagate through multi-stage LLM systems and become part of the context for subsequent reasoning. Existing studies of post-hallucination reasoning (PHR) mainly characterize changes in final outcomes and aggregate reasoning dynamics, leaving how models resolve hallucinated premises at the response level insufficiently…
-
-### [2026 in LLMs (so far)](https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far)
-
-**Simon Willison — LLMs** · 27 Sep · relevance 11.0
-
-On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video is on YouTube ; here are my annotated slides and notes to accompany the talk. And as an annotated presentation : # I'm going…
-
 ## Robotics
+
+### [This Disembodied Hand Is All the Robot You Need](https://spectrum.ieee.org/walking-robotic-hand)
+
+**IEEE Spectrum Robotics** · 08 Oct · relevance 16.3
+
+A hand attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have turned an off-the-shelf robotic hand into a completely self-contained robot that walks on its fingertips while using those same fingers to manipulate its environment. Besides making the perfect…
 
 ### [Video Friday: Albatross Falls, Spins, Self-Rights, and Sails Away](https://spectrum.ieee.org/video-friday-bioinspired-robotics)
 
-**IEEE Spectrum Robotics** · 02 Oct · relevance 15.1
+**IEEE Spectrum Robotics** · 02 Oct · relevance 14.8
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
 ### [HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction](https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction)
 
-**IEEE Spectrum Robotics** · 07 Oct · relevance 14.4
+**IEEE Spectrum Robotics** · 07 Oct · relevance 14.2
 
 This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the dataset transfer to a real humanoid robot. What you will learn about: Why humanoid robot learning, a central problem in embodied AI and…
 
-### [RobotWorld: Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks and Embodiments](https://arxiv.org/abs/2610.10409v1)
+### [VioLA: Learning Generalist Humanoid Control Policies from Human Data](https://arxiv.org/abs/2610.12435v1)
 
-**arXiv — Robotics** · 07 Oct · relevance 13.8
+**arXiv — Robotics** · 08 Oct · relevance 12.8
 
-General-purpose agents increasingly write code, use tools, and complete complex digital tasks, raising the question of how far these capabilities carry into the physical world. To investigate this, we introduce RobotWorld, a challenging simulation testbed for robot use: turning instructions and observations into physical task execution through robot…
+Teaching a humanoid to follow instructions with its whole body runs into two obstacles. Its action space is large and tightly coupled: legs, arms, and fingers must move together while the robot keeps its balance, which makes joint-level actions hard to learn. And humanoid demonstrations are scarce, so current humanoid generalist policies do not follow new…
 
-### [HuMBLE: Human Motion-Driven Behavior Learning for Embodied Locomotion](https://arxiv.org/abs/2610.10489v1)
+### [A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control](https://arxiv.org/abs/2610.12465v1)
 
-**arXiv — Robotics** · 07 Oct · relevance 12.6
+**arXiv — Robotics** · 08 Oct · relevance 12.7
 
-Despite recent advances in humanoid locomotion, controllers optimized for command tracking and robustness tend to produce mechanical gaits, whereas controllers tied to human motion data often fail to generalize to commands outside the data distribution. This work introduces a learning framework that balances these competing objectives to synthesize…
+General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, per-task structural priors such as shaped rewards and demonstrations. Recent work has shown that diverse…
+
+### [Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration](https://arxiv.org/abs/2610.12470v1)
+
+**arXiv — Robotics** · 08 Oct · relevance 12.4
+
+While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to initial object poses, goal poses, and grasps not shown in the video. Alternatively, discovering a policy via…
 
 ### [Atlas Robot’s New Hand May Outperform Humanlike Designs](https://spectrum.ieee.org/robust-robot-hand)
 
-**IEEE Spectrum Robotics** · 01 Oct · relevance 12.0
+**IEEE Spectrum Robotics** · 01 Oct · relevance 11.7
 
 Today, Boston Dynamics is announcing a redesigned hand for its Atlas robot . The previous generation could do some crazy superhuman things with its three fingers, but it was never intended for mass production in the tens or hundreds of thousands. Switching from research hardware to a scalable product makes previously ignorable questions suddenly paramount:…
 
 ### [Video Friday: Life’s Better With a Little Robot Goose](https://spectrum.ieee.org/video-friday-goose-household-robots)
 
-**IEEE Spectrum Robotics** · 25 Sep · relevance 11.8
+**IEEE Spectrum Robotics** · 25 Sep · relevance 11.5
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL 2026 : 9–12 November 2026, AUSTIN, TEXAS Humanoids 2026…
 
@@ -98,23 +60,69 @@ Video Friday is your weekly selection of awesome robotics videos, collected by y
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids Summit Seoul : 22–23 September 2026, SEOUL IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL…
 
-### [Rethinking Robot Safety in the Age of AI](https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone)
+## Evaluation
 
-**IEEE Spectrum Robotics** · 16 Sep · relevance 10.8
+### [Predicting Alignment Generalization with Value Representations](https://arxiv.org/abs/2610.12410v1)
 
-This article is brought to you by VicOne . Robot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: Can a machine remain safe when an attacker changes what it sees, decides, or does even when nothing appears to have failed? As AI and robotics continue to advance at an unprecedented…
+**arXiv — AI, language and HCI** · 08 Oct · relevance 12.4
+
+LLM developers post-train their models to exhibit prosocial values and behavioral traits, which are enumerated in an alignment target. However, while recent post-training developments have yielded models that score highly on alignment evaluations, training models on sets of narrow behaviors still influences their behavior across unseen contexts and…
+
+### [SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference](https://arxiv.org/abs/2610.12327v1)
+
+**arXiv — AI, language and HCI** · 08 Oct · relevance 12.1
+
+The memory-bound nature of the decoding stage of large language model (LLM) inference incurs significant latency. Layer-wise training-free network pruning approaches guided by the Hessian have been a prominent solution to this problem, as pruning reduces the number of nonzero parameters read from memory during decoding. Nevertheless, typical methods in…
+
+### [Cited but Not Consulted: A Counterfactual Audit of Legal Chain-of-Thought Faithfulness](https://arxiv.org/abs/2610.12361v1)
+
+**arXiv — AI, language and HCI** · 08 Oct · relevance 12.1
+
+Large language models increasingly justify legal decisions by naming the statute or precedent behind a verdict, treated as evidence that the decision follows from it. We test this directly: holding case facts fixed, we substitute the named legal authority for an unrelated one and decode a model's evolving verdict from its hidden states. Across seven…
+
+### [2026 in LLMs (so far)](https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far)
+
+**Simon Willison — LLMs** · 27 Sep · relevance 10.7
+
+On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video is on YouTube ; here are my annotated slides and notes to accompany the talk. And as an annotated presentation : # I'm going…
+
+## Systems
+
+### [DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training](https://arxiv.org/abs/2610.12468v1)
+
+**arXiv — Robotics** · 08 Oct · relevance 15.1
+
+We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful interactions can bias predictions toward successful outcomes. To…
+
+### [Fixed-Reference Pose Residuals for Measuring Cross-Dataset Cue Transfer in Human-Robot Interaction Anticipation](https://arxiv.org/abs/2610.12245v1)
+
+**arXiv — Robotics** · 08 Oct · relevance 13.3
+
+Social and service robots in public spaces need to anticipate which nearby person is about to approach and touch them, so that a response can be prepared before contact. It is largely unknown which cues support this anticipation when a model trained with one robot is used on another robot at a different site. We study this question with a fixed-reference…
+
+### [HarnessSQL: Harness-Native Training for SQL Agents in Realistic Database Environments](https://arxiv.org/abs/2610.12274v1)
+
+**arXiv — AI, language and HCI** · 08 Oct · relevance 12.8
+
+Text-to-SQL models are commonly trained to map questions directly to static queries, whereas real-world database agents operate through stateful, multi-turn interaction with live databases -- inspecting schemas, executing probe queries, diagnosing errors, and revising hypotheses. This creates a critical train-deploy mismatch, as the execution harness that…
+
+### [Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models](https://arxiv.org/abs/2610.12355v1)
+
+**arXiv — AI, language and HCI** · 08 Oct · relevance 12.3
+
+Spatial reasoning remains a persistent weakness of vision-language models (VLMs), because RGB inputs do not directly provide geometric evidence. Existing remedies either inject 3D into the model at inference, paying architecture and latency costs, or train with outcome rewards that supervise only the final answer. Spatial errors originate in perception: a…
 
 ## Agents
 
 ### [Things I Learned - 04 Oct 2026](https://www.s-anand.net/blog/things-i-learned-04-oct-2026)
 
-**S Anand** · 04 Oct · relevance 12.3
+**S Anand** · 04 Oct · relevance 12.1
 
 This week, I learned: Harvard authored a paper : living near nuclear power plants associated with more cancer. Several other papers published similar findings. The trouble is, there’ll always be SOME places near which cancer rates are higher - and there are enough causes that you can p-hack . But, it’s not easy to think of this upfront and very easy to…
 
 ### [Advancing computer use with Ironclad](https://openai.com/index/advancing-computer-use-with-ironclad)
 
-**OpenAI** · 06 Oct · relevance 10.0
+**OpenAI** · 06 Oct · relevance 9.7
 
 Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.
 
@@ -122,7 +130,7 @@ Learn how OpenAI and Ironclad are training and evaluating AI agents on complex c
 
 ### [Things I Learned - 27 Sep 2026](https://www.s-anand.net/blog/things-i-learned-27-sep-2026)
 
-**S Anand** · 27 Sep · relevance 11.9
+**S Anand** · 27 Sep · relevance 11.6
 
 This week, I learned: trafilatura is a Python library that extracts the main content as Markdown from a web page. A useful alternative to Jina Reader for text. It’s better at main content extraction but can’t handle non-HTML / JS generated / bot-protected URLs. The Remote Desktop Commander ChatGPT plugin is a good alternative to my mcpserver.py . Both let…
 
@@ -132,35 +140,34 @@ This week, I learned: trafilatura is a Python library that extracts the main con
 
 Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide "six reports on unexpected or concerning model behavior we’ve observed in the last six months". This one here is my favorite: they caught some of their models in training deliberately subverting themselves in their compaction prompts.…
 
-## Systems
-
-### [SLDR: Defending Against Malicious Fine-tuning via Selective Layers Recovery and Dynamic Routing](https://arxiv.org/abs/2610.10345v1)
-
-**arXiv — AI, language and HCI** · 07 Oct · relevance 14.2
-
-Fine-tuning-as-a-service enables users to adapt aligned large language models (LLMs) to specialized tasks, but malicious fine-tuning can erode refusal behavior while preserving task performance on legitimate inputs. We revisit recent layer-wise safety diagnostics and find that safety sensitivity is signed: scaling different layers can strengthen refusal,…
-
-### [Your Prompt Should Do More: Effects of Retrieval Instructions in Embedding Models](https://arxiv.org/abs/2610.10508v1)
-
-**arXiv — AI, language and HCI** · 07 Oct · relevance 12.5
-
-Prompted embedding models have recently received increasing attention, particularly for retrieval, where detailed retrieval instructions are provided as part of the retrieval prompt. Several new datasets and studies have examined this setting, showing that the current embedding models often struggle to follow such instructions reliably. In this paper, we…
-
-## Multimodal
-
-### [Juno: Taming Predictive Latents for Vision-Language-Action Models](https://arxiv.org/abs/2610.09940v1)
-
-**arXiv — Robotics** · 07 Oct · relevance 12.7
-
-Joint-embedding predictive architectures (JEPAs) predict masked or future observations in representation space, offering a natural source of predictive latents for vision-language-action (VLA) models. Yet making these latents useful across pretraining, policy learning, and deployment requires addressing three failures: mismatch with embodiment-specific…
-
 ## Safety
+
+### [Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff](https://arxiv.org/abs/2610.12436v1)
+
+**arXiv — AI, language and HCI** · 08 Oct · relevance 14.7
+
+AI agents can now conduct real-world cyberattacks, scale up capabilities with the number of agents, and collectively pursue misaligned goals to obtain rewards. Together, these factors raise the risk of a population explosion of misaligned agents: agents could compromise computers and secretly deploy additional agents, creating a self-reinforcing cycle…
 
 ### [Quoting Victoria Kim](https://simonwillison.net/2026/Oct/6/victoria-kim)
 
-**Simon Willison — LLMs** · 06 Oct · relevance 9.4
+**Simon Willison — LLMs** · 06 Oct · relevance 9.2
 
-Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said. — Victoria Kim , Reporting from the Australian parliament Tags: accidental-cyberattacks ,…
+Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said. — Victoria Kim , Reporting from the Australian parliament Tags: ai , openai , generative-ai , llms…
+
+## Multilingual
+
+### [Learning Which Correspondences to Trust: Confidence-Weighted Event-Camera Localization in LiDAR Maps](https://arxiv.org/abs/2610.11967v1)
+
+**arXiv — Robotics** · 08 Oct · relevance 12.6
+
+Localizing an event camera against a pre-built LiDAR map can be cast as dense optical-flow estimation between a rendered depth view and an event image, followed by a Perspective-n-Point (PnP) solver over the induced 3D-2D correspondences. Existing pipelines rely on geometric consensus during pose estimation, but do not explicitly model the reliability or…
+
+<details>
+<summary>Sources unavailable during this run</summary>
+
+- **Google DeepMind:** `not well-formed (invalid token): line 1, column 0`
+
+</details>
 
 ---
 
