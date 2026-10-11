@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:04:32.385219Z",
+  "generated_at": "2026-10-11T09:19:20.220797Z",
   "working_sources": [
     "Simon Willison — LLMs",
     "Simon Willison — AI agents",
@@ -11,6 +11,7 @@
     "The Gradient",
     "Hugging Face",
     "OpenAI",
+    "Google DeepMind",
     "Google Research",
     "Microsoft Research",
     "Berkeley AI Research",
@@ -18,10 +19,8 @@
     "arXiv — AI, language and HCI",
     "arXiv — Robotics"
   ],
-  "source_errors": {
-    "Google DeepMind": "not well-formed (invalid token): line 1, column 0"
-  },
-  "item_count": 60,
+  "source_errors": {},
+  "item_count": 61,
   "items": [
     {
       "id": "71d14eef1394909f",
@@ -32,7 +31,7 @@
       "published": "2026-10-08T12:00:02Z",
       "summary": "A hand attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have turned an off-the-shelf robotic hand into a completely self-contained robot that walks on its fingertips while using those same fingers to manipulate its environment. Besides making the perfect…",
       "category": "robotics",
-      "score": 16.03
+      "score": 15.78
     },
     {
       "id": "6212462b6580cbb2",
@@ -43,7 +42,18 @@
       "published": "2026-10-09T15:30:02Z",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…",
       "category": "robotics",
-      "score": 15.15
+      "score": 14.9
+    },
+    {
+      "id": "b96753f519935d7b",
+      "title": "Things I Learned - 11 Oct 2026",
+      "url": "https://www.s-anand.net/blog/things-i-learned-11-oct-2026",
+      "source": "S Anand",
+      "source_group": "independent",
+      "published": "2026-10-11T00:00:00Z",
+      "summary": "This week, I learned: Python 3.15 is out . My favorite features are: frozendict is hashable . So frozen dicts can be dict keys. Unpacking in Comprehensions . [*x for x in [[1, 2], [3, 4]]] = [1, 2, 3, 4] . {**x for x in [{1: 2}, {3: 4}]} = {1: 2, 3: 4} . Once you start thinking this way, it gets easier. UTF-8 is the default . In source and text processing.…",
+      "category": "systems",
+      "score": 14.63
     },
     {
       "id": "86a57e135ee99a9e",
@@ -54,7 +64,7 @@
       "published": "2026-10-08T17:59:51Z",
       "summary": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful interactions can bias predictions toward successful outcomes. To…",
       "category": "systems",
-      "score": 14.82
+      "score": 14.56
     },
     {
       "id": "9dff1a0d65583f59",
@@ -65,7 +75,7 @@
       "published": "2026-10-02T16:30:02Z",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…",
       "category": "robotics",
-      "score": 14.58
+      "score": 14.32
     },
     {
       "id": "654ee6e9cd939bb6",
@@ -76,7 +86,7 @@
       "published": "2026-10-08T17:57:32Z",
       "summary": "AI agents can now conduct real-world cyberattacks, scale up capabilities with the number of agents, and collectively pursue misaligned goals to obtain rewards. Together, these factors raise the risk of a population explosion of misaligned agents: agents could compromise computers and secretly deploy additional agents, creating a self-reinforcing cycle…",
       "category": "safety",
-      "score": 14.4
+      "score": 14.15
     },
     {
       "id": "07416436afb3a2b3",
@@ -87,7 +97,7 @@
       "published": "2026-10-07T13:49:48Z",
       "summary": "This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the dataset transfer to a real humanoid robot. What you will learn about: Why humanoid robot learning, a central problem in embodied AI and…",
       "category": "robotics",
-      "score": 13.91
+      "score": 13.66
     },
     {
       "id": "009d93811a2748fb",
@@ -98,7 +108,7 @@
       "published": "2026-10-08T16:23:25Z",
       "summary": "Social and service robots in public spaces need to anticipate which nearby person is about to approach and touch them, so that a response can be prepared before contact. It is largely unknown which cues support this anticipation when a model trained with one robot is used on another robot at a different site. We study this question with a fixed-reference…",
       "category": "systems",
-      "score": 13.08
+      "score": 12.82
     },
     {
       "id": "f9318e3a72549164",
@@ -109,7 +119,7 @@
       "published": "2026-10-08T16:36:39Z",
       "summary": "Text-to-SQL models are commonly trained to map questions directly to static queries, whereas real-world database agents operate through stateful, multi-turn interaction with live databases -- inspecting schemas, executing probe queries, diagnosing errors, and revising hypotheses. This creates a critical train-deploy mismatch, as the execution harness that…",
       "category": "systems",
-      "score": 12.56
+      "score": 12.3
     },
     {
       "id": "8f9450ba8782c7e4",
@@ -120,7 +130,7 @@
       "published": "2026-10-08T17:57:27Z",
       "summary": "Teaching a humanoid to follow instructions with its whole body runs into two obstacles. Its action space is large and tightly coupled: legs, arms, and fingers must move together while the robot keeps its balance, which makes joint-level actions hard to learn. And humanoid demonstrations are scarce, so current humanoid generalist policies do not follow new…",
       "category": "robotics",
-      "score": 12.54
+      "score": 12.28
     },
     {
       "id": "dc4e8b080bc74f59",
@@ -131,7 +141,7 @@
       "published": "2026-10-08T17:59:50Z",
       "summary": "General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, per-task structural priors such as shaped rewards and demonstrations. Recent work has shown that diverse…",
       "category": "robotics",
-      "score": 12.43
+      "score": 12.17
     },
     {
       "id": "5ebdafd6d2cc3a43",
@@ -142,7 +152,7 @@
       "published": "2026-10-08T13:45:54Z",
       "summary": "Localizing an event camera against a pre-built LiDAR map can be cast as dense optical-flow estimation between a rendered depth view and an event image, followed by a Perspective-n-Point (PnP) solver over the induced 3D-2D correspondences. Existing pipelines rely on geometric consensus during pose estimation, but do not explicitly model the reliability or…",
       "category": "multilingual",
-      "score": 12.33
+      "score": 12.07
     },
     {
       "id": "a3fd0c208980eb9f",
@@ -153,7 +163,7 @@
       "published": "2026-10-08T17:59:58Z",
       "summary": "While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to initial object poses, goal poses, and grasps not shown in the video. Alternatively, discovering a policy via…",
       "category": "robotics",
-      "score": 12.15
+      "score": 11.9
     },
     {
       "id": "e0df325d4c3e8445",
@@ -164,7 +174,7 @@
       "published": "2026-10-08T17:47:26Z",
       "summary": "LLM developers post-train their models to exhibit prosocial values and behavioral traits, which are enumerated in an alignment target. However, while recent post-training developments have yielded models that score highly on alignment evaluations, training models on sets of narrow behaviors still influences their behavior across unseen contexts and…",
       "category": "evaluation",
-      "score": 12.12
+      "score": 11.87
     },
     {
       "id": "96742947bef27e4e",
@@ -175,7 +185,7 @@
       "published": "2026-10-08T17:22:24Z",
       "summary": "Spatial reasoning remains a persistent weakness of vision-language models (VLMs), because RGB inputs do not directly provide geometric evidence. Existing remedies either inject 3D into the model at inference, paying architecture and latency costs, or train with outcome rewards that supervise only the final answer. Spatial errors originate in perception: a…",
       "category": "systems",
-      "score": 12.06
+      "score": 11.81
     },
     {
       "id": "0101fa31a35b87d9",
@@ -186,7 +196,7 @@
       "published": "2026-10-08T17:06:32Z",
       "summary": "The memory-bound nature of the decoding stage of large language model (LLM) inference incurs significant latency. Layer-wise training-free network pruning approaches guided by the Hessian have been a prominent solution to this problem, as pruning reduces the number of nonzero parameters read from memory during decoding. Nevertheless, typical methods in…",
       "category": "evaluation",
-      "score": 11.89
+      "score": 11.64
     },
     {
       "id": "ee7d7b655d141a1e",
@@ -197,7 +207,7 @@
       "published": "2026-10-04T00:00:00Z",
       "summary": "This week, I learned: Harvard authored a paper : living near nuclear power plants associated with more cancer. Several other papers published similar findings. The trouble is, there’ll always be SOME places near which cancer rates are higher - and there are enough causes that you can p-hack . But, it’s not easy to think of this upfront and very easy to…",
       "category": "agents",
-      "score": 11.85
+      "score": 11.6
     },
     {
       "id": "35a762e6b46d9f21",
@@ -208,29 +218,7 @@
       "published": "2026-10-08T17:26:17Z",
       "summary": "Large language models increasingly justify legal decisions by naming the statute or precedent behind a verdict, treated as evidence that the decision follows from it. We test this directly: holding case facts fixed, we substitute the named legal authority for an unrelated one and decode a model's evolving verdict from its hidden states. Across seven…",
       "category": "evaluation",
-      "score": 11.84
-    },
-    {
-      "id": "589f46b203ce047a",
-      "title": "Atlas Robot’s New Hand May Outperform Humanlike Designs",
-      "url": "https://spectrum.ieee.org/robust-robot-hand",
-      "source": "IEEE Spectrum Robotics",
-      "source_group": "robotics journalism",
-      "published": "2026-10-01T14:40:12Z",
-      "summary": "Today, Boston Dynamics is announcing a redesigned hand for its Atlas robot . The previous generation could do some crazy superhuman things with its three fingers, but it was never intended for mass production in the tens or hundreds of thousands. Switching from research hardware to a scalable product makes previously ignorable questions suddenly paramount:…",
-      "category": "robotics",
-      "score": 11.47
-    },
-    {
-      "id": "044cd941cfc03cb7",
-      "title": "Things I Learned - 27 Sep 2026",
-      "url": "https://www.s-anand.net/blog/things-i-learned-27-sep-2026",
-      "source": "S Anand",
-      "source_group": "independent",
-      "published": "2026-09-27T00:00:00Z",
-      "summary": "This week, I learned: trafilatura is a Python library that extracts the main content as Markdown from a web page. A useful alternative to Jina Reader for text. It’s better at main content extraction but can’t handle non-HTML / JS generated / bot-protected URLs. The Remote Desktop Commander ChatGPT plugin is a good alternative to my mcpserver.py . Both let…",
-      "category": "machine behaviour",
-      "score": 11.38
+      "score": 11.59
     },
     {
       "id": "492c9e0e67e9d6ab",
@@ -244,6 +232,28 @@
       "score": 11.33
     },
     {
+      "id": "589f46b203ce047a",
+      "title": "Atlas Robot’s New Hand May Outperform Humanlike Designs",
+      "url": "https://spectrum.ieee.org/robust-robot-hand",
+      "source": "IEEE Spectrum Robotics",
+      "source_group": "robotics journalism",
+      "published": "2026-10-01T14:40:12Z",
+      "summary": "Today, Boston Dynamics is announcing a redesigned hand for its Atlas robot . The previous generation could do some crazy superhuman things with its three fingers, but it was never intended for mass production in the tens or hundreds of thousands. Switching from research hardware to a scalable product makes previously ignorable questions suddenly paramount:…",
+      "category": "robotics",
+      "score": 11.22
+    },
+    {
+      "id": "044cd941cfc03cb7",
+      "title": "Things I Learned - 27 Sep 2026",
+      "url": "https://www.s-anand.net/blog/things-i-learned-27-sep-2026",
+      "source": "S Anand",
+      "source_group": "independent",
+      "published": "2026-09-27T00:00:00Z",
+      "summary": "This week, I learned: trafilatura is a Python library that extracts the main content as Markdown from a web page. A useful alternative to Jina Reader for text. It’s better at main content extraction but can’t handle non-HTML / JS generated / bot-protected URLs. The Remote Desktop Commander ChatGPT plugin is a good alternative to my mcpserver.py . Both let…",
+      "category": "machine behaviour",
+      "score": 11.13
+    },
+    {
       "id": "0e53ba7420d23426",
       "title": "Looks Right. Isn’t.",
       "url": "https://www.s-anand.net/blog/looks-right-isnt",
@@ -252,7 +262,7 @@
       "published": "2026-10-07T06:30:00Z",
       "summary": "I conducted a session on Wed, 07 Oct 2026 at ED5518: Data Visualization for Engineers - Department of Engineering Design, IIT Madras, Chennai (remote). Speakers : Anand S Summary : AI makes pictures cheap to create but harder to trust: the reader may be another AI, and a chart, map or CAD model that looks right still needs an independent check. Takeaways :…",
       "category": "multimodal",
-      "score": 10.78
+      "score": 10.53
     },
     {
       "id": "12a6ded94c00eeb8",
@@ -263,7 +273,7 @@
       "published": "2026-10-10T04:01:31Z",
       "summary": "A colleague was using an agent to classify paragraphs as titles, sections, figure captions, etc. He also asked it “How confident are you of your answer?”. Interestingly, the confidence was consistently high, typically ~95%. That got me curious. (Actually, no that didn’t get me curious - I saw Germayne and Joshua from Gojek doing this in a fantastic session…",
       "category": "evaluation",
-      "score": 10.56
+      "score": 10.31
     },
     {
       "id": "a068c50324a9ff73",
@@ -274,7 +284,7 @@
       "published": "2026-09-27T23:54:15Z",
       "summary": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video is on YouTube ; here are my annotated slides and notes to accompany the talk. And as an annotated presentation : # I'm going…",
       "category": "evaluation",
-      "score": 10.48
+      "score": 10.23
     },
     {
       "id": "f57eff9c23a4454b",
@@ -285,7 +295,7 @@
       "published": "2026-10-06T10:00:00Z",
       "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
       "category": "agents",
-      "score": 9.5
+      "score": 9.25
     },
     {
       "id": "870569c2eeba8a14",
@@ -296,7 +306,18 @@
       "published": "2026-10-06T23:58:56Z",
       "summary": "Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said. — Victoria Kim , Reporting from the Australian parliament Tags: ai , openai , generative-ai , llms…",
       "category": "safety",
-      "score": 8.96
+      "score": 8.7
+    },
+    {
+      "id": "9a2a489d753abcef",
+      "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
+      "url": "https://www.latent.space/p/standard-bots",
+      "source": "Latent Space",
+      "source_group": "independent",
+      "published": "2026-10-10T14:04:11Z",
+      "summary": "Inside Standard Bots’ AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments.",
+      "category": "robotics",
+      "score": 8.52
     },
     {
       "id": "1452e1cfc9374ea1",
@@ -307,29 +328,7 @@
       "published": "2026-10-05T23:56:47Z",
       "summary": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and…",
       "category": "safety",
-      "score": 8.48
-    },
-    {
-      "id": "91181d37d0594606",
-      "title": "Quoting Anthropic Frontier Red Team",
-      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team",
-      "source": "Simon Willison — LLMs",
-      "source_group": "independent",
-      "published": "2026-09-29T22:20:28Z",
-      "summary": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like…",
-      "category": "safety",
-      "score": 8.47
-    },
-    {
-      "id": "170c9a269ebc1713",
-      "title": "Let's Test: Use AI Empirically",
-      "url": "https://www.s-anand.net/blog/lets-test-use-ai-empirically",
-      "source": "S Anand",
-      "source_group": "independent",
-      "published": "2026-10-01T09:00:00Z",
-      "summary": "I conducted a session on Thu, 01 Oct 2026 at DBS Technology India — TechVerse Session 4: Agentic AI - Remote / Webex. Speakers : Anand S Summary : Treat AI advice, models and agent workflows as hypotheses: test them on your own work, mine your logs for evidence, and make verification part of the workflow. Here’s the link to the session Links : Transcript…",
-      "category": "agents",
-      "score": 8.36
+      "score": 8.23
     },
     {
       "id": "70bd7a7cf0eadb87",
@@ -343,26 +342,15 @@
       "score": 8.22
     },
     {
-      "id": "7fdb639a79501818",
-      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
-      "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
-      "source": "Microsoft Research",
-      "source_group": "research lab",
-      "published": "2026-10-07T16:00:00Z",
-      "summary": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex frameworks. Agent Lightning connects existing agents to RL training, making it easier to improve them without rebuilding them. The post Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training…",
-      "category": "agents",
-      "score": 8.19
-    },
-    {
-      "id": "74c2ff7e2707d1f6",
-      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "url": "https://huggingface.co/blog/open-tts-leaderboard",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-09-30T00:00:00Z",
-      "summary": "",
-      "category": "evaluation",
-      "score": 8.09
+      "id": "91181d37d0594606",
+      "title": "Quoting Anthropic Frontier Red Team",
+      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team",
+      "source": "Simon Willison — LLMs",
+      "source_group": "independent",
+      "published": "2026-09-29T22:20:28Z",
+      "summary": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like…",
+      "category": "safety",
+      "score": 8.21
     },
     {
       "id": "5b206843ef211175",
@@ -376,6 +364,28 @@
       "score": 8.08
     },
     {
+      "id": "7fdb639a79501818",
+      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+      "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
+      "source": "Microsoft Research",
+      "source_group": "research lab",
+      "published": "2026-10-07T16:00:00Z",
+      "summary": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex frameworks. Agent Lightning connects existing agents to RL training, making it easier to improve them without rebuilding them. The post Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training…",
+      "category": "agents",
+      "score": 7.94
+    },
+    {
+      "id": "74c2ff7e2707d1f6",
+      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-09-30T00:00:00Z",
+      "summary": "",
+      "category": "evaluation",
+      "score": 7.84
+    },
+    {
       "id": "39e6bd368c40b129",
       "title": "Quoting Matthew Green",
       "url": "https://simonwillison.net/2026/Oct/9/matthew-green",
@@ -384,7 +394,7 @@
       "published": "2026-10-09T15:02:29Z",
       "summary": "Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence in our existing public-key encryption algorithms. [...] The problem here is that the speed of AI producing surprises, and the speed of…",
       "category": "safety",
-      "score": 8.06
+      "score": 7.8
     },
     {
       "id": "93854539beed00db",
@@ -395,7 +405,7 @@
       "published": "2026-10-05T21:08:00Z",
       "summary": "Generative AI",
       "category": "safety",
-      "score": 7.91
+      "score": 7.66
     },
     {
       "id": "015ccf980c076bf6",
@@ -406,7 +416,7 @@
       "published": "2026-10-01T06:45:05Z",
       "summary": "... but you can’t try it yet unless you are “government users and trusted cyber defenders in the Fairwind Program”",
       "category": "machine behaviour",
-      "score": 7.5
+      "score": 7.25
     },
     {
       "id": "570fe3204556675e",
@@ -417,7 +427,7 @@
       "published": "2026-10-09T07:00:00Z",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "category": "safety",
-      "score": 7.33
+      "score": 7.08
     },
     {
       "id": "68a694837125984e",
@@ -428,7 +438,7 @@
       "published": "2026-10-10T00:31:26Z",
       "summary": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology.",
       "category": "systems",
-      "score": 7.3
+      "score": 7.05
     },
     {
       "id": "67f5f61696a2949d",
@@ -439,7 +449,7 @@
       "published": "2026-10-07T12:45:31Z",
       "summary": "",
       "category": "systems",
-      "score": 7.2
+      "score": 6.95
     },
     {
       "id": "88e871d5a8d26738",
@@ -450,7 +460,7 @@
       "published": "2026-10-07T16:54:33Z",
       "summary": "",
       "category": "multimodal",
-      "score": 7.19
+      "score": 6.93
     },
     {
       "id": "db7b9e6fe248e314",
@@ -461,7 +471,7 @@
       "published": "2026-10-08T16:00:00Z",
       "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
       "category": "agents",
-      "score": 7.12
+      "score": 6.86
     },
     {
       "id": "9bf93d58cc35db99",
@@ -472,7 +482,18 @@
       "published": "2026-10-09T07:00:00Z",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "category": "agents",
-      "score": 7.11
+      "score": 6.85
+    },
+    {
+      "id": "2ee55c894d54d6ef",
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+      "source": "Google DeepMind",
+      "source_group": "frontier lab",
+      "published": "2026-10-06T19:57:04Z",
+      "summary": "",
+      "category": "multimodal",
+      "score": 6.82
     },
     {
       "id": "855092fba1df7e8a",
@@ -483,7 +504,7 @@
       "published": "2026-10-08T12:00:00Z",
       "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
       "category": "multimodal",
-      "score": 6.91
+      "score": 6.66
     },
     {
       "id": "4e324623ab7ca6fe",
@@ -494,7 +515,7 @@
       "published": "2026-10-07T07:00:00Z",
       "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
       "category": "agents",
-      "score": 6.77
+      "score": 6.52
     },
     {
       "id": "7ee79eecb360c6d0",
@@ -505,7 +526,7 @@
       "published": "2026-09-29T14:00:02Z",
       "summary": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales and modalities, Quine helps scientists computationally search a space far larger than intuition allows and prioritize hypotheses before they…",
       "category": "multimodal",
-      "score": 6.67
+      "score": 6.42
     },
     {
       "id": "22732f8185e35596",
@@ -516,7 +537,7 @@
       "published": "2026-10-07T14:10:45Z",
       "summary": "Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud.",
       "category": "agents",
-      "score": 6.58
+      "score": 6.33
     },
     {
       "id": "ae4d3dcf7fda80d0",
@@ -527,7 +548,18 @@
       "published": "2026-10-05T12:32:30Z",
       "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now When should you use swarms? When you are in a hurry:…How does swarm scaling work?…Toby Ord has a nice, short post about how to think about […]",
       "category": "systems",
-      "score": 6.47
+      "score": 6.22
+    },
+    {
+      "id": "e5f022f9be79d8e9",
+      "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
+      "url": "https://www.latent.space/p/nyc2026",
+      "source": "Latent Space",
+      "source_group": "independent",
+      "published": "2026-10-10T22:07:17Z",
+      "summary": "Tomorrow and Tuesday. If you see this you’re in!",
+      "category": "general AI",
+      "score": 5.88
     },
     {
       "id": "e05551817b225bef",
@@ -538,7 +570,7 @@
       "published": "2026-10-09T15:20:29Z",
       "summary": "",
       "category": "general AI",
-      "score": 6.12
+      "score": 5.86
     },
     {
       "id": "377afb641e4cb3d6",
@@ -549,7 +581,7 @@
       "published": "2026-10-09T21:33:47Z",
       "summary": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it.",
       "category": "general AI",
-      "score": 6.08
+      "score": 5.83
     },
     {
       "id": "afa8c33f8eb7996a",
@@ -560,7 +592,7 @@
       "published": "2026-09-29T13:07:00Z",
       "summary": "",
       "category": "agents",
-      "score": 6.04
+      "score": 5.78
     },
     {
       "id": "2e1397672f85f38d",
@@ -571,7 +603,7 @@
       "published": "2026-10-10T06:45:57Z",
       "summary": "Wow.",
       "category": "general AI",
-      "score": 5.98
+      "score": 5.72
     },
     {
       "id": "bd1136d0fcfd6f13",
@@ -582,29 +614,7 @@
       "published": "2026-10-03T22:56:48Z",
       "summary": "",
       "category": "agents",
-      "score": 5.97
-    },
-    {
-      "id": "9803e98a2bb63445",
-      "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
-      "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
-      "source": "Latent Space",
-      "source_group": "independent",
-      "published": "2026-09-29T02:55:27Z",
-      "summary": "Congrats team!",
-      "category": "robotics",
-      "score": 5.91
-    },
-    {
-      "id": "9db9af42b7f614ec",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
-      "source": "Latent Space",
-      "source_group": "independent",
-      "published": "2026-10-08T23:29:43Z",
-      "summary": "a quiet day.",
-      "category": "general AI",
-      "score": 5.65
+      "score": 5.72
     },
     {
       "id": "5c27d8596f5d5deb",
@@ -615,7 +625,7 @@
       "published": "2026-10-07T20:19:57Z",
       "summary": "",
       "category": "general AI",
-      "score": 5.57
+      "score": 5.31
     },
     {
       "id": "4b0006aa1b5d0be3",
@@ -626,7 +636,7 @@
       "published": "2026-10-06T16:19:06Z",
       "summary": "Jennifer Neville did not want to go into computer science—but that’s exactly where she landed. Neville discusses the starts and stops that led to her professional sweet spot and her work identifying “surprising failures” making it hard for AI to handle complexity. The post What AI gets wrong and what failure teaches us appeared first on Microsoft Research .",
       "category": "general AI",
-      "score": 5.28
+      "score": 5.02
     },
     {
       "id": "d100e7052f5d6239",
@@ -637,7 +647,7 @@
       "published": "2026-10-06T15:05:11Z",
       "summary": "Earth AI",
       "category": "general AI",
-      "score": 5.26
+      "score": 5.01
     },
     {
       "id": "673fb60ae75259d9",
@@ -648,18 +658,7 @@
       "published": "2026-10-06T14:22:41Z",
       "summary": "Open-weights, ideology, and acknowledging trade-offs.",
       "category": "general AI",
-      "score": 5.26
-    },
-    {
-      "id": "b05df22ee8988874",
-      "title": "How Diffusion Controller unifies and simplifies AI image generation",
-      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation",
-      "source": "Google Research",
-      "source_group": "research lab",
-      "published": "2026-09-29T18:38:27Z",
-      "summary": "Algorithms & Theory",
-      "category": "safety",
-      "score": 4.94
+      "score": 5.0
     },
     {
       "id": "f5f3fe2846a1077a",
@@ -673,6 +672,17 @@
       "score": 4.92
     },
     {
+      "id": "b05df22ee8988874",
+      "title": "How Diffusion Controller unifies and simplifies AI image generation",
+      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation",
+      "source": "Google Research",
+      "source_group": "research lab",
+      "published": "2026-09-29T18:38:27Z",
+      "summary": "Algorithms & Theory",
+      "category": "safety",
+      "score": 4.69
+    },
+    {
       "id": "13a08db808bbe118",
       "title": "Toward provably private learning from federated data",
       "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data",
@@ -681,7 +691,7 @@
       "published": "2026-10-02T14:57:41Z",
       "summary": "Mobile Systems",
       "category": "general AI",
-      "score": 4.26
+      "score": 4.01
     }
   ]
 }
