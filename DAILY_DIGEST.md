@@ -1,58 +1,52 @@
 # Robot Psychology Radar
 
-Updated 15 October 2026, 07:44 UTC from 17 working sources.
+Updated 16 October 2026, 07:32 UTC from 17 working sources.
 
-24 high-relevance items across 5 sources. Auto-collected metadata; inclusion is not endorsement.
+24 high-relevance items across 6 sources. Auto-collected metadata; inclusion is not endorsement.
 
 ## Robotics
 
 ### [This Disembodied Hand Is All the Robot You Need](https://spectrum.ieee.org/walking-robotic-hand)
 
-**IEEE Spectrum Robotics** · 08 Oct · relevance 14.8
+**IEEE Spectrum Robotics** · 08 Oct · relevance 14.6
 
 A hand attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have turned an off-the-shelf robotic hand into a completely self-contained robot that walks on its fingertips while using those same fingers to manipulate its environment. Besides making the perfect…
 
+### [Whole-Body Dexterity](https://arxiv.org/abs/2610.22184v1)
+
+**arXiv — Robotics** · 15 Oct · relevance 13.8
+
+Current humanoid dexterous manipulation remains largely confined to end-effectors and simple grasps, falling short of humans' ability to engage the entire body by bracing and sliding bulky objects against the arms and torso. We introduce Whole-Body Dexterity (WBD), a general framework that uses the robot's body and appendages as contact surfaces to grasp…
+
+### [Sub-Millisecond Reflexes for Continuous Physical Human-Robot Interaction](https://arxiv.org/abs/2610.21913v1)
+
+**arXiv — Robotics** · 15 Oct · relevance 13.7
+
+Continuous physical human-robot interaction requires robots to rapidly adapt their control behaviour without interrupting task execution. However, existing ROS 2 control architectures rely on stop-to-switch mechanisms that introduce substantial delays and interrupt execution. We present an open-source, sub-millisecond reflex engine based on an enhanced ROS…
+
 ### [Video Friday: Robot Decommissioning Takes a Fun Turn](https://spectrum.ieee.org/video-friday-reachy-mini-raps)
 
-**IEEE Spectrum Robotics** · 09 Oct · relevance 13.9
+**IEEE Spectrum Robotics** · 09 Oct · relevance 13.7
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
-### [AutoRSR: Automated Real-to-Sim-to-Real Data Generation for Scalable Robot Learning](https://arxiv.org/abs/2610.20336v1)
-
-**arXiv — Robotics** · 14 Oct · relevance 13.7
-
-Scaling embodied robot learning requires large and diverse manipulation datasets, but collecting real-world demonstrations remains expensive in human effort and robot time. Simulation provides a scalable alternative, yet converting a real workspace into a robot-learning-ready environment still requires substantial manual effort for object extraction, asset…
-
 ### [Video Friday: Albatross Falls, Spins, Self-Rights, and Sails Away](https://spectrum.ieee.org/video-friday-bioinspired-robotics)
 
-**IEEE Spectrum Robotics** · 02 Oct · relevance 13.3
+**IEEE Spectrum Robotics** · 02 Oct · relevance 13.1
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
 ### [HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction](https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction)
 
-**IEEE Spectrum Robotics** · 07 Oct · relevance 12.7
+**IEEE Spectrum Robotics** · 07 Oct · relevance 12.4
 
 This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the dataset transfer to a real humanoid robot. What you will learn about: Why humanoid robot learning, a central problem in embodied AI and…
 
-### [KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation](https://arxiv.org/abs/2610.20552v1)
+### [Cross-Embodiment Causal Transfer from Human Videos to Robot Manipulation](https://arxiv.org/abs/2610.21798v1)
 
-**arXiv — Robotics** · 14 Oct · relevance 12.6
+**arXiv — Robotics** · 15 Oct · relevance 12.2
 
-We present KinoGen, a framework that synthesizes customizable humanoid loco-manipulation references through kinematically grounded video generation. KinoGen conditions a pretrained video generator on calibrated renders of the target robot and object in a simulated task instance and recovers the reference by fitting the same models to the generated two-view…
-
-### [Tactile-Guided Robot Learning: From Representation Learning to Foundation Models](https://arxiv.org/abs/2610.20134v1)
-
-**arXiv — Robotics** · 14 Oct · relevance 12.5
-
-Tactile sensing is becoming central to robust, adaptive, and dexterous robotic manipulation. Beyond its traditional role in contact detection and reactive control, touch is increasingly used to learn transferable representations, condition manipulation policies, and support embodied physical reasoning. Yet existing surveys largely emphasize tactile…
-
-### [Design and Characterization of a Unified Continuum Robot Actuation Platform](https://arxiv.org/abs/2610.19798v1)
-
-**arXiv — Robotics** · 14 Oct · relevance 12.5
-
-Continuum robots enable dexterous access to confined spaces in applications such as minimally invasive surgery and industrial inspection. However, their actuation systems are often custom-designed for specific robot architectures and tasks, limiting reuse across publications, institutions, and applications. This paper presents a unified actuation platform…
+Scaling robot manipulation models requires large amounts of interaction data, yet collecting diverse real-robot experience remains costly. Human manipulation videos, in contrast, provide abundant and diverse task experience that could potentially benefit robot learning. However, differences in morphology, action spaces, and control mechanisms make human…
 
 ### [Video Friday: Life’s Better With a Little Robot Goose](https://spectrum.ieee.org/video-friday-goose-household-robots)
 
@@ -60,31 +54,63 @@ Continuum robots enable dexterous access to confined spaces in applications such
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. IROS 2026 : 27 September–1 October 2026, PITTSBURGH CoRL 2026 : 9–12 November 2026, AUSTIN, TEXAS Humanoids 2026…
 
+## Systems
+
+### [Designing Transformers for Continuous Diffusion Language Models](https://arxiv.org/abs/2610.22330v1)
+
+**arXiv — AI, language and HCI** · 15 Oct · relevance 13.4
+
+Continuous diffusion language models (CDLMs) offer an alternative approach to parallel language generation; however, most existing studies directly use transformer architectures from either causal large language models (LLMs) or Diffusion Transformers (DiTs) for image generation, which were not optimized for CDLMs. In this paper, we conduct a systematic…
+
+### [Things I Learned - 11 Oct 2026](https://www.s-anand.net/blog/things-i-learned-11-oct-2026)
+
+**S Anand** · 11 Oct · relevance 13.4
+
+This week, I learned: Python 3.15 is out . My favorite features are: frozendict is hashable . So frozen dicts can be dict keys. Unpacking in Comprehensions . [*x for x in [[1, 2], [3, 4]]] = [1, 2, 3, 4] . {**x for x in [{1: 2}, {3: 4}]} = {1: 2, 3: 4} . Once you start thinking this way, it gets easier. UTF-8 is the default . In source and text processing.…
+
+### [Learning Self-Orchestration in Decentralized Agent Swarms](https://arxiv.org/abs/2610.22322v1)
+
+**arXiv — AI, language and HCI** · 15 Oct · relevance 12.6
+
+The capabilities of an agent swarm depend on both its individual members and how they coordinate. Yet existing multi-agent systems often train agents within fixed orchestration structures, separating the learning of individual capabilities from the organization of collective behavior. We introduce market-based post-training (MPT), a framework for jointly…
+
+### [Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation](https://arxiv.org/abs/2610.22342v1)
+
+**arXiv — Robotics** · 15 Oct · relevance 12.6
+
+Generalist robot policies benefit from large-scale visual pretraining but often struggle with contact-rich dexterous manipulation, where force, compliance, and incipient slip are hard to observe from images. We present Spark-0, a spatially aligned vision-tactile-language-action (VTLA) model that uses touch in two complementary ways. During pretraining,…
+
+### [ACEdit: Stable Multi-Turn Image Editing via Asymmetric Conditioning](https://arxiv.org/abs/2610.22328v1)
+
+**arXiv — AI, language and HCI** · 15 Oct · relevance 12.3
+
+Image editing models produce impressive results for individual edits, but their quality often deteriorates over multiple editing turns. Each editing turn introduces small distribution shifts that accumulate over successive edits, creating a gap between the input distributions encountered during the editor's original training and multi-turn inference. We…
+
+### [FastVLA: Task-Conditioned and Temporally Adaptive Visual Token Compression for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2610.22146v1)
+
+**arXiv — Robotics** · 15 Oct · relevance 12.3
+
+Vision-Language-Action (VLA) models present a promising paradigm for general-purpose robot manipulation, but closed-loop deployment is often limited by inference efficiency: at each timestep, high-resolution, often multi-view images are encoded into hundreds of visual tokens that dominate transformer computation and latency. Token compression via attention…
+
 ## Evaluation
 
-### [From Unreliable to Usable: Decomposing Failure Modes and Confidence Signals in LLM Entity Extraction - Evidence from Cyber Threat Intelligence](https://arxiv.org/abs/2610.20417v1)
+### [MindEval2: Clinically Grounded Patients and Rubrics for Evaluating Language Models in Mental Health Support](https://arxiv.org/abs/2610.22314v1)
 
-**arXiv — AI, language and HCI** · 14 Oct · relevance 19.6
+**arXiv — AI, language and HCI** · 15 Oct · relevance 16.2
 
-Audits of large language model (LLM) extraction from full-length documents report severe unreliability, leaving two questions open: what the failures actually consist of, and whether confidence signals can turn unreliable output into usable output. We run a preregistered, fully frozen evaluation of two new-generation low-cost LLMs (DeepSeek-V4-Flash,…
+With people increasingly turning to AI chatbots for mental health support, the need to evaluate these tools is becoming more pressing. Recent benchmarks attempt to mimic a realistic setting by simulating multi-turn interactions with synthetic patients and evaluating them with an LLM-as-a-judge. However, the usefulness of these methods is limited because…
 
-### [SafeAdapt-Poker: Counterfactual Risk Calibration for Budgeted Adaptation under Opponent Shift](https://arxiv.org/abs/2610.20473v1)
+### [AI Consilium: a Benchmark of LLM Clinical Multidisciplinary Second Opinions](https://arxiv.org/abs/2610.22298v1)
 
-**arXiv — AI, language and HCI** · 14 Oct · relevance 15.0
+**arXiv — AI, language and HCI** · 15 Oct · relevance 16.2
 
-Opponent histories can mislead after behavioral shifts. SafeAdapt-Poker formulates budgeted adaptation under opponent shift as a dual-counterfactual sequential-control problem using only information available before each decision. At each decision the controller asks two distinct questions: what local downside a deviation from the frozen anchor would…
+Large language models (LLMs) can generate differential diagnoses for complex cases, but a useful second opinion must also be factually grounded, clinically coherent, actionable, and safe. We developed a multidimensional benchmark using 300 diagnostically resolved NEJM--MedQA cases: 110 for physician reference ratings and Judge calibration and 190 for…
 
-### [Refine Actions If Needed: Adaptive Action Chunk Refinement for Robot Manipulation](https://arxiv.org/abs/2610.19765v1)
+### [PremiseSQL: Evaluating Premise Critique and Abstention in Text-to-SQL Systems](https://arxiv.org/abs/2610.22158v1)
 
-**arXiv — Robotics** · 14 Oct · relevance 13.6
+**arXiv — AI, language and HCI** · 15 Oct · relevance 13.3
 
-Computationally lightweight manipulation policies predict executable actions with low inference latency, but prediction errors can limit task success. Iterative generative policies can achieve higher task success rates, but repeated network evaluations increase inference latency. Refining action proposals from computationally lightweight policies can…
-
-### [Do AI Agents Gossip? Evaluative Talk in Human and AI-Agent Online Communities](https://arxiv.org/abs/2610.20360v1)
-
-**arXiv — AI, language and HCI** · 14 Oct · relevance 11.9
-
-Gossip, defined as evaluative talk about absent third parties, is widely seen as a uniquely human social practice. This study examines whether comparable discourse emerges spontaneously in a community of autonomous AI agents. We compare Moltbook, a Reddit-style platform populated by AI agents, with PTT, a large human-operated bulletin board in Taiwan. To…
+Recent advances in large language models (LLMs) have substantially improved Text-to-SQL performance, yet existing NL2SQL systems largely assume that user queries are valid and answerable. As a result, models often generate executable SQL even for queries with flawed premises. We introduce premise critique ability in NL2SQL, namely the ability to recognize…
 
 ### [2026 in LLMs (so far)](https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far)
 
@@ -92,25 +118,33 @@ Gossip, defined as evaluative talk about absent third parties, is widely seen as
 
 On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026. The video is on YouTube ; here are my annotated slides and notes to accompany the talk. And as an annotated presentation : # I'm going…
 
+## Agents
+
+### [Robust Multi-Agent Pursuit with Preemptive Communication via Reachability-Based Control Barrier Functions](https://arxiv.org/abs/2610.22198v1)
+
+**arXiv — Robotics** · 15 Oct · relevance 12.2
+
+Safe multi-agent coordination typically assumes what real-world, deployed, resource-constrained robots cannot provide: continuous, perfect state sharing. Robust control strategies must be complemented with robust communication strategies to deliver resilient deployments. In this work, we propose a unified control/communication strategy that provides safe…
+
+### [Innovations 12 Oct 2026](https://www.s-anand.net/blog/innovations-12-oct-2026)
+
+**S Anand** · 12 Oct · relevance 11.2
+
+Our Innovation team built a few demos over the last couple of weeks. Three interesting things: Agents can build navigable 3D spaces Specialized vision models can outperform frontier LLMs on narrow tasks Simple search tools can beat elaborate document-retrieval systems. New capabilities Build an interactive 3D room from an image . A coding agent used…
+
+### [Things I Learned - 04 Oct 2026](https://www.s-anand.net/blog/things-i-learned-04-oct-2026)
+
+**S Anand** · 04 Oct · relevance 10.4
+
+This week, I learned: Harvard authored a paper : living near nuclear power plants associated with more cancer. Several other papers published similar findings. The trouble is, there’ll always be SOME places near which cancer rates are higher - and there are enough causes that you can p-hack . But, it’s not easy to think of this upfront and very easy to…
+
 ## Machine Behaviour
-
-### [PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios](https://arxiv.org/abs/2610.20548v1)
-
-**arXiv — AI, language and HCI** · 14 Oct · relevance 14.5
-
-Understanding the social intelligence of large language models (LLMs) is increasingly important for applications involving human-AI interaction and multi-agent environments. Social intelligence comprises two aspects: cognitive intelligence, the ability to infer others' mental states, and behavioral intelligence, the ability to select appropriate social…
 
 ### [Q&A: Mars Perseverance Rover Sets a Distance Record](https://spectrum.ieee.org/mars-rover-distance-record)
 
-**IEEE Spectrum Robotics** · 13 Oct · relevance 13.8
+**IEEE Spectrum Robotics** · 13 Oct · relevance 13.6
 
-On October 11 , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part by Perseverance’s ability to drive with much more autonomy than its predecessors. Over the last five years, Perseverance’s autonomy software has been…
-
-### [MMLA-RSI: Recursive Self-Improvement through RTT and RTMA](https://arxiv.org/abs/2610.20294v1)
-
-**arXiv — AI, language and HCI** · 14 Oct · relevance 13.2
-
-An agent can improve its behavior within an unresolved problem by changing how it acts and which experience it retains. We propose MMLA-RSI, a recursive self-improvement scheme with two implementations in Memory-Mediated Learning Architecture: Reasoning-Time Training (RTT) changes the policy state $Φ$, while Reasoning-Time Memory Adaptation (RTMA) changes…
+On 11 October , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part by Perseverance ’s ability to drive with much more autonomy than its predecessors. Over the past five years, Perseverance ’s autonomy software has been…
 
 ### [Things I Learned - 27 Sep 2026](https://www.s-anand.net/blog/things-i-learned-27-sep-2026)
 
@@ -118,47 +152,13 @@ An agent can improve its behavior within an unresolved problem by changing how i
 
 This week, I learned: trafilatura is a Python library that extracts the main content as Markdown from a web page. A useful alternative to Jina Reader for text. It’s better at main content extraction but can’t handle non-HTML / JS generated / bot-protected URLs. The Remote Desktop Commander ChatGPT plugin is a good alternative to my mcpserver.py . Both let…
 
-## Systems
+## Safety
 
-### [Graph-Reweighted Behavior Cloning with Human Interventions for Precise Robotic Manipulation](https://arxiv.org/abs/2610.20504v1)
+### [[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment](https://www.latent.space/p/ainews-agents-disprove-polysemanticity)
 
-**arXiv — Robotics** · 14 Oct · relevance 14.2
+**Latent Space** · 16 Oct · relevance 9.3
 
-Long-horizon precise manipulation produces mixed-quality data for post-training vision-language-action (VLA) models: even successful demonstrations and intervention-assisted rollouts may contain detours, hesitations, failed attempts, and imperfect recoveries. The key challenge is to identify which action chunks actually advance the task, rather than…
-
-### [Things I Learned - 11 Oct 2026](https://www.s-anand.net/blog/things-i-learned-11-oct-2026)
-
-**S Anand** · 11 Oct · relevance 13.6
-
-This week, I learned: Python 3.15 is out . My favorite features are: frozendict is hashable . So frozen dicts can be dict keys. Unpacking in Comprehensions . [*x for x in [[1, 2], [3, 4]]] = [1, 2, 3, 4] . {**x for x in [{1: 2}, {3: 4}]} = {1: 2, 3: 4} . Once you start thinking this way, it gets easier. UTF-8 is the default . In source and text processing.…
-
-### [The COUNT: Counting N-grams Unlocks Scaling on Host Memory and Training-Free Adaptation](https://arxiv.org/abs/2610.20456v1)
-
-**arXiv — AI, language and HCI** · 14 Oct · relevance 12.0
-
-The scaling relationship of compute and performance for language models (LMs) has been extensively studied; more recently, models are being designed to scale memory use, as well. In particular, adding embeddings for n-grams scales memory separately from compute use, because each pass only processes individual embedding rows, which are much smaller than the…
-
-## Agents
-
-### [Innovations 12 Oct 2026](https://www.s-anand.net/blog/innovations-12-oct-2026)
-
-**S Anand** · 12 Oct · relevance 11.5
-
-Our Innovation team built a few demos over the last couple of weeks. Three interesting things: Agents can build navigable 3D spaces Specialized vision models can outperform frontier LLMs on narrow tasks Simple search tools can beat elaborate document-retrieval systems. New capabilities Build an interactive 3D room from an image . A coding agent used…
-
-### [Things I Learned - 04 Oct 2026](https://www.s-anand.net/blog/things-i-learned-04-oct-2026)
-
-**S Anand** · 04 Oct · relevance 10.6
-
-This week, I learned: Harvard authored a paper : living near nuclear power plants associated with more cancer. Several other papers published similar findings. The trouble is, there’ll always be SOME places near which cancer rates are higher - and there are enough causes that you can p-hack . But, it’s not easy to think of this upfront and very easy to…
-
-## Multimodal
-
-### [Looks Right. Isn’t.](https://www.s-anand.net/blog/looks-right-isnt)
-
-**S Anand** · 07 Oct · relevance 9.5
-
-I conducted a session on Wed, 07 Oct 2026 at ED5518: Data Visualization for Engineers - Department of Engineering Design, IIT Madras, Chennai (remote). Speakers : Anand S Summary : AI makes pictures cheap to create but harder to trust: the reader may be another AI, and a chart, map or CAD model that looks right still needs an independent check. Takeaways :…
+Nick Cammarata out of nowhere with some major claims!
 
 ---
 
