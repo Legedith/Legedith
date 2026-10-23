@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T07:58:33.807702Z",
+  "generated_at": "2026-10-23T07:57:04.943893Z",
   "working_sources": [
     "Simon Willison — LLMs",
     "Simon Willison — AI agents",
@@ -11,6 +11,7 @@
     "The Gradient",
     "Hugging Face",
     "OpenAI",
+    "Google DeepMind",
     "Google Research",
     "Microsoft Research",
     "Berkeley AI Research",
@@ -18,10 +19,8 @@
     "arXiv — AI, language and HCI",
     "arXiv — Robotics"
   ],
-  "source_errors": {
-    "Google DeepMind": "not well-formed (invalid token): line 1, column 0"
-  },
-  "item_count": 64,
+  "source_errors": {},
+  "item_count": 70,
   "items": [
     {
       "id": "0de158413b07a5b4",
@@ -32,29 +31,40 @@
       "published": "2026-10-19T13:00:03Z",
       "summary": "Agility Robotics , the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5 . It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high…",
       "category": "robotics",
-      "score": 21.52
+      "score": 21.27
     },
     {
-      "id": "9172bc3136ed486e",
-      "title": "S-EDL: Eliciting Self-Evidence from Sequence Likelihoods for Semantic Calibration of LLMs",
-      "url": "https://arxiv.org/abs/2610.29832v1",
+      "id": "65dde388acadefe5",
+      "title": "Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration",
+      "url": "https://arxiv.org/abs/2610.31579v1",
       "source": "arXiv — AI, language and HCI",
       "source_group": "preprints",
-      "published": "2026-10-21T14:55:58Z",
-      "summary": "Calibrating large language models (LLMs) in open-ended generation is uniquely challenging because many distinct token sequences can express the same underlying meaning. Prior calibration techniques target either fixed-set classification confidence or the binary correctness of individual strings, making them inherently ill-suited for the dynamic,…",
+      "published": "2026-10-22T17:15:59Z",
+      "summary": "Research on sycophancy asks whether large language models (LLMs) bend towards what their users want to hear. We ask the reverse question: when an LLM is confident, consistent, and wrong, do users bend towards it? In a within-subjects experiment, 32 participants learned up to five science topics by chatting with five assistants built on the same model…",
       "category": "evaluation",
-      "score": 17.41
+      "score": 20.05
     },
     {
-      "id": "540f9c8562963138",
-      "title": "A2I-Calib++: A Kinematics-Driven Anti-noise Active Calibration Framework for Whole-Body Multi-IMU Systems on Legged Robots",
-      "url": "https://arxiv.org/abs/2610.29438v1",
+      "id": "8a292c0dfbec6fe1",
+      "title": "Navigating human-robot interaction challenges in private and residential aged care homes",
+      "url": "https://arxiv.org/abs/2610.31149v1",
       "source": "arXiv — Robotics",
       "source_group": "preprints",
-      "published": "2026-10-21T08:59:51Z",
-      "summary": "Recently, multi-node inertial measurement unit (multi-IMU) systems have shown promise for robust odometry in legged robots. Multi-IMU fusion can improve legged robot odometry but requires accurate spatiotemporal calibration among the sensors. Existing multi-IMU calibration methods, designed for aerial or handheld platforms, face challenges on legged robots…",
+      "published": "2026-10-22T12:07:31Z",
+      "summary": "This chapter explores how robotic systems and ambient intelligence can enhance care for older adults in residential aged care (RAC) homes and private homes. Although these settings differ, we frame both as extreme and challenging environments for human-robot interaction (HRI), characterised by cluttered and dynamic layouts, diverse resident needs, and…",
+      "category": "safety",
+      "score": 17.46
+    },
+    {
+      "id": "4b6f2aa097929e7b",
+      "title": "Same Entity, Different Script: Diagnosing Cross-Script Entity Matching Failures in Language Models",
+      "url": "https://arxiv.org/abs/2610.31407v1",
+      "source": "arXiv — AI, language and HCI",
+      "source_group": "preprints",
+      "published": "2026-10-22T15:09:46Z",
+      "summary": "Multilingual language models can give different identity judgments when the same people's names are written in different scripts. We study this effect using 601 audited identity pairs with attested Devanagari and Latin forms, holding the question and relation fixed. Qwen2.5-7B's same-person accuracy falls from 35.1% in Latin to 8.5% in Devanagari under…",
       "category": "evaluation",
-      "score": 15.26
+      "score": 14.69
     },
     {
       "id": "87f7e078c145b717",
@@ -65,50 +75,50 @@
       "published": "2026-10-18T00:00:00Z",
       "summary": "This week, I learned: I tested a few tools that help agents work with mobile devices. On Android, apart from adb , mobile-mcp seems better than Android-MCP or mobilerun (which has a different purpose, though) #ForNow. More importantly, agents controlling mobiles with USB debugging seems quite seamless. HeyPuter is cloning every software #ForNow into…",
       "category": "evaluation",
-      "score": 14.81
+      "score": 14.56
     },
     {
-      "id": "fba9ced5cf97332d",
-      "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
-      "url": "https://arxiv.org/abs/2610.30125v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-10-21T17:57:59Z",
-      "summary": "Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an object's mass distribution, joint damping, or surface friction. Without calibrating these physics factors for world models, predictions…",
-      "category": "systems",
-      "score": 13.91
-    },
-    {
-      "id": "53d3a58775014126",
-      "title": "VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage - An empirical study of unknown-attack honesty, cascade gray zones, and calibration under drift",
-      "url": "https://arxiv.org/abs/2610.30090v1",
+      "id": "8dc057db0178a4d6",
+      "title": "Certified Execution Harness for Agentic AI: Safe and Least-Intrusive Petri-Net Supervisory Control Between Reasoning and Action",
+      "url": "https://arxiv.org/abs/2610.31376v1",
       "source": "arXiv — AI, language and HCI",
       "source_group": "preprints",
-      "published": "2026-10-21T17:39:12Z",
-      "summary": "Perimeter triage faces a latency/semantics trade-off: signature engines are fast and format-safe but blind to unseen attacks, while generative models are semantic but slow and produce unparseable output. In late 2026 a class of commercial System One decision models (TypeSafe Jev; Microsoft-Decision-1) began selling typed decision primitives - binary gates,…",
-      "category": "evaluation",
-      "score": 13.38
-    },
-    {
-      "id": "236facdea6b6b0a3",
-      "title": "SWE-DIVE: Multi-Turn Coding Agent Evaluation with Dynamic User Simulation",
-      "url": "https://arxiv.org/abs/2610.30047v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-10-21T17:06:34Z",
-      "summary": "Coding agents are typically evaluated using one-shot, well-formulated prompts. Benchmarks such as SWE-bench use existing GitHub issues as input for a coding agent and evaluate whether the agent successfully solves the task. However, in real-world use cases, prompts are often not as well-formulated or structured as existing GitHub issues. Additionally, a…",
-      "category": "evaluation",
-      "score": 13.32
-    },
-    {
-      "id": "dc573adb9ac3326a",
-      "title": "COMET: A coordinated multi-layer runtime monitoring framework for human-supervised AI-enabled safety systems",
-      "url": "https://arxiv.org/abs/2610.29816v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-10-21T14:40:34Z",
-      "summary": "Incorporating AI systems into safety systems requires monitoring to avoid silent faults and ensure safe and reliable operation. Single monitors often do not provide actionable information for human supervisors, who act as the system's adaptive controller. We present COMET, a coordinated multi-layer runtime monitoring framework for human-supervised…",
+      "published": "2026-10-22T14:48:16Z",
+      "summary": "This paper studies the problem of safe tool execution for large language model (LLM) agents under prompt injection. Using Petri nets, we formalize the execution harness between the LLM and its tools as a supervisory control problem, in which marks represent capabilities, approvals and budgets. Since a transition fires only if the marks it needs are…",
       "category": "safety",
+      "score": 13.63
+    },
+    {
+      "id": "4dd6c69ad57ae145",
+      "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+      "url": "https://arxiv.org/abs/2610.31657v1",
+      "source": "arXiv — AI, language and HCI",
+      "source_group": "preprints",
+      "published": "2026-10-22T17:58:52Z",
+      "summary": "Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a public 47,837-ticket, eight-class corpus, we compare four…",
+      "category": "evaluation",
+      "score": 13.44
+    },
+    {
+      "id": "87a1e9273390bf9e",
+      "title": "Conservative Meta-Agent Search: Architecture Adaptation under Non-Stationarity",
+      "url": "https://arxiv.org/abs/2610.31436v1",
+      "source": "arXiv — AI, language and HCI",
+      "source_group": "preprints",
+      "published": "2026-10-22T15:32:06Z",
+      "summary": "Automated agentic-system design is typically evaluated on static task suites with immediate scalar rewards. Deployed systems face persistent shift, delayed dependent feedback, correlated component failures, and costly architecture changes. We formalize meta-agent architecture search as sequential incumbent replacement with switching costs and hard risk…",
+      "category": "evaluation",
+      "score": 13.36
+    },
+    {
+      "id": "760557fc138425ae",
+      "title": "AgentPhishing: A Benchmark of LLM Email Agents Under Adaptive Attack",
+      "url": "https://arxiv.org/abs/2610.31404v1",
+      "source": "arXiv — AI, language and HCI",
+      "source_group": "preprints",
+      "published": "2026-10-22T15:07:49Z",
+      "summary": "Computer-use agents increasingly handle private information and act on users' behalf across desktop and web applications, including email. Phishing therefore poses privacy and security risks that depend not only on whether agents recognize malicious messages, but also on how they respond. Existing phishing datasets were developed primarily for conventional…",
+      "category": "evaluation",
       "score": 13.3
     },
     {
@@ -120,18 +130,29 @@
       "published": "2026-10-08T12:00:02Z",
       "summary": "A hand attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have turned an off-the-shelf robotic hand into a completely self-contained robot that walks on its fingertips while using those same fingers to manipulate its environment. Besides making the perfect…",
       "category": "robotics",
-      "score": 13.04
+      "score": 12.79
     },
     {
-      "id": "e24d525330d85f44",
-      "title": "Benchmarking Large Language Models for Detecting Satirical Code-Mixed Sentences",
-      "url": "https://arxiv.org/abs/2610.29907v1",
-      "source": "arXiv — AI, language and HCI",
+      "id": "357e32e28fd9215a",
+      "title": "LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation",
+      "url": "https://arxiv.org/abs/2610.30876v1",
+      "source": "arXiv — Robotics",
       "source_group": "preprints",
-      "published": "2026-10-21T15:48:28Z",
-      "summary": "Code-switching is a natural linguistic phenomenon, yet its impact on high-level reasoning tasks remains largely unexplored in under-resourced languages like Romanian. Natural language processing tasks, such as satire detection, rely heavily on nuanced cultural and syntactic cues that large language models struggle to capture. In this paper, we investigate…",
-      "category": "multilingual",
-      "score": 13.03
+      "published": "2026-10-22T07:56:54Z",
+      "summary": "Humanoid robots must coordinate locomotion and manipulation in everyday environments, yet progress is difficult to assess across differing policies, controllers, and task settings. LocoManiLab provides an integrated testbed spanning data collection and generation, policy training, evaluation, and physical deployment. Its task suite covers 234 atomic and…",
+      "category": "robotics",
+      "score": 12.69
+    },
+    {
+      "id": "90c7f967d3cd9e05",
+      "title": "Calibration-free IMU-based Relative Orientation Estimation under Dynamic Human Motion",
+      "url": "https://arxiv.org/abs/2610.31156v1",
+      "source": "arXiv — Robotics",
+      "source_group": "preprints",
+      "published": "2026-10-22T12:14:16Z",
+      "summary": "Recent magnetometer-free inertial measurement unit (IMU) methods can reduce drift in joint motion estimation using rigid-body constraints, but they typically require pre-calibrated sensor locations, assumptions of specific joint models (e.g., hinge joints) or limited motion types, or an external reference for global orientation. Furthermore, challenges…",
+      "category": "evaluation",
+      "score": 12.52
     },
     {
       "id": "9dff1a0d65583f59",
@@ -145,26 +166,15 @@
       "score": 12.5
     },
     {
-      "id": "cd9f458c474bcd7a",
-      "title": "BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard",
-      "url": "https://arxiv.org/abs/2610.30104v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-10-21T17:50:22Z",
-      "summary": "Despite recent advances, current AI systems remain highly susceptible to domain shifts, particularly in biomedical imaging, where images are usually acquired under substantially different experimental conditions. Although recent domain adaptation methods have made substantial progress, significant performance gaps under domain shift persist. To measure…",
-      "category": "evaluation",
-      "score": 12.44
-    },
-    {
-      "id": "22aadaae985980f9",
-      "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
-      "url": "https://arxiv.org/abs/2610.29560v1",
+      "id": "4fa390d673585229",
+      "title": "IORA: Irregular Object Immobilization under Restricted Actuation",
+      "url": "https://arxiv.org/abs/2610.30969v1",
       "source": "arXiv — Robotics",
       "source_group": "preprints",
-      "published": "2026-10-21T10:49:49Z",
-      "summary": "Vision-language-action (VLA) models achieve strong performance across embodied manipulation tasks by unifying visual understanding, language conditioning, and action generation. However, long-horizon tasks can involve non-Markovian dependencies: successful decisions may require retaining task progress and past interaction outcomes, while partial…",
-      "category": "agents",
-      "score": 12.22
+      "published": "2026-10-22T09:14:01Z",
+      "summary": "Stable grasping under task-specific disturbances is important for robotic manipulation. However, most dexterous grasp synthesis methods are developed for highly actuated hands in free space, and low-DoF hands may not be able to realize the contact topologies required by these grasps. Meanwhile, support surfaces can provide useful contact forces, but are…",
+      "category": "robotics",
+      "score": 12.32
     },
     {
       "id": "6212462b6580cbb2",
@@ -175,7 +185,18 @@
       "published": "2026-10-09T15:30:02Z",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…",
       "category": "robotics",
-      "score": 12.16
+      "score": 11.91
+    },
+    {
+      "id": "d1e251366fad76d9",
+      "title": "VecTile: A Low-Cost Flexible Tactile Array for 3-DoF Force Sensing",
+      "url": "https://arxiv.org/abs/2610.31472v1",
+      "source": "arXiv — Robotics",
+      "source_group": "preprints",
+      "published": "2026-10-22T16:00:09Z",
+      "summary": "Tactile sensing provides robots with contact information difficult to obtain from vision alone. Shear force is particularly important for understanding tangential contact, guiding corrective motions, and maintaining grasp stability, yet flexible and low-cost tactile arrays often measure only normal force. We introduce VecTile, a low-cost, 6 mm thin,…",
+      "category": "robotics",
+      "score": 11.89
     },
     {
       "id": "bf7a4d9d4fd11a76",
@@ -186,7 +207,7 @@
       "published": "2026-10-13T15:02:04Z",
       "summary": "On 11 October , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part by Perseverance ’s ability to drive with much more autonomy than its predecessors. Over the past five years, Perseverance ’s autonomy software has been…",
       "category": "machine behaviour",
-      "score": 12.05
+      "score": 11.8
     },
     {
       "id": "b96753f519935d7b",
@@ -197,40 +218,18 @@
       "published": "2026-10-11T00:00:00Z",
       "summary": "This week, I learned: Python 3.15 is out . My favorite features are: frozendict is hashable . So frozen dicts can be dict keys. Unpacking in Comprehensions . [*x for x in [[1, 2], [3, 4]]] = [1, 2, 3, 4] . {**x for x in [{1: 2}, {3: 4}]} = {1: 2, 3: 4} . Once you start thinking this way, it gets easier. UTF-8 is the default . In source and text processing.…",
       "category": "systems",
-      "score": 11.89
+      "score": 11.64
     },
     {
-      "id": "43357ec4f5b100c9",
-      "title": "SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation",
-      "url": "https://arxiv.org/abs/2610.30044v1",
+      "id": "da4e350db4e8dcca",
+      "title": "Point-Level Refinable Semantic Mapping for Spatial Understanding",
+      "url": "https://arxiv.org/abs/2610.31476v1",
       "source": "arXiv — Robotics",
       "source_group": "preprints",
-      "published": "2026-10-21T17:03:34Z",
-      "summary": "Humanoid loco-manipulation requires an effective interface between high-level task policies and whole-body control. Existing interfaces typically rely on a single action representation for both task intent and whole-body coordination. This may burden the high-level policy or leave one aspect underspecified. We present SP-HLM, a framework built on a…",
-      "category": "multimodal",
-      "score": 11.51
-    },
-    {
-      "id": "8541433f95e82ea3",
-      "title": "From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks",
-      "url": "https://arxiv.org/abs/2610.30051v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-10-21T17:11:52Z",
-      "summary": "Recent advances in frontier AI models have demonstrated remarkable capabilities in visual understanding, reasoning, planning, and tool use, raising the possibility of using general-purpose AI models for robot manipulation without task-specific training. However, their manipulation capabilities have not been systematically evaluated on standardized robotics…",
-      "category": "systems",
-      "score": 11.4
-    },
-    {
-      "id": "2eda632846a981da",
-      "title": "Asymmetric On-Policy Distillation Learns In-Context Exploration",
-      "url": "https://arxiv.org/abs/2610.30105v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-10-21T17:50:31Z",
-      "summary": "Sequential decision-making under partial observability is difficult because agents must explore to infer hidden, task-relevant information before acting effectively. Learning such information-gathering behaviors tabula rasa via online reinforcement learning is sample-inefficient, whereas offline imitation averages expert actions across hidden states and…",
-      "category": "robotics",
-      "score": 11.35
+      "published": "2026-10-22T16:02:16Z",
+      "summary": "Open-vocabulary 3D semantic maps have emerged as a key spatial memory representation for long-horizon robot autonomy, enabling robots to reason about objects, their spatial relationships, and past observations across time. However, existing object-centric semantic maps are primarily designed for static environments and rely on an append-only point…",
+      "category": "evaluation",
+      "score": 11.22
     },
     {
       "id": "0d6618cc9a61a255",
@@ -255,6 +254,17 @@
       "score": 10.72
     },
     {
+      "id": "ee487a66d7e4ee85",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+      "source": "Simon Willison — LLMs",
+      "source_group": "independent",
+      "published": "2026-10-22T18:09:56Z",
+      "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context…",
+      "category": "agents",
+      "score": 10.49
+    },
+    {
       "id": "df6b7830e21cdbdb",
       "title": "Innovations 12 Oct 2026",
       "url": "https://www.s-anand.net/blog/innovations-12-oct-2026",
@@ -263,18 +273,7 @@
       "published": "2026-10-12T08:41:49Z",
       "summary": "Our Innovation team built a few demos over the last couple of weeks. Three interesting things: Agents can build navigable 3D spaces Specialized vision models can outperform frontier LLMs on narrow tasks Simple search tools can beat elaborate document-retrieval systems. New capabilities Build an interactive 3D room from an image . A coding agent used…",
       "category": "agents",
-      "score": 9.73
-    },
-    {
-      "id": "ea92da5c121ecb45",
-      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "url": "https://openai.com/index/building-chatgpt-ad-stack",
-      "source": "OpenAI",
-      "source_group": "frontier lab",
-      "published": "2026-10-21T07:00:00Z",
-      "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-      "category": "machine behaviour",
-      "score": 9.62
+      "score": 9.48
     },
     {
       "id": "ee7d7b655d141a1e",
@@ -288,6 +287,28 @@
       "score": 9.44
     },
     {
+      "id": "51888f116f5b0837",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-10-22T22:24:34Z",
+      "summary": "",
+      "category": "systems",
+      "score": 9.37
+    },
+    {
+      "id": "ea92da5c121ecb45",
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
+      "source": "OpenAI",
+      "source_group": "frontier lab",
+      "published": "2026-10-21T07:00:00Z",
+      "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "category": "machine behaviour",
+      "score": 9.37
+    },
+    {
       "id": "d0f0045fb40f11c2",
       "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
       "url": "https://simonwillison.net/2026/Oct/20/battledrones",
@@ -296,7 +317,18 @@
       "published": "2026-10-20T19:34:19Z",
       "summary": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\". It also supports multiplayer between nearby devices using…",
       "category": "agents",
-      "score": 9.14
+      "score": 8.89
+    },
+    {
+      "id": "1a543055a02f9816",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "source": "OpenAI",
+      "source_group": "frontier lab",
+      "published": "2026-10-23T00:00:00Z",
+      "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "category": "safety",
+      "score": 8.79
     },
     {
       "id": "baa4b6676bfb9b27",
@@ -307,18 +339,18 @@
       "published": "2026-10-19T08:41:49Z",
       "summary": "The Innovation team built a few more demos last week. Three interesting learnings: Construct a 3D world you can walk through - from a picture. Real-time video analytics is increasingly easier with decision models. Small models supported by rules tend to perform well. 3D Worlds Turn one photograph into a 3D world . Jivraj used NVIDIA Lyra and other world…",
       "category": "systems",
-      "score": 8.87
+      "score": 8.62
     },
     {
-      "id": "ef73bf2ace8ac671",
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "url": "https://huggingface.co/blog/allenai/fairstress",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-10-20T16:09:19Z",
-      "summary": "",
-      "category": "evaluation",
-      "score": 8.66
+      "id": "6619134087094c0c",
+      "title": "Quoting Armin Ronacher",
+      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher",
+      "source": "Simon Willison — LLMs",
+      "source_group": "independent",
+      "published": "2026-10-22T15:34:13Z",
+      "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: armin-ronacher , security , ai , generative-ai , llms , ai-security-research",
+      "category": "safety",
+      "score": 8.07
     },
     {
       "id": "1dbe22633003a2af",
@@ -329,7 +361,7 @@
       "published": "2026-10-19T12:00:00Z",
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "category": "evaluation",
-      "score": 8.17
+      "score": 7.92
     },
     {
       "id": "3bc592cc5b6877b7",
@@ -340,7 +372,7 @@
       "published": "2026-10-16T22:06:37Z",
       "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague. Now, review runs continuously,…",
       "category": "agents",
-      "score": 8.11
+      "score": 7.86
     },
     {
       "id": "439c9906884b8b63",
@@ -351,7 +383,7 @@
       "published": "2026-10-16T01:58:00Z",
       "summary": "Research: sparqlite: SPARQL 1.1 inside SQLite, written in Rust This research task is really an experiment in running Claude Code for web in \"Ultracode\" mode, as described in Orchestrate subagents at scale with dynamic workflows in the Claude Code documentation. With Ultracode turned on, Claude Code makes aggressive use of dynamic workflows - it generates…",
       "category": "agents",
-      "score": 7.96
+      "score": 7.71
     },
     {
       "id": "fe88897c2a464af3",
@@ -362,7 +394,18 @@
       "published": "2026-10-16T04:16:45Z",
       "summary": "Nick Cammarata out of nowhere with some major claims!",
       "category": "safety",
-      "score": 7.85
+      "score": 7.6
+    },
+    {
+      "id": "d6172869a6c9d34f",
+      "title": "Flint-interactive: A language for creating interactive data visualizations",
+      "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations",
+      "source": "Microsoft Research",
+      "source_group": "research lab",
+      "published": "2026-10-22T16:00:00Z",
+      "summary": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content, and explore beyond the view the author originally chose. The post Flint-interactive: A language for creating interactive data visualizations appeared first on Microsoft Research .",
+      "category": "machine behaviour",
+      "score": 7.48
     },
     {
       "id": "b734a6066c595494",
@@ -373,7 +416,7 @@
       "published": "2026-10-15T02:07:28Z",
       "summary": "Tool: LaTeX renderer Inspired by Paul Ford and Aboard Foundary's new web app Tiny Little Office , which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder, Spreadsheet, Calculator, Drawing Tool, Diagram Maker, Animator, Calendar, and Trip Planner). Tiny Little Office's signature trick is to store all of the…",
       "category": "agents",
-      "score": 7.71
+      "score": 7.46
     },
     {
       "id": "40a01666d562060b",
@@ -384,7 +427,7 @@
       "published": "2026-10-21T17:35:36Z",
       "summary": "",
       "category": "systems",
-      "score": 7.65
+      "score": 7.4
     },
     {
       "id": "94a5f6526eada9bc",
@@ -395,18 +438,29 @@
       "published": "2026-10-21T18:26:30Z",
       "summary": "",
       "category": "systems",
-      "score": 7.6
+      "score": 7.35
     },
     {
-      "id": "efd79bd778da1c28",
-      "title": "My obituary for programming",
-      "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming",
-      "source": "Simon Willison — LLMs",
+      "id": "5c67f86b19de93a0",
+      "title": "You are the Team — Anekha Sokhal, Moshi",
+      "url": "https://www.latent.space/p/moshi",
+      "source": "Latent Space",
       "source_group": "independent",
-      "published": "2026-10-19T23:58:25Z",
-      "summary": "My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier the puzzle, the more you got paid. But even pretty simple…",
+      "published": "2026-10-22T14:03:40Z",
+      "summary": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
       "category": "agents",
-      "score": 7.49
+      "score": 7.26
+    },
+    {
+      "id": "eda525050cea8fce",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "source": "OpenAI",
+      "source_group": "frontier lab",
+      "published": "2026-10-22T00:00:00Z",
+      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "category": "agents",
+      "score": 7.21
     },
     {
       "id": "c2ed162a157709f5",
@@ -417,18 +471,18 @@
       "published": "2026-10-21T14:58:18Z",
       "summary": "",
       "category": "multimodal",
-      "score": 7.46
+      "score": 7.21
     },
     {
-      "id": "7e289d45dfc4cd8f",
-      "title": "Redesigning source control at Anthropic",
-      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
-      "source": "Simon Willison — LLMs",
+      "id": "c5258c7ef6406bc0",
+      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+      "url": "https://www.latent.space/p/modal-d",
+      "source": "Latent Space",
       "source_group": "independent",
-      "published": "2026-10-13T23:00:06Z",
-      "summary": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day.…",
+      "published": "2026-10-22T17:40:57Z",
+      "summary": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
       "category": "agents",
-      "score": 7.37
+      "score": 7.13
     },
     {
       "id": "95dedf578de78f3e",
@@ -439,7 +493,7 @@
       "published": "2026-10-21T12:00:00Z",
       "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "category": "agents",
-      "score": 7.34
+      "score": 7.09
     },
     {
       "id": "4c49390f8994fee2",
@@ -450,7 +504,7 @@
       "published": "2026-10-22T07:42:44Z",
       "summary": "The Big Hardening begins",
       "category": "machine behaviour",
-      "score": 7.33
+      "score": 7.08
     },
     {
       "id": "39cad894cdd240fb",
@@ -461,18 +515,7 @@
       "published": "2026-10-21T17:00:00Z",
       "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
       "category": "systems",
-      "score": 7.33
-    },
-    {
-      "id": "de9db6f384cbc788",
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "source": "OpenAI",
-      "source_group": "frontier lab",
-      "published": "2026-10-21T07:00:00Z",
-      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-      "category": "safety",
-      "score": 7.28
+      "score": 7.08
     },
     {
       "id": "9c99dc597b92594a",
@@ -483,18 +526,7 @@
       "published": "2026-10-21T06:54:09Z",
       "summary": "An open source “bomb” drops from China",
       "category": "systems",
-      "score": 7.24
-    },
-    {
-      "id": "e270f5ba4688033d",
-      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-      "url": "https://openai.com/index/empowering-cyber-defenders",
-      "source": "OpenAI",
-      "source_group": "frontier lab",
-      "published": "2026-10-21T00:00:00Z",
-      "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-      "category": "safety",
-      "score": 7.21
+      "score": 6.99
     },
     {
       "id": "a379ec2597bb3939",
@@ -505,7 +537,7 @@
       "published": "2026-10-20T17:04:21Z",
       "summary": "Western open models strike back",
       "category": "safety",
-      "score": 7.18
+      "score": 6.93
     },
     {
       "id": "41fb25a47d12d204",
@@ -516,7 +548,7 @@
       "published": "2026-10-20T00:00:00Z",
       "summary": "",
       "category": "machine behaviour",
-      "score": 7.16
+      "score": 6.91
     },
     {
       "id": "1cd487805b8193f0",
@@ -527,18 +559,18 @@
       "published": "2026-10-21T13:04:19Z",
       "summary": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
       "category": "agents",
-      "score": 7.08
+      "score": 6.83
     },
     {
-      "id": "db3c2eda6e56a446",
-      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
-      "url": "https://www.latent.space/p/tenex",
-      "source": "Latent Space",
-      "source_group": "independent",
-      "published": "2026-10-21T05:01:26Z",
-      "summary": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
-      "category": "agents",
-      "score": 7.0
+      "id": "d96a2391b623b2cb",
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics",
+      "source": "Google DeepMind",
+      "source_group": "frontier lab",
+      "published": "2026-10-13T16:01:58Z",
+      "summary": "",
+      "category": "robotics",
+      "score": 6.71
     },
     {
       "id": "e08619ed2cad1d92",
@@ -549,29 +581,7 @@
       "published": "2026-10-20T16:00:00Z",
       "summary": "Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu about the influences that led to the work and more. The post Called to serve: Tech, research, and positive impact appeared first on Microsoft…",
       "category": "machine behaviour",
-      "score": 6.95
-    },
-    {
-      "id": "41c8677062bd4e7a",
-      "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
-      "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun",
-      "source": "Import AI",
-      "source_group": "independent",
-      "published": "2026-10-19T12:31:37Z",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Here’s a speech I gave on Saturday the 17th of October at the IMF meeting in Bangkok. This speech is inspired by the megatrend readers have […]",
-      "category": "multimodal",
-      "score": 6.93
-    },
-    {
-      "id": "247153705736c57d",
-      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
-      "url": "https://www.latent.space/p/crossing-the-threshold",
-      "source": "Latent Space",
-      "source_group": "independent",
-      "published": "2026-10-14T21:40:52Z",
-      "summary": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
-      "category": "agents",
-      "score": 6.86
+      "score": 6.7
     },
     {
       "id": "74c2ff7e2707d1f6",
@@ -585,6 +595,17 @@
       "score": 6.69
     },
     {
+      "id": "41c8677062bd4e7a",
+      "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
+      "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun",
+      "source": "Import AI",
+      "source_group": "independent",
+      "published": "2026-10-19T12:31:37Z",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Here’s a speech I gave on Saturday the 17th of October at the IMF meeting in Bangkok. This speech is inspired by the megatrend readers have […]",
+      "category": "multimodal",
+      "score": 6.68
+    },
+    {
       "id": "0dd91801c3b6e853",
       "title": "Meta shakes up the frontiers, open and closed",
       "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
@@ -593,7 +614,18 @@
       "published": "2026-10-17T14:06:54Z",
       "summary": "US open weights are back!",
       "category": "systems",
-      "score": 6.68
+      "score": 6.43
+    },
+    {
+      "id": "8f93170faf71fda6",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+      "source": "Google DeepMind",
+      "source_group": "frontier lab",
+      "published": "2026-10-22T14:30:24Z",
+      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "category": "general AI",
+      "score": 6.22
     },
     {
       "id": "9394bb5d588b9fd8",
@@ -604,7 +636,7 @@
       "published": "2026-10-16T18:11:34Z",
       "summary": "General Science",
       "category": "agents",
-      "score": 6.08
+      "score": 5.83
     },
     {
       "id": "27c0a5d3fc255134",
@@ -615,7 +647,7 @@
       "published": "2026-10-21T16:23:53Z",
       "summary": "Health & Bioscience",
       "category": "general AI",
-      "score": 6.04
+      "score": 5.79
     },
     {
       "id": "77ec6ad66af3dcc4",
@@ -626,7 +658,7 @@
       "published": "2026-10-21T16:00:00Z",
       "summary": "For decades, a fundamental question about the difficulty of computing in high-dimensional spaces has resisted proof. New research resolves this question, removing a major theoretical obstacle to understanding the efficiency of randomized algorithms used across science and computing. The Kannan–Lovász–Simonovits (KLS) conjecture was proposed in 1995. It…",
       "category": "general AI",
-      "score": 6.03
+      "score": 5.78
     },
     {
       "id": "467c8e42acb6bdc9",
@@ -637,7 +669,7 @@
       "published": "2026-10-15T16:00:00Z",
       "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages, major speed gains, and quantum-resistant security. The post Proof-based general-purpose computing with Magnetar appeared first on Microsoft Research .",
       "category": "machine behaviour",
-      "score": 5.98
+      "score": 5.73
     },
     {
       "id": "1ff94489caca3196",
@@ -648,18 +680,7 @@
       "published": "2026-10-12T12:30:39Z",
       "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now New benchmark shows how AI models lack intuitive visual reasoning:…Humanity’s Sixth Sense highlights some shortcomings of current AI systems…AI startups Elorian and Scale AI…",
       "category": "multimodal",
-      "score": 5.74
-    },
-    {
-      "id": "f4c3b9d58e154e81",
-      "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
-      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges",
-      "source": "Google Research",
-      "source_group": "research lab",
-      "published": "2026-10-14T16:14:00Z",
-      "summary": "Earth AI",
-      "category": "agents",
-      "score": 5.56
+      "score": 5.49
     },
     {
       "id": "7ee79eecb360c6d0",
@@ -673,15 +694,15 @@
       "score": 5.37
     },
     {
-      "id": "7fdb639a79501818",
-      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
-      "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
-      "source": "Microsoft Research",
+      "id": "f4c3b9d58e154e81",
+      "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges",
+      "source": "Google Research",
       "source_group": "research lab",
-      "published": "2026-10-07T16:00:00Z",
-      "summary": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex frameworks. Agent Lightning connects existing agents to RL training, making it easier to improve them without rebuilding them. The post Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training…",
+      "published": "2026-10-14T16:14:00Z",
+      "summary": "Earth AI",
       "category": "agents",
-      "score": 5.2
+      "score": 5.31
     },
     {
       "id": "93854539beed00db",
@@ -695,15 +716,37 @@
       "score": 5.03
     },
     {
-      "id": "ca946f1238ba7f96",
-      "title": "Simulating student learning for better AI tutoring",
-      "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring",
+      "id": "7fdb639a79501818",
+      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+      "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
       "source": "Microsoft Research",
       "source_group": "research lab",
-      "published": "2026-10-12T16:00:00Z",
-      "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across subjects like chess, writing, and mathematics. The post Simulating student learning for better AI tutoring appeared first on Microsoft…",
-      "category": "evaluation",
-      "score": 5.01
+      "published": "2026-10-07T16:00:00Z",
+      "summary": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex frameworks. Agent Lightning connects existing agents to RL training, making it easier to improve them without rebuilding them. The post Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training…",
+      "category": "agents",
+      "score": 4.95
+    },
+    {
+      "id": "3b88e63140868036",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery",
+      "source": "Google DeepMind",
+      "source_group": "frontier lab",
+      "published": "2026-10-15T16:08:03Z",
+      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "category": "general AI",
+      "score": 4.49
+    },
+    {
+      "id": "b76b11a1199f73b7",
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+      "source": "Google DeepMind",
+      "source_group": "frontier lab",
+      "published": "2026-10-14T02:00:14Z",
+      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "category": "general AI",
+      "score": 4.09
     },
     {
       "id": "b5f10d8395692173",
@@ -714,7 +757,7 @@
       "published": "2026-10-14T16:14:00Z",
       "summary": "General Science",
       "category": "general AI",
-      "score": 4.29
+      "score": 4.04
     },
     {
       "id": "6e6aab638b2a9ab0",
@@ -725,7 +768,29 @@
       "published": "2026-10-14T16:14:00Z",
       "summary": "General Science",
       "category": "general AI",
-      "score": 4.29
+      "score": 4.04
+    },
+    {
+      "id": "1dc99b611b2499a3",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely",
+      "source": "Google DeepMind",
+      "source_group": "frontier lab",
+      "published": "2026-10-13T19:43:07Z",
+      "summary": "",
+      "category": "general AI",
+      "score": 4.02
+    },
+    {
+      "id": "4e31b829ae688591",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon",
+      "source": "Google DeepMind",
+      "source_group": "frontier lab",
+      "published": "2026-10-13T16:01:52Z",
+      "summary": "",
+      "category": "general AI",
+      "score": 3.98
     }
   ]
 }

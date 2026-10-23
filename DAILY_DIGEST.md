@@ -1,60 +1,78 @@
 # Robot Psychology Radar
 
-Updated 22 October 2026, 07:58 UTC from 16 working sources.
+Updated 23 October 2026, 07:57 UTC from 17 working sources.
 
 24 high-relevance items across 5 sources. Auto-collected metadata; inclusion is not endorsement.
 
 ## Evaluation
 
-### [S-EDL: Eliciting Self-Evidence from Sequence Likelihoods for Semantic Calibration of LLMs](https://arxiv.org/abs/2610.29832v1)
+### [Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration](https://arxiv.org/abs/2610.31579v1)
 
-**arXiv — AI, language and HCI** · 21 Oct · relevance 17.4
+**arXiv — AI, language and HCI** · 22 Oct · relevance 20.1
 
-Calibrating large language models (LLMs) in open-ended generation is uniquely challenging because many distinct token sequences can express the same underlying meaning. Prior calibration techniques target either fixed-set classification confidence or the binary correctness of individual strings, making them inherently ill-suited for the dynamic,…
+Research on sycophancy asks whether large language models (LLMs) bend towards what their users want to hear. We ask the reverse question: when an LLM is confident, consistent, and wrong, do users bend towards it? In a within-subjects experiment, 32 participants learned up to five science topics by chatting with five assistants built on the same model…
 
-### [A2I-Calib++: A Kinematics-Driven Anti-noise Active Calibration Framework for Whole-Body Multi-IMU Systems on Legged Robots](https://arxiv.org/abs/2610.29438v1)
+### [Same Entity, Different Script: Diagnosing Cross-Script Entity Matching Failures in Language Models](https://arxiv.org/abs/2610.31407v1)
 
-**arXiv — Robotics** · 21 Oct · relevance 15.3
+**arXiv — AI, language and HCI** · 22 Oct · relevance 14.7
 
-Recently, multi-node inertial measurement unit (multi-IMU) systems have shown promise for robust odometry in legged robots. Multi-IMU fusion can improve legged robot odometry but requires accurate spatiotemporal calibration among the sensors. Existing multi-IMU calibration methods, designed for aerial or handheld platforms, face challenges on legged robots…
+Multilingual language models can give different identity judgments when the same people's names are written in different scripts. We study this effect using 601 audited identity pairs with attested Devanagari and Latin forms, holding the question and relation fixed. Qwen2.5-7B's same-person accuracy falls from 35.1% in Latin to 8.5% in Devanagari under…
 
 ### [Things I Learned - 18 Oct 2026](https://www.s-anand.net/blog/things-i-learned-18-oct-2026)
 
-**S Anand** · 18 Oct · relevance 14.8
+**S Anand** · 18 Oct · relevance 14.6
 
 This week, I learned: I tested a few tools that help agents work with mobile devices. On Android, apart from adb , mobile-mcp seems better than Android-MCP or mobilerun (which has a different purpose, though) #ForNow. More importantly, agents controlling mobiles with USB debugging seems quite seamless. HeyPuter is cloning every software #ForNow into…
 
-### [VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage - An empirical study of unknown-attack honesty, cascade gray zones, and calibration under drift](https://arxiv.org/abs/2610.30090v1)
+### [Cost-Aware Abstention for LLM-Based IT Ticket Classification](https://arxiv.org/abs/2610.31657v1)
 
-**arXiv — AI, language and HCI** · 21 Oct · relevance 13.4
+**arXiv — AI, language and HCI** · 22 Oct · relevance 13.4
 
-Perimeter triage faces a latency/semantics trade-off: signature engines are fast and format-safe but blind to unseen attacks, while generative models are semantic but slow and produce unparseable output. In late 2026 a class of commercial System One decision models (TypeSafe Jev; Microsoft-Decision-1) began selling typed decision primitives - binary gates,…
+Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a public 47,837-ticket, eight-class corpus, we compare four…
 
-### [SWE-DIVE: Multi-Turn Coding Agent Evaluation with Dynamic User Simulation](https://arxiv.org/abs/2610.30047v1)
+### [Conservative Meta-Agent Search: Architecture Adaptation under Non-Stationarity](https://arxiv.org/abs/2610.31436v1)
 
-**arXiv — AI, language and HCI** · 21 Oct · relevance 13.3
+**arXiv — AI, language and HCI** · 22 Oct · relevance 13.4
 
-Coding agents are typically evaluated using one-shot, well-formulated prompts. Benchmarks such as SWE-bench use existing GitHub issues as input for a coding agent and evaluate whether the agent successfully solves the task. However, in real-world use cases, prompts are often not as well-formulated or structured as existing GitHub issues. Additionally, a…
+Automated agentic-system design is typically evaluated on static task suites with immediate scalar rewards. Deployed systems face persistent shift, delayed dependent feedback, correlated component failures, and costly architecture changes. We formalize meta-agent architecture search as sequential incumbent replacement with switching costs and hard risk…
 
-### [BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard](https://arxiv.org/abs/2610.30104v1)
+### [AgentPhishing: A Benchmark of LLM Email Agents Under Adaptive Attack](https://arxiv.org/abs/2610.31404v1)
 
-**arXiv — AI, language and HCI** · 21 Oct · relevance 12.4
+**arXiv — AI, language and HCI** · 22 Oct · relevance 13.3
 
-Despite recent advances, current AI systems remain highly susceptible to domain shifts, particularly in biomedical imaging, where images are usually acquired under substantially different experimental conditions. Although recent domain adaptation methods have made substantial progress, significant performance gaps under domain shift persist. To measure…
+Computer-use agents increasingly handle private information and act on users' behalf across desktop and web applications, including email. Phishing therefore poses privacy and security risks that depend not only on whether agents recognize malicious messages, but also on how they respond. Existing phishing datasets were developed primarily for conventional…
+
+### [Calibration-free IMU-based Relative Orientation Estimation under Dynamic Human Motion](https://arxiv.org/abs/2610.31156v1)
+
+**arXiv — Robotics** · 22 Oct · relevance 12.5
+
+Recent magnetometer-free inertial measurement unit (IMU) methods can reduce drift in joint motion estimation using rigid-body constraints, but they typically require pre-calibrated sensor locations, assumptions of specific joint models (e.g., hinge joints) or limited motion types, or an external reference for global orientation. Furthermore, challenges…
+
+### [Point-Level Refinable Semantic Mapping for Spatial Understanding](https://arxiv.org/abs/2610.31476v1)
+
+**arXiv — Robotics** · 22 Oct · relevance 11.2
+
+Open-vocabulary 3D semantic maps have emerged as a key spatial memory representation for long-horizon robot autonomy, enabling robots to reason about objects, their spatial relationships, and past observations across time. However, existing object-centric semantic maps are primarily designed for static environments and rely on an append-only point…
 
 ## Robotics
 
 ### [The Robot I Didn’t Expect to Build](https://spectrum.ieee.org/agility-robotics-digit-5-redesign)
 
-**IEEE Spectrum Robotics** · 19 Oct · relevance 21.5
+**IEEE Spectrum Robotics** · 19 Oct · relevance 21.3
 
 Agility Robotics , the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5 . It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high…
 
 ### [This Disembodied Hand Is All the Robot You Need](https://spectrum.ieee.org/walking-robotic-hand)
 
-**IEEE Spectrum Robotics** · 08 Oct · relevance 13.0
+**IEEE Spectrum Robotics** · 08 Oct · relevance 12.8
 
 A hand attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have turned an off-the-shelf robotic hand into a completely self-contained robot that walks on its fingertips while using those same fingers to manipulate its environment. Besides making the perfect…
+
+### [LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30876v1)
+
+**arXiv — Robotics** · 22 Oct · relevance 12.7
+
+Humanoid robots must coordinate locomotion and manipulation in everyday environments, yet progress is difficult to assess across differing policies, controllers, and task settings. LocoManiLab provides an integrated testbed spanning data collection and generation, policy training, evaluation, and physical deployment. Its task suite covers 234 atomic and…
 
 ### [Video Friday: Albatross Falls, Spins, Self-Rights, and Sails Away](https://spectrum.ieee.org/video-friday-bioinspired-robotics)
 
@@ -62,17 +80,23 @@ A hand attached to the end of an arm is a given for most humans, but what if rob
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
+### [IORA: Irregular Object Immobilization under Restricted Actuation](https://arxiv.org/abs/2610.30969v1)
+
+**arXiv — Robotics** · 22 Oct · relevance 12.3
+
+Stable grasping under task-specific disturbances is important for robotic manipulation. However, most dexterous grasp synthesis methods are developed for highly actuated hands in free space, and low-DoF hands may not be able to realize the contact topologies required by these grasps. Meanwhile, support surfaces can provide useful contact forces, but are…
+
 ### [Video Friday: Robot Decommissioning Takes a Fun Turn](https://spectrum.ieee.org/video-friday-reachy-mini-raps)
 
-**IEEE Spectrum Robotics** · 09 Oct · relevance 12.2
+**IEEE Spectrum Robotics** · 09 Oct · relevance 11.9
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
-### [Asymmetric On-Policy Distillation Learns In-Context Exploration](https://arxiv.org/abs/2610.30105v1)
+### [VecTile: A Low-Cost Flexible Tactile Array for 3-DoF Force Sensing](https://arxiv.org/abs/2610.31472v1)
 
-**arXiv — Robotics** · 21 Oct · relevance 11.3
+**arXiv — Robotics** · 22 Oct · relevance 11.9
 
-Sequential decision-making under partial observability is difficult because agents must explore to infer hidden, task-relevant information before acting effectively. Learning such information-gathering behaviors tabula rasa via online reinforcement learning is sample-inefficient, whereas offline imitation averages expert actions across hidden states and…
+Tactile sensing provides robots with contact information difficult to obtain from vision alone. Shear force is particularly important for understanding tangential contact, guiding corrective motions, and maintaining grasp stability, yet flexible and low-cost tactile arrays often measure only normal force. We introduce VecTile, a low-cost, 6 mm thin,…
 
 ### [Video Friday: Life’s Better With a Little Robot Goose](https://spectrum.ieee.org/video-friday-goose-household-robots)
 
@@ -82,15 +106,15 @@ Video Friday is your weekly selection of awesome robotics videos, collected by y
 
 ## Agents
 
-### [From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation](https://arxiv.org/abs/2610.29560v1)
+### [Donating Agent Skills to the Agentic AI Foundation](https://simonwillison.net/2026/Oct/22/donating-agent-skills)
 
-**arXiv — Robotics** · 21 Oct · relevance 12.2
+**Simon Willison — LLMs** · 22 Oct · relevance 10.5
 
-Vision-language-action (VLA) models achieve strong performance across embodied manipulation tasks by unifying visual understanding, language conditioning, and action generation. However, long-horizon tasks can involve non-Markovian dependencies: successful decisions may require retaining task progress and past interaction outcomes, while partial…
+Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context…
 
 ### [Innovations 12 Oct 2026](https://www.s-anand.net/blog/innovations-12-oct-2026)
 
-**S Anand** · 12 Oct · relevance 9.7
+**S Anand** · 12 Oct · relevance 9.5
 
 Our Innovation team built a few demos over the last couple of weeks. Three interesting things: Agents can build navigable 3D spaces Specialized vision models can outperform frontier LLMs on narrow tasks Simple search tools can beat elaborate document-retrieval systems. New capabilities Build an interactive 3D room from an image . A coding agent used…
 
@@ -104,7 +128,7 @@ This week, I learned: Harvard authored a paper : living near nuclear power plant
 
 ### [Q&A: Mars Perseverance Rover Sets a Distance Record](https://spectrum.ieee.org/mars-rover-distance-record)
 
-**IEEE Spectrum Robotics** · 13 Oct · relevance 12.1
+**IEEE Spectrum Robotics** · 13 Oct · relevance 11.8
 
 On 11 October , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part by Perseverance ’s ability to drive with much more autonomy than its predecessors. Over the past five years, Perseverance ’s autonomy software has been…
 
@@ -114,62 +138,27 @@ On 11 October , the Perseverance rover completed a drive that brought its total 
 
 This week, I learned: trafilatura is a Python library that extracts the main content as Markdown from a web page. A useful alternative to Jina Reader for text. It’s better at main content extraction but can’t handle non-HTML / JS generated / bot-protected URLs. The Remote Desktop Commander ChatGPT plugin is a good alternative to my mcpserver.py . Both let…
 
-### [How we built ChatGPT’s novel ad stack for user trust and relevance](https://openai.com/index/building-chatgpt-ad-stack)
+## Safety
 
-**OpenAI** · 21 Oct · relevance 9.6
+### [Navigating human-robot interaction challenges in private and residential aged care homes](https://arxiv.org/abs/2610.31149v1)
 
-Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.
+**arXiv — Robotics** · 22 Oct · relevance 17.5
+
+This chapter explores how robotic systems and ambient intelligence can enhance care for older adults in residential aged care (RAC) homes and private homes. Although these settings differ, we frame both as extreme and challenging environments for human-robot interaction (HRI), characterised by cluttered and dynamic layouts, diverse resident needs, and…
+
+### [Certified Execution Harness for Agentic AI: Safe and Least-Intrusive Petri-Net Supervisory Control Between Reasoning and Action](https://arxiv.org/abs/2610.31376v1)
+
+**arXiv — AI, language and HCI** · 22 Oct · relevance 13.6
+
+This paper studies the problem of safe tool execution for large language model (LLM) agents under prompt injection. Using Petri nets, we formalize the execution harness between the LLM and its tools as a supervisory control problem, in which marks represent capabilities, approvals and budgets. Since a transition fires only if the marks it needs are…
 
 ## Systems
 
-### [PhysiCalWorld: In-Context Physics Calibration for World Models](https://arxiv.org/abs/2610.30125v1)
-
-**arXiv — Robotics** · 21 Oct · relevance 13.9
-
-Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an object's mass distribution, joint damping, or surface friction. Without calibrating these physics factors for world models, predictions…
-
 ### [Things I Learned - 11 Oct 2026](https://www.s-anand.net/blog/things-i-learned-11-oct-2026)
 
-**S Anand** · 11 Oct · relevance 11.9
+**S Anand** · 11 Oct · relevance 11.6
 
 This week, I learned: Python 3.15 is out . My favorite features are: frozendict is hashable . So frozen dicts can be dict keys. Unpacking in Comprehensions . [*x for x in [[1, 2], [3, 4]]] = [1, 2, 3, 4] . {**x for x in [{1: 2}, {3: 4}]} = {1: 2, 3: 4} . Once you start thinking this way, it gets easier. UTF-8 is the default . In source and text processing.…
-
-### [From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks](https://arxiv.org/abs/2610.30051v1)
-
-**arXiv — Robotics** · 21 Oct · relevance 11.4
-
-Recent advances in frontier AI models have demonstrated remarkable capabilities in visual understanding, reasoning, planning, and tool use, raising the possibility of using general-purpose AI models for robot manipulation without task-specific training. However, their manipulation capabilities have not been systematically evaluated on standardized robotics…
-
-## Multilingual
-
-### [Benchmarking Large Language Models for Detecting Satirical Code-Mixed Sentences](https://arxiv.org/abs/2610.29907v1)
-
-**arXiv — AI, language and HCI** · 21 Oct · relevance 13.0
-
-Code-switching is a natural linguistic phenomenon, yet its impact on high-level reasoning tasks remains largely unexplored in under-resourced languages like Romanian. Natural language processing tasks, such as satire detection, rely heavily on nuanced cultural and syntactic cues that large language models struggle to capture. In this paper, we investigate…
-
-## Multimodal
-
-### [SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30044v1)
-
-**arXiv — Robotics** · 21 Oct · relevance 11.5
-
-Humanoid loco-manipulation requires an effective interface between high-level task policies and whole-body control. Existing interfaces typically rely on a single action representation for both task intent and whole-body coordination. This may burden the high-level policy or leave one aspect underspecified. We present SP-HLM, a framework built on a…
-
-## Safety
-
-### [COMET: A coordinated multi-layer runtime monitoring framework for human-supervised AI-enabled safety systems](https://arxiv.org/abs/2610.29816v1)
-
-**arXiv — AI, language and HCI** · 21 Oct · relevance 13.3
-
-Incorporating AI systems into safety systems requires monitoring to avoid silent faults and ensure safe and reliable operation. Single monitors often do not provide actionable information for human supervisors, who act as the system's adaptive controller. We present COMET, a coordinated multi-layer runtime monitoring framework for human-supervised…
-
-<details>
-<summary>Sources unavailable during this run</summary>
-
-- **Google DeepMind:** `not well-formed (invalid token): line 1, column 0`
-
-</details>
 
 ---
 
