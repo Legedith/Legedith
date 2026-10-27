@@ -1,72 +1,40 @@
 # Robot Psychology Radar
 
-Updated 26 October 2026, 08:08 UTC from 16 working sources.
+Updated 27 October 2026, 08:23 UTC from 16 working sources.
 
 24 high-relevance items across 5 sources. Auto-collected metadata; inclusion is not endorsement.
-
-## Evaluation
-
-### [Predictive Long-Horizon Progress Modeling with Action-Aware Quantification](https://arxiv.org/abs/2610.32776v1)
-
-**arXiv — Robotics** · 23 Oct · relevance 14.7
-
-Quantitative and dense task progress feedback is essential for robotic manipulation across data curation, policy evaluation, and reinforcement learning. Existing progress annotations often rely on sparse keyframe markings derived from subjective manual judgments, limiting their scalability and cross-task consistency, particularly in long-horizon…
-
-### [Things I Learned - 18 Oct 2026](https://www.s-anand.net/blog/things-i-learned-18-oct-2026)
-
-**S Anand** · 18 Oct · relevance 13.8
-
-This week, I learned: I tested a few tools that help agents work with mobile devices. On Android, apart from adb , mobile-mcp seems better than Android-MCP or mobilerun (which has a different purpose, though) #ForNow. More importantly, agents controlling mobiles with USB debugging seems quite seamless. HeyPuter is cloning every software #ForNow into…
-
-### [What Mean Error Misses: Device-Clock Diagnostics for Evaluating Eye Tracking across Three Virtual Reality Headsets](https://arxiv.org/abs/2610.32915v1)
-
-**arXiv — AI, language and HCI** · 23 Oct · relevance 12.9
-
-Gaze research in virtual reality needs eye trackers of known error. Thirty participants completed the same protocol on the Meta Quest Pro (QP), HTC VIVE Pro Eye (PE) and HTC VIVE Focus Vision (FV); to our knowledge, this is the first evaluation of the FV eye tracker. In a random-saccade task, median participant mean error was 1.04° on QP, 1.50° on PE and…
-
-### [Do Language Models Trust Their Own Justifications? A Study on Functional Consistency](https://arxiv.org/abs/2610.32665v1)
-
-**arXiv — AI, language and HCI** · 23 Oct · relevance 12.9
-
-Large Language Models (LLMs) have been widely adopted in text classification tasks, where they not only output class predictions but also generate explanations that highlight the tokens deemed most relevant for reaching the predicted label. Yet it remains unclear whether these highlighted elements are behaviorally consistent with the model's own…
-
-### [Closing the Modality Gap via Simplex-Constrained Representations](https://arxiv.org/abs/2610.32890v1)
-
-**arXiv — AI, language and HCI** · 23 Oct · relevance 12.9
-
-While multimodal contrastive models like CLIP and CLAP successfully learn shared representations, their embeddings typically exhibit a persistent \emph{modality gap}. We propose addressing this separation through a purely geometric approach: changing the embedding domain from the unit sphere, $S^{d-1}$, to the probability simplex, $Δ^{d-1}$. Although both…
-
-### [EMG Tokenization Preserves Movement Information at a Fraction of the Bitrate](https://arxiv.org/abs/2610.32674v1)
-
-**arXiv — AI, language and HCI** · 23 Oct · relevance 12.8
-
-Wireless electromyography (EMG) interfaces must balance electrode coverage against transmission bandwidth. Here, we show that compact EMG tokens substantially reduce payload while retaining information for three-dimensional hand-pose decoding. We evaluate two causal tokenizers fitted without pose labels: an encoder pretrained to reconstruct EMG spectra and…
-
-### [RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms](https://arxiv.org/abs/2610.32971v1)
-
-**arXiv — Robotics** · 23 Oct · relevance 12.2
-
-Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusability and an unclear empirical capability boundary. We…
-
-### [Input Bias Correction in Gaussian Process Regression](https://arxiv.org/abs/2610.31920v1)
-
-**arXiv — Robotics** · 22 Oct · relevance 11.9
-
-In traditional Gaussian process (GP) regression, the inputs are typically assumed to be known, and uncertainty enters only through the measurements. When scalar fields are mapped using GP regression with measurements obtained from a mobile sensor, the inputs correspond to the estimated pose of the mobile sensor. The goal in this letter is to understand how…
 
 ## Robotics
 
 ### [The Robot I Didn’t Expect to Build](https://spectrum.ieee.org/agility-robotics-digit-5-redesign)
 
-**IEEE Spectrum Robotics** · 19 Oct · relevance 20.5
+**IEEE Spectrum Robotics** · 19 Oct · relevance 20.3
 
 Agility Robotics , the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5 . It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high…
 
 ### [Video Friday: Quadruped Robot Solves Giant Rubik’s Cube by Itself](https://spectrum.ieee.org/video-friday-rubiks-cube-robot)
 
-**IEEE Spectrum Robotics** · 23 Oct · relevance 14.2
+**IEEE Spectrum Robotics** · 23 Oct · relevance 14.0
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
+
+### [Labference: Benchmarking the Reasoning-Action Connection in Robotic Laboratories](https://arxiv.org/abs/2610.35252v1)
+
+**arXiv — Robotics** · 26 Oct · relevance 13.7
+
+Realizing Embodied AI for Science requires robots to translate experimental goals into reliable physical procedures, reducing hazardous and repetitive human work while generating evidence for scientific discovery. Although language-based planning and learned manipulation provide complementary capabilities, their integration requires robots to adapt…
+
+### [DEX-PHD: A Dexterous Portable Handheld Device for Multimodal Data Collection](https://arxiv.org/abs/2610.35462v1)
+
+**arXiv — Robotics** · 26 Oct · relevance 12.5
+
+Existing manipulation data collection methods typically offer either accurate robot-state acquisition through kinematic-chain-based teleoperation or convenient, portable operation through vision-based approaches. We present DEX-PHD, a portable handheld device that combines these advantages for dexterous manipulation by integrating a dexterous robot hand,…
+
+### [Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy](https://arxiv.org/abs/2610.35832v1)
+
+**arXiv — Robotics** · 26 Oct · relevance 12.5
+
+Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipulation demands remains to be thoroughly evaluated. In this report, we evaluate GPT-6-Astra on EBench as the…
 
 ### [This Disembodied Hand Is All the Robot You Need](https://spectrum.ieee.org/walking-robotic-hand)
 
@@ -80,41 +48,75 @@ A hand attached to the end of an arm is a given for most humans, but what if rob
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
-### [From Tabletop to Walking Bot: Deploying a VLA Model on a Legged Manipulator Robot](https://arxiv.org/abs/2610.32271v1)
-
-**arXiv — Robotics** · 23 Oct · relevance 12.0
-
-Vision-language-action (VLA) models are typically pretrained on broad, diverse datasets and subsequently fine-tuned on a comparatively small dataset tailored to a specific target robot. Such adaptation recipe is now widely established, achieving its most mature results on fixed-base arms due to their static base dynamics and consistent reference frame.…
-
-### [DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection](https://arxiv.org/abs/2610.32969v1)
-
-**arXiv — Robotics** · 23 Oct · relevance 11.9
-
-Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to collect, but their motions must be estimated and…
-
-### [CEMIR vs. FISER: a comparative study of reasoning-based and enrichment-based approaches to pragmatic intent recognition](https://arxiv.org/abs/2610.32022v1)
-
-**arXiv — Robotics** · 23 Oct · relevance 11.4
-
-Intent recognition in human-robot interaction requires agents to resolve ambiguous natural language instructions by inferring the speaker's underlying goals. Research has increasingly focused on two notable paradigms for addressing this task: structured symbolic reasoning and multimodal input enrichment. However, it remains unclear whether enrichment-based…
-
 ### [Video Friday: Robot Decommissioning Takes a Fun Turn](https://spectrum.ieee.org/video-friday-reachy-mini-raps)
 
 **IEEE Spectrum Robotics** · 09 Oct · relevance 11.3
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
+### [Learning Force-Reactive Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.35862v1)
+
+**arXiv — Robotics** · 26 Oct · relevance 11.2
+
+Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a framework for learning force-reactive humanoid loco-manipulation. We collect robot-free demonstrations…
+
+### [Continuous-Time Safe Planning and Control for Agile Quadrupeds](https://arxiv.org/abs/2610.35670v1)
+
+**arXiv — Robotics** · 26 Oct · relevance 11.2
+
+Agile quadruped navigation in dynamic environments demands trajectories that are both dynamically feasible and provably collision-free. Most real-time planners achieve tractability through a convex reduction that requires simplified kinematic models, discarding motion that the robot can readily execute, and certify safety only at discretization points,…
+
+## Evaluation
+
+### [From Self-Confidence to Statistical Accuracy: Scaling Human-in-the-Loop Evaluation with Direct and LLM-Assisted Auditing](https://arxiv.org/abs/2610.35698v1)
+
+**arXiv — AI, language and HCI** · 26 Oct · relevance 16.0
+
+For large language models (LLMs) and multimodal large language models (MLLMs), model-reported self-confidence is often miscalibrated, yet it may still be useful for efficient evaluation. At the same time, LLM-as-a-judge offers a scalable alternative to direct human auditing, but its practical benefit depends on calibration quality and inference cost. This…
+
+### [Things I Learned - 18 Oct 2026](https://www.s-anand.net/blog/things-i-learned-18-oct-2026)
+
+**S Anand** · 18 Oct · relevance 13.6
+
+This week, I learned: I tested a few tools that help agents work with mobile devices. On Android, apart from adb , mobile-mcp seems better than Android-MCP or mobilerun (which has a different purpose, though) #ForNow. More importantly, agents controlling mobiles with USB debugging seems quite seamless. HeyPuter is cloning every software #ForNow into…
+
+### [CLOSURE: Cross-Channel Closure for Multivariate Time Series Anomaly Detection](https://arxiv.org/abs/2610.35753v1)
+
+**arXiv — AI, language and HCI** · 26 Oct · relevance 13.4
+
+Multivariate time series produced by industrial installations and server clusters are under continuous monitoring, and anomaly detection is the first line of defense before a local fault escalates into a system-wide failure. In the absence of labels, the dominant paradigm trains a reconstruction model on normal data and scores the residual to reach a…
+
+### [Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks](https://arxiv.org/abs/2610.35671v1)
+
+**arXiv — AI, language and HCI** · 26 Oct · relevance 13.3
+
+As frontier language models grow increasingly capable and autonomous, independent third-party evaluations are critical for characterizing their systemic safety risks. While closed-source releases are routinely accompanied by comprehensive system cards, open-weight models receive less scrutiny regarding frontier risks. To address this gap, we present an…
+
+## Systems
+
+### [EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation](https://arxiv.org/abs/2610.35690v1)
+
+**arXiv — AI, language and HCI** · 26 Oct · relevance 15.1
+
+Serving web queries at scale with multi-agent systems requires jointly configuring large language models, collaboration modes, agent counts, interaction rounds, and skills. However, the resulting configuration space grows combinatorially, while sparse execution rewards provide limited fine-grained supervision for interdependent planning decisions. We…
+
+### [ExCal: Optimization-Free Multivariate Time Series Anomaly Detection via Excess Calibration](https://arxiv.org/abs/2610.35568v1)
+
+**arXiv — AI, language and HCI** · 26 Oct · relevance 13.5
+
+We introduce ExCal, a normal-only multivariate time series anomaly detector that combines raw state retrieval, a signal/derivative subspace, and robust statistics across temporal scales. Each expert map receives a high normality floor from the training prefix. During scoring, positive excess is retained, attenuated for broadly firing maps, and combined…
+
+### [Things I Learned - 11 Oct 2026](https://www.s-anand.net/blog/things-i-learned-11-oct-2026)
+
+**S Anand** · 11 Oct · relevance 10.7
+
+This week, I learned: Python 3.15 is out . My favorite features are: frozendict is hashable . So frozen dicts can be dict keys. Unpacking in Comprehensions . [*x for x in [[1, 2], [3, 4]]] = [1, 2, 3, 4] . {**x for x in [{1: 2}, {3: 4}]} = {1: 2, 3: 4} . Once you start thinking this way, it gets easier. UTF-8 is the default . In source and text processing.…
+
 ## Agents
-
-### [Agentic Hazard Mapper: Emulating Expert Map-Making with AI Agents for Risk Communication](https://arxiv.org/abs/2610.32738v1)
-
-**arXiv — AI, language and HCI** · 23 Oct · relevance 13.2
-
-Hazard maps are essential tools for public risk communication, preparedness, and evacuation planning, yet effective cartographic design is not always ensured due to limited access to cartographic expertise across local governments and communities. We present Agentic Hazard Mapper, a multi-agent system that automates hazard-map production by emulating…
 
 ### [Donating Agent Skills to the Agentic AI Foundation](https://simonwillison.net/2026/Oct/22/donating-agent-skills)
 
-**Simon Willison — LLMs** · 22 Oct · relevance 9.7
+**Simon Willison — LLMs** · 22 Oct · relevance 9.5
 
 Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context…
 
@@ -128,35 +130,37 @@ This week, I learned: Harvard authored a paper : living near nuclear power plant
 
 ### [Things I Learned - 25 Oct 2026](https://www.s-anand.net/blog/things-i-learned-25-oct-2026)
 
-**S Anand** · 25 Oct · relevance 14.4
+**S Anand** · 25 Oct · relevance 14.1
 
 This week, I learned: Neural Networks Are Already Clean argues that in modern LLMs, most neurons have one function, not arbitrary overlapping functions (like we thought earlier). This becomes clearer when you see the learning steps, e.g. the “iy” neuron -> “diy” -> “do it yourself”. Without the “diy” in the middle, it’s confusing what “iy” has to do with…
 
 ### [Q&A: Mars Perseverance Rover Sets a Distance Record](https://spectrum.ieee.org/mars-rover-distance-record)
 
-**IEEE Spectrum Robotics** · 13 Oct · relevance 11.0
+**IEEE Spectrum Robotics** · 13 Oct · relevance 10.8
 
 On 11 October , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part by Perseverance ’s ability to drive with much more autonomy than its predecessors. Over the past five years, Perseverance ’s autonomy software has been…
 
-### [Things I Learned - 27 Sep 2026](https://www.s-anand.net/blog/things-i-learned-27-sep-2026)
+## Multimodal
 
-**S Anand** · 27 Sep · relevance 10.7
+### [Context-Aware Generation and Modulation of Expressive Motion Behavior using Multimodal Foundation Models](https://arxiv.org/abs/2610.35615v1)
 
-This week, I learned: trafilatura is a Python library that extracts the main content as Markdown from a web page. A useful alternative to Jina Reader for text. It’s better at main content extraction but can’t handle non-HTML / JS generated / bot-protected URLs. The Remote Desktop Commander ChatGPT plugin is a good alternative to my mcpserver.py . Both let…
+**arXiv — Robotics** · 26 Oct · relevance 13.4
 
-## Systems
+Expressive robot motion positively impacts human-robot interaction by improving user engagement, likability, or task performance. We present a novel approach to automatically generate and modulate complex, expressive full-body gesture sequences from a multimodal (text, audio, video) context description. Based on a unified mathematical implementation of the…
 
-### [Yalda-Embedding: Open Development of a Competitive Persian Retrieval Model](https://arxiv.org/abs/2610.32933v1)
+### [GPT-6.1 Terra](https://simonwillison.net/2026/Oct/26/gpt-61-terra)
 
-**arXiv — AI, language and HCI** · 23 Oct · relevance 16.3
+**Simon Willison — LLMs** · 26 Oct · relevance 9.9
 
-Despite advances in multilingual text representations, effective dense retrieval for Persian remains constrained by the limited availability of language-specific training resources and compact embedding models. We present Yalda Embedding, a 595.8-million-parameter Persian retrieval model adapted from Qwen3-Embedding-0.6B using more than one million…
+GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra , a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural…
 
-### [Things I Learned - 11 Oct 2026](https://www.s-anand.net/blog/things-i-learned-11-oct-2026)
+## Multilingual
 
-**S Anand** · 11 Oct · relevance 10.9
+### [Preserve to Expand: Source-Aware Adaptation and Model Merging for Multilingual LLM-Based ASR](https://arxiv.org/abs/2610.35846v1)
 
-This week, I learned: Python 3.15 is out . My favorite features are: frozendict is hashable . So frozen dicts can be dict keys. Unpacking in Comprehensions . [*x for x in [[1, 2], [3, 4]]] = [1, 2, 3, 4] . {**x for x in [{1: 2}, {3: 4}]} = {1: 2, 3: 4} . Once you start thinking this way, it gets easier. UTF-8 is the default . In source and text processing.…
+**arXiv — AI, language and HCI** · 26 Oct · relevance 12.5
+
+Expanding multilingual ASR systems to new languages is challenging when adaptation must preserve previously supported languages without replaying source-language training data. We study this problem in connector-based Speech LLMs, where a trainable connector maps speech representations into a frozen large language model. We evaluate target-update…
 
 <details>
 <summary>Sources unavailable during this run</summary>
