@@ -1,6 +1,6 @@
 # Robot Psychology Radar
 
-Updated 28 October 2026, 09:00 UTC from 15 working sources.
+Updated 29 October 2026, 08:56 UTC from 16 working sources.
 
 24 high-relevance items across 7 sources. Auto-collected metadata; inclusion is not endorsement.
 
@@ -8,13 +8,25 @@ Updated 28 October 2026, 09:00 UTC from 15 working sources.
 
 ### [The Robot I Didn’t Expect to Build](https://spectrum.ieee.org/agility-robotics-digit-5-redesign)
 
-**IEEE Spectrum Robotics** · 19 Oct · relevance 20.0
+**IEEE Spectrum Robotics** · 19 Oct · relevance 19.8
 
 Agility Robotics , the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5 . It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high…
 
+### [KEPT: Conformal Keepouts Kept in Planning for Enclosed-Space Navigation in Degraded Sensing](https://arxiv.org/abs/2610.37217v1)
+
+**arXiv — Robotics** · 27 Oct · relevance 13.9
+
+Autonomous vehicles in enclosed spaces such as tunnels and mines rely on range maps that smoke, dust and fog make inaccurate. Conformal prediction calibrates a keepout around the mapped walls that covers the true unsafe set at a chosen probability. Typically an unmodified planner treats the keepout as an inflated obstacle, and nothing ensures that the…
+
+### [Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well](https://arxiv.org/abs/2610.37652v1)
+
+**arXiv — Robotics** · 27 Oct · relevance 13.6
+
+Dexterous manipulation with multi-fingered hands is the next frontier of robotics, yet learned hand skills remain limited to simple grasps or basic repeated motions, such as rotating an object. As robots attempt more demanding in-hand maneuvers, safety, such as not dropping the object, becomes critical, yet it is rarely measured. We study in-hand object…
+
 ### [Video Friday: Quadruped Robot Solves Giant Rubik’s Cube by Itself](https://spectrum.ieee.org/video-friday-rubiks-cube-robot)
 
-**IEEE Spectrum Robotics** · 23 Oct · relevance 13.7
+**IEEE Spectrum Robotics** · 23 Oct · relevance 13.5
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
@@ -42,109 +54,69 @@ Video Friday is your weekly selection of awesome robotics videos, collected by y
 
 This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the dataset transfer to a real humanoid robot. What you will learn about: Why humanoid robot learning, a central problem in embodied AI and…
 
-## Agents
-
-### [Things I Learned - 04 Oct 2026](https://www.s-anand.net/blog/things-i-learned-04-oct-2026)
-
-**S Anand** · 04 Oct · relevance 9.4
-
-This week, I learned: Harvard authored a paper : living near nuclear power plants associated with more cancer. Several other papers published similar findings. The trouble is, there’ll always be SOME places near which cancer rates are higher - and there are enough causes that you can p-hack . But, it’s not easy to think of this upfront and very easy to…
-
-### [Donating Agent Skills to the Agentic AI Foundation](https://simonwillison.net/2026/Oct/22/donating-agent-skills)
-
-**Simon Willison — LLMs** · 22 Oct · relevance 9.2
-
-Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context…
-
-### [Innovations 12 Oct 2026](https://www.s-anand.net/blog/innovations-12-oct-2026)
-
-**S Anand** · 12 Oct · relevance 8.2
-
-Our Innovation team built a few demos over the last couple of weeks. Three interesting things: Agents can build navigable 3D spaces Specialized vision models can outperform frontier LLMs on narrow tasks Simple search tools can beat elaborate document-retrieval systems. New capabilities Build an interactive 3D room from an image . A coding agent used…
-
-### [Battle Drones - a vibe coded RTS with audio-based multiplayer](https://simonwillison.net/2026/Oct/20/battledrones)
-
-**Simon Willison — LLMs** · 20 Oct · relevance 7.6
-
-My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat embarrassed to admit that I got there by telling Claude to "Make it a LOT more fun". It also supports multiplayer between nearby devices using…
-
-## Multimodal
-
-### [GPT-6.1 Terra](https://simonwillison.net/2026/Oct/26/gpt-61-terra)
-
-**Simon Willison — LLMs** · 26 Oct · relevance 9.6
-
-GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra , a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural…
-
-### [Genie 4: A new generation of world simulation](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation)
-
-**Google DeepMind** · 27 Oct · relevance 7.8
-
-Genie 4: our new world model unlocking unprecedented realism in real-time simulation.
-
-### [Build specialized multimodal models with LFM3](https://huggingface.co/blog/LiquidAI/lfm3)
-
-**Hugging Face** · 27 Oct · relevance 7.7
-
-### [Looks Right. Isn’t.](https://www.s-anand.net/blog/looks-right-isnt)
-
-**S Anand** · 07 Oct · relevance 7.6
-
-I conducted a session on Wed, 07 Oct 2026 at ED5518: Data Visualization for Engineers - Department of Engineering Design, IIT Madras, Chennai (remote). Speakers : Anand S Summary : AI makes pictures cheap to create but harder to trust: the reader may be another AI, and a chart, map or CAD model that looks right still needs an independent check. Takeaways :…
-
-## Machine Behaviour
-
-### [Things I Learned - 25 Oct 2026](https://www.s-anand.net/blog/things-i-learned-25-oct-2026)
-
-**S Anand** · 25 Oct · relevance 13.9
-
-This week, I learned: Neural Networks Are Already Clean argues that in modern LLMs, most neurons have one function, not arbitrary overlapping functions (like we thought earlier). This becomes clearer when you see the learning steps, e.g. the “iy” neuron -> “diy” -> “do it yourself”. Without the “diy” in the middle, it’s confusing what “iy” has to do with…
-
-### [Can we trust LLMs to judge whether a research idea is novel?](https://huggingface.co/blog/allenai/novelty-bench)
-
-**Hugging Face** · 27 Oct · relevance 9.9
-
-### [How we built ChatGPT’s novel ad stack for user trust and relevance](https://openai.com/index/building-chatgpt-ad-stack)
-
-**OpenAI** · 21 Oct · relevance 8.1
-
-Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.
-
-## Safety
-
-### [Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means](https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means)
-
-**Import AI** · 26 Oct · relevance 8.7
-
-Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now How math could help alignment:…What the “industrialization of mathematics” means for safety…AI safety startup Resolution (formerly known as Sequent, Import AI 461) has…
-
-### [Game Boy Color on My Conference Badge](https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge)
-
-**Simon Willison — LLMs** · 27 Oct · relevance 8.1
-
-Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working on it, and then went a step further and deployed an…
-
-### [Quoting Jason Koebler](https://simonwillison.net/2026/Oct/26/jason-koebler)
-
-**Simon Willison — LLMs** · 26 Oct · relevance 7.7
-
-Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered something journalistically notable and…
-
 ## Evaluation
+
+### [Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness](https://arxiv.org/abs/2610.37657v1)
+
+**arXiv — AI, language and HCI** · 27 Oct · relevance 15.6
+
+We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following injected instructions. We evaluate HoS…
+
+### [M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents](https://arxiv.org/abs/2610.37459v1)
+
+**arXiv — AI, language and HCI** · 27 Oct · relevance 15.0
+
+Clinical research over electronic health records depends on derived variables whose definitions sit outside the schema, in item codes, time windows, missingness rules, and output-grain choices that change cohorts and downstream conclusions. We introduce M4Bench, 28 clinical derivation tasks across 15 task families on MIMIC-IV and eICU, to test whether AI…
+
+### [Comparing Temporal Deep Learning Architectures for Discrete Cross-User Myoelectric Control](https://arxiv.org/abs/2610.37374v1)
+
+**arXiv — AI, language and HCI** · 27 Oct · relevance 13.1
+
+The recognition of dynamic gestures via discrete myoelectric control is becoming an attractive input modality for event-based human-machine interaction. While recent work suggests that discrete cross-user models are possible (i.e., no calibration data is required from the end user), few have evaluated techniques to optimize these systems and their…
 
 ### [Things I Learned - 18 Oct 2026](https://www.s-anand.net/blog/things-i-learned-18-oct-2026)
 
-**S Anand** · 18 Oct · relevance 13.3
+**S Anand** · 18 Oct · relevance 13.1
 
 This week, I learned: I tested a few tools that help agents work with mobile devices. On Android, apart from adb , mobile-mcp seems better than Android-MCP or mobilerun (which has a different purpose, though) #ForNow. More importantly, agents controlling mobiles with USB debugging seems quite seamless. HeyPuter is cloning every software #ForNow into…
 
-### [Securing our frontier model training environment](https://openai.com/index/securing-our-frontier-model-training-environment)
+### [RESPLE2: Inertial-Informed Recursive Non-Uniform Spline Estimation for Multi-Sensor Odometry with Global Refinement](https://arxiv.org/abs/2610.37602v1)
 
-**OpenAI** · 23 Oct · relevance 7.6
+**arXiv — Robotics** · 27 Oct · relevance 12.5
 
-OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.
+We present RESPLE2, a recursive multi-sensor state estimation framework using non-uniform B-splines for 6-DoF motion representation. By exploiting the knot-clamping boundary property, we propose a theoretically grounded mechanism for exact control-point prediction directly informed by inertial kinematics along the trajectory, with knot placement adapted to…
+
+### [[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders](https://latent.space/p/ainews-gemini-4-carbon)
+
+**Latent Space** · 29 Oct · relevance 11.3
+
+Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.
 
 ## Systems
+
+### [Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution](https://arxiv.org/abs/2610.37215v1)
+
+**arXiv — Robotics** · 27 Oct · relevance 15.1
+
+Vision-Language-Action (VLA) policies demonstrate remarkable semantic generalization, yet remain highly vulnerable to out-of-distribution (OOD) visual shifts during execution. While existing test-time methods attempt to suppress spurious visual cues, they fundamentally overlook the rich, uncorrupted kinematic priors embedded in the policy's own training…
+
+### [VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning](https://arxiv.org/abs/2610.37378v1)
+
+**arXiv — Robotics** · 27 Oct · relevance 13.9
+
+Vision-Language-Action (VLA) models integrate high-level reasoning with low-level action execution for end-to-end robotic control. However, most VLA models target static manipulation in unconstrained environments, overlooking spatial constraints and dynamic obstacles. Fine-tuning VLAs on obstacle-avoidance data is a straightforward solution, but collecting…
+
+### [Follow the Gradient: Tracing Safety Degradation Back to Training Data](https://arxiv.org/abs/2610.37481v1)
+
+**arXiv — AI, language and HCI** · 27 Oct · relevance 12.4
+
+Fine-tuning Large Language Models (LLMs) on instruction data can quietly erode their safety, even when no training example looks harmful. Because this safety-degrading data looks benign, standard content filters struggle to catch it. We tackle this problem by developing SimpleLoRIF, a scalable gradient embedding method that identifies fine-tuning examples…
+
+### [REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation](https://arxiv.org/abs/2610.37584v1)
+
+**arXiv — AI, language and HCI** · 27 Oct · relevance 12.3
+
+Personalized recommendation depends on learning semantic and collaborative relations among items from online content and user interactions. Generative recommendation (GR) offers a promising paradigm by autoregressively generating discrete semantic IDs (SIDs) of items. However, randomly initialized SID token embeddings and GR models trained from scratch do…
 
 ### [Things I Learned - 11 Oct 2026](https://www.s-anand.net/blog/things-i-learned-11-oct-2026)
 
@@ -152,15 +124,44 @@ OpenAI explains how we strengthened containment for frontier model training and 
 
 This week, I learned: Python 3.15 is out . My favorite features are: frozendict is hashable . So frozen dicts can be dict keys. Unpacking in Comprehensions . [*x for x in [[1, 2], [3, 4]]] = [1, 2, 3, 4] . {**x for x in [{1: 2}, {3: 4}]} = {1: 2, 3: 4} . Once you start thinking this way, it gets easier. UTF-8 is the default . In source and text processing.…
 
-### [Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox](https://huggingface.co/blog/microsoft/thinkingbox-training)
+## Agents
 
-**Hugging Face** · 22 Oct · relevance 8.1
+### [PerceptRL: Making Visual Perception Rewardable in MLLMs from Answers to Interactions](https://arxiv.org/abs/2610.37471v1)
+
+**arXiv — AI, language and HCI** · 27 Oct · relevance 12.0
+
+Fine-grained visual perception remains a bottleneck during post-training of multimodal large language models (MLLMs), as perceptual errors can constrain gains from reasoning-focused optimization. Although image-caption pre-training improves perception, its influence can weaken as subsequent stages change data mixtures and objectives. Continuing caption…
+
+### [Legora is building the agentic operating system for legal work](https://openai.com/index/legora)
+
+**OpenAI** · 28 Oct · relevance 10.0
+
+See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.
+
+## Machine Behaviour
+
+### [Things I Learned - 25 Oct 2026](https://www.s-anand.net/blog/things-i-learned-25-oct-2026)
+
+**S Anand** · 25 Oct · relevance 13.6
+
+This week, I learned: Neural Networks Are Already Clean argues that in modern LLMs, most neurons have one function, not arbitrary overlapping functions (like we thought earlier). This becomes clearer when you see the learning steps, e.g. the “iy” neuron -> “diy” -> “do it yourself”. Without the “diy” in the middle, it’s confusing what “iy” has to do with…
+
+### [Can we trust LLMs to judge whether a research idea is novel?](https://huggingface.co/blog/allenai/novelty-bench)
+
+**Hugging Face** · 27 Oct · relevance 9.7
+
+## Safety
+
+### [ActiveAlign: Aligning Egocentric Manipulation via Active Perception](https://arxiv.org/abs/2610.36859v1)
+
+**arXiv — Robotics** · 27 Oct · relevance 12.4
+
+Real-to-Sim-to-Real (Real2Sim2Real) enables structured world representations for planning, interpretability, and safe execution. Most existing approaches rely on passive perception, which creates real2sim gaps due to imperfect observation. Inspired by how humans perceive actively through actions, we propose ActiveAlign, a framework that leverages active…
 
 <details>
 <summary>Sources unavailable during this run</summary>
 
-- **arXiv — AI, language and HCI:** `The read operation timed out`
-- **arXiv — Robotics:** `The read operation timed out`
+- **Google DeepMind:** `not well-formed (invalid token): line 1, column 0`
 
 </details>
 
