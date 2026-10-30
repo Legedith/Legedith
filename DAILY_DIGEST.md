@@ -1,6 +1,6 @@
 # Robot Psychology Radar
 
-Updated 29 October 2026, 08:56 UTC from 16 working sources.
+Updated 30 October 2026, 09:02 UTC from 17 working sources.
 
 24 high-relevance items across 7 sources. Auto-collected metadata; inclusion is not endorsement.
 
@@ -8,27 +8,27 @@ Updated 29 October 2026, 08:56 UTC from 16 working sources.
 
 ### [The Robot I Didn’t Expect to Build](https://spectrum.ieee.org/agility-robotics-digit-5-redesign)
 
-**IEEE Spectrum Robotics** · 19 Oct · relevance 19.8
+**IEEE Spectrum Robotics** · 19 Oct · relevance 19.5
 
 Agility Robotics , the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5 . It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high…
 
-### [KEPT: Conformal Keepouts Kept in Planning for Enclosed-Space Navigation in Degraded Sensing](https://arxiv.org/abs/2610.37217v1)
+### [Gym-Anything for Robotics: Scaling physical simulations with digital agents](https://arxiv.org/abs/2610.40565v1)
 
-**arXiv — Robotics** · 27 Oct · relevance 13.9
+**arXiv — Robotics** · 29 Oct · relevance 13.5
 
-Autonomous vehicles in enclosed spaces such as tunnels and mines rely on range maps that smoke, dust and fog make inaccurate. Conformal prediction calibrates a keepout around the mapped walls that covers the true unsafe set at a chosen probability. Typically an unmodified planner treats the keepout as an inflated obstacle, and nothing ensures that the…
-
-### [Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well](https://arxiv.org/abs/2610.37652v1)
-
-**arXiv — Robotics** · 27 Oct · relevance 13.6
-
-Dexterous manipulation with multi-fingered hands is the next frontier of robotics, yet learned hand skills remain limited to simple grasps or basic repeated motions, such as rotating an object. As robots attempt more demanding in-hand maneuvers, safety, such as not dropping the object, becomes critical, yet it is rarely measured. We study in-hand object…
+Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena. The core bottleneck is that creating better simulations requires significant expert effort and…
 
 ### [Video Friday: Quadruped Robot Solves Giant Rubik’s Cube by Itself](https://spectrum.ieee.org/video-friday-rubiks-cube-robot)
 
-**IEEE Spectrum Robotics** · 23 Oct · relevance 13.5
+**IEEE Spectrum Robotics** · 23 Oct · relevance 13.2
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
+
+### [A Tutorial on Shape Servoing of Deformable Objects-Part I: Fundamentals](https://arxiv.org/abs/2610.40559v1)
+
+**arXiv — Robotics** · 29 Oct · relevance 12.5
+
+In robotics, shape control (or shape servoing) refers to the automatic manipulation of a deformable object to achieve a desired shape. It involves a feedback loop that exploits the relation between robot motion and changes in the measured shape. This relation, known as the interaction Jacobian or, in this context, the deformation Jacobian, depends on the…
 
 ### [This Disembodied Hand Is All the Robot You Need](https://spectrum.ieee.org/walking-robotic-hand)
 
@@ -56,67 +56,75 @@ This White Paper gives robotics researchers and engineers an overview of a new l
 
 ## Evaluation
 
-### [Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness](https://arxiv.org/abs/2610.37657v1)
+### [Surrogate Uncertainty for Black-box Visual Grounding](https://arxiv.org/abs/2610.39798v1)
 
-**arXiv — AI, language and HCI** · 27 Oct · relevance 15.6
+**arXiv — Robotics** · 29 Oct · relevance 15.2
 
-We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following injected instructions. We evaluate HoS…
+Visual grounding is crucial for robots to understand language instructions with visual observations. This paper addresses the problem of visual grounding uncertainties, where a robot uses a black-box vision-language model (VLM) to ground free-form natural-language instructions to target objects. Prevailing methods derive uncertainty from the VLM itself.…
 
-### [M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents](https://arxiv.org/abs/2610.37459v1)
+### [RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence](https://arxiv.org/abs/2610.40026v1)
 
-**arXiv — AI, language and HCI** · 27 Oct · relevance 15.0
+**arXiv — Robotics** · 29 Oct · relevance 14.1
 
-Clinical research over electronic health records depends on derived variables whose definitions sit outside the schema, in item codes, time windows, missingness rules, and output-grain choices that change cohorts and downstream conclusions. We introduce M4Bench, 28 clinical derivation tasks across 15 task families on MIMIC-IV and eICU, to test whether AI…
+Choosing a robot action model requires evidence about task capability, adaptation cost, deployment requirements, and the reliability of reported conclusions. Success rates alone offer limited guidance to researchers with different computing budgets and goals. We propose RoboSeed, a multidimensional evaluation framework for vision-language-action (VLA) and…
 
-### [Comparing Temporal Deep Learning Architectures for Discrete Cross-User Myoelectric Control](https://arxiv.org/abs/2610.37374v1)
+### [Decision-Level Error Attribution and Depth-Aware Safety Evaluation of Monocular RGB Human Tracking for Autonomous Robot Navigation](https://arxiv.org/abs/2610.40199v1)
 
-**arXiv — AI, language and HCI** · 27 Oct · relevance 13.1
+**arXiv — Robotics** · 29 Oct · relevance 13.7
 
-The recognition of dynamic gestures via discrete myoelectric control is becoming an attractive input modality for event-based human-machine interaction. While recent work suggests that discrete cross-user models are possible (i.e., no calibration data is required from the end user), few have evaluated techniques to optimize these systems and their…
+Monocular RGB tracking is useful for robots operating near people, but perception errors affect binary stop/proceed decisions in ways that geometric accuracy metrics do not capture. We examine how much decision error arises from the safety rule versus perception. We prove that lateral-only distance is a lower bound on planar distance: with accurate…
 
 ### [Things I Learned - 18 Oct 2026](https://www.s-anand.net/blog/things-i-learned-18-oct-2026)
 
-**S Anand** · 18 Oct · relevance 13.1
+**S Anand** · 18 Oct · relevance 12.8
 
 This week, I learned: I tested a few tools that help agents work with mobile devices. On Android, apart from adb , mobile-mcp seems better than Android-MCP or mobilerun (which has a different purpose, though) #ForNow. More importantly, agents controlling mobiles with USB debugging seems quite seamless. HeyPuter is cloning every software #ForNow into…
 
-### [RESPLE2: Inertial-Informed Recursive Non-Uniform Spline Estimation for Multi-Sensor Odometry with Global Refinement](https://arxiv.org/abs/2610.37602v1)
+### [Prefix Executability: Evaluating Tool-Using Agents Beyond Final Success](https://arxiv.org/abs/2610.40444v1)
 
-**arXiv — Robotics** · 27 Oct · relevance 12.5
+**arXiv — AI, language and HCI** · 29 Oct · relevance 12.4
 
-We present RESPLE2, a recursive multi-sensor state estimation framework using non-uniform B-splines for 6-DoF motion representation. By exploiting the knot-clamping boundary property, we propose a theoretically grounded mechanism for exact control-point prediction directly informed by inertial kinematics along the trajectory, with knot placement adapted to…
+Tool-use benchmarks often score agents by final task success, but terminal outcomes can obscure whether the intermediate tool-call trajectory was executable. We propose prefix executability as a trajectory-level evaluation protocol for tool-using agents. The protocol measures whether every prefix of a predicted tool-call sequence remains executable under…
 
 ### [[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders](https://latent.space/p/ainews-gemini-4-carbon)
 
-**Latent Space** · 29 Oct · relevance 11.3
+**Latent Space** · 29 Oct · relevance 11.1
 
 Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.
 
+## Machine Behaviour
+
+### [Things I Learned - 25 Oct 2026](https://www.s-anand.net/blog/things-i-learned-25-oct-2026)
+
+**S Anand** · 25 Oct · relevance 13.4
+
+This week, I learned: Neural Networks Are Already Clean argues that in modern LLMs, most neurons have one function, not arbitrary overlapping functions (like we thought earlier). This becomes clearer when you see the learning steps, e.g. the “iy” neuron -> “diy” -> “do it yourself”. Without the “diy” in the middle, it’s confusing what “iy” has to do with…
+
+### [How Much Should a VLA Trust Its Reasoning? Step-Level Guidance as a Measured Action-Value Function](https://arxiv.org/abs/2610.40002v1)
+
+**arXiv — Robotics** · 29 Oct · relevance 13.3
+
+Reasoning vision-language-action (VLA) policies write a reasoning trace and then decode the action from it. A wrong trace yields a wrong action, and even a correct-looking trace can mislead the plan. Existing remedies ask whether the reasoning is right. We ask how strongly it should steer. CoC-CFG applies classifier-free guidance between the policy's…
+
+### [Multistep and Multivariate Time Series Explainability with GradientSHAP: A Wind Power Case Study](https://arxiv.org/abs/2610.40330v1)
+
+**arXiv — AI, language and HCI** · 29 Oct · relevance 13.1
+
+As the effects of climate change become increasingly apparent, the demand for renewable energy sources such as wind power continues to grow. However, renewables' variable and intermittent nature presents significant challenges in their integration into energy grids. Artificial intelligence (AI) has emerged as a powerful tool to address these issues. Still,…
+
 ## Systems
 
-### [Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution](https://arxiv.org/abs/2610.37215v1)
+### [Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation](https://arxiv.org/abs/2610.40574v1)
 
-**arXiv — Robotics** · 27 Oct · relevance 15.1
+**arXiv — AI, language and HCI** · 29 Oct · relevance 12.5
 
-Vision-Language-Action (VLA) policies demonstrate remarkable semantic generalization, yet remain highly vulnerable to out-of-distribution (OOD) visual shifts during execution. While existing test-time methods attempt to suppress spurious visual cues, they fundamentally overlook the rich, uncorrupted kinematic priors embedded in the policy's own training…
+On-policy Self-distillation (OPSD) has proven effective for post-training large language models by constructing a teacher conditioned on privileged references. However, existing approaches keep the teacher fixed either throughout training by consistently exposing it to the full reference, or within each response by adaptively varying partial reference…
 
-### [VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning](https://arxiv.org/abs/2610.37378v1)
+### [Glance: The Generator Is Its Own Reranker](https://arxiv.org/abs/2610.40454v1)
 
-**arXiv — Robotics** · 27 Oct · relevance 13.9
+**arXiv — AI, language and HCI** · 29 Oct · relevance 12.4
 
-Vision-Language-Action (VLA) models integrate high-level reasoning with low-level action execution for end-to-end robotic control. However, most VLA models target static manipulation in unconstrained environments, overlooking spatial constraints and dynamic obstacles. Fine-tuning VLAs on obstacle-avoidance data is a straightforward solution, but collecting…
-
-### [Follow the Gradient: Tracing Safety Degradation Back to Training Data](https://arxiv.org/abs/2610.37481v1)
-
-**arXiv — AI, language and HCI** · 27 Oct · relevance 12.4
-
-Fine-tuning Large Language Models (LLMs) on instruction data can quietly erode their safety, even when no training example looks harmful. Because this safety-degrading data looks benign, standard content filters struggle to catch it. We tackle this problem by developing SimpleLoRIF, a scalable gradient embedding method that identifies fine-tuning examples…
-
-### [REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation](https://arxiv.org/abs/2610.37584v1)
-
-**arXiv — AI, language and HCI** · 27 Oct · relevance 12.3
-
-Personalized recommendation depends on learning semantic and collaborative relations among items from online content and user interactions. Generative recommendation (GR) offers a promising paradigm by autoregressively generating discrete semantic IDs (SIDs) of items. However, randomly initialized SID token embeddings and GR models trained from scratch do…
+Retrieval-augmented generation commonly serves separate models for reranking and answering, duplicating model residency and passage processing. We introduce Glance, which equips the generator with a lightweight decision adapter and pointer head to score candidate passages from a shared prefill. Short relevance probes branch from the cached context,…
 
 ### [Things I Learned - 11 Oct 2026](https://www.s-anand.net/blog/things-i-learned-11-oct-2026)
 
@@ -126,44 +134,33 @@ This week, I learned: Python 3.15 is out . My favorite features are: frozendict 
 
 ## Agents
 
-### [PerceptRL: Making Visual Perception Rewardable in MLLMs from Answers to Interactions](https://arxiv.org/abs/2610.37471v1)
+### [Building a multiplayer game world with autonomous Fable-class models](https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world)
 
-**arXiv — AI, language and HCI** · 27 Oct · relevance 12.0
+**Simon Willison — LLMs** · 29 Oct · relevance 10.7
 
-Fine-grained visual perception remains a bottleneck during post-training of multimodal large language models (MLLMs), as perceptual errors can constrain gains from reasoning-focused optimization. Although image-caption pre-training improves perception, its influence can weaken as subsequent stages change data mixtures and objectives. Continuing caption…
+How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use…
 
 ### [Legora is building the agentic operating system for legal work](https://openai.com/index/legora)
 
-**OpenAI** · 28 Oct · relevance 10.0
+**OpenAI** · 28 Oct · relevance 9.7
 
 See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.
 
-## Machine Behaviour
+## Multilingual
 
-### [Things I Learned - 25 Oct 2026](https://www.s-anand.net/blog/things-i-learned-25-oct-2026)
+### [How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates](https://arxiv.org/abs/2610.40516v1)
 
-**S Anand** · 25 Oct · relevance 13.6
+**arXiv — AI, language and HCI** · 29 Oct · relevance 15.2
 
-This week, I learned: Neural Networks Are Already Clean argues that in modern LLMs, most neurons have one function, not arbitrary overlapping functions (like we thought earlier). This becomes clearer when you see the learning steps, e.g. the “iy” neuron -> “diy” -> “do it yourself”. Without the “diy” in the middle, it’s confusing what “iy” has to do with…
-
-### [Can we trust LLMs to judge whether a research idea is novel?](https://huggingface.co/blog/allenai/novelty-bench)
-
-**Hugging Face** · 27 Oct · relevance 9.7
+Safety alignment for Large Language Models is heavily focused on English with limited multilingual representation, particularly damaging low-resource language performance. Related open training datasets are often limited in size or do not follow region-localized harmful topics to broaden the scope of alignment beyond cultures. We propose a scalable…
 
 ## Safety
 
-### [ActiveAlign: Aligning Egocentric Manipulation via Active Perception](https://arxiv.org/abs/2610.36859v1)
+### [Understanding and Mitigating Role Spoofing in LLMs](https://arxiv.org/abs/2610.40396v1)
 
-**arXiv — Robotics** · 27 Oct · relevance 12.4
+**arXiv — AI, language and HCI** · 29 Oct · relevance 12.3
 
-Real-to-Sim-to-Real (Real2Sim2Real) enables structured world representations for planning, interpretability, and safe execution. Most existing approaches rely on passive perception, which creates real2sim gaps due to imperfect observation. Inspired by how humans perceive actively through actions, we propose ActiveAlign, a framework that leverages active…
-
-<details>
-<summary>Sources unavailable during this run</summary>
-
-- **Google DeepMind:** `not well-formed (invalid token): line 1, column 0`
-
-</details>
+Despite growing capabilities, LLMs remain susceptible to prompt injections: malicious inputs that can manipulate or hijack models. In particular, it has recently been observed that LLMs can exhibit role confusion (Ye et al., 2026), where models attribute the source of text based on its style instead of its labeled role. Malicious text in tool outputs (for…
 
 ---
 
