@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T09:02:24.725393Z",
+  "generated_at": "2026-10-31T08:55:04.256218Z",
   "working_sources": [
     "Simon Willison — LLMs",
     "Simon Willison — AI agents",
@@ -11,7 +11,6 @@
     "The Gradient",
     "Hugging Face",
     "OpenAI",
-    "Google DeepMind",
     "Google Research",
     "Microsoft Research",
     "Berkeley AI Research",
@@ -19,8 +18,10 @@
     "arXiv — AI, language and HCI",
     "arXiv — Robotics"
   ],
-  "source_errors": {},
-  "item_count": 71,
+  "source_errors": {
+    "Google DeepMind": "not well-formed (invalid token): line 1, column 0"
+  },
+  "item_count": 65,
   "items": [
     {
       "id": "0de158413b07a5b4",
@@ -31,7 +32,29 @@
       "published": "2026-10-19T13:00:03Z",
       "summary": "Agility Robotics , the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5 . It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high…",
       "category": "robotics",
-      "score": 19.51
+      "score": 19.26
+    },
+    {
+      "id": "7ca738fffd8adba7",
+      "title": "Video Friday: Spot Plays to Show Its Whole-Body Manipulation",
+      "url": "https://spectrum.ieee.org/video-friday-whole-body-manipulation",
+      "source": "IEEE Spectrum Robotics",
+      "source_group": "robotics journalism",
+      "published": "2026-10-30T16:30:03Z",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…",
+      "category": "robotics",
+      "score": 15.94
+    },
+    {
+      "id": "37742d3845ce7f7b",
+      "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
+      "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+      "source": "IEEE Spectrum Robotics",
+      "source_group": "robotics journalism",
+      "published": "2026-10-27T16:14:39Z",
+      "summary": "This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance reading, a position estimate, or a stop signal. But what happens when one of…",
+      "category": "robotics",
+      "score": 15.19
     },
     {
       "id": "88db15bd13dd4716",
@@ -42,7 +65,7 @@
       "published": "2026-10-29T17:26:02Z",
       "summary": "Safety alignment for Large Language Models is heavily focused on English with limited multilingual representation, particularly damaging low-resource language performance. Related open training datasets are often limited in size or do not follow region-localized harmful topics to broaden the scope of alignment beyond cultures. We propose a scalable…",
       "category": "multilingual",
-      "score": 15.2
+      "score": 14.96
     },
     {
       "id": "64da204bc019e6de",
@@ -53,7 +76,7 @@
       "published": "2026-10-29T10:44:54Z",
       "summary": "Visual grounding is crucial for robots to understand language instructions with visual observations. This paper addresses the problem of visual grounding uncertainties, where a robot uses a black-box vision-language model (VLM) to ground free-form natural-language instructions to target objects. Prevailing methods derive uncertainty from the VLM itself.…",
       "category": "evaluation",
-      "score": 15.16
+      "score": 14.91
     },
     {
       "id": "906fc9ad6ab37003",
@@ -64,7 +87,7 @@
       "published": "2026-10-29T13:34:54Z",
       "summary": "Choosing a robot action model requires evidence about task capability, adaptation cost, deployment requirements, and the reliability of reported conclusions. Success rates alone offer limited guidance to researchers with different computing budgets and goals. We propose RoboSeed, a multidimensional evaluation framework for vision-language-action (VLA) and…",
       "category": "evaluation",
-      "score": 14.08
+      "score": 13.83
     },
     {
       "id": "d3fe66fdf02cf904",
@@ -75,7 +98,7 @@
       "published": "2026-10-29T14:52:38Z",
       "summary": "Monocular RGB tracking is useful for robots operating near people, but perception errors affect binary stop/proceed decisions in ways that geometric accuracy metrics do not capture. We examine how much decision error arises from the safety rule versus perception. We prove that lateral-only distance is a lower bound on planar distance: with accurate…",
       "category": "evaluation",
-      "score": 13.7
+      "score": 13.45
     },
     {
       "id": "8354237bbbcdadca",
@@ -86,7 +109,7 @@
       "published": "2026-10-29T17:42:32Z",
       "summary": "Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena. The core bottleneck is that creating better simulations requires significant expert effort and…",
       "category": "robotics",
-      "score": 13.51
+      "score": 13.26
     },
     {
       "id": "020468ecfc42b3b0",
@@ -97,7 +120,7 @@
       "published": "2026-10-25T00:00:00Z",
       "summary": "This week, I learned: Neural Networks Are Already Clean argues that in modern LLMs, most neurons have one function, not arbitrary overlapping functions (like we thought earlier). This becomes clearer when you see the learning steps, e.g. the “iy” neuron -> “diy” -> “do it yourself”. Without the “diy” in the middle, it’s confusing what “iy” has to do with…",
       "category": "machine behaviour",
-      "score": 13.38
+      "score": 13.13
     },
     {
       "id": "15d9e87b92fecf4b",
@@ -108,7 +131,7 @@
       "published": "2026-10-29T13:20:35Z",
       "summary": "Reasoning vision-language-action (VLA) policies write a reasoning trace and then decode the action from it. A wrong trace yields a wrong action, and even a correct-looking trace can mislead the plan. Existing remedies ask whether the reasoning is right. We ask how strongly it should steer. CoC-CFG applies classifier-free guidance between the policy's…",
       "category": "machine behaviour",
-      "score": 13.35
+      "score": 13.1
     },
     {
       "id": "fe3eb94d922b728f",
@@ -119,7 +142,7 @@
       "published": "2026-10-23T15:30:02Z",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…",
       "category": "robotics",
-      "score": 13.21
+      "score": 12.96
     },
     {
       "id": "22125e00707ca813",
@@ -130,7 +153,7 @@
       "published": "2026-10-29T15:57:13Z",
       "summary": "As the effects of climate change become increasingly apparent, the demand for renewable energy sources such as wind power continues to grow. However, renewables' variable and intermittent nature presents significant challenges in their integration into energy grids. Artificial intelligence (AI) has emerged as a powerful tool to address these issues. Still,…",
       "category": "machine behaviour",
-      "score": 13.13
+      "score": 12.88
     },
     {
       "id": "87f7e078c145b717",
@@ -141,29 +164,7 @@
       "published": "2026-10-18T00:00:00Z",
       "summary": "This week, I learned: I tested a few tools that help agents work with mobile devices. On Android, apart from adb , mobile-mcp seems better than Android-MCP or mobilerun (which has a different purpose, though) #ForNow. More importantly, agents controlling mobiles with USB debugging seems quite seamless. HeyPuter is cloning every software #ForNow into…",
       "category": "evaluation",
-      "score": 12.79
-    },
-    {
-      "id": "0071c2edabe69f93",
-      "title": "Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation",
-      "url": "https://arxiv.org/abs/2610.40574v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-10-29T17:44:42Z",
-      "summary": "On-policy Self-distillation (OPSD) has proven effective for post-training large language models by constructing a teacher conditioned on privileged references. However, existing approaches keep the teacher fixed either throughout training by consistently exposing it to the full reference, or within each response by adaptively varying partial reference…",
-      "category": "systems",
-      "score": 12.54
-    },
-    {
-      "id": "946a4a7b42e5161a",
-      "title": "A Tutorial on Shape Servoing of Deformable Objects-Part I: Fundamentals",
-      "url": "https://arxiv.org/abs/2610.40559v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-10-29T17:40:56Z",
-      "summary": "In robotics, shape control (or shape servoing) refers to the automatic manipulation of a deformable object to achieve a desired shape. It involves a feedback loop that exploits the relation between robot motion and changes in the measured shape. This relation, known as the interaction Jacobian or, in this context, the deformation Jacobian, depends on the…",
-      "category": "robotics",
-      "score": 12.51
+      "score": 12.55
     },
     {
       "id": "71d14eef1394909f",
@@ -188,6 +189,28 @@
       "score": 12.5
     },
     {
+      "id": "0071c2edabe69f93",
+      "title": "Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation",
+      "url": "https://arxiv.org/abs/2610.40574v1",
+      "source": "arXiv — AI, language and HCI",
+      "source_group": "preprints",
+      "published": "2026-10-29T17:44:42Z",
+      "summary": "On-policy Self-distillation (OPSD) has proven effective for post-training large language models by constructing a teacher conditioned on privileged references. However, existing approaches keep the teacher fixed either throughout training by consistently exposing it to the full reference, or within each response by adaptively varying partial reference…",
+      "category": "systems",
+      "score": 12.29
+    },
+    {
+      "id": "946a4a7b42e5161a",
+      "title": "A Tutorial on Shape Servoing of Deformable Objects-Part I: Fundamentals",
+      "url": "https://arxiv.org/abs/2610.40559v1",
+      "source": "arXiv — Robotics",
+      "source_group": "preprints",
+      "published": "2026-10-29T17:40:56Z",
+      "summary": "In robotics, shape control (or shape servoing) refers to the automatic manipulation of a deformable object to achieve a desired shape. It involves a feedback loop that exploits the relation between robot motion and changes in the measured shape. This relation, known as the interaction Jacobian or, in this context, the deformation Jacobian, depends on the…",
+      "category": "robotics",
+      "score": 12.26
+    },
+    {
       "id": "4d373dcf5ec3f558",
       "title": "Glance: The Generator Is Its Own Reranker",
       "url": "https://arxiv.org/abs/2610.40454v1",
@@ -196,7 +219,7 @@
       "published": "2026-10-29T17:01:22Z",
       "summary": "Retrieval-augmented generation commonly serves separate models for reranking and answering, duplicating model residency and passage processing. We introduce Glance, which equips the generator with a lightweight decision adapter and pointer head to score candidate passages from a shared prefill. Short relevance probes branch from the cached context,…",
       "category": "systems",
-      "score": 12.42
+      "score": 12.17
     },
     {
       "id": "d411d3aaeb3a2459",
@@ -207,7 +230,7 @@
       "published": "2026-10-29T16:58:04Z",
       "summary": "Tool-use benchmarks often score agents by final task success, but terminal outcomes can obscure whether the intermediate tool-call trajectory was executable. We propose prefix executability as a trajectory-level evaluation protocol for tool-using agents. The protocol measures whether every prefix of a predicted tool-call sequence remains executable under…",
       "category": "evaluation",
-      "score": 12.42
+      "score": 12.17
     },
     {
       "id": "17e27c4b89d2fe53",
@@ -218,18 +241,7 @@
       "published": "2026-10-29T16:33:08Z",
       "summary": "Despite growing capabilities, LLMs remain susceptible to prompt injections: malicious inputs that can manipulate or hijack models. In particular, it has recently been observed that LLMs can exhibit role confusion (Ye et al., 2026), where models attribute the source of text based on its style instead of its labeled role. Malicious text in tool outputs (for…",
       "category": "safety",
-      "score": 12.31
-    },
-    {
-      "id": "6212462b6580cbb2",
-      "title": "Video Friday: Robot Decommissioning Takes a Fun Turn",
-      "url": "https://spectrum.ieee.org/video-friday-reachy-mini-raps",
-      "source": "IEEE Spectrum Robotics",
-      "source_group": "robotics journalism",
-      "published": "2026-10-09T15:30:02Z",
-      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…",
-      "category": "robotics",
-      "score": 11.33
+      "score": 12.06
     },
     {
       "id": "a1a23e154cf4eaa8",
@@ -240,18 +252,7 @@
       "published": "2026-10-29T05:55:19Z",
       "summary": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
       "category": "evaluation",
-      "score": 11.05
-    },
-    {
-      "id": "e65fcafff408f808",
-      "title": "Building a multiplayer game world with autonomous Fable-class models",
-      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world",
-      "source": "Simon Willison — LLMs",
-      "source_group": "independent",
-      "published": "2026-10-29T17:00:26Z",
-      "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use…",
-      "category": "agents",
-      "score": 10.74
+      "score": 10.8
     },
     {
       "id": "b96753f519935d7b",
@@ -265,15 +266,15 @@
       "score": 10.72
     },
     {
-      "id": "07416436afb3a2b3",
-      "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction",
-      "url": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction",
-      "source": "IEEE Spectrum Robotics",
-      "source_group": "robotics journalism",
-      "published": "2026-10-07T13:49:48Z",
-      "summary": "This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the dataset transfer to a real humanoid robot. What you will learn about: Why humanoid robot learning, a central problem in embodied AI and…",
-      "category": "robotics",
-      "score": 10.61
+      "id": "e65fcafff408f808",
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world",
+      "source": "Simon Willison — LLMs",
+      "source_group": "independent",
+      "published": "2026-10-29T17:00:26Z",
+      "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use…",
+      "category": "agents",
+      "score": 10.5
     },
     {
       "id": "709cc8e2bd467b79",
@@ -284,18 +285,7 @@
       "published": "2026-10-28T09:30:00Z",
       "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
       "category": "agents",
-      "score": 9.72
-    },
-    {
-      "id": "603d15bc954477b1",
-      "title": "Innovations 26 Oct 2026",
-      "url": "https://www.s-anand.net/blog/innovations-26-oct-2026",
-      "source": "S Anand",
-      "source_group": "independent",
-      "published": "2026-10-27T06:02:14Z",
-      "summary": "The Innovation team has built a few more demos since the last update. Three interesting learnings: We can speak in one language and be heard in another, live , in a normal Google Meet call. A person in another city can use their hands and a phone to sculpt a 3D object on your laptop. AI can search what was heard , not just said, and can check scientific…",
-      "category": "machine behaviour",
-      "score": 9.66
+      "score": 9.47
     },
     {
       "id": "ee7d7b655d141a1e",
@@ -309,6 +299,17 @@
       "score": 9.44
     },
     {
+      "id": "603d15bc954477b1",
+      "title": "Innovations 26 Oct 2026",
+      "url": "https://www.s-anand.net/blog/innovations-26-oct-2026",
+      "source": "S Anand",
+      "source_group": "independent",
+      "published": "2026-10-27T06:02:14Z",
+      "summary": "The Innovation team has built a few more demos since the last update. Three interesting learnings: We can speak in one language and be heard in another, live , in a normal Google Meet call. A person in another city can use their hands and a phone to sculpt a 3D object on your laptop. AI can search what was heard , not just said, and can check scientific…",
+      "category": "machine behaviour",
+      "score": 9.41
+    },
+    {
       "id": "1d6c5c59e46e52b9",
       "title": "Can we trust LLMs to judge whether a research idea is novel?",
       "url": "https://huggingface.co/blog/allenai/novelty-bench",
@@ -317,7 +318,7 @@
       "published": "2026-10-27T16:12:42Z",
       "summary": "",
       "category": "machine behaviour",
-      "score": 9.4
+      "score": 9.15
     },
     {
       "id": "670bdc25a85edb18",
@@ -328,7 +329,7 @@
       "published": "2026-10-26T23:53:07Z",
       "summary": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing GPT-6.1 Terra , a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural…",
       "category": "multimodal",
-      "score": 9.12
+      "score": 8.87
     },
     {
       "id": "4b029d4bcda7243e",
@@ -339,7 +340,7 @@
       "published": "2026-10-29T16:23:48Z",
       "summary": "Thornston Bell’s How I work with Agents suggests actively using remote machines for coding. I’d struggled with this for many months, and finally managed to set up my Windows laptop for remote coding. How? Tell my wife to tell the maid to never switch it off. (It doesn’t have battery.) Tell ChatGPT to install Remote Desktop Commander - and schedule it to…",
       "category": "evaluation",
-      "score": 9.1
+      "score": 8.86
     },
     {
       "id": "70f2bbbd704a353d",
@@ -350,7 +351,7 @@
       "published": "2026-10-28T13:55:15Z",
       "summary": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time it's for vibe coding computer games .…",
       "category": "machine behaviour",
-      "score": 9.07
+      "score": 8.82
     },
     {
       "id": "5e9e44475572a259",
@@ -361,7 +362,18 @@
       "published": "2026-10-28T16:45:23Z",
       "summary": "GitHub Octoverse 2026 I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in particular: This is a pretty stark representation of the impact of agentic engineering on GitHub. In 2026, merged pull requests tripled in less…",
       "category": "agents",
-      "score": 9.05
+      "score": 8.8
+    },
+    {
+      "id": "bafa68df361fc999",
+      "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+      "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence",
+      "source": "Microsoft Research",
+      "source_group": "research lab",
+      "published": "2026-10-30T13:05:28Z",
+      "summary": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. The post From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence appeared first on…",
+      "category": "evaluation",
+      "score": 8.77
     },
     {
       "id": "6d1e998db622c805",
@@ -372,7 +384,7 @@
       "published": "2026-10-28T10:09:07Z",
       "summary": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are asking for. — Terk Terkowitz , An update from Amazon…",
       "category": "agents",
-      "score": 8.98
+      "score": 8.73
     },
     {
       "id": "0f01adb2acab0a67",
@@ -383,7 +395,7 @@
       "published": "2026-10-29T09:00:00Z",
       "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
       "category": "safety",
-      "score": 8.91
+      "score": 8.66
     },
     {
       "id": "ee487a66d7e4ee85",
@@ -394,7 +406,7 @@
       "published": "2026-10-22T18:09:56Z",
       "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context…",
       "category": "agents",
-      "score": 8.73
+      "score": 8.48
     },
     {
       "id": "a395c7da350b5086",
@@ -405,7 +417,7 @@
       "published": "2026-10-28T13:15:00Z",
       "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
       "category": "agents",
-      "score": 8.37
+      "score": 8.12
     },
     {
       "id": "e582ebff7b0ffb61",
@@ -416,7 +428,7 @@
       "published": "2026-10-26T12:31:52Z",
       "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now How math could help alignment:…What the “industrialization of mathematics” means for safety…AI safety startup Resolution (formerly known as Sequent, Import AI 461) has…",
       "category": "safety",
-      "score": 8.17
+      "score": 7.92
     },
     {
       "id": "35c84e950b280566",
@@ -427,7 +439,7 @@
       "published": "2026-10-29T16:00:00Z",
       "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
       "category": "multimodal",
-      "score": 7.71
+      "score": 7.46
     },
     {
       "id": "51888f116f5b0837",
@@ -438,7 +450,7 @@
       "published": "2026-10-22T22:24:34Z",
       "summary": "",
       "category": "systems",
-      "score": 7.61
+      "score": 7.36
     },
     {
       "id": "ea92da5c121ecb45",
@@ -449,7 +461,18 @@
       "published": "2026-10-21T07:00:00Z",
       "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
       "category": "machine behaviour",
-      "score": 7.61
+      "score": 7.36
+    },
+    {
+      "id": "84abd1857de5dfd9",
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "source": "OpenAI",
+      "source_group": "frontier lab",
+      "published": "2026-10-30T09:30:00Z",
+      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "category": "systems",
+      "score": 7.3
     },
     {
       "id": "44864eac16c38e56",
@@ -460,18 +483,18 @@
       "published": "2026-10-30T08:24:29Z",
       "summary": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
       "category": "safety",
-      "score": 7.55
+      "score": 7.3
     },
     {
-      "id": "ec733f799e1aaee3",
-      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-10-28T14:58:17Z",
-      "summary": "",
-      "category": "multilingual",
-      "score": 7.53
+      "id": "574dbaf7fc8731e4",
+      "title": "Fair use benefits everyone",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "source": "OpenAI",
+      "source_group": "frontier lab",
+      "published": "2026-10-30T00:00:00Z",
+      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "category": "systems",
+      "score": 7.2
     },
     {
       "id": "49f8fdcf9435ba0f",
@@ -482,18 +505,7 @@
       "published": "2026-10-29T19:19:16Z",
       "summary": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft—from understanding the challenges facing coding agents to uncovering how people use AI at work and improving extended-range weather forecasting. The post Microsoft Research Focus – Edition #97 appeared first on Microsoft Research .",
       "category": "agents",
-      "score": 7.33
-    },
-    {
-      "id": "e960e8891f7d7ad8",
-      "title": "Genie 4: A new generation of world simulation",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
-      "source": "Google DeepMind",
-      "source_group": "frontier lab",
-      "published": "2026-10-27T16:01:38Z",
-      "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
-      "category": "multimodal",
-      "score": 7.33
+      "score": 7.09
     },
     {
       "id": "6394645bd5105adc",
@@ -504,18 +516,7 @@
       "published": "2026-10-29T00:00:00Z",
       "summary": "",
       "category": "multimodal",
-      "score": 7.29
-    },
-    {
-      "id": "9349f418e7bc7ab4",
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "url": "https://openai.com/index/updated-model-spec",
-      "source": "OpenAI",
-      "source_group": "frontier lab",
-      "published": "2026-10-29T17:00:00Z",
-      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "category": "machine behaviour",
-      "score": 7.27
+      "score": 7.04
     },
     {
       "id": "887c59818f68e469",
@@ -526,7 +527,7 @@
       "published": "2026-10-28T12:58:39Z",
       "summary": "A sort of review of the benchmarking industry and what's missing.",
       "category": "evaluation",
-      "score": 7.24
+      "score": 6.99
     },
     {
       "id": "1c5b51464767c2ad",
@@ -537,18 +538,7 @@
       "published": "2026-10-27T17:16:52Z",
       "summary": "",
       "category": "multimodal",
-      "score": 7.19
-    },
-    {
-      "id": "f8c156dba7886826",
-      "title": "Securing our frontier model training environment",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "source": "OpenAI",
-      "source_group": "frontier lab",
-      "published": "2026-10-23T10:00:00Z",
-      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-      "category": "evaluation",
-      "score": 7.14
+      "score": 6.94
     },
     {
       "id": "59788a007bb479e4",
@@ -559,7 +549,7 @@
       "published": "2026-10-28T19:48:05Z",
       "summary": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
       "category": "agents",
-      "score": 6.89
+      "score": 6.64
     },
     {
       "id": "add40a8fdaeffba7",
@@ -570,7 +560,7 @@
       "published": "2026-10-27T18:40:19Z",
       "summary": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ...",
       "category": "systems",
-      "score": 6.74
+      "score": 6.49
     },
     {
       "id": "2247b97d682bdb4b",
@@ -581,7 +571,29 @@
       "published": "2026-10-27T18:53:10Z",
       "summary": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
       "category": "agents",
-      "score": 6.63
+      "score": 6.38
+    },
+    {
+      "id": "037154e824aaff25",
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-10-30T17:57:24Z",
+      "summary": "",
+      "category": "general AI",
+      "score": 6.14
+    },
+    {
+      "id": "d4d35b3da5b2f286",
+      "title": "Was I wrong about open models & cyber risks?",
+      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+      "source": "Interconnects",
+      "source_group": "independent",
+      "published": "2026-10-30T17:36:56Z",
+      "summary": "Last week coined the term “Black October“ after an onslaught of critical vulnerability disclosures, including PHP2Shell and GitLab, signified the moment when the cyber risks of AI models started to materialize.",
+      "category": "general AI",
+      "score": 6.04
     },
     {
       "id": "e508e29ae812fe58",
@@ -592,18 +604,7 @@
       "published": "2026-10-29T13:37:07Z",
       "summary": "",
       "category": "general AI",
-      "score": 6.1
-    },
-    {
-      "id": "3e32bae570ff21ee",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "source": "Google DeepMind",
-      "source_group": "frontier lab",
-      "published": "2026-10-28T17:00:58Z",
-      "summary": "",
-      "category": "general AI",
-      "score": 5.98
+      "score": 5.85
     },
     {
       "id": "d6172869a6c9d34f",
@@ -614,7 +615,7 @@
       "published": "2026-10-22T16:00:00Z",
       "summary": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content, and explore beyond the view the author originally chose. The post Flint-interactive: A language for creating interactive data visualizations appeared first on Microsoft Research .",
       "category": "machine behaviour",
-      "score": 5.72
+      "score": 5.47
     },
     {
       "id": "e97319d8730a2e80",
@@ -625,29 +626,7 @@
       "published": "2026-10-27T17:35:00Z",
       "summary": "Education Innovation",
       "category": "general AI",
-      "score": 5.54
-    },
-    {
-      "id": "a379ec2597bb3939",
-      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
-      "source": "Interconnects",
-      "source_group": "independent",
-      "published": "2026-10-20T17:04:21Z",
-      "summary": "Western open models strike back",
-      "category": "safety",
-      "score": 5.17
-    },
-    {
-      "id": "d96a2391b623b2cb",
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics",
-      "source": "Google DeepMind",
-      "source_group": "frontier lab",
-      "published": "2026-10-13T16:01:58Z",
-      "summary": "",
-      "category": "robotics",
-      "score": 5.12
+      "score": 5.29
     },
     {
       "id": "93854539beed00db",
@@ -661,36 +640,14 @@
       "score": 5.03
     },
     {
-      "id": "9c6009b025f44314",
-      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
-      "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+      "id": "a379ec2597bb3939",
+      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
       "source": "Interconnects",
       "source_group": "independent",
-      "published": "2026-10-25T11:49:00Z",
-      "summary": "#20",
-      "category": "general AI",
-      "score": 4.98
-    },
-    {
-      "id": "e08619ed2cad1d92",
-      "title": "Called to serve: Tech, research, and positive impact",
-      "url": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white",
-      "source": "Microsoft Research",
-      "source_group": "research lab",
-      "published": "2026-10-20T16:00:00Z",
-      "summary": "Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu about the influences that led to the work and more. The post Called to serve: Tech, research, and positive impact appeared first on Microsoft…",
-      "category": "machine behaviour",
-      "score": 4.94
-    },
-    {
-      "id": "41c8677062bd4e7a",
-      "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
-      "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun",
-      "source": "Import AI",
-      "source_group": "independent",
-      "published": "2026-10-19T12:31:37Z",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Here’s a speech I gave on Saturday the 17th of October at the IMF meeting in Bangkok. This speech is inspired by the megatrend readers have […]",
-      "category": "multimodal",
+      "published": "2026-10-20T17:04:21Z",
+      "summary": "Western open models strike back",
+      "category": "safety",
       "score": 4.92
     },
     {
@@ -705,6 +662,39 @@
       "score": 4.87
     },
     {
+      "id": "9c6009b025f44314",
+      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+      "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+      "source": "Interconnects",
+      "source_group": "independent",
+      "published": "2026-10-25T11:49:00Z",
+      "summary": "#20",
+      "category": "general AI",
+      "score": 4.73
+    },
+    {
+      "id": "e08619ed2cad1d92",
+      "title": "Called to serve: Tech, research, and positive impact",
+      "url": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white",
+      "source": "Microsoft Research",
+      "source_group": "research lab",
+      "published": "2026-10-20T16:00:00Z",
+      "summary": "Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu about the influences that led to the work and more. The post Called to serve: Tech, research, and positive impact appeared first on Microsoft…",
+      "category": "machine behaviour",
+      "score": 4.69
+    },
+    {
+      "id": "41c8677062bd4e7a",
+      "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
+      "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun",
+      "source": "Import AI",
+      "source_group": "independent",
+      "published": "2026-10-19T12:31:37Z",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Here’s a speech I gave on Saturday the 17th of October at the IMF meeting in Bangkok. This speech is inspired by the megatrend readers have […]",
+      "category": "multimodal",
+      "score": 4.67
+    },
+    {
       "id": "0dd91801c3b6e853",
       "title": "Meta shakes up the frontiers, open and closed",
       "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
@@ -713,7 +703,7 @@
       "published": "2026-10-17T14:06:54Z",
       "summary": "US open weights are back!",
       "category": "systems",
-      "score": 4.67
+      "score": 4.42
     },
     {
       "id": "30a34d758ba63be2",
@@ -724,18 +714,7 @@
       "published": "2026-10-23T18:51:33Z",
       "summary": "Generative AI",
       "category": "general AI",
-      "score": 4.55
-    },
-    {
-      "id": "8f93170faf71fda6",
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
-      "source": "Google DeepMind",
-      "source_group": "frontier lab",
-      "published": "2026-10-22T14:30:24Z",
-      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "category": "general AI",
-      "score": 4.46
+      "score": 4.3
     },
     {
       "id": "1ff94489caca3196",
@@ -757,51 +736,7 @@
       "published": "2026-10-16T18:11:34Z",
       "summary": "General Science",
       "category": "agents",
-      "score": 4.07
-    },
-    {
-      "id": "27c0a5d3fc255134",
-      "title": "Empowering frontline maternal care with AI-assisted ultrasound",
-      "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound",
-      "source": "Google Research",
-      "source_group": "research lab",
-      "published": "2026-10-21T16:23:53Z",
-      "summary": "Health & Bioscience",
-      "category": "general AI",
-      "score": 4.03
-    },
-    {
-      "id": "77ec6ad66af3dcc4",
-      "title": "Solving a 31-year-old grand challenge in mathematics – the KLS conjecture",
-      "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture",
-      "source": "Microsoft Research",
-      "source_group": "research lab",
-      "published": "2026-10-21T16:00:00Z",
-      "summary": "For decades, a fundamental question about the difficulty of computing in high-dimensional spaces has resisted proof. New research resolves this question, removing a major theoretical obstacle to understanding the efficiency of randomized algorithms used across science and computing. The Kannan–Lovász–Simonovits (KLS) conjecture was proposed in 1995. It…",
-      "category": "general AI",
-      "score": 4.02
-    },
-    {
-      "id": "467c8e42acb6bdc9",
-      "title": "Proof-based general-purpose computing with Magnetar",
-      "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar",
-      "source": "Microsoft Research",
-      "source_group": "research lab",
-      "published": "2026-10-15T16:00:00Z",
-      "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages, major speed gains, and quantum-resistant security. The post Proof-based general-purpose computing with Magnetar appeared first on Microsoft Research .",
-      "category": "machine behaviour",
-      "score": 3.97
-    },
-    {
-      "id": "2ee55c894d54d6ef",
-      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
-      "source": "Google DeepMind",
-      "source_group": "frontier lab",
-      "published": "2026-10-06T19:57:04Z",
-      "summary": "",
-      "category": "multimodal",
-      "score": 3.96
+      "score": 3.82
     }
   ]
 }
