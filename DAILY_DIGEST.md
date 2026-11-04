@@ -1,6 +1,6 @@
 # Robot Psychology Radar
 
-Updated 03 November 2026, 10:06 UTC from 17 working sources.
+Updated 04 November 2026, 09:54 UTC from 16 working sources.
 
 24 high-relevance items across 5 sources. Auto-collected metadata; inclusion is not endorsement.
 
@@ -8,39 +8,27 @@ Updated 03 November 2026, 10:06 UTC from 17 working sources.
 
 ### [The Robot I Didn’t Expect to Build](https://spectrum.ieee.org/agility-robotics-digit-5-redesign)
 
-**IEEE Spectrum Robotics** · 19 Oct · relevance 18.5
+**IEEE Spectrum Robotics** · 19 Oct · relevance 18.2
 
 Agility Robotics , the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5 . It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high…
 
 ### [Video Friday: Spot Plays to Show Its Whole-Body Manipulation](https://spectrum.ieee.org/video-friday-whole-body-manipulation)
 
-**IEEE Spectrum Robotics** · 30 Oct · relevance 15.2
+**IEEE Spectrum Robotics** · 30 Oct · relevance 14.9
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
 ### [Your Robot’s Safety Functions Already Work. What If the Input Lies?](https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone)
 
-**IEEE Spectrum Robotics** · 27 Oct · relevance 14.4
+**IEEE Spectrum Robotics** · 27 Oct · relevance 14.2
 
 This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance reading, a position estimate, or a stop signal. But what happens when one of…
 
-### [Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation](https://arxiv.org/abs/2611.03648v1)
+### [RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On](https://arxiv.org/abs/2611.05163v1)
 
-**arXiv — Robotics** · 02 Nov · relevance 14.1
+**arXiv — Robotics** · 03 Nov · relevance 12.5
 
-General-purpose mobile manipulation requires a combination of capable robot hardware, scalable demonstration collection, expressive whole-body control, and effective policy learning. Yet these components are often developed independently, creating mismatches that limit the capabilities of the complete system. We present Pixel, a co-designed full-stack…
-
-### [VLALagBench: Understanding When and Why VLA Inference Latency Matters](https://arxiv.org/abs/2611.03103v1)
-
-**arXiv — Robotics** · 02 Nov · relevance 13.7
-
-Vision-language-action (VLA) models offer a promising path toward general-purpose robot manipulation. While inference latency can affect task success in a constantly evolving physical world, the relationship between latency and task success rate remains poorly understood. In this paper, we introduce VLALagBench, a comprehensive benchmark for studying VLA…
-
-### [ReGATE: Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction](https://arxiv.org/abs/2611.02871v1)
-
-**arXiv — Robotics** · 02 Nov · relevance 12.7
-
-Humanoid loco-manipulation requires coordinating object acquisition, transport, and release from onboard sensing while responding to user commands and incomplete visual observations. We present ReGATE, a whole-body controller that combines egocentric depth, proprioception, and online locomotion and contact commands. Built on a teacher-student framework,…
+Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relies heavily on teleoperated demonstrations. Egocentric human videos offer a scalable substitute, but overlaying rendered robots on human videos or retargeting human poses into robot actions leaves significant visual or action gaps for…
 
 ### [This Disembodied Hand Is All the Robot You Need](https://spectrum.ieee.org/walking-robotic-hand)
 
@@ -48,15 +36,9 @@ Humanoid loco-manipulation requires coordinating object acquisition, transport, 
 
 A hand attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have turned an off-the-shelf robotic hand into a completely self-contained robot that walks on its fingertips while using those same fingers to manipulate its environment. Besides making the perfect…
 
-### [ReContact: Reconstruct and Retarget Human Contacts from Video for Contact-Rich Humanoid Manipulation](https://arxiv.org/abs/2611.02968v1)
-
-**arXiv — Robotics** · 02 Nov · relevance 12.4
-
-Contact transitions allow humanoid robots to redistribute object support across the whole body, enabling manipulation beyond hand-only grasps. Human videos provide a scalable source of such transitions for robots to learn from. However, body occlusion disrupts object pose tracking and corrupts retargeted motion. Moreover, accurately reproducing the object…
-
 ### [Video Friday: Quadruped Robot Solves Giant Rubik’s Cube by Itself](https://spectrum.ieee.org/video-friday-rubiks-cube-robot)
 
-**IEEE Spectrum Robotics** · 23 Oct · relevance 12.2
+**IEEE Spectrum Robotics** · 23 Oct · relevance 11.9
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
@@ -70,45 +52,33 @@ Video Friday is your weekly selection of awesome robotics videos, collected by y
 
 ### [Things I Learned - 01 Nov 2026](https://www.s-anand.net/blog/things-i-learned-01-nov-2026)
 
-**S Anand** · 01 Nov · relevance 17.2
+**S Anand** · 01 Nov · relevance 16.9
 
 This week, I learned: Enterprise software migration seems a massive medium term opportunity - Ethan Mollick . On the other hand, liquid software where anyone can tweak their own softare is emerging. “But I’m not working for my agent, it works for me. It’s a computer. It’s not a person I have to keep busy and keep managing (and checking it’s managing it’s…
 
-### [Evaluating Uncertainty Calibration in Probabilistic Time Series Foundation Models](https://arxiv.org/abs/2611.03592v1)
+### [Fairness Metrics based on the AUC in Clinical Predictive AI](https://arxiv.org/abs/2611.05222v1)
 
-**arXiv — AI, language and HCI** · 02 Nov · relevance 15.0
+**arXiv — AI, language and HCI** · 03 Nov · relevance 13.4
 
-Time series foundation models (TSFMs) are increasingly used for probabilistic forecasting across diverse domains, yet the reliability of their uncertainty estimates remains poorly understood. In this work, we study uncertainty calibration in probabilistic TSFMs from a broader methodological and empirical perspective. We introduce a taxonomy of how TSFMs…
+Fairness evaluation of clinical prediction models for binary outcomes often involves fairness metrics that compare the area under the receiver operating characteristic curve (AUC, or c-statistic) across subgroups. However, the AUC has been shown to be a non-collapsible metric, meaning that its subgroup specific and overall values are not directly…
 
-### [ScienceCUA: Resource-to-Skill Construction and Execution-Guided Skill Evolution for Scientific Computer Use Agents](https://arxiv.org/abs/2611.03238v1)
+### [MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection](https://arxiv.org/abs/2611.05340v1)
 
-**arXiv — AI, language and HCI** · 02 Nov · relevance 14.6
+**arXiv — AI, language and HCI** · 03 Nov · relevance 13.4
 
-Computer-use agents for scientific software require application-specific expertise. Much of this expertise is documented in human-authored software manuals and web pages. However, turning these resources into executable, reusable skills remains challenging due to mismatches between documented and deployed software versions and differences in scope between…
+Medical physicists turn a prescription into a delivered dose and check one another's calculations, because one error in a beam calibration or a monitor-unit (MU) calculation can affect every patient treated with it. MedPhysBench has ten seeded generators of calculation items in radiation therapy, diagnostic imaging, nuclear medicine and radiation…
 
-### [RESONATE: a Real Social Navigation Testbed for Autonomous Service Robots](https://arxiv.org/abs/2611.02937v1)
+### [Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits](https://arxiv.org/abs/2611.05355v1)
 
-**arXiv — Robotics** · 02 Nov · relevance 14.2
+**arXiv — AI, language and HCI** · 03 Nov · relevance 12.3
 
-Social navigation is essential for autonomous service robots operating in human environments, but progress remains constrained by the lack of extensive real-world benchmarks. This paper presents the Real Social Navigation Testbed (RESONATE), a reproducible benchmark for human-aware navigation based on a unified robotic platform, a shared ROS 2 software…
+When a language model answers, we can usually only estimate why. We build a transformer in which every step is a Born measurement - attention $|\langle q|k\rangle|^4$ normalised over each row, a measured product in place of the feed-forward nonlinearity, and a Born readout. With its denominators held at their values for the input, each class probability is…
 
-### [Myoelectric Control for Upper-Limb Exoskeletons: A Decoder-Shaper-Controller Framework, Design Guidelines, and Future Directions](https://arxiv.org/abs/2611.03418v1)
+### [PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data](https://arxiv.org/abs/2611.05320v1)
 
-**arXiv — Robotics** · 02 Nov · relevance 13.7
+**arXiv — Robotics** · 03 Nov · relevance 12.2
 
-Myoelectric Control Systems (MCSs) enable voluntary control of wearable robots through muscle activity. However, intention decoding, assistance shaping, and low-level actuator control are often not explicitly distinguished, making their contributions difficult to evaluate and compare. This review introduces a functional decoder-shaper-controller framework…
-
-### [Grading the Unannotated: Insights from the WorkRB Skill Extraction Challenge at RecSys-HR 2026](https://arxiv.org/abs/2611.03525v1)
-
-**arXiv — AI, language and HCI** · 02 Nov · relevance 13.7
-
-Skill extraction benchmarks score models against a few human-annotated positives and treat every other skill in the vocabulary as equally wrong. At the scale of ESCO (13,939 skills) this binary view can reward models that rank the annotated positive high for the wrong reason, and hides semantically nonsensical predictions. The WorkRB Challenge at RecSys-HR…
-
-### [DiabAgent: Toward Agentic Physiological Control](https://arxiv.org/abs/2611.03601v1)
-
-**arXiv — AI, language and HCI** · 02 Nov · relevance 12.4
-
-As pretraining scales, medical language models have advanced rapidly in clinical question answering. Their ability to achieve effective physiological control through sustained intervention still lacks systematic quantitative evaluation. Type 1 diabetes provides a concrete setting: impaired insulin secretion creates dependence on exogenous insulin, with…
+Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent receives a data request and one calibration episode of the robot in the target scene and rebuilds the…
 
 ### [Things I Learned - 18 Oct 2026](https://www.s-anand.net/blog/things-i-learned-18-oct-2026)
 
@@ -116,27 +86,45 @@ As pretraining scales, medical language models have advanced rapidly in clinical
 
 This week, I learned: I tested a few tools that help agents work with mobile devices. On Android, apart from adb , mobile-mcp seems better than Android-MCP or mobilerun (which has a different purpose, though) #ForNow. More importantly, agents controlling mobiles with USB debugging seems quite seamless. HeyPuter is cloning every software #ForNow into…
 
-## Agents
+## Machine Behaviour
 
-### [The SIMPLE Law for Energy Cost of LLM Inference](https://arxiv.org/abs/2611.03330v1)
+### [Personas Are Not People: Identity as State, Not Attribute](https://arxiv.org/abs/2611.05292v1)
 
-**arXiv — AI, language and HCI** · 02 Nov · relevance 13.0
+**arXiv — AI, language and HCI** · 03 Nov · relevance 14.8
 
-Generative AI is billed per token, yet tokens are not equally expensive. Each token enters the KV-cache and raises the cost of those that follow, so energy grows non-linearly along a sequence whose tokens look identical. No analytical model states what a token costs, and the most accurate SOTA model is a fit, not a law: it absorbs architecture into fitted…
+Synthetic populations, large sets of simulated people, are increasingly used in place of real people to pretest surveys, simulate users and communities, and evaluate AI systems. Each simulated person is defined by a persona, a written profile of fixed traits, demographics, and attitudes that a language model is instructed to act out. Every such system…
 
-### [Agents Prompt People: Using Agents for Long-Horizon Financial Work](https://latent.space/p/arca)
+### [LatentTriad: Pre-Action Risk Representations for Malicious Agent Skill Detection](https://arxiv.org/abs/2611.05088v1)
 
-**Latent Space** · 31 Oct · relevance 10.8
+**arXiv — AI, language and HCI** · 03 Nov · relevance 13.1
 
-Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.
+Large language model agents are increasingly extended with reusable skills, but untrusted skill content can induce operations outside the user's task. Detecting this contextual risk requires more than suspicious-pattern matching, while dynamic analysis incurs the cost of skill execution. We find that hidden states formed during prefill contain readable…
+
+### [Things I Learned - 25 Oct 2026](https://www.s-anand.net/blog/things-i-learned-25-oct-2026)
+
+**S Anand** · 25 Oct · relevance 12.1
+
+This week, I learned: Neural Networks Are Already Clean argues that in modern LLMs, most neurons have one function, not arbitrary overlapping functions (like we thought earlier). This becomes clearer when you see the learning steps, e.g. the “iy” neuron -> “diy” -> “do it yourself”. Without the “diy” in the middle, it’s confusing what “iy” has to do with…
+
+### [Learn the rules: The hacker mindset](https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset)
+
+**Microsoft Research** · 03 Nov · relevance 11.2
+
+Research Manager Mike Walker reflects on a career spanning hacker culture, cybersecurity, and AI, sharing lessons about trust, teamwork, leadership, and why solving difficult problems requires curiosity, judgment, agility—and an understanding of the rules. The post Learn the rules: The hacker mindset appeared first on Microsoft Research .
 
 ## Systems
 
-### [Contrastive Adapter Training and Consensus Knowledge Distillation for Multi-Source-Free Domain Adaptation in Skin Cancer Diagnosis](https://arxiv.org/abs/2611.03528v1)
+### [All-For-One: Distilling Visual Foundation Models to a Fast, Memory-Efficient Visuomotor Policy](https://arxiv.org/abs/2611.04485v1)
 
-**arXiv — AI, language and HCI** · 02 Nov · relevance 13.8
+**arXiv — Robotics** · 03 Nov · relevance 12.5
 
-Skin cancer diagnosis, particularly differentiating melanoma from benign nevi, is challenging due to the visual similarity between lesions. Although convolutional neural networks (CNNs) and vision transformers (ViTs) have shown promising performance, their effectiveness often deteriorates on data from heterogeneous clinical sources. Conventional domain…
+Visual Foundation Models (VFMs) provide semantic cues such as depth and segmentation useful for robotic manipulation, but directly deploying them in closed-loop control is impractical due to high computational cost, temporal inconsistency, and distribution shift between static internet images and egocentric robot observations. We propose All-For-One (AFO),…
+
+### [PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations](https://arxiv.org/abs/2611.04870v1)
+
+**arXiv — Robotics** · 03 Nov · relevance 12.2
+
+A robot world model that serves as a simulator must do more than generate plausible videos: it must faithfully follow commanded actions, maintain consistency across camera views, and sustain coherent long-horizon rollouts. We present PrimeSim, an action-conditioned, multiview world model simulator that addresses these challenges through progressive…
 
 ### [Things I Learned - 11 Oct 2026](https://www.s-anand.net/blog/things-i-learned-11-oct-2026)
 
@@ -144,21 +132,42 @@ Skin cancer diagnosis, particularly differentiating melanoma from benign nevi, i
 
 This week, I learned: Python 3.15 is out . My favorite features are: frozendict is hashable . So frozen dicts can be dict keys. Unpacking in Comprehensions . [*x for x in [[1, 2], [3, 4]]] = [1, 2, 3, 4] . {**x for x in [{1: 2}, {3: 4}]} = {1: 2, 3: 4} . Once you start thinking this way, it gets easier. UTF-8 is the default . In source and text processing.…
 
-## Machine Behaviour
+## Multimodal
 
-### [Things I Learned - 25 Oct 2026](https://www.s-anand.net/blog/things-i-learned-25-oct-2026)
+### [Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training](https://arxiv.org/abs/2611.04873v1)
 
-**S Anand** · 25 Oct · relevance 12.4
+**arXiv — Robotics** · 03 Nov · relevance 14.0
 
-This week, I learned: Neural Networks Are Already Clean argues that in modern LLMs, most neurons have one function, not arbitrary overlapping functions (like we thought earlier). This becomes clearer when you see the learning steps, e.g. the “iy” neuron -> “diy” -> “do it yourself”. Without the “diy” in the middle, it’s confusing what “iy” has to do with…
+Video world models enable candidate actions to be evaluated through imagined outcomes, but high predicted rewards can favor trajectories with poor execution quality. We introduce Trusting Imagined Futures (TIF), an offline supervision selection method for vision-language-action (VLA) post-training that audits predicted rewards using execution feedback. A…
+
+### [Just Between Us? Exploring a Wearable-Mediated Channel for Discreet Human-Agent Interaction in a Shared Game Setting](https://arxiv.org/abs/2611.04692v1)
+
+**arXiv — Robotics** · 03 Nov · relevance 11.9
+
+In shared settings, social robots may need to exchange information with an individual while limiting co-present others' access to or interpretation of that information. Publicly observable speech and gestures may not adequately support such exchanges. We investigate a wearable-mediated channel for discreet interaction that combines in-ear audio messages…
+
+## Agents
+
+### [GeoFaham: Domain-Specialized Multi-Agent Geospatial Analytics for Disaster Response](https://arxiv.org/abs/2611.04977v1)
+
+**arXiv — AI, language and HCI** · 03 Nov · relevance 12.3
+
+Real-world geospatial decision support requires more than single-step retrieval or code generation. Disaster-response questions often involve multi-source workflows that combine spatial databases, map-derived features, satellite imagery, raster products, and reusable geospatial artifacts, where correctness depends on preserving spatial scope, temporal…
 
 ## Safety
 
 ### [Innovations 2 Nov 2026](https://www.s-anand.net/blog/innovations-02-nov-2026)
 
-**S Anand** · 03 Nov · relevance 10.9
+**S Anand** · 03 Nov · relevance 10.6
 
 The Innovation team has been experimenting with 3D interaction, audio, video and AI agents. Three things struck me: We can manipulate a 3D molecule with our hands, or try different furniture in a virtual room, using a browser. Sound search can find things a transcript never records. And a small specialist model can diagnose a machine at a tiny fraction of…
+
+<details>
+<summary>Sources unavailable during this run</summary>
+
+- **Google DeepMind:** `not well-formed (invalid token): line 1, column 0`
+
+</details>
 
 ---
 
