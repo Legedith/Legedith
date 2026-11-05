@@ -1,8 +1,8 @@
 # Robot Psychology Radar
 
-Updated 04 November 2026, 09:54 UTC from 16 working sources.
+Updated 05 November 2026, 09:52 UTC from 16 working sources.
 
-24 high-relevance items across 5 sources. Auto-collected metadata; inclusion is not endorsement.
+24 high-relevance items across 6 sources. Auto-collected metadata; inclusion is not endorsement.
 
 ## Robotics
 
@@ -12,23 +12,29 @@ Updated 04 November 2026, 09:54 UTC from 16 working sources.
 
 Agility Robotics , the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5 . It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high…
 
+### [Interactive World Simulation with Cosmos for Physical AI](https://arxiv.org/abs/2611.06627v1)
+
+**arXiv — Robotics** · 04 Nov · relevance 14.8
+
+We present a shared framework that adapts Cosmos world foundation models for real-time interactive world simulation in Physical AI. By streaming visual observations in response to actions and scene controls, the framework enables users and embodied agents to interact with evolving virtual environments. It supports both predicting the visual consequences of…
+
 ### [Video Friday: Spot Plays to Show Its Whole-Body Manipulation](https://spectrum.ieee.org/video-friday-whole-body-manipulation)
 
-**IEEE Spectrum Robotics** · 30 Oct · relevance 14.9
+**IEEE Spectrum Robotics** · 30 Oct · relevance 14.7
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
 ### [Your Robot’s Safety Functions Already Work. What If the Input Lies?](https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone)
 
-**IEEE Spectrum Robotics** · 27 Oct · relevance 14.2
+**IEEE Spectrum Robotics** · 27 Oct · relevance 13.9
 
 This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance reading, a position estimate, or a stop signal. But what happens when one of…
 
-### [RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On](https://arxiv.org/abs/2611.05163v1)
+### [Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors](https://arxiv.org/abs/2611.06564v1)
 
-**arXiv — Robotics** · 03 Nov · relevance 12.5
+**arXiv — Robotics** · 04 Nov · relevance 12.7
 
-Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relies heavily on teleoperated demonstrations. Egocentric human videos offer a scalable substitute, but overlaying rendered robots on human videos or retargeting human poses into robot actions leaves significant visual or action gaps for…
+Humanoid soccer requires a robot to seamlessly combine agile locomotion, ball manipulation, and impact-rich contact dynamics across a continuous, dynamic behavioral spectrum. Yet existing approaches either cover only a limited set of skills, or forego motion priors entirely and produce unnatural behaviors, leaving the combination of a unified skill set and…
 
 ### [This Disembodied Hand Is All the Robot You Need](https://spectrum.ieee.org/walking-robotic-hand)
 
@@ -36,9 +42,15 @@ Robot foundation models have shown remarkable performance in robot control, yet 
 
 A hand attached to the end of an arm is a given for most humans, but what if robots didn’t have to play by the same rules as we do? Researchers from ETH Zurich have turned an off-the-shelf robotic hand into a completely self-contained robot that walks on its fingertips while using those same fingers to manipulate its environment. Besides making the perfect…
 
+### [Learning Object-Centric Motion Priors from Human for Robotic Dexterous Manipulation](https://arxiv.org/abs/2611.05979v1)
+
+**arXiv — Robotics** · 04 Nov · relevance 12.4
+
+Manipulating diverse objects with multi-fingered dexterous hands is challenging due to the high dimensionality and complex dynamics. Human-Object Interaction (HOI) datasets provide rich knowledge about task information and embodied interactions. Instead of solely imitating the human demonstrations, our method learns to holistically predict future…
+
 ### [Video Friday: Quadruped Robot Solves Giant Rubik’s Cube by Itself](https://spectrum.ieee.org/video-friday-rubiks-cube-robot)
 
-**IEEE Spectrum Robotics** · 23 Oct · relevance 11.9
+**IEEE Spectrum Robotics** · 23 Oct · relevance 11.7
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
@@ -52,33 +64,45 @@ Video Friday is your weekly selection of awesome robotics videos, collected by y
 
 ### [Things I Learned - 01 Nov 2026](https://www.s-anand.net/blog/things-i-learned-01-nov-2026)
 
-**S Anand** · 01 Nov · relevance 16.9
+**S Anand** · 01 Nov · relevance 16.7
 
 This week, I learned: Enterprise software migration seems a massive medium term opportunity - Ethan Mollick . On the other hand, liquid software where anyone can tweak their own softare is emerging. “But I’m not working for my agent, it works for me. It’s a computer. It’s not a person I have to keep busy and keep managing (and checking it’s managing it’s…
 
-### [Fairness Metrics based on the AUC in Clinical Predictive AI](https://arxiv.org/abs/2611.05222v1)
+### [AgentTrustCI: Build-Time Policy, Grounding, and Trajectory Tests for Java LLM Agents](https://arxiv.org/abs/2611.06674v1)
 
-**arXiv — AI, language and HCI** · 03 Nov · relevance 13.4
+**arXiv — AI, language and HCI** · 04 Nov · relevance 14.7
 
-Fairness evaluation of clinical prediction models for binary outcomes often involves fairness metrics that compare the area under the receiver operating characteristic curve (AUC, or c-statistic) across subgroups. However, the AUC has been shown to be a non-collapsible metric, meaning that its subgroup specific and overall values are not directly…
+Infrastructure security does not establish whether an LLM agent selected an allowed tool, grounded its answer in tool output, or followed a required workflow. AgentTrustCI is a Java/JUnit 5 framework that expresses these application-layer expectations as policy, grounding, and trajectory checks over recorded traces. A deterministic replay implementation…
 
-### [MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection](https://arxiv.org/abs/2611.05340v1)
+### [Scale Anchoring via Implicit Semantics and Sequence-Consistent Loop Closure for VGGT-Based SLAM](https://arxiv.org/abs/2611.06308v1)
 
-**arXiv — AI, language and HCI** · 03 Nov · relevance 13.4
+**arXiv — Robotics** · 04 Nov · relevance 13.8
 
-Medical physicists turn a prescription into a delivered dose and check one another's calculations, because one error in a beam calibration or a monitor-unit (MU) calculation can affect every patient treated with it. MedPhysBench has ten seeded generators of calculation items in radiation therapy, diagnostic imaging, nuclear medicine and radiation…
+Feed-forward geometric foundation models enable dense monocular reconstruction without requiring camera calibration, but independently reconstructed submaps can accumulate scale drift, and even a valid revisit can yield an inconsistent cross-submap measurement. We extend VGGT-SLAM 2.0 with fixed-root scale anchoring and short-sequence-assisted direct loop…
 
-### [Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits](https://arxiv.org/abs/2611.05355v1)
+### [Route First, See Later: Enabling Vision Agents to Reason Scientifically by Separating Routing Policy from Action Spaces](https://arxiv.org/abs/2611.06760v1)
 
-**arXiv — AI, language and HCI** · 03 Nov · relevance 12.3
+**arXiv — AI, language and HCI** · 04 Nov · relevance 13.7
 
-When a language model answers, we can usually only estimate why. We build a transformer in which every step is a Born measurement - attention $|\langle q|k\rangle|^4$ normalised over each row, a measured product in place of the feed-forward nonlinearity, and a Born readout. With its denominators held at their values for the input, each class probability is…
+Scientific image-analysis workflows require agents to select among diverse capabilities like description, detection, counting, and segmentation. Current multi-tool architectures conflate intent interpretation with visual execution, masking whether a failure arises from flawed reasoning (misrouting) or failed perception (invalid tool execution). This lack…
 
-### [PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data](https://arxiv.org/abs/2611.05320v1)
+### [Task-Efficient Agent Evaluation Using Cached Traces](https://arxiv.org/abs/2611.06803v1)
 
-**arXiv — Robotics** · 03 Nov · relevance 12.2
+**arXiv — AI, language and HCI** · 04 Nov · relevance 13.3
 
-Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent receives a data request and one calibration episode of the robot in the target scene and rebuilds the…
+Efficient benchmarking estimates a system's full benchmark performance from a small number of task executions. Standard approaches rely solely on the binary correctness of executions from a collection of already-evaluated reference systems. An agentic system, however, produces a rich trace for each execution that can reveal substantially more about its…
+
+### [Beyond Infraction Scores: Failure-Boundary Profiles for Closed-Loop Evaluation of Driving and Robot Navigation Agents](https://arxiv.org/abs/2611.06453v1)
+
+**arXiv — Robotics** · 04 Nov · relevance 12.7
+
+Closed-loop driving benchmarks in CARLA rank agents by a driving score that multiplies route completion by an infraction penalty. This score does not distinguish an agent that stops in front of an obstacle from one that pushes past it. In a corridor closed by two parked cars, for example, one agent that drives through with contact averages 52.2 on the…
+
+### [PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World](https://arxiv.org/abs/2611.06768v1)
+
+**arXiv — Robotics** · 04 Nov · relevance 12.7
+
+Coding agents powered by models such as GPT-6-Astra connect spatial reasoning with executable robot behavior, raising the question of how such agents can produce lasting improvements in robot capabilities from physical interaction. In this work, we study embodied recursive self-improvement (RSI) through real-world exploration, code refinement, and…
 
 ### [Things I Learned - 18 Oct 2026](https://www.s-anand.net/blog/things-i-learned-18-oct-2026)
 
@@ -88,77 +112,51 @@ This week, I learned: I tested a few tools that help agents work with mobile dev
 
 ## Machine Behaviour
 
-### [Personas Are Not People: Identity as State, Not Attribute](https://arxiv.org/abs/2611.05292v1)
+### [LLMs Don't Know What They Know: Benchmarking Temporal Self-Knowledge for Financial Backtesting](https://arxiv.org/abs/2611.06808v1)
 
-**arXiv — AI, language and HCI** · 03 Nov · relevance 14.8
+**arXiv — AI, language and HCI** · 04 Nov · relevance 13.2
 
-Synthetic populations, large sets of simulated people, are increasingly used in place of real people to pretest surveys, simulate users and communities, and evaluate AI systems. Each simulated person is defined by a persona, a written profile of fixed traits, demographics, and attitudes that a language model is instructed to act out. Every such system…
-
-### [LatentTriad: Pre-Action Risk Representations for Malicious Agent Skill Detection](https://arxiv.org/abs/2611.05088v1)
-
-**arXiv — AI, language and HCI** · 03 Nov · relevance 13.1
-
-Large language model agents are increasingly extended with reusable skills, but untrusted skill content can induce operations outside the user's task. Detecting this contextual risk requires more than suspicious-pattern matching, while dynamic analysis incurs the cost of skill execution. We find that hidden states formed during prefill contain readable…
+Financial backtests of large language models (LLMs) are meaningful only if the model did not already know the outcomes it is asked to predict. Practitioners guard against this by trusting a vendor's stated knowledge cutoff, by asking the model what it knows, or by instructing it to answer as of a past date. To verify whether any of these safeguards can be…
 
 ### [Things I Learned - 25 Oct 2026](https://www.s-anand.net/blog/things-i-learned-25-oct-2026)
 
-**S Anand** · 25 Oct · relevance 12.1
+**S Anand** · 25 Oct · relevance 11.9
 
 This week, I learned: Neural Networks Are Already Clean argues that in modern LLMs, most neurons have one function, not arbitrary overlapping functions (like we thought earlier). This becomes clearer when you see the learning steps, e.g. the “iy” neuron -> “diy” -> “do it yourself”. Without the “diy” in the middle, it’s confusing what “iy” has to do with…
 
 ### [Learn the rules: The hacker mindset](https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset)
 
-**Microsoft Research** · 03 Nov · relevance 11.2
+**Microsoft Research** · 03 Nov · relevance 10.9
 
 Research Manager Mike Walker reflects on a career spanning hacker culture, cybersecurity, and AI, sharing lessons about trust, teamwork, leadership, and why solving difficult problems requires curiosity, judgment, agility—and an understanding of the rules. The post Learn the rules: The hacker mindset appeared first on Microsoft Research .
 
 ## Systems
 
-### [All-For-One: Distilling Visual Foundation Models to a Fast, Memory-Efficient Visuomotor Policy](https://arxiv.org/abs/2611.04485v1)
+### [Rules, Traces and Routing Statistics: Training and Calibration Data for Open Models on ARC-AGI-2](https://arxiv.org/abs/2611.06827v1)
 
-**arXiv — Robotics** · 03 Nov · relevance 12.5
+**arXiv — AI, language and HCI** · 04 Nov · relevance 13.6
 
-Visual Foundation Models (VFMs) provide semantic cues such as depth and segmentation useful for robotic manipulation, but directly deploying them in closed-loop control is impractical due to high computational cost, temporal inconsistency, and distribution shift between static internet images and egocentric robot observations. We propose All-For-One (AFO),…
+We study which training and calibration data help three open models solve ARC-AGI-2 tasks when the solver runs offline on four L4 GPUs for at most 12 hours. We compare data offline on public tasks and report 189 runs on the 120 hidden semi-private tasks. For the NVARC Qwen3-4B grid model, we built a corpus of 12,000 executable rules in a typed language and…
 
-### [PrimeSim: A Generalist World Model Simulator from Large-Scale Cross-Embodiment Demonstrations](https://arxiv.org/abs/2611.04870v1)
+### [Reasoning over Non-Parametric Memory in Multilingual LLMs: A Cognitive-Based Analysis of Relational Knowledge](https://arxiv.org/abs/2611.06715v1)
 
-**arXiv — Robotics** · 03 Nov · relevance 12.2
+**arXiv — AI, language and HCI** · 04 Nov · relevance 13.1
 
-A robot world model that serves as a simulator must do more than generate plausible videos: it must faithfully follow commanded actions, maintain consistency across camera views, and sustain coherent long-horizon rollouts. We present PrimeSim, an action-conditioned, multiview world model simulator that addresses these challenges through progressive…
-
-### [Things I Learned - 11 Oct 2026](https://www.s-anand.net/blog/things-i-learned-11-oct-2026)
-
-**S Anand** · 11 Oct · relevance 10.7
-
-This week, I learned: Python 3.15 is out . My favorite features are: frozendict is hashable . So frozen dicts can be dict keys. Unpacking in Comprehensions . [*x for x in [[1, 2], [3, 4]]] = [1, 2, 3, 4] . {**x for x in [{1: 2}, {3: 4}]} = {1: 2, 3: 4} . Once you start thinking this way, it gets easier. UTF-8 is the default . In source and text processing.…
-
-## Multimodal
-
-### [Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training](https://arxiv.org/abs/2611.04873v1)
-
-**arXiv — Robotics** · 03 Nov · relevance 14.0
-
-Video world models enable candidate actions to be evaluated through imagined outcomes, but high predicted rewards can favor trajectories with poor execution quality. We introduce Trusting Imagined Futures (TIF), an offline supervision selection method for vision-language-action (VLA) post-training that audits predicted rewards using execution feedback. A…
-
-### [Just Between Us? Exploring a Wearable-Mediated Channel for Discreet Human-Agent Interaction in a Shared Game Setting](https://arxiv.org/abs/2611.04692v1)
-
-**arXiv — Robotics** · 03 Nov · relevance 11.9
-
-In shared settings, social robots may need to exchange information with an individual while limiting co-present others' access to or interpretation of that information. Publicly observable speech and gestures may not adequately support such exchanges. We investigate a wearable-mediated channel for discreet interaction that combines in-ear audio messages…
+Retrieval-augmented generation (RAG) assumes that language models can reason over relations stated in their context rather than fall back on associations memorized during pretraining. We study this evidence-conditioned relational reasoning in isolation, with the facts supplied directly in the prompt rather than retrieved. \textsc{Rel-Bloom} is a controlled…
 
 ## Agents
 
-### [GeoFaham: Domain-Specialized Multi-Agent Geospatial Analytics for Disaster Response](https://arxiv.org/abs/2611.04977v1)
+### [Agents Prompt People: Using Agents for Long-Horizon Financial Work](https://latent.space/p/arca)
 
-**arXiv — AI, language and HCI** · 03 Nov · relevance 12.3
+**Latent Space** · 31 Oct · relevance 10.3
 
-Real-world geospatial decision support requires more than single-step retrieval or code generation. Disaster-response questions often involve multi-source workflows that combine spatial databases, map-derived features, satellite imagery, raster products, and reusable geospatial artifacts, where correctness depends on preserving spatial scope, temporal…
+Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.
 
 ## Safety
 
 ### [Innovations 2 Nov 2026](https://www.s-anand.net/blog/innovations-02-nov-2026)
 
-**S Anand** · 03 Nov · relevance 10.6
+**S Anand** · 03 Nov · relevance 10.4
 
 The Innovation team has been experimenting with 3D interaction, audio, video and AI agents. Three things struck me: We can manipulate a 3D molecule with our hands, or try different furniture in a virtual room, using a browser. Sound search can find things a transcript never records. And a small specialist model can diagnose a machine at a tiny fraction of…
 
