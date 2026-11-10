@@ -1,66 +1,16 @@
 # Robot Psychology Radar
 
-Updated 09 November 2026, 10:24 UTC from 17 working sources.
+Updated 10 November 2026, 10:28 UTC from 16 working sources.
 
-24 high-relevance items across 6 sources. Auto-collected metadata; inclusion is not endorsement.
-
-## Evaluation
-
-### [Things I Learned - 08 Nov 2026](https://www.s-anand.net/blog/things-i-learned-08-nov-2026)
-
-**S Anand** · 08 Nov · relevance 19.6
-
-This week, I learned: Facemorph.me implements face morphing via StyleGAN2 (among the best face morphing implementations I’ve seen) and exposes it via a free public site #ForNow. My reading from The Sequoia of Tomorrow : Money’s in the Bay Area . People, move there. Money’s in a few big winners . Maybe they can find them easy and don’t need to scout?…
-
-### [Things I Learned - 01 Nov 2026](https://www.s-anand.net/blog/things-i-learned-01-nov-2026)
-
-**S Anand** · 01 Nov · relevance 15.7
-
-This week, I learned: Enterprise software migration seems a massive medium term opportunity - Ethan Mollick . On the other hand, liquid software where anyone can tweak their own softare is emerging. “But I’m not working for my agent, it works for me. It’s a computer. It’s not a person I have to keep busy and keep managing (and checking it’s managing it’s…
-
-### [Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences](https://arxiv.org/abs/2611.09670v1)
-
-**arXiv — Robotics** · 06 Nov · relevance 13.2
-
-Robots increasingly choose actions by searching against a reward model learned from human preferences, in model-predictive control or best-of-$N$ selection; we measure what this does to the true objective. On HalfCheetah and Hopper with crowd-sourced labels, and on Meta-World drawer-open and plate-slide with synthetic labels and blind labels from the two…
-
-### [Knowing When to Intervene: Causal Evaluation of AI Agents](https://arxiv.org/abs/2611.09792v1)
-
-**arXiv — AI, language and HCI** · 06 Nov · relevance 13.2
-
-Current evaluations of agentic AI systems primarily rely on benchmarks. However, the static nature of benchmarks makes them uninformative about the value of auditing interventions at deployment time. For reliable deployment, we often need to determine within an agent's trajectory whether or not to intervene, e.g., by verifying the agent's current output or…
-
-### [RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill](https://arxiv.org/abs/2611.09709v1)
-
-**arXiv — AI, language and HCI** · 06 Nov · relevance 13.0
-
-RidgeFill shortens prefill by not computing most of a model's upper layers for the prompt. The lower layers run exactly up to a split; from the split layer's state a per-layer map predicts every later layer's input, and each late layer writes its cache from that prediction. The design follows YOCO and DeepSeek-V4.1-Flash, where the projection is trained…
-
-### [Extended Model-Based Learned Inertial Odometry](https://arxiv.org/abs/2611.09584v1)
-
-**arXiv — Robotics** · 06 Nov · relevance 12.2
-
-Inertial odometry is a compelling approach to state estimation for agile quadrotor flight due to its affordability, low weight, and robustness to perceptual degradation. However, relying only on integrated inertial measurements is impractical, as sensor errors and time-varying biases lead to significant pose drift. Although recent advances have enabled…
-
-### [CucumberVision at the Edge: Accuracy, Throughput, and Energy of RGB-D Cucumber Sizing on Jetson Orin Nano and Raspberry Pi 4](https://arxiv.org/abs/2611.09490v1)
-
-**arXiv — Robotics** · 06 Nov · relevance 12.0
-
-Non-contact fruit sizing from RGB-D imagery reaches sub-centimetre accuracy on workstation hardware, but in-field grading requires the same pipeline to run on a low-power single-board computer, and the cost of that transition is rarely reported. We deploy a curvature-aware cucumber length-measurement pipeline (YOLO26n detection, prompt-based segmentation…
-
-### [ICare-DT: a digital twin for continuous forecasting of intensive care patients](https://arxiv.org/abs/2611.09712v1)
-
-**arXiv — AI, language and HCI** · 06 Nov · relevance 11.9
-
-Digital twins of intensive care patients should update forecasts from new data and predict treatment responses, but few studies test whether routine records support either. We propose ICare-DT, a Transformer-based twin that updates a latent patient state hourly from new measurements without retraining. We trained it on 140,473 eICU-CRD stays to forecast…
-
-### [Polarization calibration of fisheye cameras using skylight in the wild](https://arxiv.org/abs/2611.08911v1)
-
-**arXiv — Robotics** · 06 Nov · relevance 11.9
-
-Skylight polarization provides directional cues for robotic navigation, but fisheye lens effects and analyzer imperfections can degrade polarization measurements across the field of view. We present a joint lens-analyzer calibration method that explicitly models incidence-dependent lens transmission together with analyzer gains and angular offsets in a…
+24 high-relevance items across 7 sources. Auto-collected metadata; inclusion is not endorsement.
 
 ## Robotics
+
+### [BAIR at CoRL 2026](http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026)
+
+**Berkeley AI Research** · 09 Nov · relevance 19.3
+
+The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. BAIR faculty, postdocs and students will be presenting research at various sessions, including an Early Career Keynote from Professor Negar Mehr. See below for the full schedule of sessions with BAIR members, including papers co-authored with collaborators at other…
 
 ### [The Robot I Didn’t Expect to Build](https://spectrum.ieee.org/agility-robotics-digit-5-redesign)
 
@@ -68,27 +18,51 @@ Skylight polarization provides directional cues for robotic navigation, but fish
 
 Agility Robotics , the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5 . It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high…
 
+### [Can Agentic Robotics Solve Robotics’ Data Scaling Problem?](https://spectrum.ieee.org/agentic-robotics)
+
+**IEEE Spectrum Robotics** · 09 Nov · relevance 15.9
+
+Robotics companies are investing heavily in the belief that data will solve the most difficult problems in robotics. Once AI systems have ingested enough data from human demonstrations, the thinking goes, robots will be able to perform the vast majority of the manual tasks that humans now do. There are even robotics companies that exist solely to collect…
+
+### [Embodied First Exam](https://arxiv.org/abs/2611.12177v1)
+
+**arXiv — Robotics** · 09 Nov · relevance 13.9
+
+Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introduce the Embodied First Exam, a unified,…
+
+### [Compass 1: Towards Open-World and Persistent Embodied Navigation from Monocular RGB Videos](https://arxiv.org/abs/2611.12087v1)
+
+**arXiv — Robotics** · 09 Nov · relevance 13.7
+
+Embodied navigation requires agents to achieve persistent spatial awareness and long-horizon execution stability in open-world environments. However, existing navigation architectures struggle to sustain both capabilities, remaining effective only over a handful of recent frames. We present Compass 1, the first embodied navigation foundation model to unify…
+
+### [PCTac: Mechanochromic Photonic-Crystal Tactile Sensor for Dexterous Manipulation](https://arxiv.org/abs/2611.12383v1)
+
+**arXiv — Robotics** · 09 Nov · relevance 13.6
+
+Modern visuotactile sensors primarily sense contact by imaging the deformation of a compliant interface. Using techniques such as photometric stereo, they can recover detailed contact geometry, often represented as surface normals or depth. However, force-related information typically still needs to be inferred indirectly through calibration, geometric…
+
 ### [Video Friday: Spot Plays to Show Its Whole-Body Manipulation](https://spectrum.ieee.org/video-friday-whole-body-manipulation)
 
-**IEEE Spectrum Robotics** · 30 Oct · relevance 13.7
+**IEEE Spectrum Robotics** · 30 Oct · relevance 13.4
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
-### [Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation](https://arxiv.org/abs/2611.09864v1)
+### [$Σ$-LeWM: Learning World Models via S-Information for Robot Control](https://arxiv.org/abs/2611.12732v1)
 
-**arXiv — Robotics** · 06 Nov · relevance 13.6
+**arXiv — Robotics** · 09 Nov · relevance 12.8
 
-Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service robotics and warehouse automation. Despite recent progress, reliably executing these tasks remains challenging because performance depends on complex…
+World models have increasingly been applied as a model-based control method for robotics tasks such as manipulation and locomotion. While early world model architectures relied on decoders to prevent mode collapse and learn a predictable latent space, recent works on world models, such as Joint Embedding Predictive Architecture or LeWorldModel,…
 
 ### [Your Robot’s Safety Functions Already Work. What If the Input Lies?](https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone)
 
-**IEEE Spectrum Robotics** · 27 Oct · relevance 12.9
+**IEEE Spectrum Robotics** · 27 Oct · relevance 12.7
 
 This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance reading, a position estimate, or a stop signal. But what happens when one of…
 
 ### [Video Friday: Room-Scale Cable-Driven Home Robot Tidies Up](https://spectrum.ieee.org/video-friday-home-cable-robot)
 
-**IEEE Spectrum Robotics** · 06 Nov · relevance 11.3
+**IEEE Spectrum Robotics** · 06 Nov · relevance 11.0
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN, TEXAS Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CALIF. Enjoy…
 
@@ -98,67 +72,100 @@ Video Friday is your weekly selection of awesome robotics videos, collected by y
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
-## Machine Behaviour
-
-### [Things I Learned - 25 Oct 2026](https://www.s-anand.net/blog/things-i-learned-25-oct-2026)
-
-**S Anand** · 25 Oct · relevance 10.9
-
-This week, I learned: Neural Networks Are Already Clean argues that in modern LLMs, most neurons have one function, not arbitrary overlapping functions (like we thought earlier). This becomes clearer when you see the learning steps, e.g. the “iy” neuron -> “diy” -> “do it yourself”. Without the “diy” in the middle, it’s confusing what “iy” has to do with…
-
-### [Q&A: Mars Perseverance Rover Sets a Distance Record](https://spectrum.ieee.org/mars-rover-distance-record)
-
-**IEEE Spectrum Robotics** · 13 Oct · relevance 10.2
-
-On 11 October , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part by Perseverance ’s ability to drive with much more autonomy than its predecessors. Over the past five years, Perseverance ’s autonomy software has been…
-
-### [Learn the rules: The hacker mindset](https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset)
-
-**Microsoft Research** · 03 Nov · relevance 9.9
-
-Research Manager Mike Walker reflects on a career spanning hacker culture, cybersecurity, and AI, sharing lessons about trust, teamwork, leadership, and why solving difficult problems requires curiosity, judgment, agility—and an understanding of the rules. The post Learn the rules: The hacker mindset appeared first on Microsoft Research .
-
 ## Systems
 
-### [CodeQuant2: Enhanced Outlier Mitigation and Adaptive Clustering for Low-Precision LRMs](https://arxiv.org/abs/2611.09868v1)
+### [WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning](https://arxiv.org/abs/2611.12527v1)
 
-**arXiv — AI, language and HCI** · 06 Nov · relevance 13.1
+**arXiv — AI, language and HCI** · 09 Nov · relevance 14.4
 
-Large reasoning models (LRMs) improve task performance by generating longer intermediate reasoning traces, but this substantially increases inference costs and makes low-precision quantization increasingly important. However, aggressively quantized models often perform poorly on reasoning tasks. We observe larger activation fluctuations during the first…
+This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform framework based on Spectral Forcing, which jointly learns an internal spectral trajectory and the target waveform trajectory within a single model, enabling direct end-to-end text-to-waveform generation. Unlike recent TTS pipelines, WaveGen does not rely on separately trained…
 
-### [Alignment by Confident Debate: Preference Learning from Multi-Agent Debate](https://arxiv.org/abs/2611.09568v1)
+### [How Far Does Second-Order Linear Response Predict Quantization Mismatch? Pre-Registered Measurements on Five Language Models](https://arxiv.org/abs/2611.12634v1)
 
-**arXiv — AI, language and HCI** · 06 Nov · relevance 12.1
+**arXiv — AI, language and HCI** · 09 Nov · relevance 13.9
 
-Post-training language models for reasoning typically rely on gold answers, task-specific verifiers, or learned reward models, limiting scalability when such signals are scarce. Multi-agent debate offers a self-supervised alternative, but converting debate into reliable training supervision remains challenging: majority voting weights agreeing responses…
+Serving systems choose a weight format for each model and deployment. A low-cost screen predicts the resulting KL divergence from the unquantized model's Fisher information using $\tfrac12Δ^\top FΔ$, the expansion underlying Hessian-aware and second-order post-training quantizers. We assess the reliability of this screen in GPU batches with channel-wise…
 
-### [Hide your slop PR descriptions behind](https://simonwillison.net/2026/Nov/9/details-summary)
+### [Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks](https://arxiv.org/abs/2611.12799v1)
 
-**Simon Willison — LLMs** · 09 Nov · relevance 9.3
+**arXiv — AI, language and HCI** · 09 Nov · relevance 13.3
 
-Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions. They're too…
+Reinforcement learning is now the mainstream paradigm for training LLMs on agentic tasks, yet standard practice keeps only the best-validation checkpoint and discards the rest. We show that this is lossy: in GRPO training of LLM agents, the best-validation checkpoint fails on problems that earlier checkpoints from the same run had already solved, and the…
 
-## Agents
+### [VLA-MOPD: On-Policy Distillation for Multi-Task VLA Policy Consolidation](https://arxiv.org/abs/2611.12286v1)
 
-### [What to Delegate, What to Preserve: Human Preferences for Agentic AI Across Everyday Life and Work](https://arxiv.org/abs/2611.09730v1)
+**arXiv — Robotics** · 09 Nov · relevance 12.8
 
-**arXiv — AI, language and HCI** · 06 Nov · relevance 12.6
+Physical intelligence requires embodied agents to ground language in observations and execute actions while retaining useful skills. Vision-language-action (VLA) policies offer a shared interface, but task-specific post-training often produces separate specialists. Consolidation is difficult: mixed-task reinforcement learning provides sparse…
 
-AI agents can execute multi-step tasks on users' behalf, yet the boundaries of acceptable delegation remain unclear. We report a scenario-based survey of 289 U.S. adults with prior AI experience covering 45 use cases across nine life domains. Each respondent evaluated one scenario per domain, producing repeated measures of automation preference, trust,…
+### [Large Language Models as a Universal Searcher for Open-World Automated Machine Learning](https://arxiv.org/abs/2611.12791v1)
 
-### [Toward the Era of Agentic Embodied Intelligence](https://arxiv.org/abs/2611.09124v1)
+**arXiv — AI, language and HCI** · 09 Nov · relevance 12.8
 
-**arXiv — Robotics** · 06 Nov · relevance 11.9
+Developing effective machine learning models requires complex manual tuning, while current Automated Machine Learning (AutoML) frameworks remain domain-specific and isolate model architecture, training hyperparameter, and data ratio optimization. Here, we bridge this gap by proposing a universal, large language model (LLM)-based AutoML framework that…
 
-Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides…
+## Evaluation
+
+### [Can the Confidence and Decisions of System 1 Models Be Trusted? An Explainability and Perturbation Audit of Jev-Style Decision Models](https://arxiv.org/abs/2611.12521v1)
+
+**arXiv — AI, language and HCI** · 09 Nov · relevance 19.6
+
+"System 1" decision models (pioneered by TypeSafe AI's Jev) replace autoregressive text generation with a single forward pass returning typed probability distributions over declared schemas (Choice, Score, Noul). While deployed for low-latency routing and automated triage, their statistical calibration and post-hoc explainability remain uncharacterized. We…
+
+### [Things I Learned - 08 Nov 2026](https://www.s-anand.net/blog/things-i-learned-08-nov-2026)
+
+**S Anand** · 08 Nov · relevance 19.4
+
+This week, I learned: Facemorph.me implements face morphing via StyleGAN2 (among the best face morphing implementations I’ve seen) and exposes it via a free public site #ForNow. My reading from The Sequoia of Tomorrow : Money’s in the Bay Area . People, move there. Money’s in a few big winners . Maybe they can find them easy and don’t need to scout?…
+
+### [Things I Learned - 01 Nov 2026](https://www.s-anand.net/blog/things-i-learned-01-nov-2026)
+
+**S Anand** · 01 Nov · relevance 15.4
+
+This week, I learned: Enterprise software migration seems a massive medium term opportunity - Ethan Mollick . On the other hand, liquid software where anyone can tweak their own softare is emerging. “But I’m not working for my agent, it works for me. It’s a computer. It’s not a person I have to keep busy and keep managing (and checking it’s managing it’s…
+
+### [Galilean Robots, Aristotelian Sensors: Joint Spatiotemporal Trajectory Estimation and Extrinsic Calibration](https://arxiv.org/abs/2611.12526v1)
+
+**arXiv — Robotics** · 09 Nov · relevance 13.7
+
+Multi-sensor state estimation requires accurate spatial and temporal calibration between heterogeneous sensors. Existing spatiotemporal calibration methods typically represent sensor extrinsic parameters as a rigid-body transformation together with a scalar temporal offset, causing the spatial and temporal parameters to enter the estimation problem through…
 
 ## Safety
 
-### [Innovations 2 Nov 2026](https://www.s-anand.net/blog/innovations-02-nov-2026)
+### [Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning](https://arxiv.org/abs/2611.12865v1)
 
-**S Anand** · 03 Nov · relevance 9.4
+**arXiv — AI, language and HCI** · 09 Nov · relevance 12.5
 
-The Innovation team has been experimenting with 3D interaction, audio, video and AI agents. Three things struck me: We can manipulate a 3D molecule with our hands, or try different furniture in a virtual room, using a browser. Sound search can find things a transcript never records. And a small specialist model can diagnose a machine at a tiny fraction of…
+Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including reward hacking, through verifiable reward--context conflicts, where compliant task completion remains feasible while some executable shortcuts earn more reward…
+
+### [Control Room: A central system to track and stop model workloads across our research infrastructure](https://openai.com/index/control-room)
+
+**OpenAI** · 09 Nov · relevance 10.0
+
+Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.
+
+## Agents
+
+### [CodeRabbit scales agentic software development and ships 20x more](https://openai.com/index/coderabbit-codex-daybreak)
+
+**OpenAI** · 09 Nov · relevance 11.0
+
+CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.
+
+## Machine Behaviour
+
+### [Learn the rules: The hacker mindset](https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset)
+
+**Microsoft Research** · 03 Nov · relevance 9.7
+
+Research Manager Mike Walker reflects on a career spanning hacker culture, cybersecurity, and AI, sharing lessons about trust, teamwork, leadership, and why solving difficult problems requires curiosity, judgment, agility—and an understanding of the rules. The post Learn the rules: The hacker mindset appeared first on Microsoft Research .
+
+<details>
+<summary>Sources unavailable during this run</summary>
+
+- **Google DeepMind:** `not well-formed (invalid token): line 1, column 0`
+
+</details>
 
 ---
 

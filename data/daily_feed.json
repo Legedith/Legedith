@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T10:24:31.495480Z",
+  "generated_at": "2026-11-10T10:28:15.693222Z",
   "working_sources": [
     "Simon Willison — LLMs",
     "Simon Willison — AI agents",
@@ -11,7 +11,6 @@
     "The Gradient",
     "Hugging Face",
     "OpenAI",
-    "Google DeepMind",
     "Google Research",
     "Microsoft Research",
     "Berkeley AI Research",
@@ -19,9 +18,22 @@
     "arXiv — AI, language and HCI",
     "arXiv — Robotics"
   ],
-  "source_errors": {},
-  "item_count": 65,
+  "source_errors": {
+    "Google DeepMind": "not well-formed (invalid token): line 1, column 0"
+  },
+  "item_count": 63,
   "items": [
+    {
+      "id": "61d6b620bc60aafd",
+      "title": "Can the Confidence and Decisions of System 1 Models Be Trusted? An Explainability and Perturbation Audit of Jev-Style Decision Models",
+      "url": "https://arxiv.org/abs/2611.12521v1",
+      "source": "arXiv — AI, language and HCI",
+      "source_group": "preprints",
+      "published": "2026-11-09T14:58:53Z",
+      "summary": "\"System 1\" decision models (pioneered by TypeSafe AI's Jev) replace autoregressive text generation with a single forward pass returning typed probability distributions over declared schemas (Choice, Score, Noul). While deployed for low-latency routing and automated triage, their statistical calibration and post-hoc explainability remain uncharacterized. We…",
+      "category": "evaluation",
+      "score": 19.61
+    },
     {
       "id": "e1acc34a78df1030",
       "title": "Things I Learned - 08 Nov 2026",
@@ -31,7 +43,18 @@
       "published": "2026-11-08T00:00:00Z",
       "summary": "This week, I learned: Facemorph.me implements face morphing via StyleGAN2 (among the best face morphing implementations I’ve seen) and exposes it via a free public site #ForNow. My reading from The Sequoia of Tomorrow : Money’s in the Bay Area . People, move there. Money’s in a few big winners . Maybe they can find them easy and don’t need to scout?…",
       "category": "evaluation",
-      "score": 19.64
+      "score": 19.39
+    },
+    {
+      "id": "a7a4aac751cafc65",
+      "title": "BAIR at CoRL 2026",
+      "url": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026",
+      "source": "Berkeley AI Research",
+      "source_group": "academic lab",
+      "published": "2026-11-09T09:00:00Z",
+      "summary": "The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. BAIR faculty, postdocs and students will be presenting research at various sessions, including an Early Career Keynote from Professor Negar Mehr. See below for the full schedule of sessions with BAIR members, including papers co-authored with collaborators at other…",
+      "category": "robotics",
+      "score": 19.33
     },
     {
       "id": "0de158413b07a5b4",
@@ -45,6 +68,17 @@
       "score": 18.22
     },
     {
+      "id": "195379aa7df783ab",
+      "title": "Can Agentic Robotics Solve Robotics’ Data Scaling Problem?",
+      "url": "https://spectrum.ieee.org/agentic-robotics",
+      "source": "IEEE Spectrum Robotics",
+      "source_group": "robotics journalism",
+      "published": "2026-11-09T14:00:02Z",
+      "summary": "Robotics companies are investing heavily in the belief that data will solve the most difficult problems in robotics. Once AI systems have ingested enough data from human demonstrations, the thinking goes, robots will be able to perform the vast majority of the manual tasks that humans now do. There are even robotics companies that exist solely to collect…",
+      "category": "robotics",
+      "score": 15.9
+    },
+    {
       "id": "bdb3238a9ccc1c25",
       "title": "Things I Learned - 01 Nov 2026",
       "url": "https://www.s-anand.net/blog/things-i-learned-01-nov-2026",
@@ -53,7 +87,73 @@
       "published": "2026-11-01T00:00:00Z",
       "summary": "This week, I learned: Enterprise software migration seems a massive medium term opportunity - Ethan Mollick . On the other hand, liquid software where anyone can tweak their own softare is emerging. “But I’m not working for my agent, it works for me. It’s a computer. It’s not a person I have to keep busy and keep managing (and checking it’s managing it’s…",
       "category": "evaluation",
-      "score": 15.67
+      "score": 15.42
+    },
+    {
+      "id": "c65a4c797a1bb9c6",
+      "title": "WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning",
+      "url": "https://arxiv.org/abs/2611.12527v1",
+      "source": "arXiv — AI, language and HCI",
+      "source_group": "preprints",
+      "published": "2026-11-09T15:02:29Z",
+      "summary": "This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform framework based on Spectral Forcing, which jointly learns an internal spectral trajectory and the target waveform trajectory within a single model, enabling direct end-to-end text-to-waveform generation. Unlike recent TTS pipelines, WaveGen does not rely on separately trained…",
+      "category": "systems",
+      "score": 14.39
+    },
+    {
+      "id": "a4a986ce62f14eae",
+      "title": "Embodied First Exam",
+      "url": "https://arxiv.org/abs/2611.12177v1",
+      "source": "arXiv — Robotics",
+      "source_group": "preprints",
+      "published": "2026-11-09T10:29:19Z",
+      "summary": "Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introduce the Embodied First Exam, a unified,…",
+      "category": "robotics",
+      "score": 13.92
+    },
+    {
+      "id": "01edfef014298740",
+      "title": "How Far Does Second-Order Linear Response Predict Quantization Mismatch? Pre-Registered Measurements on Five Language Models",
+      "url": "https://arxiv.org/abs/2611.12634v1",
+      "source": "arXiv — AI, language and HCI",
+      "source_group": "preprints",
+      "published": "2026-11-09T16:11:49Z",
+      "summary": "Serving systems choose a weight format for each model and deployment. A low-cost screen predicts the resulting KL divergence from the unquantized model's Fisher information using $\\tfrac12Δ^\\top FΔ$, the expansion underlying Hessian-aware and second-order post-training quantizers. We assess the reliability of this screen in GPU batches with channel-wise…",
+      "category": "systems",
+      "score": 13.9
+    },
+    {
+      "id": "7fb9505874fb45ea",
+      "title": "Galilean Robots, Aristotelian Sensors: Joint Spatiotemporal Trajectory Estimation and Extrinsic Calibration",
+      "url": "https://arxiv.org/abs/2611.12526v1",
+      "source": "arXiv — Robotics",
+      "source_group": "preprints",
+      "published": "2026-11-09T15:01:51Z",
+      "summary": "Multi-sensor state estimation requires accurate spatial and temporal calibration between heterogeneous sensors. Existing spatiotemporal calibration methods typically represent sensor extrinsic parameters as a rigid-body transformation together with a scalar temporal offset, causing the spatial and temporal parameters to enter the estimation problem through…",
+      "category": "evaluation",
+      "score": 13.74
+    },
+    {
+      "id": "8948718a46f9aa19",
+      "title": "Compass 1: Towards Open-World and Persistent Embodied Navigation from Monocular RGB Videos",
+      "url": "https://arxiv.org/abs/2611.12087v1",
+      "source": "arXiv — Robotics",
+      "source_group": "preprints",
+      "published": "2026-11-09T09:04:48Z",
+      "summary": "Embodied navigation requires agents to achieve persistent spatial awareness and long-horizon execution stability in open-world environments. However, existing navigation architectures struggle to sustain both capabilities, remaining effective only over a handful of recent frames. We present Compass 1, the first embodied navigation foundation model to unify…",
+      "category": "robotics",
+      "score": 13.74
+    },
+    {
+      "id": "da44b4e082ff5007",
+      "title": "PCTac: Mechanochromic Photonic-Crystal Tactile Sensor for Dexterous Manipulation",
+      "url": "https://arxiv.org/abs/2611.12383v1",
+      "source": "arXiv — Robotics",
+      "source_group": "preprints",
+      "published": "2026-11-09T13:20:49Z",
+      "summary": "Modern visuotactile sensors primarily sense contact by imaging the deformation of a compliant interface. Using techniques such as photometric stereo, they can recover detailed contact geometry, often represented as surface normals or depth. However, force-related information typically still needs to be inferred indirectly through calibration, geometric…",
+      "category": "robotics",
+      "score": 13.56
     },
     {
       "id": "7ca738fffd8adba7",
@@ -64,62 +164,51 @@
       "published": "2026-10-30T16:30:03Z",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…",
       "category": "robotics",
-      "score": 13.67
+      "score": 13.42
     },
     {
-      "id": "e87d7c5e7d593841",
-      "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
-      "url": "https://arxiv.org/abs/2611.09864v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-11-06T18:44:33Z",
-      "summary": "Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service robotics and warehouse automation. Despite recent progress, reliably executing these tasks remains challenging because performance depends on complex…",
-      "category": "robotics",
-      "score": 13.56
-    },
-    {
-      "id": "03bdba9076c94141",
-      "title": "Goodhart in the Planner: Sampling-Based Control Exploits Rewards Learned from Human Preferences",
-      "url": "https://arxiv.org/abs/2611.09670v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-11-06T16:22:17Z",
-      "summary": "Robots increasingly choose actions by searching against a reward model learned from human preferences, in model-predictive control or best-of-$N$ selection; we measure what this does to the true objective. On HalfCheetah and Hopper with crowd-sourced labels, and on Meta-World drawer-open and plate-slide with synthetic labels and blind labels from the two…",
-      "category": "evaluation",
-      "score": 13.2
-    },
-    {
-      "id": "9e31d254c44f1bf7",
-      "title": "Knowing When to Intervene: Causal Evaluation of AI Agents",
-      "url": "https://arxiv.org/abs/2611.09792v1",
+      "id": "46accc571e7499ab",
+      "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
+      "url": "https://arxiv.org/abs/2611.12799v1",
       "source": "arXiv — AI, language and HCI",
       "source_group": "preprints",
-      "published": "2026-11-06T17:46:53Z",
-      "summary": "Current evaluations of agentic AI systems primarily rely on benchmarks. However, the static nature of benchmarks makes them uninformative about the value of auditing interventions at deployment time. For reliable deployment, we often need to determine within an agent's trajectory whether or not to intervene, e.g., by verifying the agent's current output or…",
-      "category": "evaluation",
-      "score": 13.19
-    },
-    {
-      "id": "2e7b6377ff3a8b83",
-      "title": "CodeQuant2: Enhanced Outlier Mitigation and Adaptive Clustering for Low-Precision LRMs",
-      "url": "https://arxiv.org/abs/2611.09868v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-11-06T18:48:04Z",
-      "summary": "Large reasoning models (LRMs) improve task performance by generating longer intermediate reasoning traces, but this substantially increases inference costs and makes low-precision quantization increasingly important. However, aggressively quantized models often perform poorly on reasoning tasks. We observe larger activation fluctuations during the first…",
+      "published": "2026-11-09T18:07:42Z",
+      "summary": "Reinforcement learning is now the mainstream paradigm for training LLMs on agentic tasks, yet standard practice keeps only the best-validation checkpoint and discards the rest. We show that this is lossy: in GRPO training of LLM agents, the best-validation checkpoint fails on problems that earlier checkpoints from the same run had already solved, and the…",
       "category": "systems",
-      "score": 13.09
+      "score": 13.31
     },
     {
-      "id": "06fe76d44d891b44",
-      "title": "RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill",
-      "url": "https://arxiv.org/abs/2611.09709v1",
+      "id": "efd36a220042ab47",
+      "title": "$Σ$-LeWM: Learning World Models via S-Information for Robot Control",
+      "url": "https://arxiv.org/abs/2611.12732v1",
+      "source": "arXiv — Robotics",
+      "source_group": "preprints",
+      "published": "2026-11-09T17:18:27Z",
+      "summary": "World models have increasingly been applied as a model-based control method for robotics tasks such as manipulation and locomotion. While early world model architectures relied on decoders to prevent mode collapse and learn a predictable latent space, recent works on world models, such as Joint Embedding Predictive Architecture or LeWorldModel,…",
+      "category": "robotics",
+      "score": 12.77
+    },
+    {
+      "id": "d8c6c78da5dec1a3",
+      "title": "VLA-MOPD: On-Policy Distillation for Multi-Task VLA Policy Consolidation",
+      "url": "https://arxiv.org/abs/2611.12286v1",
+      "source": "arXiv — Robotics",
+      "source_group": "preprints",
+      "published": "2026-11-09T12:12:37Z",
+      "summary": "Physical intelligence requires embodied agents to ground language in observations and execute actions while retaining useful skills. Vision-language-action (VLA) policies offer a shared interface, but task-specific post-training often produces separate specialists. Consolidation is difficult: mixed-task reinforcement learning provides sparse…",
+      "category": "systems",
+      "score": 12.77
+    },
+    {
+      "id": "2bd834a070be1d62",
+      "title": "Large Language Models as a Universal Searcher for Open-World Automated Machine Learning",
+      "url": "https://arxiv.org/abs/2611.12791v1",
       "source": "arXiv — AI, language and HCI",
       "source_group": "preprints",
-      "published": "2026-11-06T16:52:41Z",
-      "summary": "RidgeFill shortens prefill by not computing most of a model's upper layers for the prompt. The lower layers run exactly up to a split; from the split layer's state a per-layer map predicts every later layer's input, and each late layer writes its cache from that prediction. The design follows YOCO and DeepSeek-V4.1-Flash, where the projection is trained…",
-      "category": "evaluation",
-      "score": 12.96
+      "published": "2026-11-09T17:58:38Z",
+      "summary": "Developing effective machine learning models requires complex manual tuning, while current Automated Machine Learning (AutoML) frameworks remain domain-specific and isolate model architecture, training hyperparameter, and data ratio optimization. Here, we bridge this gap by proposing a universal, large language model (LLM)-based AutoML framework that…",
+      "category": "systems",
+      "score": 12.75
     },
     {
       "id": "37742d3845ce7f7b",
@@ -130,84 +219,18 @@
       "published": "2026-10-27T16:14:39Z",
       "summary": "This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance reading, a position estimate, or a stop signal. But what happens when one of…",
       "category": "robotics",
-      "score": 12.92
+      "score": 12.67
     },
     {
-      "id": "e8a761e72569eb5a",
-      "title": "What to Delegate, What to Preserve: Human Preferences for Agentic AI Across Everyday Life and Work",
-      "url": "https://arxiv.org/abs/2611.09730v1",
+      "id": "73b904dd2bd27688",
+      "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
+      "url": "https://arxiv.org/abs/2611.12865v1",
       "source": "arXiv — AI, language and HCI",
       "source_group": "preprints",
-      "published": "2026-11-06T17:06:41Z",
-      "summary": "AI agents can execute multi-step tasks on users' behalf, yet the boundaries of acceptable delegation remain unclear. We report a scenario-based survey of 289 U.S. adults with prior AI experience covering 45 use cases across nine life domains. Each respondent evaluated one scenario per domain, producing repeated measures of automation preference, trust,…",
-      "category": "agents",
-      "score": 12.63
-    },
-    {
-      "id": "12cbb194f75aac0b",
-      "title": "Extended Model-Based Learned Inertial Odometry",
-      "url": "https://arxiv.org/abs/2611.09584v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-11-06T15:19:38Z",
-      "summary": "Inertial odometry is a compelling approach to state estimation for agile quadrotor flight due to its affordability, low weight, and robustness to perceptual degradation. However, relying only on integrated inertial measurements is impractical, as sensor errors and time-varying biases lead to significant pose drift. Although recent advances have enabled…",
-      "category": "evaluation",
-      "score": 12.25
-    },
-    {
-      "id": "87d4542183bcf977",
-      "title": "Alignment by Confident Debate: Preference Learning from Multi-Agent Debate",
-      "url": "https://arxiv.org/abs/2611.09568v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-11-06T15:08:58Z",
-      "summary": "Post-training language models for reasoning typically rely on gold answers, task-specific verifiers, or learned reward models, limiting scalability when such signals are scarce. Multi-agent debate offers a self-supervised alternative, but converting debate into reliable training supervision remains challenging: majority voting weights agreeing responses…",
-      "category": "systems",
-      "score": 12.05
-    },
-    {
-      "id": "1281b76143c82ac3",
-      "title": "CucumberVision at the Edge: Accuracy, Throughput, and Energy of RGB-D Cucumber Sizing on Jetson Orin Nano and Raspberry Pi 4",
-      "url": "https://arxiv.org/abs/2611.09490v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-11-06T14:13:04Z",
-      "summary": "Non-contact fruit sizing from RGB-D imagery reaches sub-centimetre accuracy on workstation hardware, but in-field grading requires the same pipeline to run on a low-power single-board computer, and the cost of that transition is rarely reported. We deploy a curvature-aware cucumber length-measurement pipeline (YOLO26n detection, prompt-based segmentation…",
-      "category": "evaluation",
-      "score": 12.01
-    },
-    {
-      "id": "3d7919acf8fe260b",
-      "title": "Toward the Era of Agentic Embodied Intelligence",
-      "url": "https://arxiv.org/abs/2611.09124v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-11-06T08:02:15Z",
-      "summary": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides…",
-      "category": "agents",
-      "score": 11.95
-    },
-    {
-      "id": "0b1c96eb31d41054",
-      "title": "ICare-DT: a digital twin for continuous forecasting of intensive care patients",
-      "url": "https://arxiv.org/abs/2611.09712v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-11-06T16:55:37Z",
-      "summary": "Digital twins of intensive care patients should update forecasts from new data and predict treatment responses, but few studies test whether routine records support either. We propose ICare-DT, a Transformer-based twin that updates a latent patient state hourly from new measurements without retraining. We trained it on 140,473 eICU-CRD stays to forecast…",
-      "category": "evaluation",
-      "score": 11.91
-    },
-    {
-      "id": "d8c08871be01da5a",
-      "title": "Polarization calibration of fisheye cameras using skylight in the wild",
-      "url": "https://arxiv.org/abs/2611.08911v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-11-06T02:51:33Z",
-      "summary": "Skylight polarization provides directional cues for robotic navigation, but fisheye lens effects and analyzer imperfections can degrade polarization measurements across the field of view. We present a joint lens-analyzer calibration method that explicitly models incidence-dependent lens transmission together with analyzer gains and angular offsets in a…",
-      "category": "evaluation",
-      "score": 11.89
+      "published": "2026-11-09T18:52:20Z",
+      "summary": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including reward hacking, through verifiable reward--context conflicts, where compliant task completion remains feasible while some executable shortcuts earn more reward…",
+      "category": "safety",
+      "score": 12.54
     },
     {
       "id": "1b19bb4089beb1d5",
@@ -218,7 +241,18 @@
       "published": "2026-11-06T17:00:03Z",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN, TEXAS Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CALIF. Enjoy…",
       "category": "robotics",
-      "score": 11.26
+      "score": 11.01
+    },
+    {
+      "id": "02e9abf47eaf3fa0",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "source": "OpenAI",
+      "source_group": "frontier lab",
+      "published": "2026-11-09T08:00:00Z",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "category": "agents",
+      "score": 10.99
     },
     {
       "id": "fe3eb94d922b728f",
@@ -232,26 +266,15 @@
       "score": 10.89
     },
     {
-      "id": "020468ecfc42b3b0",
-      "title": "Things I Learned - 25 Oct 2026",
-      "url": "https://www.s-anand.net/blog/things-i-learned-25-oct-2026",
-      "source": "S Anand",
-      "source_group": "independent",
-      "published": "2026-10-25T00:00:00Z",
-      "summary": "This week, I learned: Neural Networks Are Already Clean argues that in modern LLMs, most neurons have one function, not arbitrary overlapping functions (like we thought earlier). This becomes clearer when you see the learning steps, e.g. the “iy” neuron -> “diy” -> “do it yourself”. Without the “diy” in the middle, it’s confusing what “iy” has to do with…",
-      "category": "machine behaviour",
-      "score": 10.86
-    },
-    {
-      "id": "bf7a4d9d4fd11a76",
-      "title": "Q&A: Mars Perseverance Rover Sets a Distance Record",
-      "url": "https://spectrum.ieee.org/mars-rover-distance-record",
-      "source": "IEEE Spectrum Robotics",
-      "source_group": "robotics journalism",
-      "published": "2026-10-13T15:02:04Z",
-      "summary": "On 11 October , the Perseverance rover completed a drive that brought its total distance traveled on Mars to 28.10 miles (45.22 kilometers). This is a new record for Mars rovers, enabled in large part by Perseverance ’s ability to drive with much more autonomy than its predecessors. Over the past five years, Perseverance ’s autonomy software has been…",
-      "category": "machine behaviour",
-      "score": 10.22
+      "id": "952d2516af2e9054",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "source": "OpenAI",
+      "source_group": "frontier lab",
+      "published": "2026-11-09T13:00:00Z",
+      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "category": "safety",
+      "score": 10.04
     },
     {
       "id": "32aabc03de736b72",
@@ -262,7 +285,18 @@
       "published": "2026-11-03T17:14:38Z",
       "summary": "Research Manager Mike Walker reflects on a career spanning hacker culture, cybersecurity, and AI, sharing lessons about trust, teamwork, leadership, and why solving difficult problems requires curiosity, judgment, agility—and an understanding of the rules. The post Learn the rules: The hacker mindset appeared first on Microsoft Research .",
       "category": "machine behaviour",
-      "score": 9.94
+      "score": 9.69
+    },
+    {
+      "id": "1cd01b15863e291a",
+      "title": "Locating the source of a mysterious beep with Claude",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps",
+      "source": "Simon Willison — LLMs",
+      "source_group": "independent",
+      "published": "2026-11-09T23:57:21Z",
+      "summary": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes.…",
+      "category": "evaluation",
+      "score": 9.47
     },
     {
       "id": "fb259ea96b9cb504",
@@ -273,7 +307,7 @@
       "published": "2026-11-03T08:56:39Z",
       "summary": "The Innovation team has been experimenting with 3D interaction, audio, video and AI agents. Three things struck me: We can manipulate a 3D molecule with our hands, or try different furniture in a virtual room, using a browser. Sound search can find things a transcript never records. And a small specialist model can diagnose a machine at a tiny fraction of…",
       "category": "safety",
-      "score": 9.37
+      "score": 9.12
     },
     {
       "id": "7a56e2062f93f8c0",
@@ -284,7 +318,7 @@
       "published": "2026-11-09T04:25:05Z",
       "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions. They're too…",
       "category": "systems",
-      "score": 9.29
+      "score": 9.04
     },
     {
       "id": "bc32ee5792888774",
@@ -295,18 +329,7 @@
       "published": "2026-10-31T16:05:00Z",
       "summary": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
       "category": "agents",
-      "score": 9.25
-    },
-    {
-      "id": "23c4f130369cb972",
-      "title": "Agentic cheminformatics with Google Antigravity",
-      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
-      "source": "Google DeepMind",
-      "source_group": "frontier lab",
-      "published": "2026-11-03T17:01:49Z",
-      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
-      "category": "agents",
-      "score": 9.08
+      "score": 9.0
     },
     {
       "id": "2dd1a315b516efdb",
@@ -317,7 +340,18 @@
       "published": "2026-11-01T16:49:04Z",
       "summary": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...] In the age of LLMs, what can maintainers do to ensure correct…",
       "category": "safety",
-      "score": 8.7
+      "score": 8.45
+    },
+    {
+      "id": "cba41f0395d50b9e",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+      "source": "Simon Willison — LLMs",
+      "source_group": "independent",
+      "published": "2026-11-10T07:28:21Z",
+      "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document…",
+      "category": "evaluation",
+      "score": 8.38
     },
     {
       "id": "461e3fa714f92dea",
@@ -328,7 +362,7 @@
       "published": "2026-11-07T08:40:52Z",
       "summary": "I was reading Asterix on my flight from Brussels to Dubai when I remembered a colleague’s request. I typically convert my workshops into narratives like this and this . They wanted another event converted. Usually, I have the full transcript of my events. In this case, I just had a few paragraphs of notes. Far from enough. On the other hand, I was reading…",
       "category": "systems",
-      "score": 8.54
+      "score": 8.29
     },
     {
       "id": "a1a23e154cf4eaa8",
@@ -339,7 +373,18 @@
       "published": "2026-10-29T05:55:19Z",
       "summary": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
       "category": "evaluation",
-      "score": 8.54
+      "score": 8.29
+    },
+    {
+      "id": "9a8fde6cfa9ab68c",
+      "title": "llm-anthropic 0.31",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic",
+      "source": "Simon Willison — LLMs",
+      "source_group": "independent",
+      "published": "2026-11-09T23:58:46Z",
+      "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! I've added the new models to llm-anthropic , so you can now run prompts…",
+      "category": "evaluation",
+      "score": 8.19
     },
     {
       "id": "5a90caffb2c87d2e",
@@ -350,7 +395,7 @@
       "published": "2026-11-06T14:00:48Z",
       "summary": "",
       "category": "evaluation",
-      "score": 8.37
+      "score": 8.11
     },
     {
       "id": "e65fcafff408f808",
@@ -361,18 +406,18 @@
       "published": "2026-10-29T17:00:26Z",
       "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use…",
       "category": "agents",
-      "score": 8.23
+      "score": 7.98
     },
     {
-      "id": "b5cba0d011349b3b",
-      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights",
-      "source": "Simon Willison — LLMs",
+      "id": "a1bdf7a5a6f5ef8d",
+      "title": "My browser is my notebook and task list",
+      "url": "https://www.s-anand.net/blog/my-browser-is-my-notebook-and-task-list",
+      "source": "S Anand",
       "source_group": "independent",
-      "published": "2026-11-03T16:29:48Z",
-      "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights…",
-      "category": "systems",
-      "score": 7.97
+      "published": "2026-11-10T07:10:47Z",
+      "summary": "Recently, I’ve started using my browser both as the primary workspace (slightly more than VS Code) as well as my TODO list. That’s mainly due to better tab management and better tools. Tab Management The first big shift was turning on Vertical Tabs on Edge. Now, I can see and manage far more tabs. Typically, I have 80-200 tabs open now. The next big shift…",
+      "category": "safety",
+      "score": 7.85
     },
     {
       "id": "a3a6cb8cb48ed4ea",
@@ -383,29 +428,40 @@
       "published": "2026-11-09T08:00:12Z",
       "summary": "The Time Use Survey 2024 data released last year lets you download a ZIP containing a 900 MB .Nesstar file. (This is after you register - but the registration is free, and though it requires a reason, it’s automated.) Nesstar is Norwegian software that’s now end of life. MOSPI provides this guide - with distorted screenshots - explaining how to install the…",
       "category": "systems",
-      "score": 7.86
+      "score": 7.61
     },
     {
-      "id": "1e75cc35b491a310",
-      "title": "The U.S. Census Bureau and “Super Intelligence”",
-      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
-      "source": "Simon Willison — LLMs",
-      "source_group": "independent",
-      "published": "2026-11-02T13:31:26Z",
-      "summary": "I was reminded today of AI Adoption Rate Trending Down for Large Companies , a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart to demonstrate GPT-5 data analysis , and then to experiment with…",
+      "id": "009b316662ff4c3f",
+      "title": "Exploring the world's languages with Language Explorer",
+      "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer",
+      "source": "Google Research",
+      "source_group": "research lab",
+      "published": "2026-11-09T20:29:39Z",
+      "summary": "Natural Language Processing",
       "category": "machine behaviour",
-      "score": 7.86
+      "score": 7.5
     },
     {
-      "id": "9d52bf97ae057251",
-      "title": "llm 0.37",
-      "url": "https://simonwillison.net/2026/Nov/2/llm",
-      "source": "Simon Willison — LLMs",
+      "id": "ac8f18750241a65f",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-11-09T15:05:57Z",
+      "summary": "",
+      "category": "systems",
+      "score": 7.49
+    },
+    {
+      "id": "e4b7803bfd815ac5",
+      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+      "url": "https://latent.space/p/handshake",
+      "source": "Latent Space",
       "source_group": "independent",
-      "published": "2026-11-02T23:49:30Z",
-      "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints. I switched the default…",
-      "category": "multimodal",
-      "score": 7.75
+      "published": "2026-11-09T17:15:53Z",
+      "summary": "Handshake went from launch to $1B in one year pushing the envelope of specialized data for frontier labs. Our first deep dive into a data lab with specific examples across Finance, Bio, and Alignment",
+      "category": "safety",
+      "score": 7.32
     },
     {
       "id": "709cc8e2bd467b79",
@@ -416,7 +472,7 @@
       "published": "2026-10-28T09:30:00Z",
       "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
       "category": "agents",
-      "score": 7.2
+      "score": 6.95
     },
     {
       "id": "15593d458c27dc60",
@@ -427,7 +483,7 @@
       "published": "2026-11-08T21:23:29Z",
       "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and ...",
       "category": "agents",
-      "score": 7.14
+      "score": 6.89
     },
     {
       "id": "5a014341bc3fc0f1",
@@ -438,7 +494,7 @@
       "published": "2026-11-02T09:00:00Z",
       "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
       "category": "evaluation",
-      "score": 7.06
+      "score": 6.81
     },
     {
       "id": "13e4c95dcbaa6d34",
@@ -449,7 +505,7 @@
       "published": "2026-11-06T00:00:00Z",
       "summary": "",
       "category": "evaluation",
-      "score": 7.05
+      "score": 6.8
     },
     {
       "id": "5f721228af3682c2",
@@ -460,7 +516,7 @@
       "published": "2026-11-06T00:00:00Z",
       "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
       "category": "evaluation",
-      "score": 6.74
+      "score": 6.49
     },
     {
       "id": "d923a4fd914f2e7e",
@@ -471,7 +527,7 @@
       "published": "2026-11-06T10:35:21Z",
       "summary": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
       "category": "systems",
-      "score": 6.7
+      "score": 6.45
     },
     {
       "id": "257352fd027dfaa5",
@@ -482,7 +538,7 @@
       "published": "2026-11-06T15:10:53Z",
       "summary": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology",
       "category": "safety",
-      "score": 6.69
+      "score": 6.44
     },
     {
       "id": "c65c7708e93995ca",
@@ -493,18 +549,7 @@
       "published": "2026-11-05T00:00:00Z",
       "summary": "",
       "category": "evaluation",
-      "score": 6.69
-    },
-    {
-      "id": "0618b016bbe0502a",
-      "title": "[AINews] It's Swapping Season",
-      "url": "https://latent.space/p/ainews-it-s-swapping-season",
-      "source": "Latent Space",
-      "source_group": "independent",
-      "published": "2026-11-05T06:24:09Z",
-      "summary": "November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.",
-      "category": "systems",
-      "score": 6.62
+      "score": 6.44
     },
     {
       "id": "3a45181f6d992343",
@@ -515,7 +560,7 @@
       "published": "2026-11-05T16:00:00Z",
       "summary": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing against them. It converts developer intent into a Verus specification, proves AI-generated code meets it for every input, and uses tests where proofs aren't…",
       "category": "agents",
-      "score": 6.54
+      "score": 6.29
     },
     {
       "id": "14e90e72d3401ddf",
@@ -526,7 +571,7 @@
       "published": "2026-11-05T09:00:00Z",
       "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "category": "safety",
-      "score": 6.53
+      "score": 6.28
     },
     {
       "id": "bafa68df361fc999",
@@ -537,29 +582,29 @@
       "published": "2026-10-30T13:05:28Z",
       "summary": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. The post From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence appeared first on…",
       "category": "evaluation",
-      "score": 6.51
+      "score": 6.26
     },
     {
-      "id": "a8e215d1c3fca63a",
-      "title": "Franklin Templeton uses OpenAI to support investment research",
-      "url": "https://openai.com/index/franklin-templeton",
-      "source": "OpenAI",
-      "source_group": "frontier lab",
-      "published": "2026-11-05T00:00:00Z",
-      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
-      "category": "agents",
-      "score": 6.44
+      "id": "f212b578030fd2b6",
+      "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
+      "url": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence",
+      "source": "Import AI",
+      "source_group": "independent",
+      "published": "2026-11-09T13:31:34Z",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI Science startup converts a quantum conjecture into a theorem:…An evocative taste of the singularity…In the same way a few years ago it went from remarkable […]",
+      "category": "general AI",
+      "score": 6.08
     },
     {
-      "id": "0f01adb2acab0a67",
-      "title": "How we detect frontier model misalignment",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "source": "OpenAI",
-      "source_group": "frontier lab",
-      "published": "2026-10-29T09:00:00Z",
-      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "category": "safety",
-      "score": 6.39
+      "id": "55d059b88c6c576a",
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-11-09T12:34:29Z",
+      "summary": "",
+      "category": "general AI",
+      "score": 6.07
     },
     {
       "id": "4d3938441f216409",
@@ -570,18 +615,7 @@
       "published": "2026-11-03T16:35:36Z",
       "summary": "",
       "category": "machine behaviour",
-      "score": 6.31
-    },
-    {
-      "id": "63945bc794809749",
-      "title": "CWE-bench v2: More coverage, quality, and transparency",
-      "url": "https://huggingface.co/blog/cwe-bench",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-11-03T00:00:00Z",
-      "summary": "",
-      "category": "systems",
-      "score": 5.86
+      "score": 6.06
     },
     {
       "id": "e582ebff7b0ffb61",
@@ -592,40 +626,7 @@
       "published": "2026-10-26T12:31:52Z",
       "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now How math could help alignment:…What the “industrialization of mathematics” means for safety…AI safety startup Resolution (formerly known as Sequent, Import AI 461) has…",
       "category": "safety",
-      "score": 5.66
-    },
-    {
-      "id": "1750855042e8ceec",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
-      "source": "Google DeepMind",
-      "source_group": "frontier lab",
-      "published": "2026-11-05T17:05:16Z",
-      "summary": "",
-      "category": "general AI",
-      "score": 5.47
-    },
-    {
-      "id": "51888f116f5b0837",
-      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-10-22T22:24:34Z",
-      "summary": "",
-      "category": "systems",
-      "score": 5.47
-    },
-    {
-      "id": "59623d61a7aaaf73",
-      "title": "Speeding up planning decisions with AI",
-      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai",
-      "source": "Google DeepMind",
-      "source_group": "frontier lab",
-      "published": "2026-10-30T14:18:30Z",
-      "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
-      "category": "agents",
-      "score": 5.39
+      "score": 5.4
     },
     {
       "id": "f65775ad44370722",
@@ -636,18 +637,7 @@
       "published": "2026-11-05T16:01:08Z",
       "summary": "Health & Bioscience",
       "category": "general AI",
-      "score": 5.26
-    },
-    {
-      "id": "d96a2391b623b2cb",
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics",
-      "source": "Google DeepMind",
-      "source_group": "frontier lab",
-      "published": "2026-10-13T16:01:58Z",
-      "summary": "",
-      "category": "robotics",
-      "score": 5.12
+      "score": 5.01
     },
     {
       "id": "18868753b53dd265",
@@ -658,7 +648,7 @@
       "published": "2026-11-04T18:07:05Z",
       "summary": "Data Mining & Modeling",
       "category": "general AI",
-      "score": 5.03
+      "score": 4.78
     },
     {
       "id": "ecb2e13c36b51ce4",
@@ -669,7 +659,7 @@
       "published": "2026-11-04T16:35:44Z",
       "summary": "Our first open model economy research note for paid subscribers.",
       "category": "general AI",
-      "score": 5.01
+      "score": 4.76
     },
     {
       "id": "49f8fdcf9435ba0f",
@@ -680,18 +670,7 @@
       "published": "2026-10-29T19:19:16Z",
       "summary": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft—from understanding the challenges facing coding agents to uncovering how people use AI at work and improving extended-range weather forecasting. The post Microsoft Research Focus – Edition #97 appeared first on Microsoft Research .",
       "category": "agents",
-      "score": 4.82
-    },
-    {
-      "id": "e960e8891f7d7ad8",
-      "title": "Genie 4: A new generation of world simulation",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
-      "source": "Google DeepMind",
-      "source_group": "frontier lab",
-      "published": "2026-10-27T16:01:38Z",
-      "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
-      "category": "multimodal",
-      "score": 4.82
+      "score": 4.57
     },
     {
       "id": "887c59818f68e469",
@@ -702,7 +681,7 @@
       "published": "2026-10-28T12:58:39Z",
       "summary": "A sort of review of the benchmarking industry and what's missing.",
       "category": "evaluation",
-      "score": 4.73
+      "score": 4.48
     },
     {
       "id": "a7d06db3298395c6",
@@ -713,7 +692,7 @@
       "published": "2026-11-02T14:30:54Z",
       "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now LLMs are very bad at low-latency tasks:…Realtime-Bench says it’ll be a while till AI systems can play games or do online auctions for you…Researchers have built […]",
       "category": "general AI",
-      "score": 4.59
+      "score": 4.34
     },
     {
       "id": "1ff94489caca3196",
