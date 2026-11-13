@@ -1,6 +1,6 @@
 # Robot Psychology Radar
 
-Updated 12 November 2026, 10:21 UTC from 17 working sources.
+Updated 13 November 2026, 10:02 UTC from 17 working sources.
 
 24 high-relevance items across 7 sources. Auto-collected metadata; inclusion is not endorsement.
 
@@ -8,7 +8,7 @@ Updated 12 November 2026, 10:21 UTC from 17 working sources.
 
 ### [BAIR at CoRL 2026](http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026)
 
-**Berkeley AI Research** · 09 Nov · relevance 18.8
+**Berkeley AI Research** · 09 Nov · relevance 18.6
 
 The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. BAIR faculty, postdocs and students will be presenting research at various sessions, including an Early Career Keynote from Professor Negar Mehr. See below for the full schedule of sessions with BAIR members, including papers co-authored with collaborators at other…
 
@@ -20,31 +20,37 @@ Agility Robotics , the company I cofounded out of my robotics lab at Oregon Stat
 
 ### [Can Agentic Robotics Solve Robotics’ Data-Scaling Problem?](https://spectrum.ieee.org/agentic-robotics)
 
-**IEEE Spectrum Robotics** · 09 Nov · relevance 15.4
+**IEEE Spectrum Robotics** · 09 Nov · relevance 15.2
 
 Robotics companies are investing heavily in the belief that data will solve the most difficult problems in robotics. Once AI systems have ingested enough data from human demonstrations, the thinking goes, robots will be able to perform the vast majority of the manual tasks that humans now do. There are even robotics companies that exist solely to collect…
 
-### [ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads](https://arxiv.org/abs/2611.13929v1)
+### [HEIR: Harness Egocentric Intent for Human-Robot Interactions](https://arxiv.org/abs/2611.17238v1)
 
-**arXiv — Robotics** · 10 Nov · relevance 15.3
+**arXiv — Robotics** · 12 Nov · relevance 13.8
 
-In recent years, humanoid loco-manipulation has progressed to whole-body grasping, lifting, and transport. A basic requirement underlying these tasks is carrying the object to its destination, which depends on the locomotion controller accurately executing velocity commands from the navigation policy. However, carrying an object in one hand introduces a…
+For robots to assist, serve, and collaborate with humans, they must not only interpret human requests conveyed through language and multimodal intentional cues, but also execute long-horizon tasks that interleave navigation and manipulation. In this paper, we introduce HEIR, a resource for studying how to Harness Egocentric Intent for Human-Robot…
 
-### [A computational framework for understanding embodied plans](https://arxiv.org/abs/2611.13669v1)
+### [HALO: Human-Aligned Data Collection for WhoLe-body MObile Manipulation](https://arxiv.org/abs/2611.16439v1)
 
-**arXiv — Robotics** · 10 Nov · relevance 13.9
+**arXiv — Robotics** · 12 Nov · relevance 13.7
 
-Reasoning about people's plans and goals based on their actions is fundamental to human social interaction and essential for cooperative, embodied artificial intelligence. Formalizing this capacity in naturalistic, embodied settings has been a longstanding challenge. Here, we present GenEA, a novel agent representation capable of reasoning over multi-step,…
+Learning whole-body mobile manipulation requires demonstrations that coordinate bimanual actions with locomotion across extended workspaces. However, existing interfaces trade off direct robot control, perception and action alignment, and natural operator mobility, making such demonstrations difficult to collect. We introduce HALO, a human-aligned data…
+
+### [FORGE: Force-Aware Multi-Granularity Control for Efficient Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.17142v1)
+
+**arXiv — Robotics** · 12 Nov · relevance 13.1
+
+Humanoid loco-manipulation requires coordinated locomotion, balance regulation, and manipulation under frequent contacts, making teleoperated demonstration collection difficult: a practical controller must simultaneously provide precision, stability, and contact awareness. We propose FORGE, a force-aware multi-granularity control system with a…
 
 ### [Video Friday: Spot Plays to Show Its Whole-Body Manipulation](https://spectrum.ieee.org/video-friday-whole-body-manipulation)
 
-**IEEE Spectrum Robotics** · 30 Oct · relevance 12.9
+**IEEE Spectrum Robotics** · 30 Oct · relevance 12.7
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
 ### [Your Robot’s Safety Functions Already Work. What If the Input Lies?](https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone)
 
-**IEEE Spectrum Robotics** · 27 Oct · relevance 12.2
+**IEEE Spectrum Robotics** · 27 Oct · relevance 12.1
 
 This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance reading, a position estimate, or a stop signal. But what happens when one of…
 
@@ -56,13 +62,13 @@ Video Friday is your weekly selection of awesome robotics videos, collected by y
 
 ### [Video Friday: Room-Scale Cable-Driven Home Robot Tidies Up](https://spectrum.ieee.org/video-friday-home-cable-robot)
 
-**IEEE Spectrum Robotics** · 06 Nov · relevance 10.5
+**IEEE Spectrum Robotics** · 06 Nov · relevance 10.3
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN, TEXAS Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CALIF. Enjoy…
 
 ### [Gemini Robotics 2.5 accelerates real-world general dexterity](https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence)
 
-**Google DeepMind** · 09 Nov · relevance 9.8
+**Google DeepMind** · 09 Nov · relevance 9.6
 
 Our most capable vision-language-action model enhances robot dexterity, reliability, and safety
 
@@ -70,93 +76,89 @@ Our most capable vision-language-action model enhances robot dexterity, reliabil
 
 ### [Things I Learned - 08 Nov 2026](https://www.s-anand.net/blog/things-i-learned-08-nov-2026)
 
-**S Anand** · 08 Nov · relevance 18.9
+**S Anand** · 08 Nov · relevance 18.6
 
 This week, I learned: Facemorph.me implements face morphing via StyleGAN2 (among the best face morphing implementations I’ve seen) and exposes it via a free public site #ForNow. My reading from The Sequoia of Tomorrow : Money’s in the Bay Area . People, move there. Money’s in a few big winners . Maybe they can find them easy and don’t need to scout?…
 
 ### [Things I Learned - 01 Nov 2026](https://www.s-anand.net/blog/things-i-learned-01-nov-2026)
 
-**S Anand** · 01 Nov · relevance 14.9
+**S Anand** · 01 Nov · relevance 14.7
 
 This week, I learned: Enterprise software migration seems a massive medium term opportunity - Ethan Mollick . On the other hand, liquid software where anyone can tweak their own softare is emerging. “But I’m not working for my agent, it works for me. It’s a computer. It’s not a person I have to keep busy and keep managing (and checking it’s managing it’s…
 
-### [Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents](https://arxiv.org/abs/2611.14493v1)
+### [AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems](https://arxiv.org/abs/2611.17015v1)
 
-**arXiv — AI, language and HCI** · 10 Nov · relevance 13.2
+**arXiv — AI, language and HCI** · 12 Nov · relevance 13.4
 
-Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative study of three evaluation frameworks, each representing a distinct evaluation paradigm (trace-based LLM judging, text-only LLM judging with red-teaming, and…
+Artificial intelligence (AI) is changing how biological research is done. Biological foundation models trained on millions of nucleotides, protein, and single-cell measurements predict protein structures, mutation effects, and cellular responses to genetic perturbations. Agentic systems, AI assistants built on large language models, can run multistep…
 
-### [RiSE-Drive: Risk-Sensitive Long-Horizon Candidate Evaluation for End-to-End Autonomous Driving](https://arxiv.org/abs/2611.13790v1)
+### [Prevalence Bounds for Edited Watermarked Text: Power Envelopes and Calibration Sensitivity](https://arxiv.org/abs/2611.17035v1)
 
-**arXiv — Robotics** · 10 Nov · relevance 12.3
+**arXiv — AI, language and HCI** · 12 Nov · relevance 13.1
 
-End-to-end autonomous driving systems increasingly rely on generating multiple trajectory candidates and selecting one for execution. In this setting, a central challenge is no longer only candidate generation, but how to evaluate candidates according to their long-horizon consequences under uncertainty. Existing methods still mainly use deterministic…
+Watermark detectors decide whether one document came from a watermarked language model. Auditors often need a different number: the share of a corpus that did. We study this share for Gumbel-max and green-list (KGW) watermarks when every document may have been edited by an unknown amount. Without restrictions on the edits, the upper end of the identified…
 
-### [From Depth to Safe Depth: Uncertainty-Aware Monocular Perception for Mobile Robot Navigation](https://arxiv.org/abs/2611.13769v1)
+### [AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents](https://arxiv.org/abs/2611.16590v1)
 
-**arXiv — Robotics** · 10 Nov · relevance 12.1
+**arXiv — Robotics** · 12 Nov · relevance 12.6
 
-Monocular depth foundation models make it tempting to replace depth sensors on mobile robots with a single RGB camera. We show that, used off the shelf, this is unsafe: in a simulated indoor navigation benchmark, a standard Nav2 stack driven by Depth Anything V2 (metric) collides in 63\% of 120 episodes, because the model systematically over-estimates the…
+Long-term spacecraft autonomy requires embodied agents to use operational history under communication delays, time-critical operations, environmental uncertainty, complex physical interactions, power and computational constraints, and safety and reliability requirements. We introduce AstroMemBench and a Scenario-Challenge-Capability design method that maps…
 
-### [FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control](https://arxiv.org/abs/2611.13766v1)
+### [LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds](https://arxiv.org/abs/2611.17267v1)
 
-**arXiv — Robotics** · 10 Nov · relevance 12.1
+**arXiv — AI, language and HCI** · 12 Nov · relevance 12.4
 
-We present FAME-QP, a GPU-accelerated solver for dense quadratic programs arising in linear model predictive control. FAME-QP combines constraint-dependent operator representations with fused single- and two-kernel iterations replayed through CUDA graphs, automatically selecting the execution configuration through device calibration and problem-specific…
-
-### [Earlybird: Predictive Streaming Speech Recognition in 29M Parameters](https://arxiv.org/abs/2611.14421v1)
-
-**arXiv — AI, language and HCI** · 10 Nov · relevance 12.0
-
-Streaming speech recognizers output a word only after the speaker has finished it, typically 90-400 ms later. For a voice agent every millisecond counts: the sooner the words are outputted, the sooner the agent can start a search or plan its reply. We present Earlybird, a 29M-parameter streaming recognizer (16.8 MB at 4 bits). Earlybird learns from audio…
-
-### [AI Isn't Getting Dumber, We're Getting Pickier: Rising Standards in Human Evaluation of Large Language Models](https://arxiv.org/abs/2611.14333v1)
-
-**arXiv — AI, language and HCI** · 10 Nov · relevance 11.9
-
-Users often complain that AI assistants such as ChatGPT are getting worse. Some versions do change, but human evaluation leaves a second possibility untested: the people judging may change. We separate the two on Chatbot Arena, a public platform where people compare answers from two anonymous large language models (LLMs) and pick the better one or say both…
-
-## Agents
-
-### [Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents](https://arxiv.org/abs/2611.14320v1)
-
-**arXiv — AI, language and HCI** · 10 Nov · relevance 12.8
-
-External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This…
-
-### [CodeRabbit scales agentic software development and ships 20x more](https://openai.com/index/coderabbit-codex-daybreak)
-
-**OpenAI** · 09 Nov · relevance 10.5
-
-CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.
-
-## Safety
-
-### [Causal Concept Explanations for Deep Neural Models](https://arxiv.org/abs/2611.14407v1)
-
-**arXiv — AI, language and HCI** · 10 Nov · relevance 13.6
-
-Concept-based explanations in neural models are important for the development, certification, and adoption of autonomous systems. Yet, interpretability remains correlational. Without methods to guide and quantify causal relationships between explanations, a concept explanation can be provided without being necessary or sufficient for the observed output…
-
-### [Control Room: A central system to track and stop model workloads across our research infrastructure](https://openai.com/index/control-room)
-
-**OpenAI** · 09 Nov · relevance 9.5
-
-Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.
+We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geographic environments using GeoWorld. Unlike existing evaluations that largely reason and plan over fixed geographic states, GeoWorld is grounded in real-world…
 
 ## Systems
 
-### [CIALLO: Learning Shared Intent Representations for Cross-Embodiment Manipulation](https://arxiv.org/abs/2611.13732v1)
+### [SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models](https://arxiv.org/abs/2611.17110v1)
 
-**arXiv — Robotics** · 10 Nov · relevance 13.2
+**arXiv — Robotics** · 12 Nov · relevance 14.1
 
-Robot demonstrations contain reusable manipulation knowledge, but transferring this knowledge across embodiments requires representations that bridge differences in control interfaces. Action reconstruction alone does not ensure that similar behaviors across robots share a representation. To address this gap, we introduce CIALLO, an action codec that…
+Embodied foundation models hinge on diverse robot interaction data, which are costly to collect. Egocentric human videos offer a complementary source of experience, and latent action models (LAMs) provide a popular means of leveraging these videos for policy supervision. Compared with world-action models (WAMs), LAMs can offer greater training efficiency…
 
-### [StaRSE: Compact Russian Sentence Embeddings with a Sign-Coded Static Encoder](https://arxiv.org/abs/2611.14236v1)
+### [ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research](https://arxiv.org/abs/2611.17332v1)
 
-**arXiv — AI, language and HCI** · 10 Nov · relevance 12.4
+**arXiv — AI, language and HCI** · 12 Nov · relevance 14.0
 
-Transformer sentence encoders provide strong retrieval quality, but their inference cost becomes a bottleneck when embeddings must be produced on CPUs or refreshed frequently. We introduce StaRSE, a compact Russian static sentence encoder that removes Transformer inference at deployment time: token directions are stored as sign bits, token norms are stored…
+Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public reports rarely document which ideas succeeded, which were abandoned, and why. In…
+
+### [UAV-Flow++: A Unified Suite for Benchmarking and Learning Language-Guided UAV Flight](https://arxiv.org/abs/2611.17163v1)
+
+**arXiv — Robotics** · 12 Nov · relevance 12.6
+
+Language-guided UAV navigation has largely focused on long-horizon route planning, leaving short-range, object-relative flight maneuvers underexplored. To address this gap, we formulate Flying-on-a-Word (Flow), a task requiring a UAV to convert concise natural-language instruction, egocentric visual observation, and current state dynamics into continuous…
+
+### [Learning When Diffusion Language Models Should Regenerate](https://arxiv.org/abs/2611.17320v1)
+
+**arXiv — AI, language and HCI** · 12 Nov · relevance 12.5
+
+Remasking allows diffusion language models to revisit generated text, but effective correction requires knowing when and what to revise. Our diagnosis on Sudoku reveals two gaps. Hidden states contain error information that token confidence does not reliably expose, and remasking an isolated error usually reproduces it when the surrounding context remains…
+
+## Agents
+
+### [CodeRabbit scales agentic software development and ships 20x more](https://openai.com/index/coderabbit-codex-daybreak)
+
+**OpenAI** · 09 Nov · relevance 10.2
+
+CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.
+
+## Machine Behaviour
+
+### [CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts](https://arxiv.org/abs/2611.17115v1)
+
+**arXiv — AI, language and HCI** · 12 Nov · relevance 15.6
+
+Enforcement defenses against prompt injection, such as CaMeL, Progent, IPIGuard and DRIFT, ask the agent's own model to write a security artifact (a program, a privilege policy, a dependency graph or a constraint list) that code then enforces. We ask whether small language model (SLM) agents can be trusted to write these artifacts. Across 15 open-weight…
+
+## Safety
+
+### [Control Room: A central system to track and stop model workloads across our research infrastructure](https://openai.com/index/control-room)
+
+**OpenAI** · 09 Nov · relevance 9.3
+
+Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.
 
 ---
 
