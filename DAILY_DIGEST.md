@@ -1,8 +1,58 @@
 # Robot Psychology Radar
 
-Updated 16 November 2026, 10:11 UTC from 16 working sources.
+Updated 17 November 2026, 11:12 UTC from 16 working sources.
 
 24 high-relevance items across 6 sources. Auto-collected metadata; inclusion is not endorsement.
+
+## Evaluation
+
+### [Things I Learned - 08 Nov 2026](https://www.s-anand.net/blog/things-i-learned-08-nov-2026)
+
+**S Anand** · 08 Nov · relevance 17.6
+
+This week, I learned: Facemorph.me implements face morphing via StyleGAN2 (among the best face morphing implementations I’ve seen) and exposes it via a free public site #ForNow. My reading from The Sequoia of Tomorrow : Money’s in the Bay Area . People, move there. Money’s in a few big winners . Maybe they can find them easy and don’t need to scout?…
+
+### [Emergent Steering Beyond Endpoint Alignment in Chemical Reaction Models](https://arxiv.org/abs/2611.21423v1)
+
+**arXiv — AI, language and HCI** · 16 Nov · relevance 14.7
+
+Machine learning models for chemical reaction prediction are usually evaluated by endpoint accuracy, but endpoint correctness alone does not reveal how a model represents chemical transformation or why it fails. We introduce UniRxnAxis, a unified forward-retrosynthesis framework that models both tasks as direction-conditioned endpoint redistribution in a…
+
+### [Things I Learned - 01 Nov 2026](https://www.s-anand.net/blog/things-i-learned-01-nov-2026)
+
+**S Anand** · 01 Nov · relevance 13.8
+
+This week, I learned: Enterprise software migration seems a massive medium term opportunity - Ethan Mollick . On the other hand, liquid software where anyone can tweak their own softare is emerging. “But I’m not working for my agent, it works for me. It’s a computer. It’s not a person I have to keep busy and keep managing (and checking it’s managing it’s…
+
+### [Evaluating Cultural Reasoning and Robustness in LLMs for Spanish Political Discourse](https://arxiv.org/abs/2611.21535v1)
+
+**arXiv — AI, language and HCI** · 16 Nov · relevance 13.8
+
+Large language models (LLMs) are increasingly used to interpret, generate, and mediate public-facing language, which makes their reliability especially consequential in politically sensitive settings. Although sentiment analysis is a common task in this area, affective meaning in social media discourse is often conveyed through culturally situated and…
+
+### [Non-Imaging Optical Tactile Sensors for Robotics: Transduction Principles, System Integration, and Robotic Applications](https://arxiv.org/abs/2611.20770v1)
+
+**arXiv — Robotics** · 16 Nov · relevance 13.6
+
+Non-imaging optical tactile sensors encode contact through changes in optical intensity, wavelength, spectra, or photon counts, offering diverse architectures for robotic touch. Their usefulness depends on whether contact variables can be reliably distinguished from coupled mechanical and environmental effects, and whether the resulting information can be…
+
+### [Selective Sensor Acquisition for Multimodal Place Recognition](https://arxiv.org/abs/2611.20730v1)
+
+**arXiv — Robotics** · 16 Nov · relevance 12.4
+
+Multimodal Place Recognition (PR) can improve robustness, but most systems rigidly read and process every sensor for every query, even when the primary sensor is sufficient, with implications for energy consumption, second sensor update rate, and domain-specific considerations such as passive stealth. We introduce selective, controllable sensor…
+
+### [STA: A Split Temporal Adversary Method for Evaluating Robustness of Multimodal RL-based Driving Policies](https://arxiv.org/abs/2611.20765v1)
+
+**arXiv — Robotics** · 16 Nov · relevance 11.1
+
+Multimodal reinforcement learning (MRL) offers a promising paradigm for autonomous driving by jointly leveraging complementary sensor observations to learn effective decision-making policies. However, its effectiveness critically depends on temporal alignment across modalities, making temporal inconsistency a fundamental vulnerability. Even subtle…
+
+### [FlowRow: Learning Navigation Behaviors in Agricultural Environments with Long-Horizon Goal-Conditioned Flow Matching Policies](https://arxiv.org/abs/2611.21035v1)
+
+**arXiv — Robotics** · 16 Nov · relevance 11.1
+
+Autonomous monitoring and intervention in semi-structured agricultural environments, such as orchards and vineyards, require mobile robots to navigate to locations across diverse field configurations. This entails performing navigation behaviors including in-row driving, row turning and skipping, and inter-row traversal. Recent learning-based approaches…
 
 ## Robotics
 
@@ -14,39 +64,15 @@ Agility Robotics , the company I cofounded out of my robotics lab at Oregon Stat
 
 ### [BAIR at CoRL 2026](http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026)
 
-**Berkeley AI Research** · 09 Nov · relevance 17.8
+**Berkeley AI Research** · 09 Nov · relevance 17.6
 
 The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. BAIR faculty, postdocs and students will be presenting research at various sessions, including an Early Career Keynote from Professor Negar Mehr. See below for the full schedule of sessions with BAIR members, including papers co-authored with collaborators at other…
 
 ### [Can Agentic Robotics Solve Robotics’ Data-Scaling Problem?](https://spectrum.ieee.org/agentic-robotics)
 
-**IEEE Spectrum Robotics** · 09 Nov · relevance 14.4
+**IEEE Spectrum Robotics** · 09 Nov · relevance 14.1
 
 Robotics companies are investing heavily in the belief that data will solve the most difficult problems in robotics. Once AI systems have ingested enough data from human demonstrations, the thinking goes, robots will be able to perform the vast majority of the manual tasks that humans now do. There are even robotics companies that exist solely to collect…
-
-### [HEIR: Harness Egocentric Intent for Human-Robot Interactions](https://arxiv.org/abs/2611.17238v2)
-
-**arXiv — Robotics** · 13 Nov · relevance 13.3
-
-For robots to assist, serve, and collaborate with humans, they must not only interpret human requests conveyed through language and multimodal intentional cues, but also execute long-horizon tasks that interleave navigation and manipulation. In this paper, we introduce HEIR, a resource for studying how to Harness Egocentric Intent for Human-Robot…
-
-### [From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration](https://arxiv.org/abs/2611.18484v1)
-
-**arXiv — Robotics** · 13 Nov · relevance 13.0
-
-AI-enabled remote patient monitoring is evolving beyond passive data collection toward agentic AI systems that interpret patient states, coordinate care, and initiate action across domestic and clinical settings. This structured scoping review finds that mature agentic care has not yet emerged: Most systems remain human led, while stronger decision-action…
-
-### [FORGE: Force-Aware Multi-Granularity Control for Efficient Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.17142v1)
-
-**arXiv — Robotics** · 12 Nov · relevance 12.3
-
-Humanoid loco-manipulation requires coordinated locomotion, balance regulation, and manipulation under frequent contacts, making teleoperated demonstration collection difficult: a practical controller must simultaneously provide precision, stability, and contact awareness. We propose FORGE, a force-aware multi-granularity control system with a…
-
-### [Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment](https://arxiv.org/abs/2611.18372v1)
-
-**arXiv — Robotics** · 13 Nov · relevance 12.3
-
-Vision-language-action (VLA) models adapt web-pretrained vision-language models to output robot actions, so that web knowledge carries over to physical control. In under 4 years the field has moved from RT-2, the first VLA, to open models that fine-tune on a single consumer GPU and to proprietary generalists that clean unseen homes. This survey reviews 88…
 
 ### [Video Friday: Spot Plays to Show Its Whole-Body Manipulation](https://spectrum.ieee.org/video-friday-whole-body-manipulation)
 
@@ -62,103 +88,79 @@ This article is brought to you by VicOne . A mobile robot slows for someone in a
 
 ### [Video Friday: NASA PROMISEs a New Moon Rover](https://spectrum.ieee.org/video-friday-moon-rover-promise)
 
-**IEEE Spectrum Robotics** · 13 Nov · relevance 11.3
+**IEEE Spectrum Robotics** · 13 Nov · relevance 11.0
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos! NASA will send a nuclear-powered rover…
-
-### [Video Friday: Quadruped Robot Solves Giant Rubik’s Cube by Itself](https://spectrum.ieee.org/video-friday-rubiks-cube-robot)
-
-**IEEE Spectrum Robotics** · 23 Oct · relevance 10.9
-
-Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
-
-## Evaluation
-
-### [Things I Learned - 08 Nov 2026](https://www.s-anand.net/blog/things-i-learned-08-nov-2026)
-
-**S Anand** · 08 Nov · relevance 17.9
-
-This week, I learned: Facemorph.me implements face morphing via StyleGAN2 (among the best face morphing implementations I’ve seen) and exposes it via a free public site #ForNow. My reading from The Sequoia of Tomorrow : Money’s in the Bay Area . People, move there. Money’s in a few big winners . Maybe they can find them easy and don’t need to scout?…
-
-### [PUMA-Former: Uncertainty-Aware Agentic Computation Offloading in MEO-LEO Satellite Networks With Incomplete Information](https://arxiv.org/abs/2611.18139v1)
-
-**arXiv — AI, language and HCI** · 13 Nov · relevance 14.5
-
-Satellite edge computing distributes mobile workloads across moving processors whose service capacity must be coordinated over time. In medium Earth orbit (MEO)--low Earth orbit (LEO) networks, periodic reports leave CPU states stale or missing, making offloading sensitive to uncertain capacity and shared-destination congestion. We propose PUMA-Former, an…
-
-### [Do Verifier Judgments Survive Abstraction? Measuring Verification Transport for LLM Agent Evaluation](https://arxiv.org/abs/2611.18471v1)
-
-**arXiv — AI, language and HCI** · 13 Nov · relevance 14.4
-
-LLM-based verifiers are increasingly used to evaluate agent executions, but their reliability is typically measured under a single representation of the trajectory. In deployed agent systems, the same execution may be exposed through composed tools, delegation boundaries, or compacted histories, changing what execution evidence is directly observable to…
-
-### [Things I Learned - 01 Nov 2026](https://www.s-anand.net/blog/things-i-learned-01-nov-2026)
-
-**S Anand** · 01 Nov · relevance 13.9
-
-This week, I learned: Enterprise software migration seems a massive medium term opportunity - Ethan Mollick . On the other hand, liquid software where anyone can tweak their own softare is emerging. “But I’m not working for my agent, it works for me. It’s a computer. It’s not a person I have to keep busy and keep managing (and checking it’s managing it’s…
-
-### [LitArc-Bench: Disentangling Text-Specific Reader-Response Dynamics from Position and Lexical Affect](https://arxiv.org/abs/2611.18412v1)
-
-**arXiv — AI, language and HCI** · 13 Nov · relevance 12.9
-
-When model predictions track an unfolding human affect trajectory, alignment may reflect narrative position, affective words, or text-specific reader-response dynamics. We introduce LitArc-Bench to separate these explanations: 39 Chinese-language literary excerpts segmented into seven checkpoints, with 430 questionnaires from 81 adults in two classroom…
-
-## Systems
-
-### [SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models](https://arxiv.org/abs/2611.17110v1)
-
-**arXiv — Robotics** · 12 Nov · relevance 13.3
-
-Embodied foundation models hinge on diverse robot interaction data, which are costly to collect. Egocentric human videos offer a complementary source of experience, and latent action models (LAMs) provide a popular means of leveraging these videos for policy supervision. Compared with world-action models (WAMs), LAMs can offer greater training efficiency…
-
-### [Talk to Act: A Synthetic Multi-Turn Dialogue Benchmark for Human Intent Extraction and Action Planning in Robotics](https://arxiv.org/abs/2611.17549v1)
-
-**arXiv — Robotics** · 12 Nov · relevance 13.1
-
-Multi-turn conversational human-robot interaction (HRI) continues to be a challenging problem in robotics, as many existing systems rely on rigid, command-driven interfaces that can be unintuitive for users. Recent advances in Large Language Models (LLMs) provide a promising direction, given their ability to process natural language, generate structured…
-
-### [Dancing Tokens on the Vocabulary Network from LLM Generation](https://arxiv.org/abs/2611.18248v1)
-
-**arXiv — AI, language and HCI** · 13 Nov · relevance 11.8
-
-Large language models (LLMs) generate text one token at a time, yet how a particular generation relates to the geometry learned in pre-training remains unclear. The fundamental explainability of LLMs is elusive. Here, we build a similarity network from the input embeddings of six open LLMs and map generation onto it. The token-embedding network is…
-
-### [Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent](https://arxiv.org/abs/2611.18397v1)
-
-**arXiv — AI, language and HCI** · 13 Nov · relevance 11.7
-
-We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We…
 
 ## Machine Behaviour
 
 ### [Things I Learned - 15 Nov 2026](https://www.s-anand.net/blog/things-i-learned-15-nov-2026)
 
-**S Anand** · 15 Nov · relevance 15.8
+**S Anand** · 15 Nov · relevance 15.5
 
 This week, I learned: I think Indigo serves Girnar Masala Chai, which I quite liked! ChatGPT LLMs found an archeological site ! Unfortunately, it had already been discovered in 2025, so it wasn’t a totally new one, but close. Link lets agents control your wallet . npx @stripe/link-cli@latest . Not available in Singapore yet #ForNow. I expect banks,…
 
-### [When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support](https://arxiv.org/abs/2611.18458v1)
+### [What's the Difference? Voice Design and Confirmation Bias in AI-Assisted Self-Diagnosis: Anthropomorphic vs. Machine-Like Voice Output](https://arxiv.org/abs/2611.21379v1)
 
-**arXiv — AI, language and HCI** · 13 Nov · relevance 13.9
+**arXiv — AI, language and HCI** · 16 Nov · relevance 14.5
 
-Clinical world models expose language-model agents to predicted patient responses, but simulations can be unreliable for poorly supported treatments or unfamiliar hospitals. We introduce Support-Gated World-Model decision support, a lightweight extension of a propose--simulate--refine agent. A recurrent dynamics ensemble predicts short-horizon…
+As symptom checkers based on artificial intelligence (AI) are becoming common entry points for health information, their influence on lay users' diagnostic decisions raises questions about trust and bias. Of particular concern is confirmation bias, the tendency to favour information that supports one's existing belief while discounting information that…
+
+### [Strengthening NATO and allied cyber defenses with AI](https://openai.com/index/strengthening-nato-allied-cyber-defences-ai)
+
+**OpenAI** · 17 Nov · relevance 9.8
+
+How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.
 
 ## Agents
 
-### [CodeRabbit scales agentic software development and ships 20x more](https://openai.com/index/coderabbit-codex-daybreak)
+### [WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection](https://arxiv.org/abs/2611.21373v1)
 
-**OpenAI** · 09 Nov · relevance 9.5
+**arXiv — AI, language and HCI** · 16 Nov · relevance 12.2
 
-CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.
+Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive…
+
+### [CoopDistill: Equilibrium-Guided Multi-Agent Policy Distillation for Cooperative Driving](https://arxiv.org/abs/2611.21069v1)
+
+**arXiv — Robotics** · 16 Nov · relevance 11.1
+
+Cooperative driving extends autonomous driving from individual vehicle decisions to joint maneuvers that improve traffic safety and efficiency. Optimization-based methods impose safety constraints but often fix paths to simplify multi-vehicle planning, limiting spatial flexibility. Multi-agent reinforcement learning (MARL) explores alternatives through…
 
 ## Safety
 
 ### [Guardian Agents](https://www.s-anand.net/blog/guardian-agents)
 
-**S Anand** · 14 Nov · relevance 18.7
+**S Anand** · 14 Nov · relevance 18.5
 
 A journalist at Analytics India Magazine (AIM) asked questions about Guardian Agents. I heard of these for the first time, so I did some research with Claude and ChatGPT, but finally put in what I believe are my current points of view. Q1. What will Guardians become? How do you see Guardian Agents evolving as a security and monitoring layer for enterprise…
+
+### [28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?](https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security)
+
+**IEEE Spectrum Robotics** · 16 Nov · relevance 14.5
+
+This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and Meta, among others. Based on initial validation, all 28 findings are…
+
+## Systems
+
+### [LynnReal-Hand: Unlocking World Interaction with Hand Control](https://arxiv.org/abs/2611.21479v1)
+
+**arXiv — AI, language and HCI** · 16 Nov · relevance 12.5
+
+Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into coherent visual responses remains challenging because of complex hand-object dynamics and demanding real-time computation. To address…
+
+### [WinDEX: Metric 3D Hand Motion Reconstruction in the Wild for Dexterous Teleoperation and Policy Learning](https://arxiv.org/abs/2611.21143v1)
+
+**arXiv — Robotics** · 16 Nov · relevance 11.1
+
+Human manipulation data are widely used to train robots for human-like dexterity. However, low-cost, large-scale collection in the wild remains challenging. Existing methods remain limited in geometrically grounded metric-scale reconstruction, real-world generalization and inference speed. We present WinDEX, integrating (1) geometric-temporal optimization…
+
+## Multilingual
+
+### [Beyond Bilingual: Studying Quadrilingual Code-Switching with Conversational AI](https://arxiv.org/abs/2611.21394v1)
+
+**arXiv — AI, language and HCI** · 16 Nov · relevance 13.6
+
+Multilingual speakers choose languages by topic and conversation partner. Large language models (LLMs) support these languages unequally. Research on code-switching with conversational AI has mostly examined bilingual pairs of well-resourced languages. In Curaçao and Aruba, many people use Dutch, English, Spanish, and the low-resource Creole Papiamentu/o.…
 
 <details>
 <summary>Sources unavailable during this run</summary>
