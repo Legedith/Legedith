@@ -1,26 +1,20 @@
 # Robot Psychology Radar
 
-Updated 18 November 2026, 10:45 UTC from 15 working sources.
+Updated 19 November 2026, 10:46 UTC from 17 working sources.
 
-24 high-relevance items across 7 sources. Auto-collected metadata; inclusion is not endorsement.
+24 high-relevance items across 6 sources. Auto-collected metadata; inclusion is not endorsement.
 
 ## Robotics
 
-### [The Robot I Didn’t Expect to Build](https://spectrum.ieee.org/agility-robotics-digit-5-redesign)
-
-**IEEE Spectrum Robotics** · 19 Oct · relevance 18.2
-
-Agility Robotics , the company I cofounded out of my robotics lab at Oregon State University in 2015, has just launched Digit 5 . It’s designed to be the first humanoid robot that can safely and economically do useful work at scale, allowing us to bring tens of thousands of humanoid workers into the real world. Engineered to lift 23-kilogram bins onto high…
-
 ### [BAIR at CoRL 2026](http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026)
 
-**Berkeley AI Research** · 09 Nov · relevance 17.3
+**Berkeley AI Research** · 09 Nov · relevance 17.1
 
 The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. BAIR faculty, postdocs and students will be presenting research at various sessions, including an Early Career Keynote from Professor Negar Mehr. See below for the full schedule of sessions with BAIR members, including papers co-authored with collaborators at other…
 
 ### [Can Agentic Robotics Solve Robotics’ Data-Scaling Problem?](https://spectrum.ieee.org/agentic-robotics)
 
-**IEEE Spectrum Robotics** · 09 Nov · relevance 13.9
+**IEEE Spectrum Robotics** · 09 Nov · relevance 13.6
 
 Robotics companies are investing heavily in the belief that data will solve the most difficult problems in robotics. Once AI systems have ingested enough data from human demonstrations, the thinking goes, robots will be able to perform the vast majority of the manual tasks that humans now do. There are even robotics companies that exist solely to collect…
 
@@ -42,101 +36,55 @@ This article is brought to you by VicOne . A mobile robot slows for someone in a
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos!…
 
-### [Gemini Robotics 2.5 accelerates real-world general dexterity](https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence)
+### [Video Friday: NASA PROMISEs a New Moon Rover](https://spectrum.ieee.org/video-friday-moon-rover-promise)
 
-**Google DeepMind** · 09 Nov · relevance 8.3
+**IEEE Spectrum Robotics** · 13 Nov · relevance 10.5
 
-Our most capable vision-language-action model enhances robot dexterity, reliability, and safety
+Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos! NASA will send a nuclear-powered rover…
 
-## Machine Behaviour
+## Systems
 
-### [Things I Learned - 15 Nov 2026](https://www.s-anand.net/blog/things-i-learned-15-nov-2026)
+### [Jailbreak Detection on Large Language Models via Contrastive Prototype Structures](https://arxiv.org/abs/2611.24936v1)
 
-**S Anand** · 15 Nov · relevance 15.2
+**arXiv — AI, language and HCI** · 18 Nov · relevance 13.7
 
-This week, I learned: I think Indigo serves Girnar Masala Chai, which I quite liked! ChatGPT LLMs found an archeological site ! Unfortunately, it had already been discovered in 2025, so it wasn’t a totally new one, but close. Link lets agents control your wallet . npx @stripe/link-cli@latest . Not available in Singapore yet #ForNow. I expect banks,…
+Jailbreak attempts and harmful prompts remain a challenge for the safe deployment of large language models. We study whether contrastively learned representations can support safety detection without training an additional downstream classifier. We propose Jailbreak Detection with Prototype Inference (JDPI), which uses binary safety labels to construct…
 
-### [Strengthening NATO and allied cyber defenses with AI](https://openai.com/index/strengthening-nato-allied-cyber-defences-ai)
+### [HINT-WAM: Hindsight-Informed Training for World Action Models](https://arxiv.org/abs/2611.24789v1)
 
-**OpenAI** · 17 Nov · relevance 9.5
+**arXiv — Robotics** · 18 Nov · relevance 13.3
 
-How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.
+World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods. Offline supervised fine-tuning provides dense…
 
-### [The King’s Trust and OpenAI launch £1m partnership](https://openai.com/index/the-kings-trust-and-openai)
+### [Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models](https://arxiv.org/abs/2611.24938v1)
 
-**OpenAI** · 16 Nov · relevance 9.3
+**arXiv — Robotics** · 18 Nov · relevance 13.1
 
-The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.
+World-action models jointly predict future observations and actions, yet reconstruction-oriented visual representations do not explicitly emphasize the spatial relationships and object-state changes needed for manipulation. We introduce Phoenix, which learns representations of scene structure for world-action modeling. Specifically, Phoenix Encoder…
 
-### [llm 0.37.3](https://simonwillison.net/2026/Nov/16/llm)
+### [DiWALI: Diffusion Policy Learning in World Models via Latent Action Inference from Human and Robot Play](https://arxiv.org/abs/2611.24836v1)
 
-**Simon Willison — LLMs** · 16 Nov · relevance 7.9
+**arXiv — Robotics** · 18 Nov · relevance 12.8
 
-Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: select json_object('a', (select json_array(1))) Returns this: {"a":[1]} But in…
+Learning robot manipulation is constrained by the availability of action-labeled robot data, for both imitation and world models. Humans can demonstrate skills in seconds, but their demonstrations lack the required robot actions. We introduce DiWALI, a framework that learns and improves diffusion policies within a world model trained on human and robot…
 
-### [Learn the rules: The hacker mindset](https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset)
+### [NaviGATE: Noise-Aware Dual-View Generation for Multimodal Knowledge Graph Reasoning](https://arxiv.org/abs/2611.24552v1)
 
-**Microsoft Research** · 03 Nov · relevance 7.7
+**arXiv — AI, language and HCI** · 18 Nov · relevance 12.8
 
-Research Manager Mike Walker reflects on a career spanning hacker culture, cybersecurity, and AI, sharing lessons about trust, teamwork, leadership, and why solving difficult problems requires curiosity, judgment, agility—and an understanding of the rules. The post Learn the rules: The hacker mindset appeared first on Microsoft Research .
+Multimodal knowledge graph reasoning (MKGR) aims to infer missing facts by jointly exploiting relational structures, textual descriptions, and visual evidence. Existing embedding-based methods effectively capture graph topology, but their fixed multimodal representations are less effective for query-specific fine-grained semantic reasoning, while…
 
-## Safety
+### [Homeward: No Place Like the Training View](https://arxiv.org/abs/2611.24455v1)
 
-### [Guardian Agents](https://www.s-anand.net/blog/guardian-agents)
+**arXiv — Robotics** · 18 Nov · relevance 12.3
 
-**S Anand** · 14 Nov · relevance 18.2
-
-A journalist at Analytics India Magazine (AIM) asked questions about Guardian Agents. I heard of these for the first time, so I did some research with Claude and ChatGPT, but finally put in what I believe are my current points of view. Q1. What will Guardians become? How do you see Guardian Agents evolving as a security and monitoring layer for enterprise…
-
-### [External sandboxes for coding agents](https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents)
-
-**Simon Willison — LLMs** · 17 Nov · relevance 16.4
-
-External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this project with Prime Radiant , the AI research lab behind…
-
-### [28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?](https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security)
-
-**IEEE Spectrum Robotics** · 16 Nov · relevance 14.2
-
-This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and Meta, among others. Based on initial validation, all 28 findings are…
-
-### [Our first phase of embedded assessments](https://openai.com/index/our-first-phase-of-embedded-assessments)
-
-**OpenAI** · 16 Nov · relevance 8.6
-
-OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.
-
-### [Control Room: A central system to track and stop model workloads across our research infrastructure](https://openai.com/index/control-room)
-
-**OpenAI** · 09 Nov · relevance 8.0
-
-Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.
-
-## Agents
-
-### [GPT‑6.2 Astra and GPT‑6.2 Sol](https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol)
-
-**Simon Willison — LLMs** · 17 Nov · relevance 9.3
-
-GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with support for the new models. 6.2 Astra is 80% of the price of 6 Astra - $8/MTok…
-
-### [CodeRabbit scales agentic software development and ships 20x more](https://openai.com/index/coderabbit-codex-daybreak)
-
-**OpenAI** · 09 Nov · relevance 9.0
-
-CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.
-
-### [aws-emulator](https://simonwillison.net/2026/Nov/11/aws-emulator)
-
-**Simon Willison — LLMs** · 11 Nov · relevance 7.8
-
-aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest…
+Vision-language-action (VLA) policies implicitly assume that third-person cameras remain fixed at their data-collection poses; once a camera is bumped, remounted, or swapped at deployment, task success degrades precipitously even though the underlying task and robot remain unchanged. We present Homeward, a training-free, plug-and-play observation adapter…
 
 ## Evaluation
 
 ### [Things I Learned - 08 Nov 2026](https://www.s-anand.net/blog/things-i-learned-08-nov-2026)
 
-**S Anand** · 08 Nov · relevance 17.4
+**S Anand** · 08 Nov · relevance 17.1
 
 This week, I learned: Facemorph.me implements face morphing via StyleGAN2 (among the best face morphing implementations I’ve seen) and exposes it via a free public site #ForNow. My reading from The Sequoia of Tomorrow : Money’s in the Bay Area . People, move there. Money’s in a few big winners . Maybe they can find them easy and don’t need to scout?…
 
@@ -146,27 +94,73 @@ This week, I learned: Facemorph.me implements face morphing via StyleGAN2 (among
 
 This week, I learned: Enterprise software migration seems a massive medium term opportunity - Ethan Mollick . On the other hand, liquid software where anyone can tweak their own softare is emerging. “But I’m not working for my agent, it works for me. It’s a computer. It’s not a person I have to keep busy and keep managing (and checking it’s managing it’s…
 
-### [Astra for Law leads in legal intelligence](https://openai.com/index/astra-law-6-2)
+### [Clover-35B-A3B-Preview Technical Report](https://arxiv.org/abs/2611.24636v1)
 
-**OpenAI** · 17 Nov · relevance 8.5
+**arXiv — AI, language and HCI** · 18 Nov · relevance 13.4
 
-Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.
+We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation. Clover adapts Gated Delta Networks to block diffusion by combining recurrent memory of previously generated context with bidirectional softmax attention inside…
 
-## Systems
+### [Conceptual full-vehicle modeling of a modular all-wheel-drive robotic ADS test platform as a foundation for a digital twin architecture](https://arxiv.org/abs/2611.24646v1)
 
-### [datasette-maplibre 0.1a0](https://simonwillison.net/2026/Nov/15/datasette-maplibre)
+**arXiv — Robotics** · 18 Nov · relevance 12.5
 
-**Simon Willison — LLMs** · 15 Nov · relevance 7.6
+This paper presents the development of an initial full-vehicle simulation model of the PixKit modular electric test platform in IPG CarMaker. The objective is to create a physics-based and extendable model structure that can serve as a low-level foundation for future digital twin applications. The reference vehicle is a skateboard chassis combining…
 
-Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and…
+### [Towards Pose-Robust Few-Shot Vision-Language-Action Models](https://arxiv.org/abs/2611.24360v1)
 
-<details>
-<summary>Sources unavailable during this run</summary>
+**arXiv — Robotics** · 18 Nov · relevance 12.4
 
-- **arXiv — AI, language and HCI:** `HTTP Error 406: Not Acceptable`
-- **arXiv — Robotics:** `HTTP Error 406: Not Acceptable`
+Fine-tuning a vision-language-action (VLA) model on a few dozen demonstrations is the standard way to put a manipulation policy on a robot, yet the resulting policy silently assumes that the camera and the robot base stay exactly where they were during data collection: a bumped tripod or a base re-docked a few centimetres away makes it reach for the wrong…
 
-</details>
+## Safety
+
+### [Guardian Agents](https://www.s-anand.net/blog/guardian-agents)
+
+**S Anand** · 14 Nov · relevance 18.0
+
+A journalist at Analytics India Magazine (AIM) asked questions about Guardian Agents. I heard of these for the first time, so I did some research with Claude and ChatGPT, but finally put in what I believe are my current points of view. Q1. What will Guardians become? How do you see Guardian Agents evolving as a security and monitoring layer for enterprise…
+
+### [External sandboxes for coding agents](https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents)
+
+**Simon Willison — LLMs** · 17 Nov · relevance 16.1
+
+External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this project with Prime Radiant , the AI research lab behind…
+
+### [28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?](https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security)
+
+**IEEE Spectrum Robotics** · 16 Nov · relevance 14.0
+
+This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and Meta, among others. Based on initial validation, all 28 findings are…
+
+### [Towards Transparent Computational Agents for Air Traffic Control: Explainability, Interpretability and Trust](https://arxiv.org/abs/2611.24791v1)
+
+**arXiv — AI, language and HCI** · 18 Nov · relevance 12.3
+
+We report preliminary findings from an ongoing investigation into transparency techniques for computational Air Traffic Control agents. Air Traffic Controller Officers (ATCOs) observed two types of agent in simulated air traffic controlling exercises. ATCOs found the chosen transparency techniques helpful to some extent: revealing how agents were making…
+
+## Agents
+
+### [Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement](https://arxiv.org/abs/2611.24651v1)
+
+**arXiv — AI, language and HCI** · 18 Nov · relevance 11.9
+
+We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improvement (RSI). The models predict probabilities over candidate answers for general-purpose text and visual judgments, agent harnesses, data workflows, and interactive games.…
+
+## Machine Behaviour
+
+### [Things I Learned - 15 Nov 2026](https://www.s-anand.net/blog/things-i-learned-15-nov-2026)
+
+**S Anand** · 15 Nov · relevance 15.0
+
+This week, I learned: I think Indigo serves Girnar Masala Chai, which I quite liked! ChatGPT LLMs found an archeological site ! Unfortunately, it had already been discovered in 2025, so it wasn’t a totally new one, but close. Link lets agents control your wallet . npx @stripe/link-cli@latest . Not available in Singapore yet #ForNow. I expect banks,…
+
+## Multilingual
+
+### [Large Language Models or AI Agents for English to Arabic Translation? An assessment on WikiEn-Ar190](https://arxiv.org/abs/2611.24588v1)
+
+**arXiv — AI, language and HCI** · 18 Nov · relevance 12.1
+
+This research investigates whether a large language model or an autonomous AI Agent performs better at translating from English to Arabic, which is considered a low-resource language. The authors introduce WikiEn-Ar190, a new dataset of 190 carefully selected Wikipedia articles from 18 different areas, which were created and verified by two native Arabic…
 
 ---
 
