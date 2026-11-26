@@ -1,14 +1,14 @@
 # Robot Psychology Radar
 
-Updated 25 November 2026, 11:46 UTC from 17 working sources.
+Updated 26 November 2026, 11:30 UTC from 17 working sources.
 
-24 high-relevance items across 7 sources. Auto-collected metadata; inclusion is not endorsement.
+24 high-relevance items across 6 sources. Auto-collected metadata; inclusion is not endorsement.
 
 ## Robotics
 
 ### [Video Friday: Drone Squeezes Itself to Fit Through Tight Spaces](https://spectrum.ieee.org/video-friday-morphing-robots-quadrotor)
 
-**IEEE Spectrum Robotics** · 20 Nov · relevance 18.9
+**IEEE Spectrum Robotics** · 20 Nov · relevance 18.6
 
 Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos! Drones navigating cluttered spaces…
 
@@ -18,23 +18,23 @@ Video Friday is your weekly selection of awesome robotics videos, collected by y
 
 The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. BAIR faculty, postdocs and students will be presenting research at various sessions, including an Early Career Keynote from Professor Negar Mehr. See below for the full schedule of sessions with BAIR members, including papers co-authored with collaborators at other…
 
-### [Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies](https://arxiv.org/abs/2611.33010v1)
+### [How DARPA Challenged Teams to Bring Robots Into Disaster Triage](https://spectrum.ieee.org/darpa-triage-challenge-final-robots)
 
-**arXiv — Robotics** · 24 Nov · relevance 15.0
+**IEEE Spectrum Robotics** · 25 Nov · relevance 13.3
 
-Can a simple mirror expose the limitations of today's robotic manipulation policies? Inspired by the mirror self-recognition test in animal cognition, we investigate whether robot policies can reliably manipulate physical objects in scenes containing their reflections. We introduce RoboDojo-Mirror, a benchmark built on RoboDojo that preserves task…
+On 5 November, 10 teams descended upon a 52-acre mock town in College Station, Texas called Disaster City . They were there for a nine-day competition to see how well teams of robots and humans could navigate simulated catastrophes, like a market ravaged by a tornado and a nighttime strike on a military base. At stake? US $2.5 million in prize money. The…
 
-### [Self-Sensing Compliant Anthropomorphic Hand for Speed-Dictated Shared Force Control in Teleoperation](https://arxiv.org/abs/2611.32937v1)
+### [Nav4Manip: From Navigation to Dexterous Mobile Manipulation through Co-Evolution](https://arxiv.org/abs/2611.34655v1)
 
-**arXiv — Robotics** · 24 Nov · relevance 13.5
+**arXiv — Robotics** · 25 Nov · relevance 12.6
 
-In vision-based teleoperation of robotic hands, the operator receives no haptic feedback and therefore struggles to regulate the grasp force, while adding tactile sensors to the fingers increases wiring, cost and integration complexity. Compliant hands offer an alternative, as their mechanical compliance, usually treated only as a passive property for safe…
+Dexterous mobile manipulation is essential for robots to perform useful tasks in complex, unstructured environments. However, existing systems face two challenges. First, navigation remains too coarse for downstream manipulation, which often requires a precise base position and approach orientation rather than merely reaching a meter-scale goal region.…
 
-### [Design, Control, and Teleoperation of a Dexterous Robotic Hand with Soft-Rigid Hybrid Fingers](https://arxiv.org/abs/2611.32582v1)
+### [FineDex: Bridging Fine-Grained Human-Object Interaction Generation to Dexterous Humanoid Manipulation](https://arxiv.org/abs/2611.34884v1)
 
-**arXiv — Robotics** · 24 Nov · relevance 12.3
+**arXiv — Robotics** · 25 Nov · relevance 12.6
 
-Adding compliance to robot hands results in higher grasp quality and robust contact with the environment. Soft hands are inherently compliant, but are typically more complex to control and model than rigid equivalents. We extend prior work on soft-rigid hybrid robot fingers into a five-fingered dexterous gripper --- an integrated tendon-driven hand that is…
+Dexterity is, at its core, finger-level control, yet existing dexterous manipulation and human-object interaction (HOI) generation methods rarely let one specify how an interaction is performed: five-fingered hands are often reduced to grippers, or finger usage is copied from individual human demonstrations. We present FineDex, a framework that makes…
 
 ### [Can Agentic Robotics Solve Robotics’ Data-Scaling Problem?](https://spectrum.ieee.org/agentic-robotics)
 
@@ -54,51 +54,13 @@ Video Friday is your weekly selection of awesome robotics videos, collected by y
 
 This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance reading, a position estimate, or a stop signal. But what happens when one of…
 
-## Safety
+### [Riding the Wave: Sim-to-Real Humanoid Control on Elastic Terrain](https://arxiv.org/abs/2611.34569v1)
 
-### [Guardian Agents](https://www.s-anand.net/blog/guardian-agents)
+**arXiv — Robotics** · 25 Nov · relevance 12.0
 
-**S Anand** · 14 Nov · relevance 16.5
-
-A journalist at Analytics India Magazine (AIM) asked questions about Guardian Agents. I heard of these for the first time, so I did some research with Claude and ChatGPT, but finally put in what I believe are my current points of view. Q1. What will Guardians become? How do you see Guardian Agents evolving as a security and monitoring layer for enterprise…
-
-### [Attestation is All You Need: Toward a Zero-Trust Architecture for HPC AI Agents](https://arxiv.org/abs/2611.32958v1)
-
-**arXiv — AI, language and HCI** · 24 Nov · relevance 16.2
-
-AI agents are beginning to automate data analysis, orchestration, and simulation steering in HPC environments, but they introduce a security problem that existing cluster defenses do not address: the hijacked authorized agent. An adversary can subvert an agent through prompt injection, poisoned shared data, compromised tools, or multi-agent coordination,…
-
-### [External sandboxes for coding agents](https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents)
-
-**Simon Willison — LLMs** · 17 Nov · relevance 14.6
-
-External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this project with Prime Radiant , the AI research lab behind…
-
-### [Things I Learned - 22 Nov 2026](https://www.s-anand.net/blog/things-i-learned-22-nov-2026)
-
-**S Anand** · 22 Nov · relevance 13.1
-
-This week, I learned: Never conduct a synchronous (face-to-face or video) training if audience attendance is compulsory - e.g. colleges, offices. It’s depressing to watch bored faces. Prefer curriculum design / offline exercises. Conversely, ensure only interested people attend if it’s face-to-face, at least if you’re looking for energy. Agent Client…
-
-### [28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?](https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security)
-
-**IEEE Spectrum Robotics** · 16 Nov · relevance 12.4
-
-This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and Meta, among others. Based on initial validation, all 28 findings are…
-
-### [Deploying Daybreak Red](https://openai.com/business/learn/deploying-daybreak-red)
-
-**OpenAI** · 19 Nov · relevance 10.2
-
-Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.
+Humanoid robots on deformable elastic terrains face a surface whose position and motion are coupled in space and time: deflection and rebound persist between contacts, and load at one foothold alters the support at others, so training must capture how each contact changes the support that follows. We present RIPPLE (Robust Interaction via Proprioceptive…
 
 ## Evaluation
-
-### [Measurement Artifacts in Trustworthiness Evaluations of Quantized Small Language Models](https://arxiv.org/abs/2611.32848v1)
-
-**arXiv — AI, language and HCI** · 24 Nov · relevance 19.0
-
-Evaluations of quantized language models attribute the change in a benchmark score to quantization. We write the measured change as the true change plus a term contributed by the instrument. Instrument error that is the same at every precision can shrink a paired comparison but cannot create or reverse an effect. Error that interacts with quantization can…
 
 ### [Things I Learned - 08 Nov 2026](https://www.s-anand.net/blog/things-i-learned-08-nov-2026)
 
@@ -106,57 +68,97 @@ Evaluations of quantized language models attribute the change in a benchmark sco
 
 This week, I learned: Facemorph.me implements face morphing via StyleGAN2 (among the best face morphing implementations I’ve seen) and exposes it via a free public site #ForNow. My reading from The Sequoia of Tomorrow : Money’s in the Bay Area . People, move there. Money’s in a few big winners . Maybe they can find them easy and don’t need to scout?…
 
-### [EmbodiSafety: Benchmarking Risk Understanding and Response in Embodied AI](https://arxiv.org/abs/2611.33054v1)
+### [The Linguistic Knowledge Benchmark: Do Language Models Know the Foundations of Early-Grade Literacy?](https://arxiv.org/abs/2611.34823v1)
 
-**arXiv — Robotics** · 24 Nov · relevance 13.6
+**arXiv — AI, language and HCI** · 25 Nov · relevance 12.4
 
-Progress in embodied foundation models is largely measured by task success, while the physical safety of their decisions remains underexamined. Safety evaluations centered on rule following and binary judgments do not adequately assess whether embodied models understand environmental hazards and make safe decisions. We introduce EmbodiSafety, comprising…
+Many languages of instruction in low- and middle-income countries (LMICs) are poorly represented in the data used to train language models. Before these models can support early-grade literacy in such languages, we need to know whether they hold the linguistic knowledge of each language that literacy teaching relies on. To test this, we present the…
 
-### [Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?](https://arxiv.org/abs/2611.33031v1)
+### [Calibration of Neuromusculoskeletal Models Using Differentiable Physics: Recommendations for Improving Model Accuracy](https://arxiv.org/abs/2611.34428v1)
 
-**arXiv — AI, language and HCI** · 24 Nov · relevance 13.4
+**arXiv — Robotics** · 25 Nov · relevance 12.1
 
-We give four large language models (LLMs) of the Claude family the complete weights of a 20k-parameter CIFAR-10 CNN as text and ask them to produce a 4-bit network without tools, data or the ability to run inference. Standard round-to-nearest (RTN) quantization to 4 bit lowers the test accuracy from 81.4% to 60.4%. We design four evaluation protocols that…
+Differentiable physics has shown potential to usher in a new paradigm in human neuromusculoskeletal (NMS) model calibration. Early results from pioneering works have demonstrated that auto-differentiable NMS models can greatly reduce NMS model calibration time while achieving comparable accuracy compared to traditional calibration methods. The efficient…
 
-### [ContinualDrive: A Deployment-Anchored, Multi-Axis Benchmark for Continual Updates of Learned Driving Planners](https://arxiv.org/abs/2611.32529v1)
+### [PersonaFactory: Stylistic User Prompt Augmentation with Synthetic Persona Bank](https://arxiv.org/abs/2611.34785v1)
 
-**arXiv — Robotics** · 24 Nov · relevance 12.7
+**arXiv — AI, language and HCI** · 25 Nov · relevance 12.1
 
-Learned driving planners keep being updated after deployment as new logs arrive, yet continual learning evaluations rarely ask whether an update improves on the deployed model, and their verdicts rest on unstated evaluation choices. We present ContinualDrive, a deployment-anchored benchmark for post-deployment continual learning of driving planners. It…
+Large language models increasingly replace real people in the AI development pipeline, as they are used to generate training dialogues at scale and to drive alignment and evaluation. However, out-of-the-box models produce monolingual and stylistically flat texts as synthetic user prompts, failing to replicate the real user-AI communication mechanics. We…
 
-## Systems
+## Safety
 
-### [MXFP4 for LLM Inference: Complementary Post-Training Quantization Techniques and Their Interactions](https://arxiv.org/abs/2611.32873v1)
+### [Guardian Agents](https://www.s-anand.net/blog/guardian-agents)
 
-**arXiv — AI, language and HCI** · 24 Nov · relevance 17.9
+**S Anand** · 14 Nov · relevance 16.2
 
-Recent advances in low-precision representation have introduced several microscaling numerical formats for LLM quantization. By sharing a scale factor across groups of 16 or 32 elements, these formats enable aggressive low-precision quantization with minimal accuracy degradation, particularly when combined with modern PTQ algorithms. Their accuracy depends…
+A journalist at Analytics India Magazine (AIM) asked questions about Guardian Agents. I heard of these for the first time, so I did some research with Claude and ChatGPT, but finally put in what I believe are my current points of view. Q1. What will Guardians become? How do you see Guardian Agents evolving as a security and monitoring layer for enterprise…
 
-### [Exploratory Midtraining for Robot Policies](https://arxiv.org/abs/2611.33130v1)
+### [External sandboxes for coding agents](https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents)
 
-**arXiv — Robotics** · 24 Nov · relevance 13.8
+**Simon Willison — LLMs** · 17 Nov · relevance 14.4
 
-Robot policies predominantly learn from human-collected data emphasizing competent behavior, limiting coverage of the low-level behaviors needed to support autonomous improvement. We study how a form of midtraining can be used to build coverage over diverse low-level behaviors that connect challenging states of the robot and its environment to states from…
+External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this project with Prime Radiant , the AI research lab behind…
 
-### [Joint Detection of Constructive Speech, Hate Speech and Agreement in Online Conversations](https://arxiv.org/abs/2611.32889v1)
+### [Things I Learned - 22 Nov 2026](https://www.s-anand.net/blog/things-i-learned-22-nov-2026)
 
-**arXiv — AI, language and HCI** · 24 Nov · relevance 13.6
+**S Anand** · 22 Nov · relevance 12.9
 
-Online hate speech is an ever-growing issue with negative impacts on both groups and individuals, potentially causing users to withdraw from online conversations and debate. With some prominent social media platforms reducing their moderation efforts, constructive speech has emerged as an alternative strategy for countering hate. Automated detection of…
+This week, I learned: Never conduct a synchronous (face-to-face or video) training if audience attendance is compulsory - e.g. colleges, offices. It’s depressing to watch bored faces. Prefer curriculum design / offline exercises. Conversely, ensure only interested people attend if it’s face-to-face, at least if you’re looking for energy. Agent Client…
+
+### [28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?](https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security)
+
+**IEEE Spectrum Robotics** · 16 Nov · relevance 12.2
+
+This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and Meta, among others. Based on initial validation, all 28 findings are…
 
 ## Machine Behaviour
 
+### [Proverbs As A Window On Collective Prescriptions](https://arxiv.org/abs/2611.34832v1)
+
+**arXiv — AI, language and HCI** · 25 Nov · relevance 16.1
+
+Proverbs, as repositories of traditional wisdom, have informed human reasoning for millennia. Yet the collective prescriptions they encode have remained largely unquantified. We introduce a computational framework to analyze nearly 50,000 English-language proverbs. Using large language models, validated against human judgments, we map the topical landscape…
+
+### [LUDIUS: A Benchmark for Embodied Social Intelligence in Everyday Human-Robot Interactions](https://arxiv.org/abs/2611.34328v1)
+
+**arXiv — Robotics** · 25 Nov · relevance 15.8
+
+Social intelligence in a robot requires interpreting a situation from the perspectives of the people involved and using that understanding to decide when and how to act. We introduce LUDIUS, a benchmark for evaluating how vision-language models exercise this judgment through a robot's verbal responses and actions, organized around 15 social intelligence…
+
 ### [Things I Learned - 15 Nov 2026](https://www.s-anand.net/blog/things-i-learned-15-nov-2026)
 
-**S Anand** · 15 Nov · relevance 13.5
+**S Anand** · 15 Nov · relevance 13.2
 
 This week, I learned: I think Indigo serves Girnar Masala Chai, which I quite liked! ChatGPT LLMs found an archeological site ! Unfortunately, it had already been discovered in 2025, so it wasn’t a totally new one, but close. Link lets agents control your wallet . npx @stripe/link-cli@latest . Not available in Singapore yet #ForNow. I expect banks,…
 
-### [One Style Fits All? Cultural Values Embedded in Conversational AI via a People-Pleasing Lens](https://arxiv.org/abs/2611.32939v1)
+## Systems
 
-**arXiv — AI, language and HCI** · 24 Nov · relevance 13.0
+### [Repairing the Trustworthiness of Distilled Language Models](https://arxiv.org/abs/2611.34831v1)
 
-Conversational AI systems trained on large-scale web corpora inevitably encode the cultural values and interactional norms embedded in their training data, yet our understanding of how deployed LLMs reflect or reinforce culture-specific social expectations remains limited. This study examined how supportive versus challenging chatbot interaction styles…
+**arXiv — AI, language and HCI** · 25 Nov · relevance 15.2
+
+Knowledge distillation enables the deployment of large language models through smaller student models, but the compression process can introduce regressions in trustworthiness even when downstream performance is preserved. Repairing such failures is challenging because the original distillation corpus is often unavailable, while direct preference…
+
+### [HoloBrain-0.5 Technical Report](https://arxiv.org/abs/2611.34449v1)
+
+**arXiv — Robotics** · 25 Nov · relevance 12.8
+
+We present HoloBrain-0.5, a family of vision-language-action (VLA) models for manipulation across robot embodiments. The policies plan in a shared action space using robot state, kinematic structure, and calibrated camera observations. We standardize joint axes, coordinate frames, and tool-center points in robot descriptions (URDFs) and encode their…
+
+### [Maco-RL: Scaling Agent Capabilities with Mixed-Task Reinforcement Learning](https://arxiv.org/abs/2611.34703v1)
+
+**arXiv — AI, language and HCI** · 25 Nov · relevance 12.7
+
+Mixed-task reinforcement learning (MixRL) directly trains a unified policy across domains to continually expand agent capabilities without training separate specialists or requiring an extra distillation stage. Despite its appeal, scaling MixRL poses significant challenges in achieving stable and efficient mixed-task learning, effectively allocating…
+
+## Multimodal
+
+### [Can image generation help visual reasoning? An empirical study](https://arxiv.org/abs/2611.34935v1)
+
+**arXiv — AI, language and HCI** · 25 Nov · relevance 11.8
+
+Language models think in words; then multimodal models might think in images. We test whether a generated helper improves the answer to a visual question. A model describes the helper it needs and then answers using the original and generated images together. Across 13 vision-language model and generator pairs, generation lowers mean accuracy by 3.7…
 
 ---
 
