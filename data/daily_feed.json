@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T11:30:52.496722Z",
+  "generated_at": "2026-11-27T11:26:25.833979Z",
   "working_sources": [
     "Simon Willison — LLMs",
     "Simon Willison — AI agents",
@@ -20,7 +20,7 @@
     "arXiv — Robotics"
   ],
   "source_errors": {},
-  "item_count": 66,
+  "item_count": 65,
   "items": [
     {
       "id": "59c71dfeced9f249",
@@ -31,29 +31,7 @@
       "published": "2026-11-20T17:30:03Z",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos! Drones navigating cluttered spaces…",
       "category": "robotics",
-      "score": 18.62
-    },
-    {
-      "id": "a96fd48cff19eb26",
-      "title": "Guardian Agents",
-      "url": "https://www.s-anand.net/blog/guardian-agents",
-      "source": "S Anand",
-      "source_group": "independent",
-      "published": "2026-11-14T06:50:04Z",
-      "summary": "A journalist at Analytics India Magazine (AIM) asked questions about Guardian Agents. I heard of these for the first time, so I did some research with Claude and ChatGPT, but finally put in what I believe are my current points of view. Q1. What will Guardians become? How do you see Guardian Agents evolving as a security and monitoring layer for enterprise…",
-      "category": "safety",
-      "score": 16.23
-    },
-    {
-      "id": "9d56915c5ea4c763",
-      "title": "Proverbs As A Window On Collective Prescriptions",
-      "url": "https://arxiv.org/abs/2611.34832v1",
-      "source": "arXiv — AI, language and HCI",
-      "source_group": "preprints",
-      "published": "2026-11-25T18:12:23Z",
-      "summary": "Proverbs, as repositories of traditional wisdom, have informed human reasoning for millennia. Yet the collective prescriptions they encode have remained largely unquantified. We introduce a computational framework to analyze nearly 50,000 English-language proverbs. Using large language models, validated against human judgments, we map the topical landscape…",
-      "category": "machine behaviour",
-      "score": 16.08
+      "score": 18.37
     },
     {
       "id": "e1acc34a78df1030",
@@ -67,15 +45,26 @@
       "score": 16.0
     },
     {
-      "id": "02db1fa24d3711e4",
-      "title": "LUDIUS: A Benchmark for Embodied Social Intelligence in Everyday Human-Robot Interactions",
-      "url": "https://arxiv.org/abs/2611.34328v1",
-      "source": "arXiv — Robotics",
+      "id": "a96fd48cff19eb26",
+      "title": "Guardian Agents",
+      "url": "https://www.s-anand.net/blog/guardian-agents",
+      "source": "S Anand",
+      "source_group": "independent",
+      "published": "2026-11-14T06:50:04Z",
+      "summary": "A journalist at Analytics India Magazine (AIM) asked questions about Guardian Agents. I heard of these for the first time, so I did some research with Claude and ChatGPT, but finally put in what I believe are my current points of view. Q1. What will Guardians become? How do you see Guardian Agents evolving as a security and monitoring layer for enterprise…",
+      "category": "safety",
+      "score": 15.98
+    },
+    {
+      "id": "9d56915c5ea4c763",
+      "title": "Proverbs As A Window On Collective Prescriptions",
+      "url": "https://arxiv.org/abs/2611.34832v1",
+      "source": "arXiv — AI, language and HCI",
       "source_group": "preprints",
-      "published": "2026-11-25T13:09:34Z",
-      "summary": "Social intelligence in a robot requires interpreting a situation from the perspectives of the people involved and using that understanding to decide when and how to act. We introduce LUDIUS, a benchmark for evaluating how vision-language models exercise this judgment through a robot's verbal responses and actions, organized around 15 social intelligence…",
+      "published": "2026-11-25T18:12:23Z",
+      "summary": "Proverbs, as repositories of traditional wisdom, have informed human reasoning for millennia. Yet the collective prescriptions they encode have remained largely unquantified. We introduce a computational framework to analyze nearly 50,000 English-language proverbs. Using large language models, validated against human judgments, we map the topical landscape…",
       "category": "machine behaviour",
-      "score": 15.77
+      "score": 15.83
     },
     {
       "id": "a7a4aac751cafc65",
@@ -89,6 +78,17 @@
       "score": 15.6
     },
     {
+      "id": "02db1fa24d3711e4",
+      "title": "LUDIUS: A Benchmark for Embodied Social Intelligence in Everyday Human-Robot Interactions",
+      "url": "https://arxiv.org/abs/2611.34328v1",
+      "source": "arXiv — Robotics",
+      "source_group": "preprints",
+      "published": "2026-11-25T13:09:34Z",
+      "summary": "Social intelligence in a robot requires interpreting a situation from the perspectives of the people involved and using that understanding to decide when and how to act. We introduce LUDIUS, a benchmark for evaluating how vision-language models exercise this judgment through a robot's verbal responses and actions, organized around 15 social intelligence…",
+      "category": "machine behaviour",
+      "score": 15.52
+    },
+    {
       "id": "530564798a0b40c0",
       "title": "Repairing the Trustworthiness of Distilled Language Models",
       "url": "https://arxiv.org/abs/2611.34831v1",
@@ -97,7 +97,7 @@
       "published": "2026-11-25T18:12:20Z",
       "summary": "Knowledge distillation enables the deployment of large language models through smaller student models, but the compression process can introduce regressions in trustworthiness even when downstream performance is preserved. Repairing such failures is challenging because the original distillation corpus is often unavailable, while direct preference…",
       "category": "systems",
-      "score": 15.24
+      "score": 14.99
     },
     {
       "id": "e45fd791e1fe03c2",
@@ -108,7 +108,7 @@
       "published": "2026-11-17T22:52:29Z",
       "summary": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this project with Prime Radiant , the AI research lab behind…",
       "category": "safety",
-      "score": 14.39
+      "score": 14.14
     },
     {
       "id": "d67bccbea50f4f84",
@@ -119,7 +119,7 @@
       "published": "2026-11-25T15:00:03Z",
       "summary": "On 5 November, 10 teams descended upon a 52-acre mock town in College Station, Texas called Disaster City . They were there for a nine-day competition to see how well teams of robots and humans could navigate simulated catastrophes, like a market ravaged by a tornado and a nighttime strike on a military base. At stake? US $2.5 million in prize money. The…",
       "category": "robotics",
-      "score": 13.29
+      "score": 13.04
     },
     {
       "id": "f446ebd8fca0fcda",
@@ -130,7 +130,7 @@
       "published": "2026-11-15T00:00:00Z",
       "summary": "This week, I learned: I think Indigo serves Girnar Masala Chai, which I quite liked! ChatGPT LLMs found an archeological site ! Unfortunately, it had already been discovered in 2025, so it wasn’t a totally new one, but close. Link lets agents control your wallet . npx @stripe/link-cli@latest . Not available in Singapore yet #ForNow. I expect banks,…",
       "category": "machine behaviour",
-      "score": 13.24
+      "score": 12.99
     },
     {
       "id": "475b51aebba4b9b7",
@@ -141,7 +141,7 @@
       "published": "2026-11-22T00:00:00Z",
       "summary": "This week, I learned: Never conduct a synchronous (face-to-face or video) training if audience attendance is compulsory - e.g. colleges, offices. It’s depressing to watch bored faces. Prefer curriculum design / offline exercises. Conversely, ensure only interested people attend if it’s face-to-face, at least if you’re looking for energy. Agent Client…",
       "category": "safety",
-      "score": 12.88
+      "score": 12.63
     },
     {
       "id": "d6e79eb8df2954ca",
@@ -152,7 +152,7 @@
       "published": "2026-11-25T14:28:05Z",
       "summary": "We present HoloBrain-0.5, a family of vision-language-action (VLA) models for manipulation across robot embodiments. The policies plan in a shared action space using robot state, kinematic structure, and calibrated camera observations. We standardize joint axes, coordinate frames, and tool-center points in robot descriptions (URDFs) and encode their…",
       "category": "systems",
-      "score": 12.78
+      "score": 12.53
     },
     {
       "id": "cf7cecdd7288ba32",
@@ -163,7 +163,7 @@
       "published": "2026-11-25T16:59:27Z",
       "summary": "Mixed-task reinforcement learning (MixRL) directly trains a unified policy across domains to continually expand agent capabilities without training separate specialists or requiring an extra distillation stage. Despite its appeal, scaling MixRL poses significant challenges in achieving stable and efficient mixed-task learning, effectively allocating…",
       "category": "systems",
-      "score": 12.73
+      "score": 12.48
     },
     {
       "id": "9b13b70d8a6778b0",
@@ -174,7 +174,7 @@
       "published": "2026-11-25T16:29:17Z",
       "summary": "Dexterous mobile manipulation is essential for robots to perform useful tasks in complex, unstructured environments. However, existing systems face two challenges. First, navigation remains too coarse for downstream manipulation, which often requires a precise base position and approach orientation rather than merely reaching a meter-scale goal region.…",
       "category": "robotics",
-      "score": 12.64
+      "score": 12.39
     },
     {
       "id": "2e53c29d2eb171d9",
@@ -185,7 +185,7 @@
       "published": "2026-11-25T18:40:47Z",
       "summary": "Dexterity is, at its core, finger-level control, yet existing dexterous manipulation and human-object interaction (HOI) generation methods rarely let one specify how an interaction is performed: five-fingered hands are often reduced to grippers, or finger usage is copied from individual human demonstrations. We present FineDex, a framework that makes…",
       "category": "robotics",
-      "score": 12.55
+      "score": 12.3
     },
     {
       "id": "b9ca4b4aab662f64",
@@ -196,29 +196,7 @@
       "published": "2026-11-25T18:07:44Z",
       "summary": "Many languages of instruction in low- and middle-income countries (LMICs) are poorly represented in the data used to train language models. Before these models can support early-grade literacy in such languages, we need to know whether they hold the linguistic knowledge of each language that literacy teaching relies on. To test this, we present the…",
       "category": "evaluation",
-      "score": 12.41
-    },
-    {
-      "id": "39d06ac9951051ce",
-      "title": "28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?",
-      "url": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
-      "source": "IEEE Spectrum Robotics",
-      "source_group": "robotics journalism",
-      "published": "2026-11-16T10:00:01Z",
-      "summary": "This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and Meta, among others. Based on initial validation, all 28 findings are…",
-      "category": "safety",
-      "score": 12.21
-    },
-    {
-      "id": "2294fd20a676fb8a",
-      "title": "Calibration of Neuromusculoskeletal Models Using Differentiable Physics: Recommendations for Improving Model Accuracy",
-      "url": "https://arxiv.org/abs/2611.34428v1",
-      "source": "arXiv — Robotics",
-      "source_group": "preprints",
-      "published": "2026-11-25T14:15:32Z",
-      "summary": "Differentiable physics has shown potential to usher in a new paradigm in human neuromusculoskeletal (NMS) model calibration. Early results from pioneering works have demonstrated that auto-differentiable NMS models can greatly reduce NMS model calibration time while achieving comparable accuracy compared to traditional calibration methods. The efficient…",
-      "category": "evaluation",
-      "score": 12.11
+      "score": 12.16
     },
     {
       "id": "195379aa7df783ab",
@@ -243,15 +221,26 @@
       "score": 12.11
     },
     {
-      "id": "37742d3845ce7f7b",
-      "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
-      "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+      "id": "39d06ac9951051ce",
+      "title": "28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?",
+      "url": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
       "source": "IEEE Spectrum Robotics",
       "source_group": "robotics journalism",
-      "published": "2026-10-27T16:14:39Z",
-      "summary": "This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance reading, a position estimate, or a stop signal. But what happens when one of…",
-      "category": "robotics",
-      "score": 12.11
+      "published": "2026-11-16T10:00:01Z",
+      "summary": "This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and Meta, among others. Based on initial validation, all 28 findings are…",
+      "category": "safety",
+      "score": 11.96
+    },
+    {
+      "id": "2294fd20a676fb8a",
+      "title": "Calibration of Neuromusculoskeletal Models Using Differentiable Physics: Recommendations for Improving Model Accuracy",
+      "url": "https://arxiv.org/abs/2611.34428v1",
+      "source": "arXiv — Robotics",
+      "source_group": "preprints",
+      "published": "2026-11-25T14:15:32Z",
+      "summary": "Differentiable physics has shown potential to usher in a new paradigm in human neuromusculoskeletal (NMS) model calibration. Early results from pioneering works have demonstrated that auto-differentiable NMS models can greatly reduce NMS model calibration time while achieving comparable accuracy compared to traditional calibration methods. The efficient…",
+      "category": "evaluation",
+      "score": 11.86
     },
     {
       "id": "fc5d5188b4924534",
@@ -262,7 +251,7 @@
       "published": "2026-11-25T17:42:31Z",
       "summary": "Large language models increasingly replace real people in the AI development pipeline, as they are used to generate training dialogues at scale and to drive alignment and evaluation. However, out-of-the-box models produce monolingual and stylistically flat texts as synthetic user prompts, failing to replicate the real user-AI communication mechanics. We…",
       "category": "evaluation",
-      "score": 12.07
+      "score": 11.82
     },
     {
       "id": "693a67df19f6f446",
@@ -273,7 +262,7 @@
       "published": "2026-11-25T15:36:13Z",
       "summary": "Humanoid robots on deformable elastic terrains face a surface whose position and motion are coupled in space and time: deflection and rebound persist between contacts, and load at one foothold alters the support at others, so training must capture how each contact changes the support that follows. We present RIPPLE (Robust Interaction via Proprioceptive…",
       "category": "robotics",
-      "score": 12.01
+      "score": 11.77
     },
     {
       "id": "1fd2087c540f058f",
@@ -284,7 +273,7 @@
       "published": "2026-11-25T18:59:31Z",
       "summary": "Language models think in words; then multimodal models might think in images. We test whether a generated helper improves the answer to a visual question. A model describes the helper it needs and then answers using the original and generated images together. Across 13 vision-language model and generator pairs, generation lowers mean accuracy by 3.7…",
       "category": "multimodal",
-      "score": 11.81
+      "score": 11.56
     },
     {
       "id": "a890a236270cc5e3",
@@ -295,7 +284,7 @@
       "published": "2026-11-19T00:00:00Z",
       "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
       "category": "safety",
-      "score": 9.95
+      "score": 9.7
     },
     {
       "id": "aaa55aaf59895092",
@@ -306,7 +295,7 @@
       "published": "2026-11-21T23:56:28Z",
       "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he's been…",
       "category": "systems",
-      "score": 9.57
+      "score": 9.32
     },
     {
       "id": "3d2697b636d74b83",
@@ -317,7 +306,7 @@
       "published": "2026-11-26T05:05:36Z",
       "summary": "",
       "category": "systems",
-      "score": 9.34
+      "score": 9.09
     },
     {
       "id": "5e8eba5b15ac6044",
@@ -328,7 +317,18 @@
       "published": "2026-11-24T23:02:07Z",
       "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply.…",
       "category": "safety",
-      "score": 9.25
+      "score": 9.0
+    },
+    {
+      "id": "819f2bb8e324e5e7",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-11-26T00:00:00Z",
+      "summary": "",
+      "category": "agents",
+      "score": 8.82
     },
     {
       "id": "7eea171611f31c8f",
@@ -339,7 +339,7 @@
       "published": "2026-11-24T16:53:59Z",
       "summary": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at Yale’s Beinecke Library . It did so extremely quickly (in just 22…",
       "category": "agents",
-      "score": 9.02
+      "score": 8.77
     },
     {
       "id": "981d6178a1cb2235",
@@ -350,7 +350,7 @@
       "published": "2026-11-23T21:46:35Z",
       "summary": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with…",
       "category": "safety",
-      "score": 8.99
+      "score": 8.74
     },
     {
       "id": "105d2dd6f5d647be",
@@ -361,7 +361,18 @@
       "published": "2026-11-23T23:40:49Z",
       "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight-shared layers runs for multiple…",
       "category": "agents",
-      "score": 8.84
+      "score": 8.59
+    },
+    {
+      "id": "41e004efa98b7955",
+      "title": "Video Friday: NASA PROMISEs a New Moon Rover",
+      "url": "https://spectrum.ieee.org/video-friday-moon-rover-promise",
+      "source": "IEEE Spectrum Robotics",
+      "source_group": "robotics journalism",
+      "published": "2026-11-13T17:30:03Z",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos! NASA will send a nuclear-powered rover…",
+      "category": "robotics",
+      "score": 8.51
     },
     {
       "id": "00d52199bef25f9e",
@@ -372,7 +383,18 @@
       "published": "2026-11-23T00:00:00Z",
       "summary": "",
       "category": "evaluation",
-      "score": 8.21
+      "score": 7.96
+    },
+    {
+      "id": "a734da9d3a1d8760",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-11-26T11:37:17Z",
+      "summary": "",
+      "category": "evaluation",
+      "score": 7.55
     },
     {
       "id": "7ad44f990f0c53ef",
@@ -383,51 +405,7 @@
       "published": "2026-11-20T10:00:00Z",
       "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
       "category": "systems",
-      "score": 7.7
-    },
-    {
-      "id": "f0b81ce3c1461288",
-      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-11-18T19:54:56Z",
-      "summary": "",
-      "category": "systems",
-      "score": 7.55
-    },
-    {
-      "id": "0e7f690aa4ff229b",
-      "title": "Strengthening NATO and allied cyber defenses with AI",
-      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-      "source": "OpenAI",
-      "source_group": "frontier lab",
-      "published": "2026-11-17T00:00:00Z",
-      "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
-      "category": "machine behaviour",
-      "score": 7.51
-    },
-    {
-      "id": "df3be113c8aed13f",
-      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
-      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-11-25T00:00:00Z",
-      "summary": "",
-      "category": "systems",
-      "score": 7.43
-    },
-    {
-      "id": "88bd06d7e0e9b82f",
-      "title": "Where scientists draw the line on AI agents",
-      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-      "source": "Hugging Face",
-      "source_group": "open source",
-      "published": "2026-11-25T18:52:55Z",
-      "summary": "",
-      "category": "agents",
-      "score": 7.4
+      "score": 7.45
     },
     {
       "id": "32aabc03de736b72",
@@ -441,15 +419,15 @@
       "score": 7.37
     },
     {
-      "id": "0077e07924e43bf7",
-      "title": "An Indic Voice Agent with CUGA",
-      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "id": "f0b81ce3c1461288",
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
       "source": "Hugging Face",
       "source_group": "open source",
-      "published": "2026-11-25T10:22:09Z",
+      "published": "2026-11-18T19:54:56Z",
       "summary": "",
-      "category": "agents",
-      "score": 7.32
+      "category": "systems",
+      "score": 7.3
     },
     {
       "id": "02e9abf47eaf3fa0",
@@ -463,6 +441,39 @@
       "score": 7.27
     },
     {
+      "id": "0e7f690aa4ff229b",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "source": "OpenAI",
+      "source_group": "frontier lab",
+      "published": "2026-11-17T00:00:00Z",
+      "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "category": "machine behaviour",
+      "score": 7.26
+    },
+    {
+      "id": "df3be113c8aed13f",
+      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "source": "Hugging Face",
+      "source_group": "open source",
+      "published": "2026-11-25T00:00:00Z",
+      "summary": "",
+      "category": "systems",
+      "score": 7.18
+    },
+    {
+      "id": "5a4d59a63415e415",
+      "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+      "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai",
+      "source": "Latent Space",
+      "source_group": "independent",
+      "published": "2026-11-26T23:02:48Z",
+      "summary": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+      "category": "agents",
+      "score": 7.15
+    },
+    {
       "id": "8145fefb47ff1ca9",
       "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
       "url": "https://openai.com/business/customer-stories/hebbia",
@@ -471,7 +482,7 @@
       "published": "2026-11-20T00:00:00Z",
       "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
       "category": "evaluation",
-      "score": 7.26
+      "score": 7.01
     },
     {
       "id": "60f3c7381bc61eae",
@@ -482,7 +493,7 @@
       "published": "2026-11-16T00:00:00Z",
       "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
       "category": "machine behaviour",
-      "score": 7.26
+      "score": 7.01
     },
     {
       "id": "2ec26a87fbca0928",
@@ -493,40 +504,7 @@
       "published": "2026-11-25T04:29:07Z",
       "summary": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
       "category": "evaluation",
-      "score": 7.18
-    },
-    {
-      "id": "8fa568a491333824",
-      "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab’s AI science benchmark",
-      "url": "https://jack-clark.net/2026/11/23/import-ai-482-huawei-kernel-benchmarks-airborne-drone-detection-and-a-national-labs-ai-science-benchmark",
-      "source": "Import AI",
-      "source_group": "independent",
-      "published": "2026-11-23T14:11:17Z",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. Subscribe now Chinese researchers optimize Huawei chips with a kernel improvement benchmark:…AscendGYM will help China do its own form of RSI…Researchers with the Shenzhen Loop Area Institute, a Chinese research organization, have built…",
-      "category": "evaluation",
-      "score": 7.08
-    },
-    {
-      "id": "895b540db6a8889e",
-      "title": "Finding faster quantum algorithms with agents and formal verification",
-      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
-      "source": "Google DeepMind",
-      "source_group": "frontier lab",
-      "published": "2026-11-23T16:59:40Z",
-      "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
-      "category": "agents",
-      "score": 6.98
-    },
-    {
-      "id": "966f83b3d13348d6",
-      "title": "Annotating push-ups",
-      "url": "https://www.s-anand.net/blog/annotating-push-ups",
-      "source": "S Anand",
-      "source_group": "independent",
-      "published": "2026-11-23T00:04:21Z",
-      "summary": "I asked ChatGPT to evaluate my push-ups videos with stick-figure annotations. I do two sets of 50-60 push-ups daily. I felt pretty good that it had become easy over four months. But just in case, I thought I’d check if I was doing them right. I recorded the videos on my phone (keeping it at an angle against my cupboard) and recorded four sets across a…",
-      "category": "multimodal",
-      "score": 6.91
+      "score": 6.93
     },
     {
       "id": "fb259ea96b9cb504",
@@ -540,6 +518,39 @@
       "score": 6.89
     },
     {
+      "id": "8fa568a491333824",
+      "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab’s AI science benchmark",
+      "url": "https://jack-clark.net/2026/11/23/import-ai-482-huawei-kernel-benchmarks-airborne-drone-detection-and-a-national-labs-ai-science-benchmark",
+      "source": "Import AI",
+      "source_group": "independent",
+      "published": "2026-11-23T14:11:17Z",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. Subscribe now Chinese researchers optimize Huawei chips with a kernel improvement benchmark:…AscendGYM will help China do its own form of RSI…Researchers with the Shenzhen Loop Area Institute, a Chinese research organization, have built…",
+      "category": "evaluation",
+      "score": 6.83
+    },
+    {
+      "id": "895b540db6a8889e",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "source": "Google DeepMind",
+      "source_group": "frontier lab",
+      "published": "2026-11-23T16:59:40Z",
+      "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "category": "agents",
+      "score": 6.74
+    },
+    {
+      "id": "966f83b3d13348d6",
+      "title": "Annotating push-ups",
+      "url": "https://www.s-anand.net/blog/annotating-push-ups",
+      "source": "S Anand",
+      "source_group": "independent",
+      "published": "2026-11-23T00:04:21Z",
+      "summary": "I asked ChatGPT to evaluate my push-ups videos with stick-figure annotations. I do two sets of 50-60 push-ups daily. I felt pretty good that it had become easy over four months. But just in case, I thought I’d check if I was doing them right. I recorded the videos on my phone (keeping it at an angle against my cupboard) and recorded four sets across a…",
+      "category": "multimodal",
+      "score": 6.66
+    },
+    {
       "id": "8985b71bb3ddf529",
       "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
       "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft",
@@ -548,7 +559,7 @@
       "published": "2026-11-24T04:14:16Z",
       "summary": "November 23, 2026 — Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
       "category": "systems",
-      "score": 6.87
+      "score": 6.62
     },
     {
       "id": "23c4f130369cb972",
@@ -581,7 +592,7 @@
       "published": "2026-11-25T17:10:27Z",
       "summary": "Generative AI",
       "category": "general AI",
-      "score": 6.01
+      "score": 5.76
     },
     {
       "id": "616293296550946f",
@@ -592,7 +603,7 @@
       "published": "2026-11-24T13:07:53Z",
       "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
       "category": "general AI",
-      "score": 5.92
+      "score": 5.67
     },
     {
       "id": "ccba21fa22726029",
@@ -603,7 +614,7 @@
       "published": "2026-11-25T22:28:01Z",
       "summary": "AI can make software cheap enough to produce by the thousand and still give you more time to make one thing feel right. At AI Engineer CODE, Thariq Shihipar shows how those two futures can coexist. In his fighting game, he edits the size of a rock in t...",
       "category": "general AI",
-      "score": 5.86
+      "score": 5.61
     },
     {
       "id": "821974e79513fdfe",
@@ -614,7 +625,7 @@
       "published": "2026-11-25T22:23:41Z",
       "summary": "November 25, 2026 — From Erdős problems to new bounds for matrix multiplication and Fourier transforms.",
       "category": "general AI",
-      "score": 5.86
+      "score": 5.61
     },
     {
       "id": "bd15814c3ca88c7e",
@@ -625,7 +636,7 @@
       "published": "2026-11-19T23:58:21Z",
       "summary": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
       "category": "systems",
-      "score": 5.77
+      "score": 5.52
     },
     {
       "id": "8a952e6dea4cd375",
@@ -636,18 +647,7 @@
       "published": "2026-11-23T17:21:12Z",
       "summary": "Algorithms & Theory",
       "category": "general AI",
-      "score": 5.51
-    },
-    {
-      "id": "889973f9137bec51",
-      "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
-      "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol",
-      "source": "Latent Space",
-      "source_group": "independent",
-      "published": "2026-11-18T10:19:04Z",
-      "summary": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
-      "category": "evaluation",
-      "score": 5.49
+      "score": 5.26
     },
     {
       "id": "1ac8bff457518893",
@@ -658,18 +658,7 @@
       "published": "2026-11-16T14:01:15Z",
       "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI systems are getting good at sub-contracting to make themselves better:…AI can now productively spend money to improve itself…Researchers have developed FrontierML, a…",
       "category": "evaluation",
-      "score": 5.33
-    },
-    {
-      "id": "60d6d445e0dacc9d",
-      "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
-      "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient",
-      "source": "Microsoft Research",
-      "source_group": "research lab",
-      "published": "2026-11-16T17:01:35Z",
-      "summary": "AI coding agents can waste time and tokens relearning the same lessons. TokenEconomizer is an open-source plugin that builds on past sessions to cut costs while maintaining task success. It’s a path toward coding agents that learn not only how to solve tasks, but also how to spend computation more effectively. The post TokenEconomizer: Learning from…",
-      "category": "agents",
-      "score": 5.04
+      "score": 5.08
     },
     {
       "id": "bafa68df361fc999",
@@ -683,6 +672,17 @@
       "score": 4.98
     },
     {
+      "id": "60d6d445e0dacc9d",
+      "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+      "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient",
+      "source": "Microsoft Research",
+      "source_group": "research lab",
+      "published": "2026-11-16T17:01:35Z",
+      "summary": "AI coding agents can waste time and tokens relearning the same lessons. TokenEconomizer is an open-source plugin that builds on past sessions to cut costs while maintaining task success. It’s a path toward coding agents that learn not only how to solve tasks, but also how to spend computation more effectively. The post TokenEconomizer: Learning from…",
+      "category": "agents",
+      "score": 4.79
+    },
+    {
       "id": "84a578f05a50fce6",
       "title": "How Google Duplex evolved to also call businesses for you in Gemini",
       "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini",
@@ -691,7 +691,7 @@
       "published": "2026-11-20T23:30:30Z",
       "summary": "Generative AI",
       "category": "general AI",
-      "score": 4.82
+      "score": 4.58
     },
     {
       "id": "42a47f4c360b7d6e",
@@ -702,7 +702,7 @@
       "published": "2026-11-19T20:03:00Z",
       "summary": "Quantum",
       "category": "general AI",
-      "score": 4.54
+      "score": 4.29
     },
     {
       "id": "fd9bebbff7e69286",
@@ -713,7 +713,7 @@
       "published": "2026-11-18T21:35:43Z",
       "summary": "",
       "category": "general AI",
-      "score": 4.5
+      "score": 4.26
     },
     {
       "id": "ca9ca0837de1673f",
@@ -724,7 +724,7 @@
       "published": "2026-11-18T18:13:42Z",
       "summary": "",
       "category": "general AI",
-      "score": 4.47
+      "score": 4.22
     },
     {
       "id": "3ed8f8cd29d8bc17",
@@ -735,18 +735,7 @@
       "published": "2026-11-12T21:31:57Z",
       "summary": "What's new in research at Microsoft? Host Anson Ho explores the latest, including AI-powered universal translation, a breakthrough in a 31-year-old mathematics challenge, and advances making AI coding agents faster and more efficient. The post Microsoft Research Focus – Edition #98 appeared first on Microsoft Research .",
       "category": "multilingual",
-      "score": 4.42
-    },
-    {
-      "id": "c238bc1166aca3e3",
-      "title": "Can AI help build a healthier future?",
-      "url": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future",
-      "source": "Microsoft Research",
-      "source_group": "research lab",
-      "published": "2026-11-17T16:52:17Z",
-      "summary": "What can AI enable in medicine, and how do we get there? Microsoft Research lead Doug Burger, Microsoft Principal Research Manager Ava Amini, Microsoft Chief Scientific Officer Eric Horvitz, and physician-scientist Eric Topol of Scripps Research explore these questions and more. The post Can AI help build a healthier future? appeared first on Microsoft…",
-      "category": "general AI",
-      "score": 4.01
+      "score": 4.17
     }
   ]
 }
